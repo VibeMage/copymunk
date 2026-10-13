@@ -252,6 +252,24 @@ final class CopyoCoreTests: XCTestCase {
         XCTAssertEqual(try context.fetchCount(FetchDescriptor<ClipItem>()), 4)
     }
 
+    /// 历史已满时再存一条，留下的必须是新的这条、清掉的是最旧的。
+    /// fetchOffset 只作用于已落盘的行，未保存的插入被追加在结果末尾：先清理再 save
+    /// 会把新条目当成超额删掉（Mac 1.2.1 及以前的 ClipboardMonitor 就是这样）。
+    @MainActor
+    func testHistoryLimitKeepsNewestItem() throws {
+        let context = try makeMemoryContext()
+        for index in 0..<3 {
+            let result = try ClipSaver.save(text: "old \(index)", source: .local, historyLimit: nil, in: context)
+            result.item.createdAt = Date(timeIntervalSince1970: 1_000 + Double(index))
+        }
+        try context.save()
+
+        _ = try ClipSaver.save(text: "new", source: .local, historyLimit: 3, in: context)
+
+        let remaining = try context.fetch(FetchDescriptor<ClipItem>(sortBy: [SortDescriptor(\.createdAt)]))
+        XCTAssertEqual(remaining.map(\.plainText), ["old 1", "old 2", "new"])
+    }
+
     // MARK: - 代码识别与展示派生值
 
     func testLooksLikeCode() {
