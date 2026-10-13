@@ -587,6 +587,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APS_ENVIRONMENT = development;
+				ICLOUD_CONTAINER_ENVIRONMENT = Development;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Copyo/Copyo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -614,6 +615,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APS_ENVIRONMENT = production;
+				ICLOUD_CONTAINER_ENVIRONMENT = Production;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Copyo/Copyo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
