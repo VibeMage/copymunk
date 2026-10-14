@@ -220,7 +220,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         alert.messageText = String(localized: "Welcome to Copymunk")
         if hotkeyStatus == .active {
             alert.informativeText = String(localized: """
-            Copymunk lives in the menu bar (the clipboard icon in the top-right corner).
+            Copymunk lives in the menu bar (the chipmunk icon in the top-right corner).
 
             • Press \(HotkeyConfig.load().displayString) anytime to bring up the clipboard panel
             • Everything you copy is saved automatically — type to search
@@ -229,7 +229,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             """)
         } else {
             alert.informativeText = String(localized: """
-            Copymunk lives in the menu bar (the clipboard icon in the top-right corner).
+            Copymunk lives in the menu bar (the chipmunk icon in the top-right corner).
 
             • Click the menu bar icon anytime to bring up the clipboard panel
             • Everything you copy is saved automatically — type to search
