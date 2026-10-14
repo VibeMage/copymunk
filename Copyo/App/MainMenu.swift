@@ -14,12 +14,12 @@ enum MainMenu {
         let main = NSMenu()
 
         let appItem = NSMenuItem()
-        let appMenu = NSMenu(title: "Copyo")
+        let appMenu = NSMenu(title: "Copymunk")
         appMenu.addItem(withTitle: String(localized: "Settings…"),
                         action: #selector(AppDelegate.openSettings as (AppDelegate) -> () -> Void),
                         keyEquivalent: ",")
         appMenu.addItem(.separator())
-        appMenu.addItem(withTitle: String(localized: "Quit Copyo"),
+        appMenu.addItem(withTitle: String(localized: "Quit Copymunk"),
                         action: #selector(NSApplication.terminate(_:)),
                         keyEquivalent: "q")
         appItem.submenu = appMenu

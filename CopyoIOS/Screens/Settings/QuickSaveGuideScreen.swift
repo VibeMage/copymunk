@@ -59,7 +59,7 @@ struct QuickSaveGuideScreen: View {
 
     var body: some View {
         GuideScroll {
-            GuideParagraph(text: String(localized: "One press saves whatever is on the clipboard right now. Copyo opens and shows “Saved”."))
+            GuideParagraph(text: String(localized: "One press saves whatever is on the clipboard right now. Copymunk opens and shows “Saved”."))
 
             // 只剩一段时分段控件没有可选的东西，画出来反而像个坏掉的控件
             if QuickSaveEntry.available.count > 1 {
@@ -122,7 +122,7 @@ struct QuickSaveGuideScreen: View {
                      detail: String(localized: "iPhone 15 Pro and later")),
                 Step(title: String(localized: "Swipe to “Controls”, then tap “Choose a Control”"),
                      detail: nil),
-                Step(title: String(localized: "Pick “Save Clipboard” under Copyo"),
+                Step(title: String(localized: "Pick “Save Clipboard” under Copymunk"),
                      detail: String(localized: "Press and hold the Action Button to save")),
             ]
         case .backTap:
@@ -134,8 +134,8 @@ struct QuickSaveGuideScreen: View {
                 : [
                     Step(title: String(localized: "Tap the button above and create a new shortcut"),
                          detail: String(localized: "Only needed once")),
-                    Step(title: String(localized: "Add Copyo’s “Save Clipboard” action"),
-                         detail: String(localized: "Search for Copyo in the action list")),
+                    Step(title: String(localized: "Add Copymunk’s “Save Clipboard” action"),
+                         detail: String(localized: "Search for Copymunk in the action list")),
                 ])
             + [
                 Step(title: String(localized: "Open Settings › Accessibility › Touch › Back Tap"),
@@ -147,7 +147,7 @@ struct QuickSaveGuideScreen: View {
             [
                 Step(title: String(localized: "Open Control Center and press and hold an empty spot"),
                      detail: nil),
-                Step(title: String(localized: "Tap “Add a Control” and search for Copyo"),
+                Step(title: String(localized: "Tap “Add a Control” and search for Copymunk"),
                      detail: nil),
                 // iPad 的锁定屏幕没有可换的控件按钮，那句附注只对 iPhone 成立
                 Step(title: String(localized: "Add “Save Clipboard”"),
@@ -160,7 +160,7 @@ struct QuickSaveGuideScreen: View {
     private func footnote(for entry: QuickSaveEntry) -> String {
         switch entry {
         case .actionButton, .controlCenter:
-            String(localized: "The control comes with Copyo, so there is nothing to add first.")
+            String(localized: "The control comes with Copymunk, so there is nothing to add first.")
         case .backTap:
             ShortcutLinks.isPublished
                 ? String(localized: "Back Tap can only run a shortcut, which is why this one needs the shortcut above.")

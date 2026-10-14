@@ -45,7 +45,7 @@ struct RecentClipsView: View {
         if entry.isLibraryUnavailable {
             // App Group 还没真正展开时会走到这里，是真机上 entitlement 生效之前的预期状态。
             // 借 `ClipIngest.IngestError.storeUnavailable` 的那句话：三份目录里都已经有它。
-            message(String(localized: "Copyo can't open its library right now."))
+            message(String(localized: "Copymunk can't open its library right now."))
         } else if let snapshot = entry.snapshots.first {
             if family == .systemMedium {
                 MediumClipsView(snapshots: entry.snapshots, date: entry.date)

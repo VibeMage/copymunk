@@ -2,7 +2,7 @@
 # 采集 iOS / iPadOS 商店截图的原始界面，供 make-store-shots-ios.py 合成。
 #
 # 用法:
-#   ./scripts/capture-store-shots-ios.sh <输出目录> [Copyo.app 路径]
+#   ./scripts/capture-store-shots-ios.sh <输出目录> [Copymunk.app 路径]
 #
 # 全部用 -demoData 的样例库拍（设计稿第六节的数据），不碰真实剪贴板与真实库。
 # 每种语言拍之前把**模拟器的系统语言**也切过去并重启：-AppleLanguages 只管应用自己，
@@ -12,8 +12,8 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-OUT=${1:?用法：$0 <输出目录> [Copyo.app]}
-APP=${2:-build/Build/Products/Debug-iphonesimulator/Copyo.app}
+OUT=${1:?用法：$0 <输出目录> [Copymunk.app]}
+APP=${2:-build/Build/Products/Debug-iphonesimulator/Copymunk.app}
 PHONE="iPhone 17 Pro Max"      # 6.9 英寸，1320×2868
 PAD="iPad Pro 13-inch (M5)"    # 13 英寸，2064×2752
 BUNDLE=dev.vibemage.Copyo

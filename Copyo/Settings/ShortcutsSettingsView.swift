@@ -168,7 +168,7 @@ struct ShortcutsSettingsView: View {
                 warningLine(Text("This combination is already used by another app. Restored to \(restored)."))
             }
         case .shared?:
-            warningLine(Text("\(hotkey.displayString) is also used by another app: pressing it triggers that app, and Copyo may not respond. Choose a different combination."))
+            warningLine(Text("\(hotkey.displayString) is also used by another app: pressing it triggers that app, and Copymunk may not respond. Choose a different combination."))
         case nil:
             EmptyView()
         }

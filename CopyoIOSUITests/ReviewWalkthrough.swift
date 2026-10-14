@@ -23,7 +23,7 @@ final class ReviewWalkthrough: XCTestCase {
         XCUIDevice.shared.press(.home)
         pause(1.5)
         // 新装的 App 排在主屏幕后面几页
-        let icon = springboard.icons["Copyo"]
+        let icon = springboard.icons["Copymunk"]
         for _ in 0..<4 where !(icon.exists && icon.isHittable) {
             springboard.swipeLeft()
             pause(1)
@@ -85,7 +85,7 @@ final class ReviewWalkthrough: XCTestCase {
         pause(1.5)
         try tapMenuItem(in: safari, "Share", "Share…")
         pause(1.5)
-        try tapShareTarget("Copyo")
+        try tapShareTarget("Copymunk")
         let save = safari.buttons["Save"]
         try require(save, "share extension Save", timeout: 10)
         pause(3)

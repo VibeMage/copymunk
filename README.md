@@ -1,8 +1,8 @@
-# Copyo
+# Copymunk
 
 [English](README.en.md)
 
-Copyo 是一款开源的 macOS 剪贴板管理工具：菜单栏常驻，`⇧⌘V` 唤出悬浮卡片面板，历史即输即搜。
+Copymunk 是一款开源的 macOS 剪贴板管理工具：菜单栏常驻，`⇧⌘V` 唤出悬浮卡片面板，历史即输即搜。
 数据保存在本机（`~/Library/Application Support/Copyo/`），同步默认关闭；不含任何第三方 SDK、统计或崩溃上报，适合不允许安装第三方闭源工具的办公环境。
 
 ## 功能
@@ -28,7 +28,7 @@ Copyo 是一款开源的 macOS 剪贴板管理工具：菜单栏常驻，`⇧⌘
 
 Mac 版已在 [Mac App Store](https://apps.apple.com/app/id6813955206) 上架。
 
-也可以从 [Releases](https://github.com/VibeMage/copyo/releases) 下载 DMG，打开后把 Copyo
+也可以从 [Releases](https://github.com/VibeMage/copyo/releases) 下载 DMG，打开后把 Copymunk
 拖进 Applications 即可。官方发布均已使用 Developer ID 签名并通过 Apple 公证——双击即可打开，
 仅首次有一次「从互联网下载的 App」标准确认弹窗。
 
@@ -52,7 +52,7 @@ open build/Build/Products/Release/Copyo.app   # 或拷贝到 /Applications
 
 装的是直分发版（非沙盒），读 `~/Library/Application Support/Copyo/` 那份日常历史；用 Apple Development
 证书签名，iCloud 同步可用（需要 Xcode 里已登录团队账号）。旧版备份在 `build.noindex/install/previous/`。
-`/Applications` 里是商店版时脚本会先停下，删掉商店版再跑。它只退出 `/Applications` 那一份 Copyo，
+`/Applications` 里是商店版时脚本会先停下，删掉商店版再跑。它只退出 `/Applications` 那一份 Copymunk，
 Debug 构建等其他实例不碰，只提示它们还在跑（会和新装的抢 ⇧⌘V）。
 本机只留 `/Applications` 这一份：构建目录放在 `build.noindex/`（Spotlight 不索引），装完把构建产物从
 LaunchServices 注销，「打开方式」里不会冒出一排开发版。商店包要验证时走 TestFlight。

@@ -86,7 +86,7 @@ struct SettingsScreen: View {
             .settingsRow()
             // 容器是在 App 启动时按这个开关建的，运行中改不了，只能提示重开
             .onChange(of: cloudSyncEnabled) { _, _ in
-                model.toast.show(String(localized: "Takes effect after you reopen Copyo"),
+                model.toast.show(String(localized: "Takes effect after you reopen Copymunk"),
                                  symbol: "arrow.clockwise", kind: .info)
             }
 
@@ -172,7 +172,7 @@ struct SettingsScreen: View {
             } label: {
                 SettingsRowLabel(symbol: "questionmark.circle.fill",
                                  color: SettingsTint.question,
-                                 title: String(localized: "How Copyo Saves Clips"),
+                                 title: String(localized: "How Copymunk Saves Clips"),
                                  showsDisclosure: true)
             }
             .settingsRow()
@@ -238,7 +238,7 @@ struct SettingsScreen: View {
                 // 橙色就成了对所有人不分青红皂白的催促，所以走默认的次级色。
                 SettingsRowLabel(symbol: "keyboard.fill",
                                  color: SettingsTint.keyboard,
-                                 title: String(localized: "Copyo Keyboard"),
+                                 title: String(localized: "Copymunk Keyboard"),
                                  detail: String(localized: "In iOS Settings"),
                                  showsDisclosure: true)
                 }
@@ -268,7 +268,7 @@ struct SettingsScreen: View {
             Text(String(localized: "Clipboard"))
                 .settingsSectionHeader()
         } footer: {
-            Text(String(localized: "With this off, Copyo won't read the clipboard when it opens — use the banner at the top of History to paste and save by hand."))
+            Text(String(localized: "With this off, Copymunk won't read the clipboard when it opens — use the banner at the top of History to paste and save by hand."))
         }
     }
 
@@ -300,7 +300,7 @@ struct SettingsScreen: View {
             Text(String(localized: "System Search"))
                 .settingsSectionHeader()
         } footer: {
-            Text(String(localized: "Off by default. Turn it on and your clips become searchable from the Home Screen, the Lock Screen and Siri Suggestions — including the verification codes, passwords and private messages that end up in a clipboard history. Turning it off deletes everything Copyo put in the index."))
+            Text(String(localized: "Off by default. Turn it on and your clips become searchable from the Home Screen, the Lock Screen and Siri Suggestions — including the verification codes, passwords and private messages that end up in a clipboard history. Turning it off deletes everything Copymunk put in the index."))
         }
     }
 

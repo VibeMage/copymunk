@@ -278,11 +278,11 @@ struct PinboardContentScreen: View {
     /// 多一步换掉 `/` 与 `:`——它们在文件名里是路径分隔符，在剪贴板正文里却随处可见（URL、时刻）；
     /// `ClipTransferable` 不必管这个，CoreTransferable 自己会处理。
     private static func shareFileName(for item: ClipItem) -> String {
-        let title = item.displayTitle.isEmpty ? "Copyo" : String(item.displayTitle.prefix(40))
+        let title = item.displayTitle.isEmpty ? "Copymunk" : String(item.displayTitle.prefix(40))
         let cleaned = title.components(separatedBy: CharacterSet(charactersIn: "/:\n\r"))
             .joined(separator: " ")
             .trimmingCharacters(in: .whitespacesAndNewlines)
-        return cleaned.isEmpty ? "Copyo" : cleaned
+        return cleaned.isEmpty ? "Copymunk" : cleaned
     }
 
     /// 写进 tmp 并交出 URL。同名直接覆盖：反复分享同一条只会留下一个文件，

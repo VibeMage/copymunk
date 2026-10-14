@@ -77,9 +77,9 @@ struct ClipsUnavailableView: View {
     private var message: String {
         switch reason {
         case .needsFullAccess:
-            String(localized: "Settings › General › Keyboard › Keyboards › Copyo. The Copyo keyboard never goes online, and never records what you type.")
+            String(localized: "Settings › General › Keyboard › Keyboards › Copymunk. The Copymunk keyboard never goes online, and never records what you type.")
         case .libraryUnreadable:
-            String(localized: "Open Copyo once, then come back.")
+            String(localized: "Open Copymunk once, then come back.")
         }
     }
 }

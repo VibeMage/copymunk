@@ -61,7 +61,7 @@ struct ClipDetailScreen: View {
             Button(String(localized: "Cancel"), role: .cancel) {}
             Button(String(localized: "Delete"), role: .destructive, action: performDelete)
         } message: {
-            Text(String(localized: "It will be removed from Copyo on all your devices."))
+            Text(String(localized: "It will be removed from Copymunk on all your devices."))
         }
     }
 

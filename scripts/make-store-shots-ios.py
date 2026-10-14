@@ -10,7 +10,7 @@
 截图全部来自应用自带的 `-demoData` 样例库（设计稿第六节的样例数据），**不要拿自己的真实
 剪贴板去拍**。演示模式下 iCloud 胶囊固定为「已同步」，不依赖模拟器有没有登录 iCloud。
 
-    APP=build/Build/Products/Debug-iphonesimulator/Copyo.app
+    APP=build/Build/Products/Debug-iphonesimulator/Copymunk.app
     PHONE="iPhone 17 Pro Max"      # 6.9 英寸，1320×2868
     PAD="iPad Pro 13-inch (M5)"    # 13 英寸，2064×2752（竖屏）
     xcrun simctl status_bar "$PHONE" override --time 9:41 --batteryState discharging \\

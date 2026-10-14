@@ -618,7 +618,7 @@ private struct HistoryContent: View {
         // `items` 带着当前的类型与关键词条件，那一条未必在里面——一律走上下文按标识符取回
         guard let item = model.clip(with: id) else {
             // 索引里还留着、库里已经没了：Mac 上删掉后镜像过来，或者是还没到 30 天过期的孤儿
-            model.toast.show(String(localized: "That clip is no longer in Copyo."),
+            model.toast.show(String(localized: "That clip is no longer in Copymunk."),
                              symbol: "questionmark.circle", kind: .info)
             return
         }

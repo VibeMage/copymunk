@@ -82,8 +82,8 @@ jobs:
             PROVISIONING_PROFILE_SPECIFIER="" \
             2>&1 | tee build/logs/macos-debug.log | prettify
           # xcodebuild 在「跳过了 target」「产物落到别的子目录」等情况下照样返回 0
-          test -d build/Build/Products/Debug/Copyo.app \
-            || { echo '::error::xcodebuild 返回 0 但没产出 Copyo.app'; exit 1; }
+          test -d build/Build/Products/Debug/Copymunk.app \
+            || { echo '::error::xcodebuild 返回 0 但没产出 Copymunk.app'; exit 1; }
 
       - name: 编译 macOS（Release-AppStore）
         run: |
@@ -108,8 +108,8 @@ jobs:
             DEVELOPMENT_TEAM="" \
             PROVISIONING_PROFILE_SPECIFIER="" \
             2>&1 | tee build/logs/macos-appstore.log | prettify
-          test -d 'build/Build/Products/Release-AppStore/Copyo.app' \
-            || { echo '::error::xcodebuild 返回 0 但没产出 Copyo.app'; exit 1; }
+          test -d 'build/Build/Products/Release-AppStore/Copymunk.app' \
+            || { echo '::error::xcodebuild 返回 0 但没产出 Copymunk.app'; exit 1; }
 
       - name: 编译 iOS（模拟器）
         run: |
@@ -137,8 +137,8 @@ jobs:
             DEVELOPMENT_TEAM="" \
             PROVISIONING_PROFILE_SPECIFIER="" \
             2>&1 | tee build/logs/ios-debug.log | prettify
-          test -d 'build/Build/Products/Debug-iphonesimulator/Copyo.app' \
-            || { echo '::error::xcodebuild 返回 0 但没产出 Copyo.app'; exit 1; }
+          test -d 'build/Build/Products/Debug-iphonesimulator/Copymunk.app' \
+            || { echo '::error::xcodebuild 返回 0 但没产出 Copymunk.app'; exit 1; }
 
       - name: 编译 CopyoKeyboard（模拟器）
         run: |

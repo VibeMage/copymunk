@@ -11,7 +11,7 @@ struct AboutScreen: View {
         GuideScroll(spacing: 24) {
             VStack(spacing: 12) {
                 AppMark()
-                Text(verbatim: "Copyo")
+                Text(verbatim: "Copymunk")
                     .font(.system(.title2, weight: .bold))
                     .foregroundStyle(CopyoTheme.label)
                 Text(String(format: String(localized: "Version %@"), AppInfo.versionDisplay))

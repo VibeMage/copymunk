@@ -42,7 +42,7 @@ public enum ClipIngest {
             case .nothingToSave:
                 return String(localized: "There's nothing to save here.")
             case .storeUnavailable:
-                return String(localized: "Copyo can't open its library right now.")
+                return String(localized: "Copymunk can't open its library right now.")
             }
         }
     }

@@ -246,7 +246,7 @@ struct KeyboardRootView: View {
             // `insertText(_:)`，**没有任何 API** 能把图片或带格式的内容塞进宿主文稿。
             // 所以给的是一条说清去哪儿做的提示，不是一次静默的无反应
             notice = clip.kind == .image
-                ? String(localized: "Images can only be copied inside Copyo")
+                ? String(localized: "Images can only be copied inside Copymunk")
                 : String(localized: "Files stay on your Mac")
             return
         }

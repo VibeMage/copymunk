@@ -52,7 +52,7 @@ struct HistoryEmptyState: View {
 
                 Button(action: onHowToSave) {
                     // 与设置页那一行、指引页标题同一个键：同一个去处在英文里只有一个名字
-                    Text(String(localized: "How Copyo Saves Clips"))
+                    Text(String(localized: "How Copymunk Saves Clips"))
                         .font(.system(.body, weight: .semibold))
                         .foregroundStyle(CopyoTheme.accent)
                         .multilineTextAlignment(.center)

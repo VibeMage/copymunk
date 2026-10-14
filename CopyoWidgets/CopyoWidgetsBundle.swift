@@ -29,6 +29,6 @@ struct SaveClipboardControl: ControlWidget {
             }
         }
         .displayName(LocalizedStringResource("Save Clipboard"))
-        .description(LocalizedStringResource("Saves what's on the clipboard to Copyo."))
+        .description(LocalizedStringResource("Saves what's on the clipboard to Copymunk."))
     }
 }

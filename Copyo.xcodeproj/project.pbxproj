@@ -597,7 +597,7 @@
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 9A94W79V84;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -607,7 +607,8 @@
 				);
 				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.vibemage.Copyo;
-				PRODUCT_NAME = Copyo;
+				PRODUCT_MODULE_NAME = Copyo;
+				PRODUCT_NAME = Copymunk;
 			};
 			name = Debug;
 		};
@@ -626,7 +627,7 @@
 				DEVELOPMENT_TEAM = 9A94W79V84;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -636,7 +637,8 @@
 				);
 				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.vibemage.Copyo;
-				PRODUCT_NAME = Copyo;
+				PRODUCT_MODULE_NAME = Copyo;
+				PRODUCT_NAME = Copymunk;
 			};
 			name = Release;
 		};
@@ -671,7 +673,7 @@
 				DEVELOPMENT_TEAM = 9A94W79V84;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_LSUIElement = YES;
@@ -682,7 +684,8 @@
 				);
 				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.vibemage.Copyo;
-				PRODUCT_NAME = Copyo;
+				PRODUCT_MODULE_NAME = Copyo;
+				PRODUCT_NAME = Copymunk;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "APPSTORE $(inherited)";
 			};
 			name = "Release-AppStore";
@@ -700,7 +703,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CopyoIOS/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
@@ -716,7 +719,8 @@
 				);
 				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.vibemage.Copyo;
-				PRODUCT_NAME = Copyo;
+				PRODUCT_MODULE_NAME = Copyo;
+				PRODUCT_NAME = Copymunk;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -737,7 +741,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CopyoIOS/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
@@ -753,7 +757,8 @@
 				);
 				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.vibemage.Copyo;
-				PRODUCT_NAME = Copyo;
+				PRODUCT_MODULE_NAME = Copyo;
+				PRODUCT_NAME = Copymunk;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -774,7 +779,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CopyoIOS/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
@@ -790,7 +795,8 @@
 				);
 				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.vibemage.Copyo;
-				PRODUCT_NAME = Copyo;
+				PRODUCT_MODULE_NAME = Copyo;
+				PRODUCT_NAME = Copymunk;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "APPSTORE $(inherited)";
@@ -811,7 +817,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CopyoShareExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -843,7 +849,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CopyoShareExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -875,7 +881,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CopyoShareExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -908,7 +914,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CopyoWidgets/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -940,7 +946,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CopyoWidgets/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -972,7 +978,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CopyoWidgets/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1005,7 +1011,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CopyoKeyboard/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1037,7 +1043,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CopyoKeyboard/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1069,7 +1075,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CopyoKeyboard/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Copyo;
+				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;

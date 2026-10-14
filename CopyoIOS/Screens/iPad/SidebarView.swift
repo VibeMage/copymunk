@@ -131,7 +131,7 @@ struct SidebarView: View {
         @Bindable var model = model
         return VStack(spacing: 10) {
             HStack(spacing: 8) {
-                Text(verbatim: "Copyo")
+                Text(verbatim: "Copymunk")
                     .font(.system(.title2, weight: .bold))
                     .foregroundStyle(CopyoTheme.label)
                 Spacer(minLength: 0)

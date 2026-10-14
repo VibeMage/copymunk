@@ -234,7 +234,7 @@ enum MacDemoData {
                 Spec(kind: .text, text: "辛苦了，今天先到这儿，明早站会再对。", when: .ago(12 * day), source: src.wechat),
             ]
         let release = [
-            Spec(kind: .text, text: "xcrun notarytool submit Copyo.dmg --keychain-profile copyo --wait",
+            Spec(kind: .text, text: "xcrun notarytool submit Copymunk.dmg --keychain-profile copyo --wait",
                  when: .ago(6 * day), source: src.terminal),
         ]
         return [tokens, snippets, release]

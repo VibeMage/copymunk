@@ -81,19 +81,19 @@ enum DataEraser {
             // 镜像活着 = 删除会进导出队列。但「容器建得起来」不等于「传得出去」：
             // hasCloudKitEntitlement 只是签名检查，没登录 iCloud 账号时队列会一直堆着，
             // 所以这句话只说「排进队列」，不把到达说死。
-            parts.append(String(localized: "The same deletion is queued for your iCloud private database and your other Macs. Keep Copyo open and signed in to iCloud until it finishes — Copyo cannot tell you when that is."))
+            parts.append(String(localized: "The same deletion is queued for your iCloud private database and your other Macs. Keep Copymunk open and signed in to iCloud until it finishes — Copymunk cannot tell you when that is."))
         } else if hasEverMirrored {
             // 这是默认设置下最容易踩的一格：用过 iCloud、后来关掉了，云端那份还在，
             // 而这次会话一个字节都推不动。不说的话用户会以为已经删干净了。
-            parts.append(String(localized: "This Mac has synced with iCloud before. Copyo cannot touch the iCloud copy while sync is off — set Sync to iCloud, reopen Copyo and delete again to remove that copy too."))
+            parts.append(String(localized: "This Mac has synced with iCloud before. Copymunk cannot touch the iCloud copy while sync is off — set Sync to iCloud, reopen Copymunk and delete again to remove that copy too."))
         }
         if SyncMode.current == .folder {
-            parts.append(String(localized: "Copyo deletes the snapshots and images it put in your sync folder, and turns Shared Folder sync off: folder sync has no way to tell your other Macs to delete anything, so leaving it on would copy their history straight back. What those Macs put in the folder stays until you delete it yourself."))
+            parts.append(String(localized: "Copymunk deletes the snapshots and images it put in your sync folder, and turns Shared Folder sync off: folder sync has no way to tell your other Macs to delete anything, so leaving it on would copy their history straight back. What those Macs put in the folder stays until you delete it yourself."))
         }
         if willRelaunch {
             // 应用会自己退出再起来。LSUIElement 没有 Dock 图标也没有窗口，
             // 事先不说一声，菜单栏图标一消失就是一份崩溃报告。
-            parts.append(String(localized: "Copyo will restart itself to finish clearing the database file."))
+            parts.append(String(localized: "Copymunk will restart itself to finish clearing the database file."))
         }
         return parts.joined(separator: " ")
     }

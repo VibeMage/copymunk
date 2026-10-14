@@ -14,7 +14,7 @@ import UniformTypeIdentifiers
 struct SaveContentIntent: AppIntent {
     static let title: LocalizedStringResource = "Save Content"
     static let description = IntentDescription(
-        "Saves text, a link, or an image to Copyo without opening the app.",
+        "Saves text, a link, or an image to Copymunk without opening the app.",
         categoryName: "Clipboard",
         searchKeywords: ["clipboard", "save", "clip"]
     )
@@ -31,7 +31,7 @@ struct SaveContentIntent: AppIntent {
     var image: IntentFile?
 
     static var parameterSummary: some ParameterSummary {
-        Summary("Save \(\.$text) to Copyo") {
+        Summary("Save \(\.$text) to Copymunk") {
             \.$url
             \.$image
         }
@@ -75,7 +75,7 @@ enum SaveContentError: Swift.Error, CustomLocalizedStringResourceConvertible {
         case .noContent:
             "Give Save Content some text, a link, or an image."
         case .unreadableImage:
-            "Copyo couldn't read that image."
+            "Copymunk couldn't read that image."
         }
     }
 }

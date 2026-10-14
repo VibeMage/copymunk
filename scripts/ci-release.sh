@@ -106,8 +106,8 @@ if ! run_logged "$LOG_DIR/archive.log" \
   exit 1
 fi
 # xcodebuild 在「跳过了 target」之类的情况下照样返回 0
-if [[ ! -d "$ARCHIVE/Products/Applications/Copyo.app" ]]; then
-  echo "归档返回 0 但没产出 $ARCHIVE/Products/Applications/Copyo.app" >&2
+if [[ ! -d "$ARCHIVE/Products/Applications/Copymunk.app" ]]; then
+  echo "归档返回 0 但没产出 $ARCHIVE/Products/Applications/Copymunk.app" >&2
   exit 1
 fi
 
@@ -155,9 +155,9 @@ if ! run_logged "$LOG_DIR/export.log" \
   exit 1
 fi
 
-APP="$EXPORT_DIR/out/Copyo.app"
+APP="$EXPORT_DIR/out/Copymunk.app"
 if [[ ! -d "$APP" ]]; then
-  echo "导出返回 0 但没找到 Copyo.app，请检查 $EXPORT_DIR/out" >&2
+  echo "导出返回 0 但没找到 Copymunk.app，请检查 $EXPORT_DIR/out" >&2
   exit 1
 fi
 
@@ -193,7 +193,7 @@ fi
 # Release 没设 ONLY_ACTIVE_ARCH，默认产出通用二进制。runner 是 arm64，
 # 一旦有人为了提速给发布路径加上 ONLY_ACTIVE_ARCH=YES 或 ARCHS=arm64，
 # Intel 用户会拿到跑不起来的包，而且不报任何错 —— 所以这里硬断言两个架构都在。
-APP_ARCHS=$(lipo -archs "$APP/Contents/MacOS/Copyo")
+APP_ARCHS=$(lipo -archs "$APP/Contents/MacOS/Copymunk")
 echo "架构：$APP_ARCHS"
 case "$APP_ARCHS" in *arm64*) ;; *) echo "产物缺 arm64：$APP_ARCHS" >&2; exit 1 ;; esac
 case "$APP_ARCHS" in *x86_64*) ;; *) echo "产物缺 x86_64：$APP_ARCHS" >&2; exit 1 ;; esac
@@ -296,8 +296,8 @@ ln -s /Applications "$STAGING/Applications"
 # 不加 -quiet：runner 上 hdiutil 偶发 "Resource busy"，-quiet 会把原因一起藏掉。
 dmg_ok=0
 for attempt in 1 2 3; do
-  if hdiutil create -volname "Copyo" -srcfolder "$STAGING" -ov \
-       -format UDZO "dist/Copyo-$VERSION.dmg"; then
+  if hdiutil create -volname "Copymunk" -srcfolder "$STAGING" -ov \
+       -format UDZO "dist/Copymunk-$VERSION.dmg"; then
     dmg_ok=1
     break
   fi
@@ -310,10 +310,10 @@ if [[ "$dmg_ok" -ne 1 ]]; then
 fi
 
 echo "==> 生成 ZIP"
-ditto -c -k --keepParent "$APP" "dist/Copyo-$VERSION.zip"
+ditto -c -k --keepParent "$APP" "dist/Copymunk-$VERSION.zip"
 
 echo "==> 生成校验和"
-( cd dist && shasum -a 256 "Copyo-$VERSION.dmg" "Copyo-$VERSION.zip" > SHA256SUMS.txt )
+( cd dist && shasum -a 256 "Copymunk-$VERSION.dmg" "Copymunk-$VERSION.zip" > SHA256SUMS.txt )
 
 echo ""
 ls -lh dist/

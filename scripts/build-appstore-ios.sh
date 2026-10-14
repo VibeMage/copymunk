@@ -132,8 +132,8 @@ echo "==> 核验产物"
 WORK=$(mktemp -d)
 trap 'rm -rf "$WORK"' EXIT
 unzip -q "$IPA" -d "$WORK"
-APP="$WORK/Payload/Copyo.app"
-[[ -d "$APP" ]] || { echo "包里没有 Payload/Copyo.app" >&2; exit 1; }
+APP="$WORK/Payload/Copymunk.app"
+[[ -d "$APP" ]] || { echo "包里没有 Payload/Copymunk.app" >&2; exit 1; }
 
 fail() { echo "核验不通过：$1" >&2; exit 1; }
 plist_get() { /usr/libexec/PlistBuddy -c "Print :$2" "$1/Info.plist" 2>/dev/null || true; }

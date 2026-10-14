@@ -18,17 +18,17 @@ struct AllowPasteGuideScreen: View {
         GuideScroll {
             statusCard
 
-            GuideParagraph(text: String(localized: "Set it to Allow and Copyo reads the clipboard the moment it opens, with no prompt. This is an iOS privacy setting, so it can only be changed in Settings."))
+            GuideParagraph(text: String(localized: "Set it to Allow and Copymunk reads the clipboard the moment it opens, with no prompt. This is an iOS privacy setting, so it can only be changed in Settings."))
 
             GroupedCard {
-                GuideStepRow(1, title: String(localized: "Open Settings › Apps › Copyo"))
+                GuideStepRow(1, title: String(localized: "Open Settings › Apps › Copymunk"))
                 HairlineSeparator()
                 // iOS 只在 App 请求过一次粘贴之后才把「从其他 App 粘贴」放进它的设置页，
                 // 而 Copyo 首次启动刻意不读剪贴板——刚装好就照着走，第 2 步那一行根本不存在。
                 // 副文告诉用户怎么让它出现，不然这一页就是一条死路
                 GuideStepRow(2,
                              title: String(localized: "Tap “Paste from Other Apps”"),
-                             detail: String(localized: "Not there yet? Copy something in another app, come back to Copyo once, then look again."))
+                             detail: String(localized: "Not there yet? Copy something in another app, come back to Copymunk once, then look again."))
                 HairlineSeparator()
                 GuideStepRow(number: 3, title: String(localized: "Choose “Allow”")) {
                     optionPreview
@@ -36,7 +36,7 @@ struct AllowPasteGuideScreen: View {
                 }
             }
 
-            GuidePrimaryButton(title: String(localized: "Open Copyo's Settings"),
+            GuidePrimaryButton(title: String(localized: "Open Copymunk's Settings"),
                                symbol: "arrow.up.forward.app") {
                 if let url = SettingsLinks.appSettings { openURL(url) }
                 // 从这里去改设置同样该收起历史页的「允许粘贴」提示卡
@@ -61,7 +61,7 @@ struct AllowPasteGuideScreen: View {
                 Text(String(localized: "iOS asks every time"))
                     .font(.subheadline)
                     .foregroundStyle(CopyoTheme.label)
-                Text(String(localized: "Copyo can't read the current value of this setting"))
+                Text(String(localized: "Copymunk can't read the current value of this setting"))
                     .font(.footnote)
                     .foregroundStyle(CopyoTheme.labelSecondary)
                     .fixedSize(horizontal: false, vertical: true)

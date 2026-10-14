@@ -1,8 +1,8 @@
-# Copyo
+# Copymunk
 
 [简体中文](README.md)
 
-Copyo is an open-source clipboard manager for macOS: it lives in the menu bar, `⇧⌘V` brings up a floating card panel, and you search your history as you type.
+Copymunk is an open-source clipboard manager for macOS: it lives in the menu bar, `⇧⌘V` brings up a floating card panel, and you search your history as you type.
 Data lives on this Mac (`~/Library/Application Support/Copyo/`) and syncing is off by default; there are no third-party SDKs, no analytics and no crash reporting, which makes it a fit for workplaces that do not allow third-party closed-source tools.
 
 ## Features
@@ -18,7 +18,7 @@ Data lives on this Mac (`~/Library/Application Support/Copyo/`) and syncing is o
 - **Sync (optional, pick one of three)**: Off / Folder / iCloud. The folder option writes your history and Pinboards out as snapshots into iCloud Drive
   or any directory all of your devices can read and write (a company NAS, another cloud-sync folder, and so on), and **does not propagate deletions** — an entry you delete on one Mac
   stays on your other Macs. The iCloud option syncs through your own iCloud private database, where additions, edits and deletions all take effect, so **a deletion disappears from every device at once**.
-  Either way the data only ever passes through storage you own. Sync is off by default, so Copyo can stay completely offline in a corporate environment
+  Either way the data only ever passes through storage you own. Sync is off by default, so Copymunk can stay completely offline in a corporate environment
 - **Custom shortcut**: `⇧⌘V` by default; record any key combination in Settings
 - **History limit**: 100/300/500/1000/unlimited; past the limit, the oldest unpinned entries are cleaned up automatically
 - **Launch at login**, hiding the menu bar icon, pausing capture, plain-text mode and other settings
@@ -26,9 +26,9 @@ Data lives on this Mac (`~/Library/Application Support/Copyo/`) and syncing is o
 
 ## Installation
 
-Copyo is available on the [Mac App Store](https://apps.apple.com/app/id6813955206).
+Copymunk is available on the [Mac App Store](https://apps.apple.com/app/id6813955206).
 
-You can also grab the DMG from [Releases](https://github.com/VibeMage/copyo/releases), open it and drag Copyo
+You can also grab the DMG from [Releases](https://github.com/VibeMage/copyo/releases), open it and drag Copymunk
 into Applications. Official releases are signed with a Developer ID and notarized by Apple, so a double-click is all it takes —
 you only get the standard "app downloaded from the Internet" confirmation dialog the first time.
 
@@ -54,7 +54,7 @@ It installs the direct-distribution flavor (not sandboxed), which reads your eve
 `~/Library/Application Support/Copyo/`, signed with your Apple Development certificate so iCloud sync works
 (requires your team account in Xcode). The previous version is kept in `build.noindex/install/previous/`.
 If `/Applications` holds the App Store version, the script stops first; delete that copy and run it again.
-It only quits the `/Applications` copy of Copyo and leaves other instances such as Debug builds running,
+It only quits the `/Applications` copy of Copymunk and leaves other instances such as Debug builds running,
 just listing them (they compete with the new install for ⇧⌘V).
 Only the `/Applications` copy stays registered: builds live under `build.noindex/` (skipped by Spotlight)
 and are unregistered from LaunchServices after installing, so “Open With” doesn’t fill up with dev builds.

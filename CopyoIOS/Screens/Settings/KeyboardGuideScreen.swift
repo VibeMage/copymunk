@@ -22,24 +22,24 @@ struct KeyboardGuideScreen: View {
         GuideScroll {
             KeyboardPreview()
 
-            GuideParagraph(text: String(localized: "Switch to the Copyo keyboard in any text field and tap a card to type it — no jumping between apps."))
+            GuideParagraph(text: String(localized: "Switch to the Copymunk keyboard in any text field and tap a card to type it — no jumping between apps."))
 
             GroupedCard {
                 GuideStepRow(1, title: String(localized: "Settings › General › Keyboard › Keyboards"))
                 HairlineSeparator()
-                GuideStepRow(2, title: String(localized: "Tap “Add New Keyboard…” and choose Copyo"))
+                GuideStepRow(2, title: String(localized: "Tap “Add New Keyboard…” and choose Copymunk"))
                 HairlineSeparator()
                 GuideStepRow(3,
                              title: String(localized: "Turn on “Allow Full Access”"),
-                             detail: String(localized: "The keyboard extension needs it to read your history. The Copyo keyboard never goes online, and never records what you type."))
+                             detail: String(localized: "The keyboard extension needs it to read your history. The Copymunk keyboard never goes online, and never records what you type."))
             }
 
-            GuidePrimaryButton(title: String(localized: "Open Copyo's Settings"),
+            GuidePrimaryButton(title: String(localized: "Open Copymunk's Settings"),
                                symbol: "arrow.up.forward.app") {
                 if let url = SettingsLinks.appSettings { openURL(url) }
             }
         }
-        .navigationTitle(String(localized: "Copyo Keyboard"))
+        .navigationTitle(String(localized: "Copymunk Keyboard"))
     }
 }
 

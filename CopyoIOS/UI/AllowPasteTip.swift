@@ -40,7 +40,7 @@ struct AllowPasteTip: View {
                     Text(String(localized: "Tired of tapping Allow Paste?"))
                         .font(.system(.subheadline, weight: .semibold))
                         .foregroundStyle(CopyoTheme.label)
-                    Text(String(localized: "In Settings › Apps › Copyo, set Paste from Other Apps to Allow. Copyo then saves new clips without asking."))
+                    Text(String(localized: "In Settings › Apps › Copymunk, set Paste from Other Apps to Allow. Copymunk then saves new clips without asking."))
                         .font(.caption)
                         .foregroundStyle(CopyoTheme.labelSecondary)
                         .fixedSize(horizontal: false, vertical: true)
@@ -55,7 +55,7 @@ struct AllowPasteTip: View {
                 }
                 .buttonStyle(.plain)
                 // 读屏只听到「打开设置」分不清是 Copyo 的设置页还是系统「设置」
-                .accessibilityHint(String(localized: "Open Copyo's Settings"))
+                .accessibilityHint(String(localized: "Open Copymunk's Settings"))
             }
             .frame(maxWidth: .infinity, alignment: .leading)
 
