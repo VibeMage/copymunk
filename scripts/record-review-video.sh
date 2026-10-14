@@ -63,7 +63,7 @@ echo "==> 构建"
 xcodebuild build-for-testing -project Copyo.xcodeproj -scheme CopyoIOSUITests \
   -destination "id=$udid" -derivedDataPath "$DERIVED" -quiet
 # xcodebuild 要等测试里调用 launch() 才装目标 App；演示是从主屏幕点图标开始的，得先装好
-xcrun simctl install "$udid" "$DERIVED/Build/Products/Debug-iphonesimulator/Copyo.app"
+xcrun simctl install "$udid" "$DERIVED/Build/Products/Debug-iphonesimulator/Copymunk.app"
 
 python3 -m http.server "$PORT" --bind 127.0.0.1 --directory scripts/review-video >/dev/null 2>&1 &
 server=$!

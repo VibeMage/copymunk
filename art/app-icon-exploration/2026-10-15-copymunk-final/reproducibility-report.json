@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "identical_asset_count": 15,
+  "method": "Re-render final SVG and integer menu sources; compare complete PNG SHA-256 bytes",
+  "versions": {
+    "Pillow": "11.3.0",
+    "resvg-py": "0.3.2"
+  },
+  "asset_hashes": {
+    "appiconset/icon_32x32@2x.png": "86d6445606df447a1e06409e2e02ce518176bb3389121c375e4bf2cc923c2122",
+    "appiconset/icon_128x128.png": "03347e9674eba9b3b1282e1518834723c6d6bb51e9f5b2376281dee38861f9a2",
+    "appiconset/icon_256x256@2x.png": "7eef055dbf775700fd5ed8f48cf0bb6ceb969d71f36024647cdb0229815a2b6c",
+    "appiconset/icon_32x32.png": "bb9376f747ab93b8bb023c52035dba06c647102321477083430a7ba50c5b9bf3",
+    "appiconset/icon_512x512.png": "7eef055dbf775700fd5ed8f48cf0bb6ceb969d71f36024647cdb0229815a2b6c",
+    "appiconset/icon_16x16.png": "2976aefafb570d0f9824992e1efcb6f24d56cb0d2e8ed6c444ab36b72ee8c676",
+    "appiconset/icon_16x16@2x.png": "bb9376f747ab93b8bb023c52035dba06c647102321477083430a7ba50c5b9bf3",
+    "appiconset/icon_128x128@2x.png": "6063b90c5e91896d09344ec073807a1fd50783974dd887fb32066d03fb426403",
+    "appiconset/icon_512x512@2x.png": "716ecf763efe2c6e7fb3ebdcc5f58a251ddd5e74284e2543fab3279861f2e761",
+    "appiconset/icon_256x256.png": "6063b90c5e91896d09344ec073807a1fd50783974dd887fb32066d03fb426403",
+    "ios-appiconset/AppIcon-Dark.png": "4b59de7f73e949ef9e74570d6166de93baae67d4dbf7aba9e77ffa754a1032c3",
+    "ios-appiconset/AppIcon-Tinted.png": "e1676f636c47407a6236ec07841337e5bda76493d6b9f308523f24e2037b707f",
+    "ios-appiconset/AppIcon.png": "0568698a0bafdd273a41d0fbac9228f98c6a26a87c1df3080495de8ae2ffb2ea",
+    "menubar/menubar-template-18.png": "521b34e8f300147d9ec7085e71fdc6665e04faf318571db634afa52b62f8bb37",
+    "menubar/menubar-template-36.png": "6a63547c31db8db63d0f4a95a49eecad01a698eac10e71de28191cf28235d547"
+  }
+}

@@ -9,7 +9,7 @@ import AppIntents
 struct SaveClipboardIntent: AppIntent {
     static let title: LocalizedStringResource = "Save Clipboard"
     static let description = IntentDescription(
-        "Opens Copyo and saves whatever is on the clipboard right now.",
+        "Opens Copymunk and saves whatever is on the clipboard right now.",
         categoryName: "Clipboard",
         searchKeywords: ["clipboard", "paste", "save"]
     )

@@ -485,25 +485,25 @@
         }
       }
     },
-    "Add Copyo’s “Save Clipboard” action": {
+    "Add Copymunk’s “Save Clipboard” action": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Add Copyo’s “Save Clipboard” action"
+            "value": "Add Copymunk’s “Save Clipboard” action"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ajoutez l’action « Enregistrer le presse-papiers » de Copyo"
+            "value": "Ajoutez l’action « Enregistrer le presse-papiers » de Copymunk"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "添加 Copyo 的「保存剪贴板」操作"
+            "value": "添加 Copymunk 的「保存剪贴板」操作"
           }
         }
       }
@@ -577,48 +577,48 @@
         }
       }
     },
-    "After copying, press the Action Button, double-tap the back of your iPhone, or tap the Control Center button. Copyo opens and shows “Saved”.": {
+    "After copying, press the Action Button, double-tap the back of your iPhone, or tap the Control Center button. Copymunk opens and shows “Saved”.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "After copying, press the Action Button, double-tap the back of your iPhone, or tap the Control Center button. Copyo opens and shows “Saved”."
+            "value": "After copying, press the Action Button, double-tap the back of your iPhone, or tap the Control Center button. Copymunk opens and shows “Saved”."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Après avoir copié, appuyez sur le bouton Action, touchez deux fois le dos de votre iPhone ou touchez le bouton du Centre de contrôle. Copyo s’ouvre et affiche « Enregistré »."
+            "value": "Après avoir copié, appuyez sur le bouton Action, touchez deux fois le dos de votre iPhone ou touchez le bouton du Centre de contrôle. Copymunk s’ouvre et affiche « Enregistré »."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "复制后按操作按钮、敲两下手机背面，或点控制中心按钮。Copyo 会打开并提示「已保存」。"
+            "value": "复制后按操作按钮、敲两下手机背面，或点控制中心按钮。Copymunk 会打开并提示「已保存」。"
           }
         }
       }
     },
-    "After copying, tap the “Save Clipboard” button in Control Center. Copyo opens and shows “Saved”.": {
+    "After copying, tap the “Save Clipboard” button in Control Center. Copymunk opens and shows “Saved”.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "After copying, tap the “Save Clipboard” button in Control Center. Copyo opens and shows “Saved”."
+            "value": "After copying, tap the “Save Clipboard” button in Control Center. Copymunk opens and shows “Saved”."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Après avoir copié, touchez le bouton « Enregistrer le presse-papiers » du Centre de contrôle. Copyo s’ouvre et affiche « Enregistré »."
+            "value": "Après avoir copié, touchez le bouton « Enregistrer le presse-papiers » du Centre de contrôle. Copymunk s’ouvre et affiche « Enregistré »."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "复制后点控制中心里的「保存剪贴板」按钮。Copyo 会打开并提示「已保存」。"
+            "value": "复制后点控制中心里的「保存剪贴板」按钮。Copymunk 会打开并提示「已保存」。"
           }
         }
       }
@@ -1497,117 +1497,117 @@
         }
       }
     },
-    "Copyo Keyboard": {
+    "Copymunk Keyboard": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo Keyboard"
+            "value": "Copymunk Keyboard"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Clavier Copyo"
+            "value": "Clavier Copymunk"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo 键盘"
+            "value": "Copymunk 键盘"
           }
         }
       }
     },
-    "Copyo can't open its library right now.": {
+    "Copymunk can't open its library right now.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo can't open its library right now."
+            "value": "Copymunk can't open its library right now."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo ne peut pas ouvrir sa bibliothèque pour le moment."
+            "value": "Copymunk ne peut pas ouvrir sa bibliothèque pour le moment."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo 暂时打不开自己的资料库。"
+            "value": "Copymunk 暂时打不开自己的资料库。"
           }
         }
       }
     },
-    "Copyo can't read the current value of this setting": {
+    "Copymunk can't read the current value of this setting": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo can’t read the current value of this setting"
+            "value": "Copymunk can’t read the current value of this setting"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo ne peut pas lire la valeur actuelle de ce réglage"
+            "value": "Copymunk ne peut pas lire la valeur actuelle de ce réglage"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo 读不到这项设置的当前值"
+            "value": "Copymunk 读不到这项设置的当前值"
           }
         }
       }
     },
-    "Copyo couldn't read that image.": {
+    "Copymunk couldn't read that image.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo couldn't read that image."
+            "value": "Copymunk couldn't read that image."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo n’a pas pu lire cette image."
+            "value": "Copymunk n’a pas pu lire cette image."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo 读不出这张图片。"
+            "value": "Copymunk 读不出这张图片。"
           }
         }
       }
     },
-    "Copyo couldn't read what you shared.": {
+    "Copymunk couldn't read what you shared.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo couldn't read what you shared."
+            "value": "Copymunk couldn't read what you shared."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo n’a pas pu lire ce que vous avez partagé."
+            "value": "Copymunk n’a pas pu lire ce que vous avez partagé."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo 读不出你分享的内容。"
+            "value": "Copymunk 读不出你分享的内容。"
           }
         }
       }
@@ -1911,25 +1911,25 @@
         }
       }
     },
-    "Every time you open or come back to Copyo it reads the current clipboard and saves it to your history. “Paste from Other Apps” has to be set to Allow.": {
+    "Every time you open or come back to Copymunk it reads the current clipboard and saves it to your history. “Paste from Other Apps” has to be set to Allow.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Every time you open or come back to Copyo it reads the current clipboard and saves it to your history. “Paste from Other Apps” has to be set to Allow."
+            "value": "Every time you open or come back to Copymunk it reads the current clipboard and saves it to your history. “Paste from Other Apps” has to be set to Allow."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Chaque fois que vous ouvrez Copyo ou y revenez, il lit le presse-papiers et l’enregistre dans votre historique. « Coller depuis d’autres apps » doit être réglé sur « Autoriser »."
+            "value": "Chaque fois que vous ouvrez Copymunk ou y revenez, il lit le presse-papiers et l’enregistre dans votre historique. « Coller depuis d’autres apps » doit être réglé sur « Autoriser »."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "每次打开或回到 Copyo，自动读取当前剪贴板并存入历史。需要把「从其他 App 粘贴」设为允许。"
+            "value": "每次打开或回到 Copymunk，自动读取当前剪贴板并存入历史。需要把「从其他 App 粘贴」设为允许。"
           }
         }
       }
@@ -1980,19 +1980,19 @@
         }
       }
     },
-    "File contents stay on your Mac. Copyo keeps the name so you can find it there.": {
+    "File contents stay on your Mac. Copymunk keeps the name so you can find it there.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "File contents stay on your Mac. Copyo keeps the name so you can find it there."
+            "value": "File contents stay on your Mac. Copymunk keeps the name so you can find it there."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Le contenu des fichiers reste sur votre Mac. Copyo en conserve le nom pour que vous puissiez le retrouver."
+            "value": "Le contenu des fichiers reste sur votre Mac. Copymunk en conserve le nom pour que vous puissiez le retrouver."
           }
         },
         "zh-Hans": {
@@ -2164,19 +2164,19 @@
         }
       }
     },
-    "How Copyo Saves Clips": {
+    "How Copymunk Saves Clips": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "How Copyo Saves Clips"
+            "value": "How Copymunk Saves Clips"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Comment Copyo enregistre les éléments"
+            "value": "Comment Copymunk enregistre les éléments"
           }
         },
         "zh-Hans": {
@@ -2256,25 +2256,25 @@
         }
       }
     },
-    "In Settings › Apps › Copyo, set Paste from Other Apps to Allow. Copyo then saves new clips without asking.": {
+    "In Settings › Apps › Copymunk, set Paste from Other Apps to Allow. Copymunk then saves new clips without asking.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "In Settings › Apps › Copyo, set Paste from Other Apps to Allow. Copyo then saves new clips without asking."
+            "value": "In Settings › Apps › Copymunk, set Paste from Other Apps to Allow. Copymunk then saves new clips without asking."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dans Réglages › Apps › Copyo, réglez « Coller depuis d’autres apps » sur « Autoriser ». Copyo enregistrera alors sans demander."
+            "value": "Dans Réglages › Apps › Copymunk, réglez « Coller depuis d’autres apps » sur « Autoriser ». Copymunk enregistrera alors sans demander."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "在「设置 › App › Copyo」里把「从其他 App 粘贴」设为「允许」，之后回到 Copyo 就直接保存，不再询问。"
+            "value": "在「设置 › App › Copymunk」里把「从其他 App 粘贴」设为「允许」，之后回到 Copymunk 就直接保存，不再询问。"
           }
         }
       }
@@ -2348,25 +2348,25 @@
         }
       }
     },
-    "It will be removed from Copyo on all your devices.": {
+    "It will be removed from Copymunk on all your devices.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "It will be removed from Copyo on all your devices."
+            "value": "It will be removed from Copymunk on all your devices."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Il sera supprimé de Copyo sur tous vos appareils."
+            "value": "Il sera supprimé de Copymunk sur tous vos appareils."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "会从你所有设备上的 Copyo 中移除。"
+            "value": "会从你所有设备上的 Copymunk 中移除。"
           }
         }
       }
@@ -2785,25 +2785,25 @@
         }
       }
     },
-    "Not there yet? Copy something in another app, come back to Copyo once, then look again.": {
+    "Not there yet? Copy something in another app, come back to Copymunk once, then look again.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Not there yet? Copy something in another app, come back to Copyo once, then look again."
+            "value": "Not there yet? Copy something in another app, come back to Copymunk once, then look again."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Option absente ? Copiez quelque chose dans une autre app, revenez une fois dans Copyo, puis regardez à nouveau."
+            "value": "Option absente ? Copiez quelque chose dans une autre app, revenez une fois dans Copymunk, puis regardez à nouveau."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "找不到这一项？先在别的 App 里复制点内容，回 Copyo 一次再来看。"
+            "value": "找不到这一项？先在别的 App 里复制点内容，回 Copymunk 一次再来看。"
           }
         }
       }
@@ -2923,25 +2923,25 @@
         }
       }
     },
-    "Off by default. Turn it on and your clips become searchable from the Home Screen, the Lock Screen and Siri Suggestions — including the verification codes, passwords and private messages that end up in a clipboard history. Turning it off deletes everything Copyo put in the index.": {
+    "Off by default. Turn it on and your clips become searchable from the Home Screen, the Lock Screen and Siri Suggestions — including the verification codes, passwords and private messages that end up in a clipboard history. Turning it off deletes everything Copymunk put in the index.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Off by default. Turn it on and your clips become searchable from the Home Screen, the Lock Screen and Siri Suggestions — including the verification codes, passwords and private messages that end up in a clipboard history. Turning it off deletes everything Copyo put in the index."
+            "value": "Off by default. Turn it on and your clips become searchable from the Home Screen, the Lock Screen and Siri Suggestions — including the verification codes, passwords and private messages that end up in a clipboard history. Turning it off deletes everything Copymunk put in the index."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Désactivé par défaut. Une fois activé, vos éléments deviennent accessibles depuis la recherche de l’écran d’accueil, l’écran verrouillé et les suggestions Siri — y compris les codes de validation, les mots de passe et les messages privés qui atterrissent dans un historique de presse-papiers. Le désactiver supprime tout ce que Copyo a placé dans l’index."
+            "value": "Désactivé par défaut. Une fois activé, vos éléments deviennent accessibles depuis la recherche de l’écran d’accueil, l’écran verrouillé et les suggestions Siri — y compris les codes de validation, les mots de passe et les messages privés qui atterrissent dans un historique de presse-papiers. Le désactiver supprime tout ce que Copymunk a placé dans l’index."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "默认关闭。打开后，你的条目会出现在主屏下拉搜索、锁屏搜索和 Siri 建议里——剪贴板历史里的验证码、密码和私人消息也一样。关掉会把 Copyo 放进索引的内容全部删除。"
+            "value": "默认关闭。打开后，你的条目会出现在主屏下拉搜索、锁屏搜索和 Siri 建议里——剪贴板历史里的验证码、密码和私人消息也一样。关掉会把 Copymunk 放进索引的内容全部删除。"
           }
         }
       }
@@ -2969,25 +2969,25 @@
         }
       }
     },
-    "One press saves whatever is on the clipboard right now. Copyo opens and shows “Saved”.": {
+    "One press saves whatever is on the clipboard right now. Copymunk opens and shows “Saved”.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "One press saves whatever is on the clipboard right now. Copyo opens and shows “Saved”."
+            "value": "One press saves whatever is on the clipboard right now. Copymunk opens and shows “Saved”."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Une seule pression enregistre le contenu actuel du presse-papiers. Copyo s’ouvre et affiche « Enregistré »."
+            "value": "Une seule pression enregistre le contenu actuel du presse-papiers. Copymunk s’ouvre et affiche « Enregistré »."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "按一下就把当前剪贴板存进 Copyo。系统会打开 Copyo 并显示「已保存」。"
+            "value": "按一下就把当前剪贴板存进 Copymunk。系统会打开 Copymunk 并显示「已保存」。"
           }
         }
       }
@@ -3038,25 +3038,25 @@
         }
       }
     },
-    "Open Copyo's Settings": {
+    "Open Copymunk's Settings": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Open Copyo’s Settings"
+            "value": "Open Copymunk’s Settings"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ouvrir les réglages de Copyo"
+            "value": "Ouvrir les réglages de Copymunk"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "打开 Copyo 的系统设置"
+            "value": "打开 Copymunk 的系统设置"
           }
         }
       }
@@ -3176,25 +3176,25 @@
         }
       }
     },
-    "Open Settings › Apps › Copyo": {
+    "Open Settings › Apps › Copymunk": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Open Settings › Apps › Copyo"
+            "value": "Open Settings › Apps › Copymunk"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Réglages › Apps › Copyo"
+            "value": "Réglages › Apps › Copymunk"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "打开「设置 › App › Copyo」"
+            "value": "打开「设置 › App › Copymunk」"
           }
         }
       }
@@ -3268,25 +3268,25 @@
         }
       }
     },
-    "Opens Copyo and saves whatever is on the clipboard right now.": {
+    "Opens Copymunk and saves whatever is on the clipboard right now.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Opens Copyo and saves whatever is on the clipboard right now."
+            "value": "Opens Copymunk and saves whatever is on the clipboard right now."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ouvre Copyo et enregistre le contenu actuel du presse-papiers."
+            "value": "Ouvre Copymunk et enregistre le contenu actuel du presse-papiers."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "打开 Copyo，把此刻剪贴板里的内容存下来。"
+            "value": "打开 Copymunk，把此刻剪贴板里的内容存下来。"
           }
         }
       }
@@ -3314,25 +3314,25 @@
         }
       }
     },
-    "Pick “Save Clipboard” under Copyo": {
+    "Pick “Save Clipboard” under Copymunk": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pick “Save Clipboard” under Copyo"
+            "value": "Pick “Save Clipboard” under Copymunk"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Choisissez « Enregistrer le presse-papiers » sous Copyo"
+            "value": "Choisissez « Enregistrer le presse-papiers » sous Copymunk"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "在列表里选 Copyo 的「保存剪贴板」"
+            "value": "在列表里选 Copymunk 的「保存剪贴板」"
           }
         }
       }
@@ -3912,25 +3912,25 @@
         }
       }
     },
-    "Save ${text} to Copyo": {
+    "Save ${text} to Copymunk": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save ${text} to Copyo"
+            "value": "Save ${text} to Copymunk"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "把${text}存进 Copyo"
+            "value": "把${text}存进 Copymunk"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Enregistrer ${text} dans Copyo"
+            "value": "Enregistrer ${text} dans Copymunk"
           }
         }
       }
@@ -3981,25 +3981,25 @@
         }
       }
     },
-    "Save to Copyo": {
+    "Save to Copymunk": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Copyo"
+            "value": "Save to Copymunk"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Enregistrer dans Copyo"
+            "value": "Enregistrer dans Copymunk"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "保存到 Copyo"
+            "value": "保存到 Copymunk"
           }
         }
       }
@@ -4027,48 +4027,48 @@
         }
       }
     },
-    "Saves text, a link, or an image to Copyo without opening the app.": {
+    "Saves text, a link, or an image to Copymunk without opening the app.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Saves text, a link, or an image to Copyo without opening the app."
+            "value": "Saves text, a link, or an image to Copymunk without opening the app."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Enregistre un texte, un lien ou une image dans Copyo sans ouvrir l’app."
+            "value": "Enregistre un texte, un lien ou une image dans Copymunk sans ouvrir l’app."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "把文本、链接或图片存进 Copyo，不打开 App。"
+            "value": "把文本、链接或图片存进 Copymunk，不打开 App。"
           }
         }
       }
     },
-    "Saves what's on the clipboard to Copyo.": {
+    "Saves what's on the clipboard to Copymunk.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Saves what's on the clipboard to Copyo."
+            "value": "Saves what's on the clipboard to Copymunk."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Enregistre dans Copyo le contenu actuel du presse-papiers."
+            "value": "Enregistre dans Copymunk le contenu actuel du presse-papiers."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "把剪贴板里的内容存进 Copyo。"
+            "value": "把剪贴板里的内容存进 Copymunk。"
           }
         }
       }
@@ -4096,25 +4096,25 @@
         }
       }
     },
-    "Search for Copyo in the action list": {
+    "Search for Copymunk in the action list": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Search for Copyo in the action list"
+            "value": "Search for Copymunk in the action list"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Recherchez Copyo dans la liste des actions"
+            "value": "Recherchez Copymunk dans la liste des actions"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "在操作列表里搜索 Copyo"
+            "value": "在操作列表里搜索 Copymunk"
           }
         }
       }
@@ -4142,25 +4142,25 @@
         }
       }
     },
-    "Select text or an image in any app, tap Share, then tap “Copyo”. You can pick a Pinboard on the way in.": {
+    "Select text or an image in any app, tap Share, then tap “Copymunk”. You can pick a Pinboard on the way in.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Select text or an image in any app, tap Share, then tap “Copyo”. You can pick a Pinboard on the way in."
+            "value": "Select text or an image in any app, tap Share, then tap “Copymunk”. You can pick a Pinboard on the way in."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sélectionnez du texte ou une image dans n’importe quelle app, touchez « Partager », puis « Copyo ». Vous pouvez choisir un Pinboard au passage."
+            "value": "Sélectionnez du texte ou une image dans n’importe quelle app, touchez « Partager », puis « Copymunk ». Vous pouvez choisir un Pinboard au passage."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "在任何 App 里选中文字或图片，点「分享」，再点「Copyo」。可以顺手选 Pinboard。"
+            "value": "在任何 App 里选中文字或图片，点「分享」，再点「Copymunk」。可以顺手选 Pinboard。"
           }
         }
       }
@@ -4211,25 +4211,25 @@
         }
       }
     },
-    "Set it to Allow and Copyo reads the clipboard the moment it opens, with no prompt. This is an iOS privacy setting, so it can only be changed in Settings.": {
+    "Set it to Allow and Copymunk reads the clipboard the moment it opens, with no prompt. This is an iOS privacy setting, so it can only be changed in Settings.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Set it to Allow and Copyo reads the clipboard the moment it opens, with no prompt. This is an iOS privacy setting, so it can only be changed in Settings."
+            "value": "Set it to Allow and Copymunk reads the clipboard the moment it opens, with no prompt. This is an iOS privacy setting, so it can only be changed in Settings."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Réglez-le sur « Autoriser » et Copyo lit le presse-papiers dès son ouverture, sans aucune demande. C’est un réglage de confidentialité iOS : il ne peut être modifié que dans les Réglages."
+            "value": "Réglez-le sur « Autoriser » et Copymunk lit le presse-papiers dès son ouverture, sans aucune demande. C’est un réglage de confidentialité iOS : il ne peut être modifié que dans les Réglages."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "设为「允许」后，打开 Copyo 时自动读取剪贴板，不再弹窗。这是 iOS 的隐私设置，只能在系统「设置」里更改。"
+            "value": "设为「允许」后，打开 Copymunk 时自动读取剪贴板，不再弹窗。这是 iOS 的隐私设置，只能在系统「设置」里更改。"
           }
         }
       }
@@ -4694,25 +4694,25 @@
         }
       }
     },
-    "Switch to the Copyo keyboard in any text field and tap a card to type it — no jumping between apps.": {
+    "Switch to the Copymunk keyboard in any text field and tap a card to type it — no jumping between apps.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Switch to the Copyo keyboard in any text field and tap a card to type it — no jumping between apps."
+            "value": "Switch to the Copymunk keyboard in any text field and tap a card to type it — no jumping between apps."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dans n’importe quel champ de saisie, passez au clavier Copyo et touchez une carte pour l’insérer, sans changer d’app."
+            "value": "Dans n’importe quel champ de saisie, passez au clavier Copymunk et touchez une carte pour l’insérer, sans changer d’app."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "在任何输入框里切换到 Copyo 键盘，点卡片直接输入内容，不用来回切 App。"
+            "value": "在任何输入框里切换到 Copymunk 键盘，点卡片直接输入内容，不用来回切 App。"
           }
         }
       }
@@ -4833,25 +4833,25 @@
         }
       }
     },
-    "Takes effect after you reopen Copyo": {
+    "Takes effect after you reopen Copymunk": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Takes effect after you reopen Copyo"
+            "value": "Takes effect after you reopen Copymunk"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Prend effet après la relance de Copyo"
+            "value": "Prend effet après la relance de Copymunk"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "重新打开 Copyo 后生效"
+            "value": "重新打开 Copymunk 后生效"
           }
         }
       }
@@ -4925,48 +4925,48 @@
         }
       }
     },
-    "Tap “Add New Keyboard…” and choose Copyo": {
+    "Tap “Add New Keyboard…” and choose Copymunk": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tap “Add New Keyboard…” and choose Copyo"
+            "value": "Tap “Add New Keyboard…” and choose Copymunk"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Touchez « Ajouter un clavier… », puis choisissez Copyo"
+            "value": "Touchez « Ajouter un clavier… », puis choisissez Copymunk"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "点「添加新键盘…」，选择 Copyo"
+            "value": "点「添加新键盘…」，选择 Copymunk"
           }
         }
       }
     },
-    "Tap “Add a Control” and search for Copyo": {
+    "Tap “Add a Control” and search for Copymunk": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tap “Add a Control” and search for Copyo"
+            "value": "Tap “Add a Control” and search for Copymunk"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Touchez « Ajouter une commande » et recherchez Copyo"
+            "value": "Touchez « Ajouter une commande » et recherchez Copymunk"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "点「添加控件」，搜索 Copyo"
+            "value": "点「添加控件」，搜索 Copymunk"
           }
         }
       }
@@ -5040,25 +5040,25 @@
         }
       }
     },
-    "That clip is no longer in Copyo.": {
+    "That clip is no longer in Copymunk.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "That clip is no longer in Copyo."
+            "value": "That clip is no longer in Copymunk."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Cet élément n’est plus dans Copyo."
+            "value": "Cet élément n’est plus dans Copymunk."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "这条内容已不在 Copyo 中。"
+            "value": "这条内容已不在 Copymunk 中。"
           }
         }
       }
@@ -5086,48 +5086,48 @@
         }
       }
     },
-    "The control comes with Copyo, so there is nothing to add first.": {
+    "The control comes with Copymunk, so there is nothing to add first.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The control comes with Copyo, so there is nothing to add first."
+            "value": "The control comes with Copymunk, so there is nothing to add first."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "La commande est fournie avec Copyo : il n’y a rien à ajouter au préalable."
+            "value": "La commande est fournie avec Copymunk : il n’y a rien à ajouter au préalable."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "这个控件由 Copyo 自带，不需要先添加任何东西。"
+            "value": "这个控件由 Copymunk 自带，不需要先添加任何东西。"
           }
         }
       }
     },
-    "The keyboard extension needs it to read your history. The Copyo keyboard never goes online, and never records what you type.": {
+    "The keyboard extension needs it to read your history. The Copymunk keyboard never goes online, and never records what you type.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The keyboard extension needs it to read your history. The Copyo keyboard never goes online, and never records what you type."
+            "value": "The keyboard extension needs it to read your history. The Copymunk keyboard never goes online, and never records what you type."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "L’extension de clavier en a besoin pour lire votre historique. Le clavier Copyo ne se connecte jamais à Internet et n’enregistre jamais ce que vous tapez."
+            "value": "L’extension de clavier en a besoin pour lire votre historique. Le clavier Copymunk ne se connecte jamais à Internet et n’enregistre jamais ce que vous tapez."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "键盘扩展需要它才能读取历史。Copyo 键盘不联网，也不记录你的输入。"
+            "value": "键盘扩展需要它才能读取历史。Copymunk 键盘不联网，也不记录你的输入。"
           }
         }
       }
@@ -5569,48 +5569,48 @@
         }
       }
     },
-    "When you open Copyo": {
+    "When you open Copymunk": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "When you open Copyo"
+            "value": "When you open Copymunk"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "À l’ouverture de Copyo"
+            "value": "À l’ouverture de Copymunk"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "打开 Copyo 时"
+            "value": "打开 Copymunk 时"
           }
         }
       }
     },
-    "With this off, Copyo won't read the clipboard when it opens — use the banner at the top of History to paste and save by hand.": {
+    "With this off, Copymunk won't read the clipboard when it opens — use the banner at the top of History to paste and save by hand.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "With this off, Copyo won’t read the clipboard when it opens — use the banner at the top of History to paste and save by hand."
+            "value": "With this off, Copymunk won’t read the clipboard when it opens — use the banner at the top of History to paste and save by hand."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Si ce réglage est désactivé, Copyo ne lit pas le presse-papiers à son ouverture : utilisez la bannière en haut de l’historique pour coller et enregistrer à la main."
+            "value": "Si ce réglage est désactivé, Copymunk ne lit pas le presse-papiers à son ouverture : utilisez la bannière en haut de l’historique pour coller et enregistrer à la main."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "关闭后，回到 Copyo 不会自动读取剪贴板；用历史顶部的横幅手动粘贴保存。"
+            "value": "关闭后，回到 Copymunk 不会自动读取剪贴板；用历史顶部的横幅手动粘贴保存。"
           }
         }
       }
@@ -5776,25 +5776,25 @@
         }
       }
     },
-    "iCloud is temporarily unavailable. Copyo will try again.": {
+    "iCloud is temporarily unavailable. Copymunk will try again.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "iCloud is temporarily unavailable. Copyo will try again."
+            "value": "iCloud is temporarily unavailable. Copymunk will try again."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "iCloud est temporairement indisponible. Copyo réessaiera."
+            "value": "iCloud est temporairement indisponible. Copymunk réessaiera."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "iCloud 暂时不可用，Copyo 会自动重试。"
+            "value": "iCloud 暂时不可用，Copymunk 会自动重试。"
           }
         }
       }
@@ -5868,71 +5868,71 @@
         }
       }
     },
-    "iOS asks the first time Copyo reads the clipboard. Tap Allow Paste; later you can set it to Allow in Settings.": {
+    "iOS asks the first time Copymunk reads the clipboard. Tap Allow Paste; later you can set it to Allow in Settings.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "iOS asks the first time Copyo reads the clipboard. Tap Allow Paste; later you can set it to Allow in Settings."
+            "value": "iOS asks the first time Copymunk reads the clipboard. Tap Allow Paste; later you can set it to Allow in Settings."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "iOS vous le demande la première fois que Copyo lit le presse-papiers. Touchez « Autoriser le collage » ; vous pourrez ensuite choisir « Autoriser » dans Réglages."
+            "value": "iOS vous le demande la première fois que Copymunk lit le presse-papiers. Touchez « Autoriser le collage » ; vous pourrez ensuite choisir « Autoriser » dans Réglages."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo 第一次读剪贴板时 iOS 会问你，点「允许粘贴」；之后可在系统设置里改成「允许」。"
+            "value": "Copymunk 第一次读剪贴板时 iOS 会问你，点「允许粘贴」；之后可在系统设置里改成「允许」。"
           }
         }
       }
     },
-    "iOS won't let apps read the clipboard in the background, so Copyo only saves at these three moments.": {
+    "iOS won't let apps read the clipboard in the background, so Copymunk only saves at these three moments.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "iOS won’t let apps read the clipboard in the background, so Copyo only saves at these three moments."
+            "value": "iOS won’t let apps read the clipboard in the background, so Copymunk only saves at these three moments."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "iOS n’autorise pas les apps à lire le presse-papiers en arrière-plan : Copyo n’enregistre donc qu’à ces trois moments."
+            "value": "iOS n’autorise pas les apps à lire le presse-papiers en arrière-plan : Copymunk n’enregistre donc qu’à ces trois moments."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "iOS 不允许 App 在后台读剪贴板，所以 Copyo 只在这三种时刻保存内容。"
+            "value": "iOS 不允许 App 在后台读剪贴板，所以 Copymunk 只在这三种时刻保存内容。"
           }
         }
       }
     },
-    "iOS won't let apps read the clipboard in the background. Copyo only saves at these three moments.": {
+    "iOS won't let apps read the clipboard in the background. Copymunk only saves at these three moments.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "iOS won’t let apps read the clipboard in the background. Copyo only saves at these three moments."
+            "value": "iOS won’t let apps read the clipboard in the background. Copymunk only saves at these three moments."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "iOS n’autorise pas les apps à lire le presse-papiers en arrière-plan. Copyo n’enregistre qu’à ces trois moments."
+            "value": "iOS n’autorise pas les apps à lire le presse-papiers en arrière-plan. Copymunk n’enregistre qu’à ces trois moments."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "iOS 不允许 App 在后台读剪贴板，Copyo 只在这三种时刻保存。"
+            "value": "iOS 不允许 App 在后台读剪贴板，Copymunk 只在这三种时刻保存。"
           }
         }
       }
@@ -6052,25 +6052,25 @@
         }
       }
     },
-    "“Save to Copyo” in any app": {
+    "“Save to Copymunk” in any app": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share › Copyo in any app"
+            "value": "Share › Copymunk in any app"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Partager › Copyo dans n’importe quelle app"
+            "value": "Partager › Copymunk dans n’importe quelle app"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "任何 App 里点「分享」→「Copyo」"
+            "value": "任何 App 里点「分享」→「Copymunk」"
           }
         }
       }

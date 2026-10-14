@@ -1,0 +1,254 @@
+{
+  "files": [
+    {
+      "file": "README.en.md",
+      "bytes": 7867,
+      "sha256": "a10f47b7193a6de9764b77180b6a59c38c6b57e74cc7371dd01f56f02ae490e0"
+    },
+    {
+      "file": "README.md",
+      "bytes": 7360,
+      "sha256": "c11c0b6444065ceab472f901253b3d30f7a58e765281306fbeac7b29b4ae53ca"
+    },
+    {
+      "file": "appiconset/Contents.json",
+      "bytes": 1034,
+      "sha256": "50218ab747d69194262d41c62f7333a8d1068f3055140882504df146bd9c04cf"
+    },
+    {
+      "file": "appiconset/icon_128x128.png",
+      "bytes": 13835,
+      "sha256": "03347e9674eba9b3b1282e1518834723c6d6bb51e9f5b2376281dee38861f9a2"
+    },
+    {
+      "file": "appiconset/icon_128x128@2x.png",
+      "bytes": 35140,
+      "sha256": "6063b90c5e91896d09344ec073807a1fd50783974dd887fb32066d03fb426403"
+    },
+    {
+      "file": "appiconset/icon_16x16.png",
+      "bytes": 1016,
+      "sha256": "2976aefafb570d0f9824992e1efcb6f24d56cb0d2e8ed6c444ab36b72ee8c676"
+    },
+    {
+      "file": "appiconset/icon_16x16@2x.png",
+      "bytes": 1964,
+      "sha256": "bb9376f747ab93b8bb023c52035dba06c647102321477083430a7ba50c5b9bf3"
+    },
+    {
+      "file": "appiconset/icon_256x256.png",
+      "bytes": 35140,
+      "sha256": "6063b90c5e91896d09344ec073807a1fd50783974dd887fb32066d03fb426403"
+    },
+    {
+      "file": "appiconset/icon_256x256@2x.png",
+      "bytes": 92354,
+      "sha256": "7eef055dbf775700fd5ed8f48cf0bb6ceb969d71f36024647cdb0229815a2b6c"
+    },
+    {
+      "file": "appiconset/icon_32x32.png",
+      "bytes": 1964,
+      "sha256": "bb9376f747ab93b8bb023c52035dba06c647102321477083430a7ba50c5b9bf3"
+    },
+    {
+      "file": "appiconset/icon_32x32@2x.png",
+      "bytes": 5407,
+      "sha256": "86d6445606df447a1e06409e2e02ce518176bb3389121c375e4bf2cc923c2122"
+    },
+    {
+      "file": "appiconset/icon_512x512.png",
+      "bytes": 92354,
+      "sha256": "7eef055dbf775700fd5ed8f48cf0bb6ceb969d71f36024647cdb0229815a2b6c"
+    },
+    {
+      "file": "appiconset/icon_512x512@2x.png",
+      "bytes": 179385,
+      "sha256": "716ecf763efe2c6e7fb3ebdcc5f58a251ddd5e74284e2543fab3279861f2e761"
+    },
+    {
+      "file": "comparisons/after-1024.png",
+      "bytes": 178757,
+      "sha256": "29d9da6c08d3eb6f8ec0d5f693a1f9e0b0d16dac884d367d575e17dee657b267"
+    },
+    {
+      "file": "comparisons/background-comparison.png",
+      "bytes": 191457,
+      "sha256": "dcf5698074af55bde88cea67d95ebee93659951a7e43ca7d41c87ac1c3226317"
+    },
+    {
+      "file": "comparisons/before-1024.png",
+      "bytes": 179385,
+      "sha256": "716ecf763efe2c6e7fb3ebdcc5f58a251ddd5e74284e2543fab3279861f2e761"
+    },
+    {
+      "file": "contact-sheet.png",
+      "bytes": 1069458,
+      "sha256": "d953798b46fa48eb3ab3dcdf4dc601bb750c5af6198bbb98f7a9a498e1e6d275"
+    },
+    {
+      "file": "copymunk-icon-spec.md",
+      "bytes": 14182,
+      "sha256": "3d790b2ba727a48a758ee20d7b992ba23b1361c805a6b63838468227b1b34f50"
+    },
+    {
+      "file": "ios-appiconset/AppIcon-Dark.png",
+      "bytes": 188443,
+      "sha256": "4b59de7f73e949ef9e74570d6166de93baae67d4dbf7aba9e77ffa754a1032c3"
+    },
+    {
+      "file": "ios-appiconset/AppIcon-Tinted.png",
+      "bytes": 116880,
+      "sha256": "e1676f636c47407a6236ec07841337e5bda76493d6b9f308523f24e2037b707f"
+    },
+    {
+      "file": "ios-appiconset/AppIcon.png",
+      "bytes": 195653,
+      "sha256": "0568698a0bafdd273a41d0fbac9228f98c6a26a87c1df3080495de8ae2ffb2ea"
+    },
+    {
+      "file": "ios-appiconset/Contents.json",
+      "bytes": 721,
+      "sha256": "f72757b2de0ffefc3254e4b50ae19382f80d06b9e317b0e43864b3c1d326836c"
+    },
+    {
+      "file": "menubar/Contents.json",
+      "bytes": 297,
+      "sha256": "f8a38bea2f211ce7c64a6f43a67f25e697d6664178d8e64d36d46c881d3bbcba"
+    },
+    {
+      "file": "menubar/menubar-template-18.png",
+      "bytes": 168,
+      "sha256": "521b34e8f300147d9ec7085e71fdc6665e04faf318571db634afa52b62f8bb37"
+    },
+    {
+      "file": "menubar/menubar-template-36.png",
+      "bytes": 286,
+      "sha256": "6a63547c31db8db63d0f4a95a49eecad01a698eac10e71de28191cf28235d547"
+    },
+    {
+      "file": "overview.png",
+      "bytes": 295035,
+      "sha256": "8dff4136e7c7d0f49d0a60cb8a5525387606d9ab0227a02c037c892be69f127c"
+    },
+    {
+      "file": "previews/app-store-search-simulation.png",
+      "bytes": 95014,
+      "sha256": "400dc0079add9f384d4cf3587e5a8618a3da58653e5a020a222cc717bdd2f78c"
+    },
+    {
+      "file": "previews/contact-layout.json",
+      "bytes": 2804,
+      "sha256": "66c71c8d5c2dd16a16247b252992dd81ca97fdc2fa5734b82d13b3429cd1d176"
+    },
+    {
+      "file": "previews/dock-simulation.png",
+      "bytes": 62827,
+      "sha256": "d5e886015ceb570cef8834468a82897b407f621328323e5696ad6e4d55ec2e2e"
+    },
+    {
+      "file": "previews/ios-review.png",
+      "bytes": 219997,
+      "sha256": "e892831f8d884d27d764b05df69b699fc0168decbfa987353cc6dfcc66c64282"
+    },
+    {
+      "file": "previews/menubar-simulation.png",
+      "bytes": 58264,
+      "sha256": "cd5800bb07cde40d1e90eca8009027251fa66960f779de3dae049e2df0179f53"
+    },
+    {
+      "file": "previews/optical-review.png",
+      "bytes": 114817,
+      "sha256": "09bcc57732bdcaa1011b44e3c95b71e16402acbab3a6973d528714f90bb82284"
+    },
+    {
+      "file": "qa-report.json",
+      "bytes": 1898,
+      "sha256": "57b4a776ae6746aa9eb5ad92c71021abccd52787d8fc872e849491168d02e9d7"
+    },
+    {
+      "file": "render.py",
+      "bytes": 20006,
+      "sha256": "d5d22a03ab868477aa84cbc11c8661d2de2639fde015b3e75b0bce3bf91a2bd1"
+    },
+    {
+      "file": "reproducibility-report.json",
+      "bytes": 1812,
+      "sha256": "a7c3408940bb23876f9ee5b45131704335a80bb49c2c199a38f9dabb15b009f4"
+    },
+    {
+      "file": "sources/ios-dark.svg",
+      "bytes": 6090,
+      "sha256": "5b12366224e333bdb352b170daa71fa686664dfaea6c316ff065d2d24ac24064"
+    },
+    {
+      "file": "sources/ios-light.svg",
+      "bytes": 6090,
+      "sha256": "cc9ca0ff16d298efb1327844f5c7ae609d93e9726153c6e31289aba5b8dbe127"
+    },
+    {
+      "file": "sources/ios-tinted.svg",
+      "bytes": 5683,
+      "sha256": "9c2a162846fc993ff305cb39afe757c1c8118ee3e4ec16e8f0642ef294abfb03"
+    },
+    {
+      "file": "sources/macos-optical-16.svg",
+      "bytes": 2348,
+      "sha256": "3059a0d2a9994d9d2091b969f484a163dabf02fee366b58a291468aa2fa373a9"
+    },
+    {
+      "file": "sources/macos-optical-32.svg",
+      "bytes": 3161,
+      "sha256": "bd82c24eef51386796a6974af765b2159afabb7243ad52773fdc5b6bfaa3f587"
+    },
+    {
+      "file": "sources/macos-original.svg",
+      "bytes": 5867,
+      "sha256": "662536340085f072410154d727eedfc0e0d279bc395686c19b8f898a330fad08"
+    },
+    {
+      "file": "sources/macos-subtle-background.svg",
+      "bytes": 5867,
+      "sha256": "43fa56a433cc5df46b65a50664e094e6e95cee51b17db7a3bbb6c4ada25be5eb"
+    },
+    {
+      "file": "sources/macos.svg",
+      "bytes": 5867,
+      "sha256": "662536340085f072410154d727eedfc0e0d279bc395686c19b8f898a330fad08"
+    },
+    {
+      "file": "sources/menubar-18.svg",
+      "bytes": 2090,
+      "sha256": "118ae84d9a6778f2baa519b0a5aeac2aef11b3187b16ecb661a763b0c56ef142"
+    },
+    {
+      "file": "sources/menubar-36.svg",
+      "bytes": 4349,
+      "sha256": "f5cff2ebf4e94dd406cd895c5c69cb445fa4682a060c331c4af636b8c284744e"
+    },
+    {
+      "file": "sources/menubar-notes.md",
+      "bytes": 2722,
+      "sha256": "b150f6a8d565f097ac43e7ab20d5d4e779e015c1d51411e28358e51b5ff2392a"
+    },
+    {
+      "file": "sources/menubar.py",
+      "bytes": 6771,
+      "sha256": "d828e1dc0f8220ca2925ec51a6461bb7c85b23e8390b15ca1c3a46fd20e5a1d9"
+    },
+    {
+      "file": "sources/optical-notes.md",
+      "bytes": 2946,
+      "sha256": "6e9e8c24d8743e4afccf6d52fb4fa41163adcc1c716ae5a2c5fcac493564ca76"
+    },
+    {
+      "file": "sources/optical-review.png",
+      "bytes": 70338,
+      "sha256": "d79c24801d3db81a85524456db6e8dd51ef767b06fc597ea7a9941521f610b82"
+    },
+    {
+      "file": "sources/sRGB.icc",
+      "bytes": 588,
+      "sha256": "ace8530ba40886c8784c3bb4e20e07739429a7baf18224189571cca0a47c10a1"
+    }
+  ]
+}

@@ -208,71 +208,71 @@
         }
       }
     },
-    "Copyo can't open its library right now.": {
+    "Copymunk can't open its library right now.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo can't open its library right now."
+            "value": "Copymunk can't open its library right now."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo ne peut pas ouvrir sa bibliothèque pour le moment."
+            "value": "Copymunk ne peut pas ouvrir sa bibliothèque pour le moment."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo 暂时打不开自己的资料库。"
+            "value": "Copymunk 暂时打不开自己的资料库。"
           }
         }
       }
     },
-    "Copyo couldn't read that image.": {
+    "Copymunk couldn't read that image.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo couldn't read that image."
+            "value": "Copymunk couldn't read that image."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo n’a pas pu lire cette image."
+            "value": "Copymunk n’a pas pu lire cette image."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo 读不出这张图片。"
+            "value": "Copymunk 读不出这张图片。"
           }
         }
       }
     },
-    "Copyo couldn't read what you shared.": {
+    "Copymunk couldn't read what you shared.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo couldn't read what you shared."
+            "value": "Copymunk couldn't read what you shared."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo n’a pas pu lire ce que vous avez partagé."
+            "value": "Copymunk n’a pas pu lire ce que vous avez partagé."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copyo 读不出你分享的内容。"
+            "value": "Copymunk 读不出你分享的内容。"
           }
         }
       }
@@ -530,25 +530,25 @@
         }
       }
     },
-    "Opens Copyo and saves whatever is on the clipboard right now.": {
+    "Opens Copymunk and saves whatever is on the clipboard right now.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Opens Copyo and saves whatever is on the clipboard right now."
+            "value": "Opens Copymunk and saves whatever is on the clipboard right now."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ouvre Copyo et enregistre le contenu actuel du presse-papiers."
+            "value": "Ouvre Copymunk et enregistre le contenu actuel du presse-papiers."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "打开 Copyo，把此刻剪贴板里的内容存下来。"
+            "value": "打开 Copymunk，把此刻剪贴板里的内容存下来。"
           }
         }
       }
@@ -622,25 +622,25 @@
         }
       }
     },
-    "Save ${text} to Copyo": {
+    "Save ${text} to Copymunk": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save ${text} to Copyo"
+            "value": "Save ${text} to Copymunk"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "把${text}存进 Copyo"
+            "value": "把${text}存进 Copymunk"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Enregistrer ${text} dans Copyo"
+            "value": "Enregistrer ${text} dans Copymunk"
           }
         }
       }
@@ -691,25 +691,25 @@
         }
       }
     },
-    "Save to Copyo": {
+    "Save to Copymunk": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Copyo"
+            "value": "Save to Copymunk"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Enregistrer dans Copyo"
+            "value": "Enregistrer dans Copymunk"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "保存到 Copyo"
+            "value": "保存到 Copymunk"
           }
         }
       }
@@ -737,48 +737,48 @@
         }
       }
     },
-    "Saves text, a link, or an image to Copyo without opening the app.": {
+    "Saves text, a link, or an image to Copymunk without opening the app.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Saves text, a link, or an image to Copyo without opening the app."
+            "value": "Saves text, a link, or an image to Copymunk without opening the app."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Enregistre un texte, un lien ou une image dans Copyo sans ouvrir l’app."
+            "value": "Enregistre un texte, un lien ou une image dans Copymunk sans ouvrir l’app."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "把文本、链接或图片存进 Copyo，不打开 App。"
+            "value": "把文本、链接或图片存进 Copymunk，不打开 App。"
           }
         }
       }
     },
-    "Saves what's on the clipboard to Copyo.": {
+    "Saves what's on the clipboard to Copymunk.": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Saves what's on the clipboard to Copyo."
+            "value": "Saves what's on the clipboard to Copymunk."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Enregistre dans Copyo le contenu actuel du presse-papiers."
+            "value": "Enregistre dans Copymunk le contenu actuel du presse-papiers."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "把剪贴板里的内容存进 Copyo。"
+            "value": "把剪贴板里的内容存进 Copymunk。"
           }
         }
       }

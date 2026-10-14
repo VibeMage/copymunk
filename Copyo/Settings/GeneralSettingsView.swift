@@ -21,7 +21,7 @@ struct GeneralSettingsView: View {
         SettingsPage {
             SettingsHeader("Startup")
             SettingsGroup {
-                SettingsToggleRow(title: Text("Launch Copyo at login"), isOn: $launchAtLogin) {
+                SettingsToggleRow(title: Text("Launch Copymunk at login"), isOn: $launchAtLogin) {
                     SettingsTile(hex: "#34C759", symbol: "power")
                 }
                 SettingsSeparator()
@@ -29,8 +29,8 @@ struct GeneralSettingsView: View {
                 // 再次打开 App → 面板 → 齿轮，这条路径已经存在
                 SettingsToggleRow(title: Text("Show icon in menu bar"),
                                   subtitle: hotkeyWorks
-                                      ? Text("When this is off, press \(hotkeyDisplay) or open Copyo again in Finder to get back to Settings")
-                                      : Text("When this is off, open Copyo again in Finder to get back to Settings"),
+                                      ? Text("When this is off, press \(hotkeyDisplay) or open Copymunk again in Finder to get back to Settings")
+                                      : Text("When this is off, open Copymunk again in Finder to get back to Settings"),
                                   isOn: $showMenuBarIcon) {
                     SettingsTile(hex: "#8E8E93", symbol: "menubar.rectangle")
                 }
@@ -39,7 +39,7 @@ struct GeneralSettingsView: View {
             SettingsHeader("Capture")
             SettingsGroup {
                 SettingsToggleRow(title: Text("Record clipboard automatically"),
-                                  subtitle: Text("Copyo records in the background and needs no permissions"),
+                                  subtitle: Text("Copymunk records in the background and needs no permissions"),
                                   isOn: $captureEnabled) {
                     SettingsTile(color: CopyoTheme.accent, symbol: "doc.on.clipboard")
                 }
@@ -61,7 +61,7 @@ struct GeneralSettingsView: View {
             SettingsFooter("Applies when you press ↩. ⇧↩ always copies as plain text.")
 
             // 「不代粘贴」这条硬约束的对外说明，不可删、不可改写成粘贴动作的说明（design-spec §04）
-            SettingsFooter("After you copy, Copyo writes the item back to the system clipboard and hands focus back to the app you came from. You press ⌘V yourself — Copyo never pastes for you.")
+            SettingsFooter("After you copy, Copymunk writes the item back to the system clipboard and hands focus back to the app you came from. You press ⌘V yourself — Copymunk never pastes for you.")
         }
         .onChange(of: launchAtLogin) { _, enabled in
             // 回弹到系统实际状态时这里会再进来一次；状态已经一致就什么都不做，免得反复注册

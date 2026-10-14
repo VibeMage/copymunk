@@ -1,8 +1,8 @@
-# Copyo
+# Copymunk
 
 [简体中文](README.md)
 
-Copyo is an open-source clipboard manager for macOS: it lives in the menu bar, `⇧⌘V` brings up a floating card panel, and you search your history as you type.
+Copymunk is an open-source clipboard manager for macOS: it lives in the menu bar, `⇧⌘V` brings up a floating card panel, and you search your history as you type.
 Data lives on this Mac (`~/Library/Application Support/Copyo/`) and syncing is off by default; there are no third-party SDKs, no analytics and no crash reporting, which makes it a fit for workplaces that do not allow third-party closed-source tools.
 
 ## Features
@@ -18,7 +18,7 @@ Data lives on this Mac (`~/Library/Application Support/Copyo/`) and syncing is o
 - **Sync (optional, pick one of three)**: Off / Folder / iCloud. The folder option writes your history and Pinboards out as snapshots into iCloud Drive
   or any directory all of your devices can read and write (a company NAS, another cloud-sync folder, and so on), and **does not propagate deletions** — an entry you delete on one Mac
   stays on your other Macs. The iCloud option syncs through your own iCloud private database, where additions, edits and deletions all take effect, so **a deletion disappears from every device at once**.
-  Either way the data only ever passes through storage you own. Sync is off by default, so Copyo can stay completely offline in a corporate environment
+  Either way the data only ever passes through storage you own. Sync is off by default, so Copymunk can stay completely offline in a corporate environment
 - **Custom shortcut**: `⇧⌘V` by default; record any key combination in Settings
 - **History limit**: 100/300/500/1000/unlimited; past the limit, the oldest unpinned entries are cleaned up automatically
 - **Launch at login**, hiding the menu bar icon, pausing capture, plain-text mode and other settings
@@ -26,9 +26,9 @@ Data lives on this Mac (`~/Library/Application Support/Copyo/`) and syncing is o
 
 ## Installation
 
-Copyo is available on the [Mac App Store](https://apps.apple.com/app/id6813955206).
+Copymunk is available on the [Mac App Store](https://apps.apple.com/app/id6813955206).
 
-You can also grab the DMG from [Releases](https://github.com/VibeMage/copyo/releases), open it and drag Copyo
+You can also grab the DMG from [Releases](https://github.com/VibeMage/copyo/releases), open it and drag Copymunk
 into Applications. Official releases are signed with a Developer ID and notarized by Apple, so a double-click is all it takes —
 you only get the standard "app downloaded from the Internet" confirmation dialog the first time.
 
@@ -54,7 +54,7 @@ It installs the direct-distribution flavor (not sandboxed), which reads your eve
 `~/Library/Application Support/Copyo/`, signed with your Apple Development certificate so iCloud sync works
 (requires your team account in Xcode). The previous version is kept in `build.noindex/install/previous/`.
 If `/Applications` holds the App Store version, the script stops first; delete that copy and run it again.
-It only quits the `/Applications` copy of Copyo and leaves other instances such as Debug builds running,
+It only quits the `/Applications` copy of Copymunk and leaves other instances such as Debug builds running,
 just listing them (they compete with the new install for ⇧⌘V).
 Only the `/Applications` copy stays registered: builds live under `build.noindex/` (skipped by Spotlight)
 and are unregistered from LaunchServices after installing, so “Open With” doesn’t fill up with dev builds.
@@ -108,21 +108,19 @@ Your history lives in `~/Library/Application Support/Copyo/` and is left untouch
 
 ## Icon
 
-The two platforms have separate icons, so changing the icon means running **both** commands:
+The icon's source lives in `art/app-icon-exploration/2026-10-15-copymunk-final/`, with the spec in
+`copymunk-icon-spec.md` there. The 10 macOS sizes (16 and 32 are hand-tuned optical drafts), the iOS
+light / dark / tinted variants and the two menu bar templates are all rendered straight from their own
+SVGs by one script, then synced into the asset catalogs:
 
 ```bash
-./scripts/make-icon.sh          # macOS: scale art/icon-master.png into the 10 sizes in the asset catalog
-./scripts/make-icon.sh --ios    # iOS: redraw the light / dark / tinted variants from art/icon/copyo-icon-spec.md
+python3 art/app-icon-exploration/2026-10-15-copymunk-final/render.py   # re-render from the SVGs in sources/
+./scripts/make-icon.sh            # copy the 15 PNGs into the three asset catalogs
+./scripts/make-icon.sh --check    # only compare the asset catalogs with the source
 ```
 
-The macOS run reads `art/icon-master.png` (1024×1024); replace that file with your own design.
-The iOS run takes no input image — an iOS icon has to be full-bleed with no alpha and needs three
-appearance variants, none of which can be derived from a single raster master, so the script draws it
-from the spec; changing the iOS icon means editing the geometry and color tables inside the script.
-The iOS path needs Pillow (`python3 -m pip install --user Pillow`); the macOS path only uses the
-system's own `sips`.
-
-Run the bare command alone and the iOS AppIcon keeps the old artwork, so the build ships a stale icon.
+`render.py` needs Pillow and resvg-py (`python3 -m pip install --user Pillow resvg-py`);
+`make-icon.sh` only copies and never rescales, so small sizes and iOS variants are never blurred by downscaling.
 
 Then rebuild to pick it up. The repository currently ships a programmatically drawn placeholder icon.
 

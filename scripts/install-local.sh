@@ -1,9 +1,9 @@
 #!/bin/bash
-# 把当前代码编成直分发版（Release 配置，Apple Development 签名），替换 /Applications/Copyo.app 并重启。
+# 把当前代码编成直分发版（Release 配置，Apple Development 签名），替换 /Applications/Copymunk.app 并重启。
 # 用途：本机日常用的那份 Copyo 就是最新 build。
 #
 # 用法:
-#   ./scripts/install-local.sh           编译 → 替换 /Applications/Copyo.app → 重启
+#   ./scripts/install-local.sh           编译 → 替换 /Applications/Copymunk.app → 重启
 #   ./scripts/install-local.sh --help    打印用法
 #
 # 几个刻意的选择:
@@ -13,15 +13,15 @@
 # - 只手动运行，不挂 git 钩子：本仓库 core.hooksPath 指向入库的 .beads/hooks（beads 的钩子，公开文件），
 #   没有链式调用本地钩子的地方，本机的自动安装不该写进公开仓库。也不在每次编译后自动装：
 #   调试中的半成品会顶掉你日常在用的那份。
-# - 不覆盖商店版：/Applications/Copyo.app 带 _MASReceipt 时直接停下，要先手动删掉；
+# - 不覆盖商店版：/Applications/Copymunk.app 带 _MASReceipt 时直接停下，要先手动删掉；
 #   目标位置不可写时也停下说明。这两项在编译前、退出 App 前各查一次，查不过什么都不动。
-# - 只退出 /Applications/Copyo.app 这一份（按可执行文件路径认进程），用 AppleScript 按路径礼貌退出，
+# - 只退出 /Applications/Copymunk.app 这一份（按可执行文件路径认进程），用 AppleScript 按路径礼貌退出，
 #   5 秒不走再 kill 那个 pid。别的 Copyo（Debug 构建、worktree 构建、-demoData 拍摄实例、
 #   模拟器里的 iOS 版）一律不碰，只在最后提示哪些 Mac 实例还在跑：它们会和新装的抢 ⇧⌘V。
 # - 本机只留一份：同一个 bundle ID 散落多份时，LaunchServices 与 Spotlight 会把它们全部登记，
 #   「打开方式」和 Spotlight 里就是一排 Copyo（2026-09-27 清过一次十几份）。所以构建目录放在
 #   build.noindex/ 下（Spotlight 跳过 .noindex 目录），装完把构建产物和旧版备份从 LaunchServices 注销。
-# - 替换前把旧版挪进 build.noindex/install/previous/Copyo.app，装坏了可以手动挪回来；只保留一份备份。
+# - 替换前把旧版挪进 build.noindex/install/previous/Copymunk.app，装坏了可以手动挪回来；只保留一份备份。
 #   新版没挪进去时自动把旧版挪回原位并重新打开；半成品 Copyo.installing.app 失败时清掉。
 # - 同一时间只跑一个：build.noindex/install/.lock 是互斥锁（mkdir 原子创建），退出时删掉。
 #
@@ -33,7 +33,7 @@ set -euo pipefail
 usage() {
   cat <<'USAGE'
 用法: ./scripts/install-local.sh [--help]
-  不带参数：编译直分发 Release → 替换 /Applications/Copyo.app → 重启
+  不带参数：编译直分发 Release → 替换 /Applications/Copymunk.app → 重启
   -h, --help：打印本说明
 USAGE
 }
@@ -47,13 +47,15 @@ esac
 cd "$(dirname "$0")/.."
 
 BUNDLE_ID=dev.vibemage.Copyo
-DEST=/Applications/Copyo.app
-DEST_EXE=$DEST/Contents/MacOS/Copyo
+DEST=/Applications/Copymunk.app
+DEST_EXE=$DEST/Contents/MacOS/Copymunk
+# 1.2.2 起产物从 Copyo.app 改名为 Copymunk.app；旧名那份还在就会和新装的抢 ⇧⌘V
+LEGACY=/Applications/Copyo.app
 STAGING="${DEST%.app}.installing.app"
 WORK=build.noindex/install
 DERIVED=$WORK/dd
-BUILT=$DERIVED/Build/Products/Release/Copyo.app
-PREVIOUS=$WORK/previous/Copyo.app
+BUILT=$DERIVED/Build/Products/Release/Copymunk.app
+PREVIOUS=$WORK/previous/Copymunk.app
 LOG=$WORK/build.log
 LOCK=$WORK/.lock
 LSREGISTER=/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister
@@ -116,6 +118,11 @@ echo $$ > "$LOCK/pid"
 check_dest() {
   local dir
   dir=$(dirname "$DEST")
+  if [[ -e "$LEGACY" ]]; then
+    echo "$LEGACY 是改名前的旧版，它和 Copymunk.app 是同一个 bundle ID、读同一份历史，两份同时在就会抢 ⇧⌘V，什么都没动。" >&2
+    echo "先退出 Copyo，把 $LEGACY 移到废纸篓，再重跑本脚本；历史在 ~/Library/Application Support/Copyo，不受影响。" >&2
+    exit 1
+  fi
   if [[ -e "$DEST/Contents/_MASReceipt" ]]; then
     echo "$DEST 是从 Mac App Store 装的商店版（带 _MASReceipt），本脚本不覆盖它，什么都没动。" >&2
     echo "商店版是沙盒配置，历史在 ~/Library/Containers/${BUNDLE_ID}；直分发版读 ~/Library/Application Support/Copyo，两份互不相通。" >&2

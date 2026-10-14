@@ -1,8 +1,8 @@
-# Copyo
+# Copymunk
 
 [English](README.en.md)
 
-Copyo 是一款开源的 macOS 剪贴板管理工具：菜单栏常驻，`⇧⌘V` 唤出悬浮卡片面板，历史即输即搜。
+Copymunk 是一款开源的 macOS 剪贴板管理工具：菜单栏常驻，`⇧⌘V` 唤出悬浮卡片面板，历史即输即搜。
 数据保存在本机（`~/Library/Application Support/Copyo/`），同步默认关闭；不含任何第三方 SDK、统计或崩溃上报，适合不允许安装第三方闭源工具的办公环境。
 
 ## 功能
@@ -28,7 +28,7 @@ Copyo 是一款开源的 macOS 剪贴板管理工具：菜单栏常驻，`⇧⌘
 
 Mac 版已在 [Mac App Store](https://apps.apple.com/app/id6813955206) 上架。
 
-也可以从 [Releases](https://github.com/VibeMage/copyo/releases) 下载 DMG，打开后把 Copyo
+也可以从 [Releases](https://github.com/VibeMage/copyo/releases) 下载 DMG，打开后把 Copymunk
 拖进 Applications 即可。官方发布均已使用 Developer ID 签名并通过 Apple 公证——双击即可打开，
 仅首次有一次「从互联网下载的 App」标准确认弹窗。
 
@@ -52,7 +52,7 @@ open build/Build/Products/Release/Copyo.app   # 或拷贝到 /Applications
 
 装的是直分发版（非沙盒），读 `~/Library/Application Support/Copyo/` 那份日常历史；用 Apple Development
 证书签名，iCloud 同步可用（需要 Xcode 里已登录团队账号）。旧版备份在 `build.noindex/install/previous/`。
-`/Applications` 里是商店版时脚本会先停下，删掉商店版再跑。它只退出 `/Applications` 那一份 Copyo，
+`/Applications` 里是商店版时脚本会先停下，删掉商店版再跑。它只退出 `/Applications` 那一份 Copymunk，
 Debug 构建等其他实例不碰，只提示它们还在跑（会和新装的抢 ⇧⌘V）。
 本机只留 `/Applications` 这一份：构建目录放在 `build.noindex/`（Spotlight 不索引），装完把构建产物从
 LaunchServices 注销，「打开方式」里不会冒出一排开发版。商店包要验证时走 TestFlight。
@@ -134,19 +134,18 @@ CI 只做编译校验与手动演练。理由与改回条件见 [`docs/ci.md`](d
 
 ## 图标
 
-两个平台的图标是分开生成的，换图标时**两条都要跑**：
+图标的源头在 `art/app-icon-exploration/2026-10-15-copymunk-final/`，规格见其中的
+`copymunk-icon-spec.md`。macOS 10 个规格（16 / 32 是手工光学稿）、iOS 浅色 / 深色 / 着色三张、
+菜单栏模板两张，都由同一个脚本从各自的 SVG 直接出图，再同步进资产目录：
 
 ```bash
-./scripts/make-icon.sh          # macOS：把 art/icon-master.png 缩成资产目录里的 10 个规格
-./scripts/make-icon.sh --ios    # iOS：按 art/icon/copyo-icon-spec.md 重画浅色 / 深色 / 单色三份
+python3 art/app-icon-exploration/2026-10-15-copymunk-final/render.py   # 从 sources/ 里的 SVG 重新出图
+./scripts/make-icon.sh            # 把 15 张 PNG 复制进三个资产目录
+./scripts/make-icon.sh --check    # 只比对资产目录和源头是否一致
 ```
 
-macOS 那条读 `art/icon-master.png`（1024×1024），换成你自己的设计即可。iOS 那条不吃输入
-图片——iOS 图标必须满幅且不带 alpha，还要三个外观变体，没法从一张栅格主图派生，所以是
-脚本按 spec 现画的；改 iOS 图标要改脚本里的几何与配色表。iOS 这条路需要 Pillow
-（`python3 -m pip install --user Pillow`），macOS 那条只用系统自带的 sips。
-
-只跑不带参数的那条，iOS 的 AppIcon 会停在旧版本，构建出来的包里就是一个过期的图标。
+`render.py` 需要 Pillow 和 resvg-py（`python3 -m pip install --user Pillow resvg-py`）；
+`make-icon.sh` 只做复制，不缩放，所以小尺寸和 iOS 变体不会被按比例缩糊。
 
 再重新构建即可生效。当前仓库内置一个程序化绘制的占位图标。
 

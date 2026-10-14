@@ -27,7 +27,7 @@ struct AboutView: View {
                     .interpolation(.high)
                     .frame(width: 96, height: 96)
                     .accessibilityHidden(true)
-                Text(verbatim: "Copyo")
+                Text(verbatim: "Copymunk")
                     .font(.system(size: 17, weight: .bold))
                     .foregroundStyle(CopyoTheme.label)
                     .padding(.top, 4)
@@ -38,7 +38,7 @@ struct AboutView: View {
                     } else {
                         Text("Everything you’ve copied is here.")
                     }
-                    Text("Your history lives only on this Mac and in the sync location you choose. Copyo collects no data.")
+                    Text("Your history lives only on this Mac and in the sync location you choose. Copymunk collects no data.")
                 }
                 .font(.system(size: 12))
                 .lineSpacing(4)

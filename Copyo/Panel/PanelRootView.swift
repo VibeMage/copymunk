@@ -331,7 +331,7 @@ struct PanelRootView: View {
     /// 探测出全局快捷键按下去 Copyo 收不到时，不再教用户按它（7.5.1，与菜单栏「打开 Copyo」一致）
     private var historyEmptyState: some View {
         emptyIllustration(title: String(localized: "Nothing here yet"),
-                          body: String(localized: "Anything you copy shows up here. Copyo records it in the background — there is nothing you need to do."),
+                          body: String(localized: "Anything you copy shows up here. Copymunk records it in the background — there is nothing you need to do."),
                           showsHotkey: (AppDelegate.shared?.hotkeyStatus ?? .active) == .active)
     }
 

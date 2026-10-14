@@ -303,7 +303,7 @@ final class AppModel {
         guard let clipID = QuickSaveCoordinator.consumeCopyRequest() else { return false }
         // 解不开或库里已经没有：都是「小组件上那一格已经过期了」，给一句话，不要静默什么都不做
         guard let id = SpotlightIndexer.modelID(from: clipID), let item = clip(with: id) else {
-            toast.show(String(localized: "That clip is no longer in Copyo."), symbol: "questionmark.circle", kind: .info)
+            toast.show(String(localized: "That clip is no longer in Copymunk."), symbol: "questionmark.circle", kind: .info)
             return true
         }
         copy(item)

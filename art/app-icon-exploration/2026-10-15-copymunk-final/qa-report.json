@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "assets": [
+    {
+      "file": "appiconset/icon_16x16.png",
+      "size": 16,
+      "mode": "RGBA"
+    },
+    {
+      "file": "appiconset/icon_16x16@2x.png",
+      "size": 32,
+      "mode": "RGBA"
+    },
+    {
+      "file": "appiconset/icon_32x32.png",
+      "size": 32,
+      "mode": "RGBA"
+    },
+    {
+      "file": "appiconset/icon_32x32@2x.png",
+      "size": 64,
+      "mode": "RGBA"
+    },
+    {
+      "file": "appiconset/icon_128x128.png",
+      "size": 128,
+      "mode": "RGBA"
+    },
+    {
+      "file": "appiconset/icon_128x128@2x.png",
+      "size": 256,
+      "mode": "RGBA"
+    },
+    {
+      "file": "appiconset/icon_256x256.png",
+      "size": 256,
+      "mode": "RGBA"
+    },
+    {
+      "file": "appiconset/icon_256x256@2x.png",
+      "size": 512,
+      "mode": "RGBA"
+    },
+    {
+      "file": "appiconset/icon_512x512.png",
+      "size": 512,
+      "mode": "RGBA"
+    },
+    {
+      "file": "appiconset/icon_512x512@2x.png",
+      "size": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "file": "ios-appiconset/AppIcon.png",
+      "size": 1024,
+      "mode": "RGB"
+    },
+    {
+      "file": "ios-appiconset/AppIcon-Dark.png",
+      "size": 1024,
+      "mode": "RGB"
+    },
+    {
+      "file": "ios-appiconset/AppIcon-Tinted.png",
+      "size": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "file": "menubar/menubar-template-18.png",
+      "size": 18,
+      "mode": "RGBA",
+      "binary_alpha": true
+    },
+    {
+      "file": "menubar/menubar-template-36.png",
+      "size": 36,
+      "mode": "RGBA",
+      "binary_alpha": true
+    }
+  ],
+  "selected_master_unchanged": true,
+  "selected_master_pixels_unchanged": true,
+  "optical_source_grids": [
+    16,
+    32
+  ],
+  "native_mac_contact_samples": 20,
+  "runtime_status": "Integrated via scripts/make-icon.sh; simulations are not runtime screenshots; system mask is a presentation approximation."
+}

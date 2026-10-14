@@ -85,7 +85,7 @@ private struct ShareRootView: View {
             payload = loaded
         case .empty:
             if loadErrorMessage == nil {
-                loadErrorMessage = String(localized: "Copyo couldn't read what you shared.")
+                loadErrorMessage = String(localized: "Copymunk couldn't read what you shared.")
             }
         case .timedOut:
             if loadErrorMessage == nil {

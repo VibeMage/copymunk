@@ -152,9 +152,9 @@ fi
 grep -E "warning:" "$EXPORT_LOG" | grep -v appintentsmetadata || true
 rm -f "$EXPORT_LOG"
 
-APP="$EXPORT_DIR/out/Copyo.app"
+APP="$EXPORT_DIR/out/Copymunk.app"
 if [[ ! -d "$APP" ]]; then
-  echo "导出成功但没找到 Copyo.app，请检查 ${EXPORT_DIR}/out" >&2
+  echo "导出成功但没找到 Copymunk.app，请检查 ${EXPORT_DIR}/out" >&2
   exit 1
 fi
 codesign --verify --strict "$APP"
@@ -177,17 +177,17 @@ echo "==> 生成 DMG"
 STAGING=$(mktemp -d)
 cp -R "$APP" "$STAGING/"
 ln -s /Applications "$STAGING/Applications"
-hdiutil create -volname "Copyo" -srcfolder "$STAGING" -ov -quiet \
-  -format UDZO "dist/Copyo-$VERSION.dmg"
+hdiutil create -volname "Copymunk" -srcfolder "$STAGING" -ov -quiet \
+  -format UDZO "dist/Copymunk-$VERSION.dmg"
 rm -rf "$STAGING"
 
 echo "==> 生成 ZIP"
-ditto -c -k --keepParent "$APP" "dist/Copyo-$VERSION.zip"
+ditto -c -k --keepParent "$APP" "dist/Copymunk-$VERSION.zip"
 
 rm -rf "$EXPORT_DIR"
 
 # 构建产物不进启动台/Spotlight（xcodebuild 每次都会自动注册）
-for _p in "$ARCHIVE/Products/Applications/Copyo.app" build/Build/Products/Release/Copyo.app; do
+for _p in "$ARCHIVE/Products/Applications/Copymunk.app" build/Build/Products/Release/Copymunk.app; do
   [ -d "$_p" ] && /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -u "$_p" 2>/dev/null || true
 done
 

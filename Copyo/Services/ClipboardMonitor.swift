@@ -179,8 +179,12 @@ final class ClipboardMonitor {
         }
 
         context.insert(newItem)
+        // LSUIElement 应用没有常规窗口事件循环，autosave 不可靠，必须显式保存。
+        // 必须先落盘再清上限：fetchOffset 只作用于已落盘的行，未保存的插入会被追加在
+        // 结果末尾——先清的话，历史一满（默认 500 条）每次新复制都正好被当成「最旧的」删掉。
+        // 落盘失败就不清，免得又删到这一条。
+        guard (try? context.save()) != nil else { return }
         trimHistory()
-        // LSUIElement 应用没有常规窗口事件循环，autosave 不可靠，必须显式保存
         try? context.save()
     }
 

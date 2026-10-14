@@ -41,7 +41,7 @@ enum SyncOffReason: Equatable {
         case .noEntitlement: String(localized: "This build is not signed for iCloud sync")
         case .noAccount: String(localized: "Sign in to iCloud to sync with your Mac")
         case .accountRestricted: String(localized: "iCloud is restricted on this device")
-        case .accountTemporarilyUnavailable: String(localized: "iCloud is temporarily unavailable. Copyo will try again.")
+        case .accountTemporarilyUnavailable: String(localized: "iCloud is temporarily unavailable. Copymunk will try again.")
         case .localOnlyLaunch: String(localized: "Running in local-only mode")
         case .failed(let detail): detail
         }

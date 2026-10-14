@@ -90,7 +90,7 @@ struct SyncSettingsView: View {
             if cloudWipePending {
                 // 唯一一种「删除真的会到 iCloud」的情况，也是唯一一种没法观测进度的情况。
                 // 不挂这一行的话，确认框里那句「保持打开」用户根本没法照着做。
-                SettingsRow(title: Text("Copyo is sending the deletion to your iCloud private database. Keep Copyo open and signed in to iCloud. Copyo cannot tell you when this has finished."),
+                SettingsRow(title: Text("Copymunk is sending the deletion to your iCloud private database. Keep Copymunk open and signed in to iCloud. Copymunk cannot tell you when this has finished."),
                             lead: { SettingsStatusIcon(symbol: "arrow.triangle.2.circlepath.icloud", color: CopyoTheme.warning) },
                             trailing: { Button("Finish Erasing This Mac") { AppDelegate.shared?.finishErasing() } })
             }
@@ -100,7 +100,7 @@ struct SyncSettingsView: View {
             if icloudCopyMayRemain {
                 // 在 iCloud 同步关着的时候擦过一次：云端那份没动。用户一旦把 iCloud
                 // 打开，整份历史有可能被导回来——这句话必须在选 iCloud 之前就看得到。
-                SettingsRow(title: Text("Copyo erased this Mac while iCloud sync was off, so the iCloud copy was never removed. Turning iCloud sync on can bring those entries back.")) {
+                SettingsRow(title: Text("Copymunk erased this Mac while iCloud sync was off, so the iCloud copy was never removed. Turning iCloud sync on can bring those entries back.")) {
                     SettingsStatusIcon(symbol: "exclamationmark.triangle.fill", color: CopyoTheme.warning)
                 }
             }
@@ -112,13 +112,13 @@ struct SyncSettingsView: View {
     /// 「界面说关了、CloudKit 还在传、一个字都不说」——正是这次要修掉的那一格。
     private func confirmStopCloudKit() {
         let alert = NSAlert()
-        alert.messageText = String(localized: "Restart Copyo to stop iCloud sync?")
+        alert.messageText = String(localized: "Restart Copymunk to stop iCloud sync?")
         alert.informativeText = cloudWipePending
             // 刚用「删除所有数据」擦过、删除还在往 iCloud 推：这一重启就等于把没推完的
             // 那部分永远留在云端。绝不能拿「什么都不会丢」糊过去——恰恰是删除会丢。
-            ? String(localized: "Until Copyo restarts, this Mac keeps sending your clipboard history to your iCloud private database. Copyo is also still sending the entries you deleted; whatever has not been sent when Copyo restarts stays in iCloud.")
-            : String(localized: "Until Copyo restarts, this Mac keeps sending your clipboard history to your iCloud private database. If you don’t restart now, Copyo keeps using iCloud sync for the rest of this session.")
-        alert.addButton(withTitle: String(localized: "Restart Copyo"))
+            ? String(localized: "Until Copymunk restarts, this Mac keeps sending your clipboard history to your iCloud private database. Copymunk is also still sending the entries you deleted; whatever has not been sent when Copymunk restarts stays in iCloud.")
+            : String(localized: "Until Copymunk restarts, this Mac keeps sending your clipboard history to your iCloud private database. If you don’t restart now, Copymunk keeps using iCloud sync for the rest of this session.")
+        alert.addButton(withTitle: String(localized: "Restart Copymunk"))
         alert.addButton(withTitle: String(localized: "Not Now"))
         // 关掉对话框不该顺手把应用退掉：Return 给「稍后」
         alert.buttons[0].keyEquivalent = ""
@@ -195,7 +195,7 @@ private struct CloudKitSyncSections: View {
             } else if containerError.isEmpty {
                 // 这份构建没有 iCloud entitlement：账号状态查不得（查了会直接终止进程），
                 // 启动时也没走 iCloud 那条路，所以在这里直接把原因说出来
-                SettingsRow(title: Text("This copy of Copyo is not signed for iCloud sync.")) {
+                SettingsRow(title: Text("This copy of Copymunk is not signed for iCloud sync.")) {
                     SettingsStatusIcon(symbol: "exclamationmark.icloud", color: CopyoTheme.warning)
                 }
             }
@@ -206,20 +206,20 @@ private struct CloudKitSyncSections: View {
                 // 这句话让用户重启，就得给他一个按得到的按钮。新建的 CloudKit 容器
                 // 首次连接被拒是已知坑，重启一次就恢复。
                 SettingsRow(title: Text("iCloud sync could not start: \(containerError)"),
-                            subtitle: Text("Copyo is using the local database only, so nothing was lost. Fix the problem above and restart Copyo."),
+                            subtitle: Text("Copymunk is using the local database only, so nothing was lost. Fix the problem above and restart Copymunk."),
                             lead: { SettingsStatusIcon(symbol: "exclamationmark.icloud", color: CopyoTheme.warning) },
-                            trailing: { Button("Restart Copyo") { AppDelegate.shared?.restartForSyncChange() } })
+                            trailing: { Button("Restart Copymunk") { AppDelegate.shared?.restartForSyncChange() } })
             }
             if needsRestartToStart {
                 SettingsSeparator()
                 // 画板：「改了同步方式，重启后生效」+「重启 Copyo」，只在切换方式后出现
                 SettingsRow(title: Text("Sync method changed — restart to apply"),
                             lead: { SettingsStatusIcon(symbol: "exclamationmark.icloud", color: CopyoTheme.warning) },
-                            trailing: { Button("Restart Copyo") { AppDelegate.shared?.restartForSyncChange() } })
+                            trailing: { Button("Restart Copymunk") { AppDelegate.shared?.restartForSyncChange() } })
             }
         }
         if containerError.isEmpty && !pushError.isEmpty {
-            SettingsFooter("Push notifications are unavailable on this Mac, so changes made on your other devices only arrive when Copyo starts.")
+            SettingsFooter("Push notifications are unavailable on this Mac, so changes made on your other devices only arrive when Copymunk starts.")
         }
     }
 
@@ -367,7 +367,7 @@ private struct FolderSyncSections: View {
             }
             if lostAccess {
                 SettingsSeparator()
-                FolderUnreachableRow(reason: Text("The folder was moved or renamed, or Copyo lost permission to it.")) {
+                FolderUnreachableRow(reason: Text("The folder was moved or renamed, or Copymunk lost permission to it.")) {
                     chooseFolder()
                 }
             } else if folderPath != nil {
@@ -378,7 +378,7 @@ private struct FolderSyncSections: View {
                 }
             }
         }
-        SettingsFooter("Any folder all of your devices share works — for example a folder inside iCloud Drive, or a company drive. Copyo keeps its files in its own subfolder and can only reach the folder you pick here.")
+        SettingsFooter("Any folder all of your devices share works — for example a folder inside iCloud Drive, or a company drive. Copymunk keeps its files in its own subfolder and can only reach the folder you pick here.")
             .task { refreshFolderPath() }
             // 同步目录可能在应用不活跃时被删除/卸载，回到前台时重新确认一次，
             // 否则这一页会一直显示早已失效的旧路径。
@@ -481,7 +481,7 @@ private struct FolderSyncSections: View {
     private var unreachableReason: Text {
         syncFolderOverride.isEmpty
             ? Text("iCloud Drive is turned off on this Mac. Turn it on in System Settings, or choose another folder.")
-            : Text("The folder was moved or renamed, or Copyo lost permission to it.")
+            : Text("The folder was moved or renamed, or Copymunk lost permission to it.")
     }
 
     private func refreshAvailability() {

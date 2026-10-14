@@ -298,8 +298,8 @@ jobs:
             DEVELOPMENT_TEAM="" \
             PROVISIONING_PROFILE_SPECIFIER="" \
             2>&1 | tee build/logs/unsigned-release.log
-          test -d build/Build/Products/Release/Copyo.app \
-            || { echo '::error::xcodebuild 返回 0 但没产出 Copyo.app'; exit 1; }
+          test -d build/Build/Products/Release/Copymunk.app \
+            || { echo '::error::xcodebuild 返回 0 但没产出 Copymunk.app'; exit 1; }
 
       - name: 清理证书与密钥
         if: always()
@@ -331,7 +331,7 @@ jobs:
           path: |
             dist/
             build/logs/
-            build/Build/Products/Release/Copyo.app
+            build/Build/Products/Release/Copymunk.app
             build/Copyo-CI.xcarchive/dSYMs
           if-no-files-found: ignore
           retention-days: 14
@@ -348,9 +348,9 @@ jobs:
           # 只附 DMG / ZIP / 校验和；.pkg 是上架专用（沙盒 + installer 证书），
           # 混在一起只会让用户装错。
           gh release create "$TAG" \
-            "dist/Copyo-$VERSION.dmg" \
-            "dist/Copyo-$VERSION.zip" \
+            "dist/Copymunk-$VERSION.dmg" \
+            "dist/Copymunk-$VERSION.zip" \
             dist/SHA256SUMS.txt \
-            --title "Copyo $VERSION" \
+            --title "Copymunk $VERSION" \
             --generate-notes \
             --verify-tag

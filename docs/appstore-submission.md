@@ -1365,3 +1365,38 @@ Figma / Microsoft Remote Desktop 两张演示卡是空白来源图标（拍摄�
 2026-09-28 已替换 Mac 1.2.1 (4) 版本页（`PREPARE_FOR_SUBMISSION`）：zh-Hans / en-US 各 5 张截图 + 1 段预览，全部 `COMPLETE`，
 顺序与文件名一致，远端 `sourceFileChecksum` 与 `art/store/` 逐个相同，海报帧 `00:00:01:00`。第二版（深色）已从 1.2.1 版本页删除；
 1.2.0 的线上版本不受影响。提审时照第二十八节末尾即可，素材不用再动。
+
+## 三十、改名 Copymunk（2026-10-14，进行中）
+
+**起因**：2026-10-05 发现同品类同名竞品 `Copyo – Clipboard Manager`（App Store ID 6815288586，开发者 Bryan Julio，
+iOS，2026-09-29 上架，宣称将出 Mac 版，持有 copyo.app 域名）。我们 2026-09-23 先上架，但双方都没有商标，
+「COPYO」本身也不干净（ASC 裸名有第三方预留、孟菲斯有一家更早的同名 SaaS），决定改名而不是去争。
+
+**新名字 Copymunk**（copy + chipmunk，花栗鼠把东西塞满腮帮子）。筛选时对每个候选查了 App Store 精确匹配（美区 / 国区 × iOS / Mac）
+和 `.app` / `.com` 的 RDAP，Copymunk 全部干净。
+
+**ASC**：Mac 与 iOS 都已「可分发」时名称框是灰的，要先建新版本。已建 macOS **1.2.2**（准备提交），
+App 信息里的英文名称存为**裸名 `Copymunk`**，ASC 接受了——这个名字现在挂在本记录上。
+App 信息的名称是整条记录共享的：1.2.2 过审后 iOS 商店页也会显示 Copymunk，所以 iOS 要同时出 1.1.1，两个一起提审。
+简体中文本地化名称、副标题、描述等还没改。
+
+**域名**：copymunk.com 与 copymunk.app 已在 Dynadot 购买；copymunk.com 已加入 Cloudflare（免费套餐），
+扫描到的 3 条 A 记录指向 Dynadot 停放页（185.53.179.128），要删掉换成 GitHub Pages。
+
+**工程里改了什么**（与 2026-09-15 那次只改显示名不同，这次产物文件名也改）：
+
+- 两个主 App 的 `PRODUCT_NAME` 改为 `Copymunk`，同时**显式固定 `PRODUCT_MODULE_NAME = Copyo`**——模块名一变，
+  `@testable import`、归档里的类名都会跟着变；产物是 `Copymunk.app`，可执行文件 `Contents/MacOS/Copymunk`。
+- 全部 target 的 `CFBundleDisplayName` 改为 Copymunk（键盘、小组件、分享扩展都有自己的一份，漏一个就会在
+  「设置 › 键盘」或分享面板里留下旧名）。
+- 界面文案：只改字符串字面量与 xcstrings 里独立出现的 Copyo，xcstrings 的键与 Swift 字面量同一轮替换，保持对得上。
+- **不动**：套装 ID `dev.vibemage.Copyo`、App Group、`iCloud.dev.vibemage.Copyo`、数据目录名
+  （`~/Library/Application Support/Copyo`、`Copyo.store`、同步文件夹）、模块 / target / scheme 名、`Copyo.xcodeproj`、GitHub 仓库名。
+  用户数据不搬家。
+- 脚本与 CI：产物路径、DMG / ZIP 文件名、DMG 卷名、GitHub Release 标题跟着改；归档文件名（`build/Copyo*.xcarchive`）不改。
+  `install-local.sh` 遇到旧的 `/Applications/Copyo.app` 会停下提示先删——同一个 bundle ID 两份同时在会抢 ⇧⌘V。
+
+**待验证**：Mac App Store 把已装的 `Copyo.app` 更新成 `Copymunk.app` 时是否原地替换、旧的是否留下，
+要用 TestFlight 在装着 1.2.1 的机器上试一次再提审。
+
+**进度**跟踪在 beads epic `copyo-stt`。

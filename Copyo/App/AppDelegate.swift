@@ -68,7 +68,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             // 下面的 catch 永远抓不到，所以必须自己先判一次并把原因写给设置页。
             let wantsCloudKit = syncMode == .icloud && CloudSyncStatus.hasCloudKitEntitlement
             if syncMode == .icloud && !wantsCloudKit {
-                CloudSyncStatus.record(containerError: String(localized: "This copy of Copyo is not signed for iCloud sync."))
+                CloudSyncStatus.record(containerError: String(localized: "This copy of Copymunk is not signed for iCloud sync."))
             }
             do {
                 container = try CopyoStore.makeContainer(url: storeURL, cloudKit: wantsCloudKit)
@@ -217,10 +217,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     /// 第一条就改成点菜单栏图标（「在菜单栏显示图标」默认开着，第一句也已经指明了它在哪）
     private func showWelcome() {
         let alert = NSAlert()
-        alert.messageText = String(localized: "Welcome to Copyo")
+        alert.messageText = String(localized: "Welcome to Copymunk")
         if hotkeyStatus == .active {
             alert.informativeText = String(localized: """
-            Copyo lives in the menu bar (the clipboard icon in the top-right corner).
+            Copymunk lives in the menu bar (the chipmunk icon in the top-right corner).
 
             • Press \(HotkeyConfig.load().displayString) anytime to bring up the clipboard panel
             • Everything you copy is saved automatically — type to search
@@ -229,7 +229,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             """)
         } else {
             alert.informativeText = String(localized: """
-            Copyo lives in the menu bar (the clipboard icon in the top-right corner).
+            Copymunk lives in the menu bar (the chipmunk icon in the top-right corner).
 
             • Click the menu bar icon anytime to bring up the clipboard panel
             • Everything you copy is saved automatically — type to search
@@ -279,9 +279,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             // 自定义模板图标（纯黑+透明），系统按明暗模式自动反色
             let icon = NSImage(named: "MenuBarIcon")
             icon?.isTemplate = true
-            icon?.accessibilityDescription = "Copyo"
+            icon?.accessibilityDescription = "Copymunk"
             button.image = icon ?? NSImage(systemSymbolName: "doc.on.clipboard.fill",
-                                           accessibilityDescription: "Copyo")
+                                           accessibilityDescription: "Copymunk")
             button.action = #selector(statusItemClicked)
             button.target = self
             button.sendAction(on: [.leftMouseUp, .rightMouseUp])
@@ -301,7 +301,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private func showStatusMenu() {
         let menu = NSMenu()
 
-        let openItem = NSMenuItem(title: String(localized: "Open Copyo"), action: #selector(openPanel), keyEquivalent: "")
+        let openItem = NSMenuItem(title: String(localized: "Open Copymunk"), action: #selector(openPanel), keyEquivalent: "")
         // 探测出当前组合按下去 Copyo 收不到（被系统快捷键或别的 App 独占占用），就不再标注它（7.5.1）。
         // 状态是最近一次注册时的结果（启动、换绑、打开设置 · 快捷键页时更新），这里不为弹个菜单去重注册
         if hotkeyStatus == .active {
@@ -332,7 +332,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
         menu.addItem(.separator())
 
-        let quitItem = NSMenuItem(title: String(localized: "Quit Copyo"), action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
+        let quitItem = NSMenuItem(title: String(localized: "Quit Copymunk"), action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
         menu.addItem(quitItem)
 
         // 临时挂载菜单以支持右键弹出，弹出后立即移除，保持左键点击直接开面板
@@ -355,8 +355,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         guard PasteService.relaunch(arguments: ["-showSettings",
                                                 "-settingsTab", String(SettingsTab.sync.rawValue)]) else {
             let alert = NSAlert()
-            alert.messageText = String(localized: "Copyo could not restart itself.")
-            alert.informativeText = String(localized: "Quit Copyo from the menu bar icon and open it again. Your new sync setting is already saved.")
+            alert.messageText = String(localized: "Copymunk could not restart itself.")
+            alert.informativeText = String(localized: "Quit Copymunk from the menu bar icon and open it again. Your new sync setting is already saved.")
             NSApp.activate(ignoringOtherApps: true)
             alert.runModal()
             return false
@@ -421,20 +421,20 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             return
         case .failed:
             alert.alertStyle = .critical
-            alert.messageText = String(localized: "Copyo could not delete your clipboard history.")
-            alert.informativeText = String(localized: "Nothing was deleted. Try again, and if it keeps failing, quit Copyo from the menu bar icon and open it again.")
+            alert.messageText = String(localized: "Copymunk could not delete your clipboard history.")
+            alert.informativeText = String(localized: "Nothing was deleted. Try again, and if it keeps failing, quit Copymunk from the menu bar icon and open it again.")
         case .cloudWipePending:
             alert.messageText = String(localized: "Everything on this Mac was deleted.")
-            alert.informativeText = String(localized: "Copyo is sending the deletion to your iCloud private database. Keep Copyo open and signed in to iCloud. Copyo cannot tell you when this has finished.")
+            alert.informativeText = String(localized: "Copymunk is sending the deletion to your iCloud private database. Keep Copymunk open and signed in to iCloud. Copymunk cannot tell you when this has finished.")
         case .icloudCopyRemains:
             alert.messageText = String(localized: "Everything on this Mac was deleted.")
-            alert.informativeText = String(localized: "The copy in your iCloud private database was not touched, because iCloud sync is off. Set Sync to iCloud, reopen Copyo and delete again to remove it too.")
+            alert.informativeText = String(localized: "The copy in your iCloud private database was not touched, because iCloud sync is off. Set Sync to iCloud, reopen Copymunk and delete again to remove it too.")
         case .relaunchFailed:
             alert.messageText = String(localized: "Everything on this Mac was deleted.")
-            alert.informativeText = String(localized: "Quit Copyo from the menu bar icon and open it again — it finishes clearing the database file on the next launch.")
+            alert.informativeText = String(localized: "Quit Copymunk from the menu bar icon and open it again — it finishes clearing the database file on the next launch.")
         }
         if result.syncFolderUnreachable {
-            alert.informativeText += " " + String(localized: "Copyo could not reach your sync folder, so the copy there was not deleted. Choose the folder again in Settings, or delete it yourself.")
+            alert.informativeText += " " + String(localized: "Copymunk could not reach your sync folder, so the copy there was not deleted. Choose the folder again in Settings, or delete it yourself.")
         }
         NSApp.activate(ignoringOtherApps: true)
         alert.runModal()
@@ -444,9 +444,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     @objc func finishErasing() {
         let alert = NSAlert()
         alert.messageText = String(localized: "Finish erasing this Mac?")
-        alert.informativeText = String(localized: "Copyo restarts and clears the database file, so the entries you deleted cannot be recovered from this Mac. Anything the deletion has not reached in your iCloud private database stays there and will come back to this Mac.")
+        alert.informativeText = String(localized: "Copymunk restarts and clears the database file, so the entries you deleted cannot be recovered from this Mac. Anything the deletion has not reached in your iCloud private database stays there and will come back to this Mac.")
         alert.alertStyle = .critical
-        alert.addButton(withTitle: String(localized: "Restart Copyo"))
+        alert.addButton(withTitle: String(localized: "Restart Copymunk"))
         alert.addButton(withTitle: String(localized: "Cancel"))
         alert.buttons[0].keyEquivalent = ""
         alert.buttons[1].keyEquivalent = "\r"
@@ -454,8 +454,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         guard alert.runModal() == .alertFirstButtonReturn else { return }
         guard DataEraser.finishScrub() == false else { return }
         let failed = NSAlert()
-        failed.messageText = String(localized: "Copyo could not restart itself.")
-        failed.informativeText = String(localized: "Quit Copyo from the menu bar icon and open it again — it finishes clearing the database file on the next launch.")
+        failed.messageText = String(localized: "Copymunk could not restart itself.")
+        failed.informativeText = String(localized: "Quit Copymunk from the menu bar icon and open it again — it finishes clearing the database file on the next launch.")
         NSApp.activate(ignoringOtherApps: true)
         failed.runModal()
     }

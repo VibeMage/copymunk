@@ -259,7 +259,7 @@ private struct OnboardingRow: View {
     /// 引导页盖在根视图的轻提示上面，弹 toast 看不见，只能写在行上。
     private var detail: String {
         if row.accessory == .cloudToggle, cloudSyncChanged {
-            return String(localized: "Takes effect after you reopen Copyo")
+            return String(localized: "Takes effect after you reopen Copymunk")
         }
         return row.detail
     }
@@ -398,17 +398,17 @@ struct OnboardingPageContent {
                     ? String(localized: "Three ways to save from this iPad")
                     : String(localized: "Three ways to save from this iPhone"),
                 // 与 04c 的导语不是同一句：05b 的设计文案更短（没有「所以」「内容」），单开一个 key
-                body: String(localized: "iOS won't let apps read the clipboard in the background. Copyo only saves at these three moments."),
+                body: String(localized: "iOS won't let apps read the clipboard in the background. Copymunk only saves at these three moments."),
                 skipTitle: String(localized: "Skip"),
                 artwork: .tray,
                 rows: [
                     // 三个砖里的符号都用描边款，与设计的线性图标一套（design-spec 05b：clipboard / share / bolt）
                     Row(symbol: "list.clipboard",
-                        title: String(localized: "When you open Copyo"),
+                        title: String(localized: "When you open Copymunk"),
                         detail: String(localized: "Reads the current clipboard")),
                     Row(symbol: "square.and.arrow.up",
                         title: String(localized: "Share sheet"),
-                        detail: String(localized: "“Save to Copyo” in any app")),
+                        detail: String(localized: "“Save to Copymunk” in any app")),
                     Row(symbol: "bolt",
                         title: String(localized: "Quick Save"),
                         detail: isPad
@@ -433,7 +433,7 @@ struct OnboardingPageContent {
                         // 而引导页一定发生在第一次读剪贴板之前（首启只记账不读，见 PasteboardCapture）。
                         // 按下去必然落进一个找不到这一项的设置页——维护者第一次上真机就撞上了。
                         // 改成告诉用户会发生什么；设置里 04d 那页仍然有「打开 Copyo 的系统设置」
-                        detail: String(localized: "iOS asks the first time Copyo reads the clipboard. Tap Allow Paste; later you can set it to Allow in Settings."),
+                        detail: String(localized: "iOS asks the first time Copymunk reads the clipboard. Tap Allow Paste; later you can set it to Allow in Settings."),
                         accessory: .none),
                 ]
             ),

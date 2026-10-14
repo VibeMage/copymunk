@@ -101,7 +101,7 @@ struct ClipPreviewOverlay: View {
             // 插不进去的两类（图片、文件）在这里把原因说清楚，而不是给一颗按不动的按钮。
             // 文案与轻点卡片时那条轻提示是同一个键，两处说法不会走散
             Text(clip.kind == .image
-                 ? String(localized: "Images can only be copied inside Copyo")
+                 ? String(localized: "Images can only be copied inside Copymunk")
                  : String(localized: "Files stay on your Mac"))
                 .font(.footnote)
                 .foregroundStyle(CopyoTheme.labelSecondary)

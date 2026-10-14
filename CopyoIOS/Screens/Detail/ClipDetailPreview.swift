@@ -258,7 +258,7 @@ struct ClipDetailPreview: View {
             .background(CopyoTheme.dynamic(light: CopyoTheme.rgb(0x000000, 0.06),
                                             dark: CopyoTheme.rgb(0xFFFFFF, 0.1)),
                         in: RoundedRectangle(cornerRadius: 5, style: .continuous))
-            Text(String(localized: "File contents stay on your Mac. Copyo keeps the name so you can find it there."))
+            Text(String(localized: "File contents stay on your Mac. Copymunk keeps the name so you can find it there."))
                 .font(.footnote)
                 .foregroundStyle(CopyoTheme.labelSecondary)
                 .lineSpacing(2)

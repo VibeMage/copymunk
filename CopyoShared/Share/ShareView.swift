@@ -187,7 +187,7 @@ public struct ShareView: View {
             Spacer(minLength: usesCenteredHeader ? 0 : 12)
             HStack(spacing: 8) {
                 CopyoMark()
-                Text(String(localized: "Save to Copyo"))
+                Text(String(localized: "Save to Copymunk"))
                     .font(.system(.body, weight: .semibold))
                     .foregroundStyle(CopyoTheme.label)
             }

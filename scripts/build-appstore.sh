@@ -9,7 +9,7 @@
 # 前置条件（一次性，在 Xcode 里完成）:
 #   1. Xcode → Settings → Accounts 登录有 App Store 权限的 Apple ID
 #   2. 该团队下创建两张证书:
-#        Apple Distribution         —— 给 Copyo.app 签名
+#        Apple Distribution         —— 给 Copymunk.app 签名
 #        Mac Installer Distribution —— 给导出的 .pkg 签名
 #   3. App Store Connect 里建好 bundle id 为 dev.vibemage.Copyo 的 App 记录
 #   4. 开发者后台 → Identifiers → dev.vibemage.Copyo 勾选 iCloud (CloudKit)
@@ -72,7 +72,7 @@ fi
 # 刻意不放进 dist/：build-release.sh 每次跑都会 rm -rf dist，
 # 先出上架包再出直分发包的话，.pkg 会被无声删掉。build/ 已在 .gitignore 里。
 PKG_DIR=build/appstore
-PKG="${PKG_DIR}/Copyo-${VERSION}-appstore.pkg"
+PKG="${PKG_DIR}/Copymunk-${VERSION}-appstore.pkg"
 
 # 证书缺失是这个脚本最常见的失败原因，日志里那一大段 provisioning 报错很难读，
 # 命中关键字时直接给出该去 Xcode 做什么。
@@ -82,7 +82,7 @@ print_signing_help() {
 看起来是签名证书或描述文件缺失。请在 Xcode 里补齐后重试：
   1. Xcode → Settings → Accounts，登录后选中团队 ${TEAM_ID}
   2. Manage Certificates… → 左下角 + 号，创建这两张证书：
-       Apple Distribution         （给 Copyo.app 签名）
+       Apple Distribution         （给 Copymunk.app 签名）
        Mac Installer Distribution （给导出的 .pkg 签名）
   3. 确认 App Store Connect 里已存在 bundle id 为 ${BUNDLE_ID} 的 App 记录，
      否则自动申请描述文件会失败
@@ -220,7 +220,7 @@ rm -rf "$EXPORT_DIR"
 # 不一致说明导出选项没生效，此时打印出来的构建号会误导后续的上传判断。
 VERIFY_DIR=$(mktemp -d)
 if pkgutil --expand-full "$PKG" "$VERIFY_DIR/pkg" >/dev/null 2>&1; then
-  PKG_APP=$(find "$VERIFY_DIR/pkg" -maxdepth 6 -name "Copyo.app" -type d | head -1)
+  PKG_APP=$(find "$VERIFY_DIR/pkg" -maxdepth 6 -name "Copymunk.app" -type d | head -1)
   if [[ -n "$PKG_APP" ]]; then
     PKG_BUILD=$(/usr/libexec/PlistBuddy -c "Print :CFBundleVersion" "$PKG_APP/Contents/Info.plist" 2>/dev/null || true)
     PKG_VERSION=$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" "$PKG_APP/Contents/Info.plist" 2>/dev/null || true)
@@ -266,7 +266,7 @@ PLIST
 fi
 
 # 归档产物不进启动台/Spotlight
-for _p in build/Copyo.xcarchive/Products/Applications/Copyo.app build/Build/Products/Release-AppStore/Copyo.app; do
+for _p in build/Copyo.xcarchive/Products/Applications/Copymunk.app build/Build/Products/Release-AppStore/Copymunk.app; do
   [ -d "$_p" ] && /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -u "$_p" 2>/dev/null || true
 done
 echo "安装包：${PKG}"

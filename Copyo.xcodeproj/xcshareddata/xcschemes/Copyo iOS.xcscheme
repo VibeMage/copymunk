@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB0000000000000000000032"
-               BuildableName = "Copyo.app"
+               BuildableName = "Copymunk.app"
                BlueprintName = "Copyo iOS"
                ReferencedContainer = "container:Copyo.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB0000000000000000000032"
-            BuildableName = "Copyo.app"
+            BuildableName = "Copymunk.app"
             BlueprintName = "Copyo iOS"
             ReferencedContainer = "container:Copyo.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB0000000000000000000032"
-            BuildableName = "Copyo.app"
+            BuildableName = "Copymunk.app"
             BlueprintName = "Copyo iOS"
             ReferencedContainer = "container:Copyo.xcodeproj">
          </BuildableReference>

@@ -52,8 +52,8 @@ public enum ClipSaverError: LocalizedError {
 ///
 /// Mac 端的 `ClipboardMonitor.insertDeduplicated` 是同一套规则的原始实现，本轮**没有**改成调用这里
 /// （Mac 已上架，不值得为复用冒回归风险）。两处规则必须保持一致：改动去重条件或上限策略时两边都要改。
-/// 已知的一处差异：Mac 在 save 之前清理上限，这一轮插入的条目还没落盘，因此最多会多留一条；
-/// 这里先 save 再清理，条数是准的。
+/// 两边都必须先 save 再清理上限：`fetchOffset` 只作用于已落盘的行，未保存的插入会被追加在
+/// 结果末尾，先清理就会把刚插入的这条当成超额删掉（Mac 1.2.1 及以前就是这样）。
 public enum ClipSaver {
     /// 去重时回看多少条最近记录。与 Mac 端一致：足够挡住「反复复制同一段」，又不必扫全表。
     public static let duplicateScanLimit = 50

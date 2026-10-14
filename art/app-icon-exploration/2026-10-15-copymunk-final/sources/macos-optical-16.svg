@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="warm-background" x1="4.5" y1="1.75" x2="11.75" y2="14.5" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD7A5"/><stop offset="1" stop-color="#F2AE78"/></linearGradient>
+    <linearGradient id="fur" x1="7" y1="4.5" x2="8.5" y2="13" gradientUnits="userSpaceOnUse"><stop stop-color="#EAB781"/><stop offset="0.58" stop-color="#D99A63"/><stop offset="1" stop-color="#AD643C"/></linearGradient>
+    <linearGradient id="cream" x1="6" y1="9" x2="8" y2="13" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF5DD"/><stop offset="1" stop-color="#EDC899"/></linearGradient>
+  </defs>
+  <rect id="background" x="1.568" y="1.568" width="12.864" height="12.864" rx="3.5792" fill="url(#warm-background)"/>
+  <g id="face">
+    <ellipse cx="5" cy="5.25" rx="1.2" ry="1.25" fill="#D99A63"/>
+    <ellipse cx="11" cy="5.25" rx="1.2" ry="1.25" fill="#D99A63"/>
+    <ellipse cx="5" cy="5.15" rx="0.65" ry="0.75" fill="#FFF0D3"/>
+    <ellipse cx="11" cy="5.15" rx="0.65" ry="0.75" fill="#FFF0D3"/>
+    <path d="M8 4.5C10.25 4.5 11.8 6.1 12 8.4C12.2 10.1 12 11.7 10.8 12.4C9.3 13.3 6.7 13.3 5.2 12.4C4 11.7 3.8 10.1 4 8.4C4.2 6.1 5.75 4.5 8 4.5Z" fill="url(#fur)"/>
+    <path d="M7.5 4.55H8.5L8.4 6.25Q8 6.8 7.6 6.25Z" fill="#B77D52"/>
+    <ellipse cx="8" cy="10.75" rx="1.65" ry="1.55" fill="#FFF0D3"/>
+    <path d="M5.55 8.75C4.1 8.3 3 9.3 3 10.65C3 12.15 4.25 12.8 5.7 12.65C6.8 12.55 7.5 11.9 7.5 10.9C7.5 9.9 6.7 9.05 5.55 8.75Z" fill="url(#cream)"/>
+    <path d="M10.45 8.75C11.9 8.3 13 9.3 13 10.65C13 12.15 11.75 12.8 10.3 12.65C9.2 12.55 8.5 11.9 8.5 10.9C8.5 9.9 9.3 9.05 10.45 8.75Z" fill="url(#cream)"/>
+    <ellipse cx="4.8" cy="9.8" rx="0.7" ry="0.4" fill="#E7A38C" opacity="0.42"/>
+    <ellipse cx="11.2" cy="9.8" rx="0.7" ry="0.4" fill="#E7A38C" opacity="0.42"/>
+    <ellipse cx="6.2" cy="8.1" rx="1.05" ry="1.15" fill="#30221B"/>
+    <ellipse cx="9.8" cy="8.1" rx="1.05" ry="1.15" fill="#30221B"/>
+    <circle cx="5.85" cy="7.7" r="0.5" fill="#FFFDF4"/>
+    <circle cx="9.45" cy="7.7" r="0.5" fill="#FFFDF4"/>
+    <path d="M7.5 9.4Q8 9.2 8.5 9.4Q8.5 9.85 8 9.9Q7.5 9.85 7.5 9.4Z" fill="#65402D"/>
+    <path d="M7.2 10.55Q8 10.85 8.8 10.55C8.75 11.4 8.45 11.85 8 11.85C7.55 11.85 7.25 11.4 7.2 10.55Z" fill="#70402F"/>
+  </g>
+</svg>
