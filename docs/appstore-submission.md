@@ -1400,3 +1400,81 @@ App 信息的名称是整条记录共享的：1.2.2 过审后 iOS 商店页也�
 要用 TestFlight 在装着 1.2.1 的机器上试一次再提审。
 
 **进度**跟踪在 beads epic `copyo-stt`。
+
+## 三十一、Mac 1.2.2 (5)：改名后的第一版，备好待提审（2026-10-15）
+
+和 iOS 1.1.1 (13) 一起交审（iOS 那边由另一个会话出包、改版本页、提交）。Mac 这边版本页、构建、素材、文案都已就绪，
+**提交审核仍由维护者在 ASC 里点**（`asc.rb` 故意不做这一步）。
+
+### 这一版里有什么
+
+- 改名 Copymunk（第三十节）与花栗鼠图标。
+- 修复：历史达到上限（默认 500 条）后，**新复制的内容一条都存不下来**。`ClipboardMonitor.insertDeduplicated` 原来是
+  「插入 → 清上限 → 保存」，而 `fetchOffset` 只作用于已落盘的行、未保存的插入排在结果末尾，于是每次被当成「最旧的」删掉的
+  正是刚复制的那条（已去重的旧内容被挪到最前不受影响，所以看起来像「偶尔还能记」）。现在先保存再清理，与 `ClipSaver` 一致。
+  本机从 2026-10-03 左右历史满 500 条起，到修复为止复制的新内容都没落盘，找不回来。
+
+### 出包与上传
+
+- `main` 上把 Mac 三个配置改成 `1.2.2 (5)`（`51d9ea0`），从 `origin/main` 建干净 worktree，`NO_BUMP=1 ./scripts/build-appstore.sh`。
+  Release-AppStore 用的是 `CopyoAppStore.entitlements`，里面没有 `icloud-container-environment`，`1ebc144` 那个设置不影响上架包。
+- 上传照第二十七节用 altool + API 密钥；中途一次 `CHANGE UPLOAD STATE TO COMPLETE` 返回 500，altool 自己重试后 `UPLOAD SUCCEEDED`。
+  构建 5 几分钟就 `VALID`，已用 `./scripts/asc.rb attach 5 MAC_OS` 挂到 1.2.2 版本页（`attach` 新加了平台参数，默认仍是 iOS）。
+- 归档已先复制到 `~/Library/Developer/Xcode/Archives/2026-10-15/Copymunk macOS 1.2.2 (5) AppStore.xcarchive`，再删 worktree。
+
+### 商店素材
+
+- 十张截图里**没有应用名**，只有标题上方那枚图标；预览视频里既没有名字也没有图标。所以不重拍，用第二十九节同一批浅色素材
+  重新合成，只换图标。`make-store-shots.py` 的图标改为直接读 Mac 应用自己的 1024px 图标
+  （`Copyo/Assets.xcassets/AppIcon.appiconset/icon_512x512@2x.png`），`art/icon/` 里仍是旧的 Copyo 卡片，不再作为来源。
+- `./scripts/asc.rb mac-media art/store` 替换 1.2.2 版本页的两种语言各 5 张截图；视频按 MD5 认出是同一份，直接复用。
+  第一次放后台跑时进程中途没了输出，又重跑了一次，两次重叠导致一次排序报 409（`Can't Add/Remove Relationship when reorder Set`）。
+  之后单独再跑一遍，脚本按 MD5 复用已传好的、删掉残留，最后核对通过：两种语言 5 张截图顺序与 `art/store/` 一致，视频海报帧 `00:00:01:00`。
+  **不要同时跑两个 `mac-media`。**
+
+### 文案（ASC 上已写入，以这里为准）
+
+- **版权**：`© 2026 Copymunk Contributors`（Mac 版本页；iOS 版本页由 iOS 那边改）。
+- **描述**：只把「Copyo 是一款开源 / Copyo is an open-source」换成 Copymunk，其余不动。
+- **关键词**：去掉 `copyo`（现在是别人的 App 名，放进关键词有借用他人名称之嫌）。
+  英文 `clipboard,paste,history,copy,manager,productivity,snippets,pasteboard,pinboard,clip`；
+  中文 `剪贴板,粘贴,历史,剪切板,效率,复制,clipboard,paste,粘贴板,clip`。
+- **支持网址**：`https://copymunk.com/support/`（域名已通，HTTPS 已开）。
+- **新功能**（英）：
+
+  > Copyo is now Copymunk: a new name and a new chipmunk icon. Your history, Pinboards, settings and sync carry over untouched.
+  >
+  > Fixed: once your history reached its limit (500 items by default), newly copied items were no longer saved. They are kept again, and the oldest unpinned items make room as intended.
+
+- **新功能**（中）：
+
+  > Copyo 现在叫 Copymunk 了：新名字，新的花栗鼠图标。历史记录、Pinboard、设置和同步都原样保留。
+  >
+  > 修复：历史记录达到上限（默认 500 条）后，新复制的内容不再被保存。现在会照常保存新内容，并按设定清掉最旧的未固定条目。
+
+- **审核备注**（3984 / 4000）：Copyo 全部换成 Copymunk（容器 ID `iCloud.dev.vibemage.Copyo` 照旧）；「NEW IN 1.2.1」换成：
+
+  > NEW IN 1.2.2: renamed from Copyo to Copymunk (name, bundle name, icon; bundle ID, iCloud container and data unchanged). Fixed: with a full history, new copies were not saved. Unchanged: only while recording a shortcut with Copymunk frontmost, it polls CGEventSource keyState/flagsState to spot keys swallowed by another shortcut; no permission, nothing logged or stored.
+
+  为了压进 4000 字符，另外压缩了四处措辞（第 1、3、5 条与测试说明 (a)、(d)），意思不变。
+
+### App 信息（两个平台共用）
+
+- 名称中英都是 `Copymunk`；副标题不含旧名，保持不变。
+- 隐私政策网址仍是原来的 Gist，但 Gist 内容已更新成仓库里的 `PRIVACY.md`（全文 Copymunk，描述改为「Copymunk Privacy Policy」）。
+  迁到 `copymunk.com` 的事留到以后（`copyo-stt.3`）。
+- 哪个平台先过审，新名字就先在两个商店页上生效。
+
+### 提审前还剩
+
+1. **原地更新测试**（第三十节的待验证项）：Mac App Store / TestFlight 把装着的 `Copyo.app` 更新成 `Copymunk.app`。
+   本机 `/Applications/Copyo.app` 是本地开发版（非沙盒，数据在 `~/Library/Application Support/Copyo`），
+   直接从 TestFlight 装会出现两个同 bundle ID 的应用抢 ⇧⌘V，这一步要维护者安排（例如先退出、改名移走本地版再试）。
+2. **商标检索**（`copyo-stt.1`，初查已做，非法律意见）与 INPI 递交（`copyo-stt.8`，维护者本人）。初查结论**中等风险**：
+   - 各处都没有与 COPYMUNK 相同的商标（TMview 覆盖欧盟与法国、USPTO 的精确与变体查询都为零）；GitHub、域名、App Store 上也没有别人在用。
+   - **Clipmunk – Save Copied Text**：同类的 iOS 剪贴板 App（开发者 Benedikt Jonas，2026-04-13 上架，App Store ID 6759893572），
+     没查到商标申请，但比我们早、商品完全相同，CLIP / COPY 只差一个近义词。
+   - **CopyMonkey**（EUTM 018563888，已注册，第 9 类 AI 软件 + 第 35 类）字形接近；第 9/42 类里 *MUNK 结尾的商标很多（MUNKI、MUNK、MINTMUNK 等）。
+   - INPI 不会主动以在先权利驳回，冲突在公告后以异议出现。data.inpi.fr 与 WIPO 品牌库被人机验证挡住没查成，递交前要手工查一遍，
+     必要时做付费的近似检索。
+3. 在 ASC 里建 `MAC_OS` 的 reviewSubmission、挂 1.2.2、提交。
