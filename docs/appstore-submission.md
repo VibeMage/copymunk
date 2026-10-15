@@ -1477,4 +1477,12 @@ App 信息的名称是整条记录共享的：1.2.2 过审后 iOS 商店页也�
    - **CopyMonkey**（EUTM 018563888，已注册，第 9 类 AI 软件 + 第 35 类）字形接近；第 9/42 类里 *MUNK 结尾的商标很多（MUNKI、MUNK、MINTMUNK 等）。
    - INPI 不会主动以在先权利驳回，冲突在公告后以异议出现。data.inpi.fr 与 WIPO 品牌库被人机验证挡住没查成，递交前要手工查一遍，
      必要时做付费的近似检索。
-3. 在 ASC 里建 `MAC_OS` 的 reviewSubmission、挂 1.2.2、提交。
+3. ~~在 ASC 里建 `MAC_OS` 的 reviewSubmission、挂 1.2.2、提交。~~
+
+### 已提交审核（2026-10-15）
+
+维护者看过自检结果和商标初查后，明确要求现在就提审 Mac（原地更新测试先不做）。
+用 API 新建 `MAC_OS` 的 reviewSubmission，挂 1.2.2，提交后状态为 `WAITING_FOR_REVIEW`；发布方式仍是过审后自动发布。
+提交前对 ASC 的最终读回：构建 5 `VALID`、`usesNonExemptEncryption = false`；两种语言的描述里没有旧名，
+截图各 5 张、预览各 1 段，全部 `COMPLETE`；审核备注 3984 字符，旧名只出现在「renamed from Copyo」和容器 ID 里。
+`asc.rb` 仍然不提供提交命令，这次是一次性脚本。
