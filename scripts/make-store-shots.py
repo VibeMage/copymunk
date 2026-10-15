@@ -21,7 +21,7 @@ out/contact-sheet.png 与 out/screenshot-layout.json；不写入 art/store/。
 半透明面板、阴影与预览窗保留拍摄背景。独立设置窗口按透明度叠加在背景上。
 带显示器 ICC 的素材先转换到 sRGB；嵌入固定 ICC，保证相同输入逐字节可复现。
 
-Copyo 复制后交还焦点，由用户按 Command-V；宣传文案不承诺自动粘贴。
+Copymunk 复制后交还焦点，由用户按 Command-V；宣传文案不承诺自动粘贴。
 浅色素材要求见 build.noindex/store-light/BRIEF.md；版式沿用
 build.noindex/store-1.2.1/BRIEF.md 和 BRIEF-fixes.md。
 """
@@ -37,7 +37,8 @@ from PIL import Image, ImageCms, ImageDraw, ImageFont
 
 
 REPO = Path(__file__).resolve().parent.parent
-ICON = REPO / "art" / "icon" / "icon-512.png"
+# 直接取 Mac 应用自己的图标（1024px），与 App 里打包的完全一致；art/icon/ 不再是来源
+ICON = REPO / "Copyo" / "Assets.xcassets" / "AppIcon.appiconset" / "icon_512x512@2x.png"
 W, H = 2560, 1600
 SOURCE_SIZE = (3840, 2160)
 # 角光原图中的面板位于 (816, 1330)，尺寸为 2208×664px；比上一轮上移 2px。
