@@ -8,11 +8,9 @@
 <meta name="theme-color" content="#F4F2ED">
 <meta property="og:title" content="Copymunk Support">
 <meta property="og:description" content="Help, FAQ and how to reach us. Copymunk is an open-source clipboard manager for Mac, iPhone and iPad.">
-<meta property="og:image" content="icon.png">
+<meta property="og:image" content="https://copymunk.com/support/icon.png">
+<link rel="canonical" href="https://copymunk.com/support/">
 <link rel="icon" href="icon.png" type="image/png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
 <style>
   :root {
     color-scheme: light;
@@ -35,7 +33,6 @@
     --shadow: 0 8px 28px rgba(52, 49, 61, 0.08);
     --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
-    --display: "Space Grotesk", var(--sans);
   }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
@@ -55,122 +52,59 @@
   }
   [hidden] { display: none !important; }
 
-  /* ---------- Hero ---------- */
-  .hero {
-    position: relative;
-    isolation: isolate;
-    padding: 64px 20px 32px;
-    text-align: center;
-    overflow: hidden;
+  /* ---------- Top bar（与首页一致） ---------- */
+  .top {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; gap: 18px;
+    max-width: 880px; margin: 0 auto;
+    padding: 12px 20px;
+    background: rgba(244, 242, 237, 0.82);
+    backdrop-filter: saturate(160%) blur(16px);
+    -webkit-backdrop-filter: saturate(160%) blur(16px);
   }
-  .hero::before, .hero::after {
-    content: "";
-    position: absolute;
-    inset: -20% -10%;
-    z-index: -1;
-    pointer-events: none;
-  }
-  .hero::before {
-    background:
-      radial-gradient(42% 55% at 16% 22%, rgba(255, 45, 85, 0.10), transparent 70%),
-      radial-gradient(40% 55% at 86% 34%, rgba(10, 132, 255, 0.09), transparent 70%);
-    filter: blur(24px);
-  }
-  .hero::after {
-    background: radial-gradient(60% 50% at 50% 30%, rgba(244, 242, 237, 0.5), transparent 70%);
-  }
-  .icon {
-    width: 112px; height: 112px;
-    display: block; margin: 0 auto 22px;
-    border-radius: 25px;
-    filter: drop-shadow(-4px -3px 18px rgba(255, 45, 85, 0.14)) drop-shadow(4px 3px 18px rgba(10, 132, 255, 0.14));
-  }
-  .wordmark {
-    font: 700 clamp(48px, 8vw, 72px)/1 var(--display);
-    letter-spacing: -0.045em;
-    color: var(--ink);
-    margin: 0;
-    text-shadow: -0.018em -0.014em 0 rgba(255, 45, 85, 0.65), 0.018em 0.014em 0 rgba(10, 132, 255, 0.65);
-  }
-  .wordmark small {
-    display: block;
-    margin-top: 14px;
-    font: 600 clamp(20px, 3vw, 26px)/1.2 var(--sans);
-    letter-spacing: 0;
-    text-shadow: none;
-    color: var(--fg);
-  }
-  .tagline {
-    margin: 14px auto 0;
-    max-width: 560px;
-    color: var(--dim);
-    font-size: 17px;
-  }
-  .store { margin: 24px 0 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
-  .store .btn { font-size: 15px; padding: 11px 20px; }
+  .brand { display: flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; font-weight: 700; }
+  .brand img { width: 28px; height: 28px; border-radius: 7px; }
+  .brand:hover { color: var(--ink); }
+  .top nav { margin-left: auto; display: flex; align-items: center; gap: 18px; font-size: 14px; }
+  .top nav a { color: var(--dim); text-decoration: none; }
+  .top nav a:hover { color: var(--ink); }
+  .top nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
   .lang {
-    display: inline-flex;
-    gap: 4px;
-    margin-top: 26px;
-    padding: 4px;
-    border-radius: 999px;
-    background: var(--bg);
-    border: 1px solid var(--line);
+    display: inline-flex; gap: 2px; padding: 3px;
+    border-radius: 999px; border: 1px solid var(--line); background: var(--bg);
   }
   .lang button {
-    appearance: none;
-    border: 0;
-    background: transparent;
-    color: var(--muted);
-    font: 600 13px/1 var(--sans);
-    padding: 8px 14px;
-    border-radius: 999px;
-    cursor: pointer;
-    transition: background .15s, color .15s;
+    appearance: none; border: 0; background: transparent; cursor: pointer;
+    color: var(--muted); font: 600 12px/1 var(--sans);
+    padding: 6px 10px; border-radius: 999px;
   }
-  .lang button:hover { background: var(--card-hover); color: var(--fg); }
   .lang button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: 0 1px 4px rgba(52, 49, 61, 0.10); }
 
-  /* ---------- Panel strip ---------- */
-  .strip {
-    position: relative;
-    margin: 12px 0 0;
-    background: var(--bg);
+  /* ---------- Page header ---------- */
+  .page-head { margin: 0 0 28px; }
+  .page-head h1 {
+    margin: 0;
+    font: 700 clamp(30px, 5vw, 40px)/1.15 var(--sans);
+    letter-spacing: -0.02em;
+    color: var(--ink);
   }
-  .strip img {
-    display: block;
-    width: min(100%, 1040px);
-    height: auto;
-    margin: 0 auto;
-    /* The shot carries its own cream margin and shadow; fade only that margin
-       (40 / 2288 px wide, 36 / 740 px tall) so the panel itself stays whole. */
-    -webkit-mask-image:
-      linear-gradient(to right, transparent, #000 1.6%, #000 98.4%, transparent),
-      linear-gradient(transparent, #000 4.5%, #000 95.5%, transparent);
-    -webkit-mask-composite: source-in;
-    mask-image:
-      linear-gradient(to right, transparent, #000 1.6%, #000 98.4%, transparent),
-      linear-gradient(transparent, #000 4.5%, #000 95.5%, transparent);
-    mask-composite: intersect;
-  }
-
-  /* ---------- Layout ---------- */
-  main { max-width: 880px; margin: 0 auto; padding: 36px 20px 72px; }
-  .facts {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    margin: 0 0 36px;
-  }
-  .fact {
-    padding: 14px 16px;
-    border-radius: var(--radius);
+  .page-head p { margin: 10px 0 0; color: var(--dim); font-size: 17px; }
+  .jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 0; padding: 0; list-style: none; }
+  .jump a {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 999px;
     background: var(--card);
     border: 1px solid var(--line);
+    color: var(--fg);
+    font-size: 14px; font-weight: 500;
+    text-decoration: none;
   }
-  .fact b { display: block; font-size: 14px; margin-bottom: 2px; }
-  .fact span { color: var(--muted); font-size: 13px; }
+  .jump a:hover { background: var(--card-hover); color: var(--ink); }
 
+  /* ---------- Layout ---------- */
+  main { max-width: 880px; margin: 0 auto; padding: 32px 20px 72px; }
+  .card { scroll-margin-top: 72px; }
   .card {
     background: var(--card);
     border: 1px solid var(--line);
@@ -275,8 +209,7 @@
   footer a:hover { color: var(--link-hover); }
 
   @media (max-width: 640px) {
-    .hero { padding-top: 56px; }
-    .facts { grid-template-columns: 1fr; }
+    .top nav .hide-sm { display: none; }
     .card-body { padding: 16px; }
   }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
@@ -284,35 +217,33 @@
 </head>
 <body>
 
-<header class="hero">
-  <img class="icon" src="icon.png" width="112" height="112" alt="Copymunk app icon">
-  <h1 class="wordmark">Copymunk
-    <small data-lang="en">Support &amp; help</small>
-    <small data-lang="zh">支持与帮助</small>
-  </h1>
-  <p class="tagline" data-lang="en">Everything you copied, one key away. Here's how to get the most out of Copymunk, and how to reach us when something isn't right.</p>
-  <p class="tagline" data-lang="zh">复制过的一切，一键即达。这里有 Copymunk 的使用指南、常见问题，以及遇到问题时联系我们的方式。</p>
-  <p class="store"><a class="btn primary" href="https://apps.apple.com/app/id6813955206"><span data-lang="en">Get it on the App Store</span><span data-lang="zh">在 App Store 获取</span></a>
-    <a class="btn" href="https://github.com/VibeMage/copymunk/releases"><span data-lang="en">Mac direct download</span><span data-lang="zh">Mac 直接下载版</span></a></p>
-  <!-- 同一个 App Store 记录同时覆盖 Mac 与 iPhone / iPad。
-       旧链接 id6807507103 指向已删除的应用记录，返回 404，不要再用。 -->
-  <div class="lang" role="group" aria-label="Language / 语言">
-    <button type="button" data-set-lang="en" aria-pressed="true">English</button>
-    <button type="button" data-set-lang="zh" aria-pressed="false">中文</button>
-  </div>
+<header class="top">
+  <a class="brand" href="../"><img src="icon.png" width="28" height="28" alt="">Copymunk</a>
+  <nav>
+    <a class="hide-sm" href="../"><span data-lang="en">Home</span><span data-lang="zh">首页</span></a>
+    <a href="./" aria-current="page"><span data-lang="en">Support</span><span data-lang="zh">支持</span></a>
+    <a class="hide-sm" href="../privacy/"><span data-lang="en">Privacy</span><span data-lang="zh">隐私</span></a>
+    <div class="lang" role="group" aria-label="Language / 语言">
+      <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-set-lang="zh" aria-pressed="false">中文</button>
+    </div>
+  </nav>
 </header>
-
-<div class="strip" aria-hidden="true">
-  <img src="panel-strip.jpg" width="2288" height="740" alt="">
-</div>
+<!-- 产品介绍、下载按钮和截图都在首页，这里只放上手指南、常见问题和联系方式，避免两页重复。 -->
 
 <main>
   <!-- ===================== English ===================== -->
   <section data-lang="en">
-    <div class="facts">
-      <div class="fact"><b>Mac, iPhone and iPad</b><span>A menu bar panel on Mac (<kbd>⇧⌘V</kbd>), a full app on iPhone and iPad.</span></div>
-      <div class="fact"><b>Stays with you</b><span>No account, no telemetry, no servers of our own. Sync goes through your own iCloud.</span></div>
-      <div class="fact"><b>Open source</b><span>GPLv3 licensed. Read the code, file issues, send patches.</span></div>
+    <div class="page-head">
+      <h1>Support &amp; help</h1>
+      <p>Getting started, answers to common questions, and how to reach us.</p>
+      <ul class="jump">
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#quick-start">Mac quick start</a></li>
+        <li><a href="#faq">Mac FAQ</a></li>
+        <li><a href="#iphone-ipad">iPhone &amp; iPad quick start</a></li>
+        <li><a href="#iphone-faq">iPhone &amp; iPad FAQ</a></li>
+      </ul>
     </div>
 
     <div class="card" id="contact">
@@ -439,13 +370,19 @@
 
   <!-- ===================== 中文 ===================== -->
   <section data-lang="zh" lang="zh-Hans">
-    <div class="facts">
-      <div class="fact"><b>Mac、iPhone 和 iPad</b><span>Mac 上是菜单栏面板（<kbd>⇧⌘V</kbd>），iPhone 和 iPad 上是完整的 App。</span></div>
-      <div class="fact"><b>数据只在你手里</b><span>无账号、无遥测，我们没有任何服务器。同步只走你自己的 iCloud。</span></div>
-      <div class="fact"><b>开源</b><span>GPLv3 许可证。欢迎阅读代码、提 Issue、发 PR。</span></div>
+    <div class="page-head">
+      <h1>支持与帮助</h1>
+      <p>上手指南、常见问题，以及联系我们的方式。</p>
+      <ul class="jump">
+        <li><a href="#zh-contact">联系我们</a></li>
+        <li><a href="#zh-quick-start">Mac 快速上手</a></li>
+        <li><a href="#zh-faq">Mac 常见问题</a></li>
+        <li><a href="#zh-iphone-ipad">iPhone 和 iPad 快速上手</a></li>
+        <li><a href="#zh-iphone-faq">iPhone 和 iPad 常见问题</a></li>
+      </ul>
     </div>
 
-    <div class="card">
+    <div class="card" id="zh-contact">
       <div class="card-head red"><span class="dot"></span>联系我们</div>
       <div class="card-body">
         <p>问题、Bug、功能建议都欢迎。请附上 macOS 或 iOS / iPadOS 版本、设备型号，以及 Copymunk 的版本号（Mac 上在「设置 → 关于」；iPhone 和 iPad 上在「设置」最下方的「关于」一行）。通常几天内回复。</p>
@@ -462,7 +399,7 @@
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" id="zh-quick-start">
       <div class="card-head blue"><span class="dot"></span>Mac 快速上手</div>
       <div class="card-body">
         <ol>
@@ -475,7 +412,7 @@
       </div>
     </div>
 
-    <div class="card faq">
+    <div class="card faq" id="zh-faq">
       <div class="card-head cream"><span class="dot"></span>Mac 常见问题</div>
       <div class="card-body">
         <details>
@@ -496,7 +433,7 @@
         </details>
         <details>
           <summary>多台 Mac 之间怎么同步？</summary>
-          <p>设置 → 同步。可以让 Copymunk 使用你指定的文件夹（例如 iCloud Drive 或其他网盘里的文件夹），也可以使用你自己的 iCloud 账户。两种方式下数据都保存在你选择的服务商那里，不会经过我们的服务器。要和 iPhone 或 iPad 同步，请选 iCloud，详见下方「iPhone 和 iPad 常见问题」。</p>
+          <p>设置 → 同步。可以让 Copymunk 使用你指定的文件夹（例如 iCloud Drive 或其他网盘里的文件夹），也可以使用你自己的 iCloud 账户。两种方式下数据都保存在你选择的服务商那里，不会经过我们的服务器。要和 iPhone 或 iPad 同步，请选 iCloud，详见<a href="#zh-iphone-faq">iPhone 和 iPad 常见问题</a>。</p>
         </details>
         <details>
           <summary>有些复制的内容没有出现在历史里。</summary>
@@ -516,7 +453,7 @@
         </details>
       </div>
     </div>
-    <div class="card">
+    <div class="card" id="zh-iphone-ipad">
       <div class="card-head blue"><span class="dot"></span>iPhone 和 iPad 快速上手</div>
       <div class="card-body">
         <p>iOS 不允许任何 App 在后台监听剪贴板，所以 Copymunk 在你选定的时机保存：</p>
@@ -530,7 +467,7 @@
       </div>
     </div>
 
-    <div class="card faq">
+    <div class="card faq" id="zh-iphone-faq">
       <div class="card-head cream"><span class="dot"></span>iPhone 和 iPad 常见问题</div>
       <div class="card-body">
         <details>
@@ -561,7 +498,7 @@
         </details>
         <details>
           <summary>遇到问题，应该提供哪些信息？</summary>
-          <p>发邮件或在 GitHub 提 Issue（见上方「联系我们」），附上 iOS 或 iPadOS 版本、设备型号、设置里「关于」一行显示的 Copymunk 版本号、设置里同步状态显示的内容，以及出现问题的操作步骤。有截图更好。</p>
+          <p>发邮件或在 GitHub 提 Issue（见<a href="#zh-contact">联系我们</a>），附上 iOS 或 iPadOS 版本、设备型号、设置里「关于」一行显示的 Copymunk 版本号、设置里同步状态显示的内容，以及出现问题的操作步骤。有截图更好。</p>
         </details>
       </div>
     </div>
@@ -570,12 +507,10 @@
 
 <footer>
   <span>© 2026 Copymunk Contributors · GNU GPLv3</span>
-  <a href="../" data-lang="en">Home</a>
-  <a href="../" data-lang="zh">首页</a>
-  <a href="../privacy/" data-lang="en">Privacy Policy</a>
-  <a href="../privacy/" data-lang="zh">隐私政策</a>
-  <a href="https://github.com/VibeMage/copymunk" data-lang="en">Source on GitHub</a>
-  <a href="https://github.com/VibeMage/copymunk" data-lang="zh">GitHub 源码</a>
+  <a href="../"><span data-lang="en">Home</span><span data-lang="zh">首页</span></a>
+  <a href="../privacy/"><span data-lang="en">Privacy Policy</span><span data-lang="zh">隐私政策</span></a>
+  <a href="mailto:support@copymunk.com">support@copymunk.com</a>
+  <a href="https://github.com/VibeMage/copymunk"><span data-lang="en">Source on GitHub</span><span data-lang="zh">GitHub 源码</span></a>
 </footer>
 
 <script>
@@ -602,6 +537,14 @@
     else if ((navigator.language || '').toLowerCase().indexOf('zh') === 0) initial = 'zh';
   }
   apply(initial);
+  // 中英文各有一套锚点（#faq / #zh-faq）。链接指向的那一份被隐藏时，跳到当前语言的对应卡片。
+  if (hash && hash !== 'zh' && hash !== 'en') {
+    var target = document.getElementById(hash);
+    if (target && target.closest('[hidden]')) {
+      var twin = document.getElementById(hash.indexOf('zh-') === 0 ? hash.slice(3) : 'zh-' + hash);
+      if (twin) twin.scrollIntoView();
+    }
+  }
   buttons.forEach(function (b) {
     b.addEventListener('click', function () {
       apply(b.getAttribute('data-set-lang'));
