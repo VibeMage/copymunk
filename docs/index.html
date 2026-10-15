@@ -169,8 +169,26 @@
   .privacy b { display: block; color: var(--ink); margin-bottom: 4px; }
   .privacy span { color: var(--muted); font-size: 15px; }
 
-  .closing { text-align: center; padding-bottom: 96px; }
-  .closing .icon { width: 72px; height: 72px; border-radius: 16px; margin: 0 auto 18px; display: block; }
+  .download { text-align: center; padding-bottom: 96px; scroll-margin-top: 40px; }
+  .download .icon { width: 72px; height: 72px; border-radius: 16px; margin: 0 auto 18px; display: block; }
+  .download .lead { margin-left: auto; margin-right: auto; }
+  .dl-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 36px auto 0; max-width: 860px; text-align: left; }
+  .dl-card {
+    padding: 24px; border-radius: var(--radius);
+    background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow);
+    display: flex; flex-direction: column;
+  }
+  .dl-head { display: flex; align-items: center; gap: 14px; padding-bottom: 18px; margin-bottom: 18px; border-bottom: 1px solid var(--line); }
+  .dl-head svg { width: 40px; height: 40px; flex: none; color: var(--ink); }
+  .dl-head h3 { margin: 0; font-size: 20px; color: var(--ink); }
+  .dl-head p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+  .dl-options .btn { width: 100%; justify-content: center; }
+  .dl-options .hint { margin: 8px 0 18px; color: var(--muted); font-size: 14px; }
+  .dl-options .hint:last-child { margin-bottom: 0; }
+  .qr { display: flex; align-items: center; gap: 16px; margin-top: auto; padding: 14px; border-radius: 12px; background: var(--panel); }
+  .qr img { width: 116px; height: 116px; flex: none; padding: 8px; border-radius: 8px; background: #fff; box-sizing: content-box; }
+  .qr p { margin: 0; color: var(--dim); font-size: 14px; }
+  .download .note a { color: var(--link); }
 
   footer {
     max-width: 1040px; margin: 0 auto; padding: 24px 20px 48px;
@@ -183,7 +201,10 @@
     .grid { grid-template-columns: 1fr 1fr; }
     .split { grid-template-columns: 1fr; gap: 32px; }
     .privacy { grid-template-columns: 1fr 1fr; }
+    .dl-grid { grid-template-columns: 1fr; max-width: 520px; }
   }
+  /* 手机和平板上扫自己屏幕上的码没有意义 */
+  @media (hover: none) and (pointer: coarse) { .qr { display: none; } }
   @media (max-width: 560px) {
     body { font-size: 16px; }
     .top nav .hide-sm { display: none; }
@@ -202,7 +223,8 @@
   <nav>
     <a class="hide-sm" href="#mac">Mac</a>
     <a class="hide-sm" href="#iphone">iPhone &amp; iPad</a>
-    <a href="support/"><span data-lang="en">Support</span><span data-lang="zh">支持</span></a>
+    <a href="#download"><span data-lang="en">Download</span><span data-lang="zh">下载</span></a>
+    <a class="hide-sm" href="support/"><span data-lang="en">Support</span><span data-lang="zh">支持</span></a>
     <div class="lang" role="group" aria-label="Language / 语言">
       <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
       <button type="button" data-set-lang="zh" aria-pressed="false">中文</button>
@@ -217,16 +239,17 @@
   <p class="headline" data-lang="zh">复制过的一切，一键即达。</p>
   <p class="sub" data-lang="en">An open-source clipboard manager for Mac, iPhone and iPad. Like a chipmunk, it tucks away everything you copy, so you never lose it again.</p>
   <p class="sub" data-lang="zh">开源的剪贴板管理工具，支持 Mac、iPhone 和 iPad。像花栗鼠一样，把你复制过的东西都囤起来，再也不会丢。</p>
+  <!-- 主按钮按访问设备换文案和链接（见底部脚本）；认不出设备时跳到下载区。 -->
   <p class="cta">
-    <a class="btn primary" href="https://apps.apple.com/app/id6813955206">
-      <span data-lang="en">Download on the App Store</span><span data-lang="zh">在 App Store 下载</span>
+    <a class="btn primary" id="hero-download" href="#download">
+      <span data-lang="en">Download for free</span><span data-lang="zh">免费下载</span>
     </a>
-    <a class="btn" href="https://github.com/VibeMage/copymunk/releases/latest">
-      <span data-lang="en">Mac direct download</span><span data-lang="zh">Mac 直接下载版</span>
+    <a class="btn" id="hero-all" href="#download" hidden>
+      <span data-lang="en">All platforms</span><span data-lang="zh">全部平台</span>
     </a>
   </p>
-  <p class="note" data-lang="en">One app for Mac, iPhone and iPad · No account · Open source (GPLv3)</p>
-  <p class="note" data-lang="zh">Mac、iPhone、iPad 通用 · 无需账号 · GPLv3 开源</p>
+  <p class="note" data-lang="en">Free · Mac, iPhone and iPad · No account · Open source (GPLv3)</p>
+  <p class="note" data-lang="zh">免费 · Mac、iPhone、iPad 通用 · 无需账号 · GPLv3 开源</p>
 </div>
 
 <div class="shot-mac">
@@ -320,14 +343,58 @@
   </p>
 </section>
 
-<section class="closing">
+<!-- ===================== Download ===================== -->
+<!-- App Store 上是同一条记录（id6813955206），Mac、iPhone、iPad 通用购买。
+     DMG 链接用 Release 上不带版本号的 Copymunk.dmg，发新版时记得一并上传，链接就不用改。 -->
+<section id="download" class="download">
   <img class="icon" src="support/icon.png" width="72" height="72" alt="">
   <h2 data-lang="en">Never lose a copy again.</h2>
   <h2 data-lang="zh">复制过的，再也不会丢。</h2>
-  <p class="cta">
-    <a class="btn primary" href="https://apps.apple.com/app/id6813955206"><span data-lang="en">Download on the App Store</span><span data-lang="zh">在 App Store 下载</span></a>
-    <a class="btn" href="support/"><span data-lang="en">Help &amp; FAQ</span><span data-lang="zh">帮助与常见问题</span></a>
-  </p>
+  <p class="lead" data-lang="en">Copymunk is free on Mac, iPhone and iPad. One App Store listing covers all three, and they sync through your own iCloud.</p>
+  <p class="lead" data-lang="zh">Copymunk 在 Mac、iPhone 和 iPad 上都免费。App Store 上是同一个 App，三端通用，通过你自己的 iCloud 同步。</p>
+  <div class="dl-grid">
+    <div class="dl-card">
+      <div class="dl-head">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+        <div><h3>Mac</h3>
+          <p data-lang="en">macOS 14 Sonoma or later</p><p data-lang="zh">macOS 14 Sonoma 或更高版本</p></div>
+      </div>
+      <div class="dl-options">
+        <a class="btn primary" href="https://apps.apple.com/app/id6813955206?platform=mac">
+          <span data-lang="en">Mac App Store</span><span data-lang="zh">Mac App Store</span>
+        </a>
+        <p class="hint" data-lang="en">Recommended. Updates automatically.</p>
+        <p class="hint" data-lang="zh">推荐，自动更新。</p>
+        <a class="btn" href="https://github.com/VibeMage/copymunk/releases/latest/download/Copymunk.dmg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+          <span data-lang="en">Download DMG</span><span data-lang="zh">下载 DMG</span>
+        </a>
+        <p class="hint" data-lang="en">Outside the App Store: signed and notarized by Apple. To update, download the new version from here. <a href="https://github.com/VibeMage/copymunk/releases/latest">Release notes and checksums</a></p>
+        <p class="hint" data-lang="zh">不经过 App Store：已签名并通过 Apple 公证，更新时从这里下载新版。<a href="https://github.com/VibeMage/copymunk/releases/latest">更新说明与校验值</a></p>
+      </div>
+    </div>
+    <div class="dl-card">
+      <div class="dl-head">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg>
+        <div><h3>iPhone &amp; iPad</h3>
+          <p data-lang="en">iOS 18 / iPadOS 18 or later</p><p data-lang="zh">iOS 18 / iPadOS 18 或更高版本</p></div>
+      </div>
+      <div class="dl-options">
+        <a class="btn primary" href="https://apps.apple.com/app/id6813955206">
+          <span data-lang="en">App Store</span><span data-lang="zh">App Store</span>
+        </a>
+        <p class="hint" data-lang="en">The same app as on Mac. Turn on iCloud Sync on both to share your history.</p>
+        <p class="hint" data-lang="zh">和 Mac 版是同一个 App，两边都打开 iCloud 同步即可共享历史。</p>
+        <div class="qr">
+          <img src="assets/qr-app-store.svg" width="116" height="116" alt="QR code for Copymunk on the App Store">
+          <p data-lang="en">On your computer? Scan with your iPhone or iPad camera.</p>
+          <p data-lang="zh">正在用电脑看？用 iPhone 或 iPad 的相机扫一下。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="note" data-lang="en">Prefer to build it yourself? The full source is <a href="https://github.com/VibeMage/copymunk">on GitHub</a>.</p>
+  <p class="note" data-lang="zh">想自己编译？完整源码在 <a href="https://github.com/VibeMage/copymunk">GitHub</a>。</p>
 </section>
 
 <footer>
@@ -363,6 +430,27 @@
     else if ((navigator.language || '').toLowerCase().indexOf('zh') === 0) initial = 'zh';
   }
   apply(initial);
+
+  // 首屏主按钮：认出设备就直接给对应平台的下载，认不出就留在 #download。
+  // iPadOS 13 起 Safari 默认报 Macintosh UA，靠触点数区分。
+  var ua = navigator.userAgent || '';
+  var touch = navigator.maxTouchPoints > 1;
+  var platform = /iPhone|iPod/.test(ua) ? 'iphone'
+    : (/iPad/.test(ua) || (/Macintosh/.test(ua) && touch)) ? 'ipad'
+    : /Macintosh/.test(ua) ? 'mac' : '';
+  var hero = document.getElementById('hero-download');
+  var labels = {
+    mac: ['Download for Mac', '下载 Mac 版'],
+    iphone: ['Download for iPhone', '下载 iPhone 版'],
+    ipad: ['Download for iPad', '下载 iPad 版']
+  };
+  if (hero && platform) {
+    hero.href = 'https://apps.apple.com/app/id6813955206' + (platform === 'mac' ? '?platform=mac' : '');
+    hero.querySelector('[data-lang="en"]').textContent = labels[platform][0];
+    hero.querySelector('[data-lang="zh"]').textContent = labels[platform][1];
+    document.getElementById('hero-all').hidden = false;
+  }
+
   buttons.forEach(function (b) {
     b.addEventListener('click', function () {
       apply(b.getAttribute('data-set-lang'));
