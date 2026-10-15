@@ -51,6 +51,8 @@ prepare() { # udid lang(zh|en)
 
 shot() { # udid 输出名 启动参数...
   local dev=$1 name=$2; shift 2
+  # ONLY="share" 只补拍名字里带这个词的几张
+  [[ -n ${ONLY:-} && $name != *"$ONLY"* ]] && return
   xcrun simctl launch --terminate-running-process "$dev" "$BUNDLE" \
     -demoData -skipOnboarding -demoTheme light "$@" >/dev/null
   sleep 4
@@ -61,7 +63,8 @@ shot() { # udid 输出名 启动参数...
 P=$(udid "$PHONE"); D=$(udid "$PAD")
 [[ -n $P && -n $D ]] || { echo "找不到 $PHONE 或 $PAD 模拟器" >&2; exit 1; }
 
-for lang in zh en; do
+# LANGS="en" 只补拍一种语言（机器忙、拍到一半被打断时用）
+for lang in ${LANGS:-zh en}; do
   apple=$([[ $lang == zh ]] && echo zh-Hans || echo en)
   echo "==> $PHONE / $lang"
   prepare "$P" $lang

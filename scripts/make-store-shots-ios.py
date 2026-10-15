@@ -35,7 +35,8 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 REPO = Path(__file__).resolve().parent.parent
 OUT = REPO / "art" / "store-ios"
-ICON = REPO / "art" / "icon" / "icon-512.png"
+# 用 iOS 工程里的 1024 图标：art/icon 下那套还是改名前的旧图标
+ICON = REPO / "CopyoIOS" / "Assets.xcassets" / "AppIcon.appiconset" / "AppIcon.png"
 
 SF = "/System/Library/Fonts/SFNS.ttf"
 PINGFANG = ("/System/Library/AssetsV2/com_apple_MobileAsset_Font8/"
@@ -76,8 +77,8 @@ SHOTS = {
             "en": ("Tap to copy", "One tap copies a clip — open it to see everything"),
         }),
         ("04-share", "share", {
-            "zh": ("从任何 App 存进来", "分享面板里选 Copyo，Mac 上也能看到"),
-            "en": ("Save from any app", "Share to Copyo — it shows up on your Mac too"),
+            "zh": ("从任何 App 存进来", "分享面板里选 Copymunk，Mac 上也能看到"),
+            "en": ("Save from any app", "Share to Copymunk — it shows up on your Mac too"),
         }),
         ("05-quicksave", "settings-quicksave", {
             "zh": ("一按，存下剪贴板", "操作按钮、控制中心、轻点背面都能用"),
@@ -102,8 +103,8 @@ SHOTS = {
             "en": ("Keep favorites on Pinboards", "Group the clips you reuse, on every device"),
         }),
         ("04-share", "share", {
-            "zh": ("从任何 App 存进来", "分享面板里选 Copyo，Mac 上也能看到"),
-            "en": ("Save from any app", "Share to Copyo — it shows up on your Mac too"),
+            "zh": ("从任何 App 存进来", "分享面板里选 Copymunk，Mac 上也能看到"),
+            "en": ("Save from any app", "Share to Copymunk — it shows up on your Mac too"),
         }),
     ],
 }
@@ -199,11 +200,22 @@ def framed(shot, cfg):
     return canvas, pad
 
 
+def rounded_icon(size):
+    """iOS 的 AppIcon 是满版方图，圆角由系统加；这里照主屏幕的样子切约 22.4% 的圆角。
+    先在 4 倍尺寸上画遮罩再缩小，边缘才不发毛"""
+    icon = Image.open(ICON).convert("RGBA").resize((size, size), Image.LANCZOS)
+    big = size * 4
+    mask = Image.new("L", (big, big), 0)
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, big - 1, big - 1), radius=round(big * 0.2237), fill=255)
+    icon.putalpha(mask.resize((size, size), Image.LANCZOS))
+    return icon
+
+
 def build(device, lang, headline, subtitle, shot_path):
     cfg = DEVICES[device]
     base = Image.new("RGB", cfg["size"], BACKGROUND)
 
-    icon = Image.open(ICON).convert("RGBA").resize((cfg["icon"], cfg["icon"]), Image.LANCZOS)
+    icon = rounded_icon(cfg["icon"])
     base.paste(icon, ((base.width - icon.width) // 2, cfg["icon_top"]), icon)
 
     head_latin, head_cjk = fonts(lang, device, "head")
