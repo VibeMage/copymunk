@@ -105,6 +105,7 @@
 				SaveContentIntent.swift,
 				Share/SharePreviewCard.swift,
 				Share/ShareView.swift,
+				ShareAssets.xcassets,
 				SpotlightIndexer.swift,
 				WidgetRefresher.swift,
 			);
