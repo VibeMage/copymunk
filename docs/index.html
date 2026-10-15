@@ -1,7 +1,375 @@
 <!doctype html>
+<html lang="en">
+<head>
 <meta charset="utf-8">
-<title>Copymunk</title>
-<meta http-equiv="refresh" content="0; url=support/">
-<link rel="canonical" href="https://copymunk.com/support/">
-<p>Redirecting to <a href="support/">Copymunk support</a>…</p>
-<script>location.replace("support/");</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Copymunk · Clipboard history for Mac, iPhone and iPad</title>
+<meta name="description" content="Copymunk is an open-source clipboard manager for Mac, iPhone and iPad. Press ⇧⌘V for everything you've copied, synced through your own iCloud.">
+<meta name="theme-color" content="#F4F2ED">
+<link rel="canonical" href="https://copymunk.com/">
+<meta property="og:title" content="Copymunk">
+<meta property="og:description" content="Everything you copied, one key away. An open-source clipboard manager for Mac, iPhone and iPad.">
+<meta property="og:image" content="https://copymunk.com/support/icon.png">
+<link rel="icon" href="support/icon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+<style>
+  /* 视觉沿用 support/ 的浅色设计：同一套颜色、字体和按钮，避免首页与支持页像两个产品。 */
+  :root {
+    color-scheme: light;
+    --bg: #F4F2ED;
+    --panel: #EFECE5;
+    --card: #FCFBF8;
+    --card-hover: #EBE8E1;
+    --line: rgba(22, 22, 26, 0.12);
+    --line-strong: rgba(22, 22, 26, 0.22);
+    --fg: #16161A;
+    --muted: #6E6E76;
+    --dim: #63636B;
+    --red: #FF2D55;
+    --blue: #0A84FF;
+    --ink: #16161A;
+    --cream: #F4F2ED;
+    --link: #0068D6;
+    --link-hover: #005ABD;
+    --radius: 16px;
+    --shadow: 0 8px 28px rgba(52, 49, 61, 0.08);
+    --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --display: "Space Grotesk", var(--sans);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.6 var(--sans);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  a { color: var(--link); text-underline-offset: 0.18em; }
+  a:hover { color: var(--link-hover); }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
+  [hidden] { display: none !important; }
+  img { max-width: 100%; height: auto; }
+
+  /* ---------- Top bar ---------- */
+  .top {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; gap: 18px;
+    max-width: 1120px; margin: 0 auto;
+    padding: 12px 20px;
+    background: rgba(244, 242, 237, 0.82);
+    backdrop-filter: saturate(160%) blur(16px);
+    -webkit-backdrop-filter: saturate(160%) blur(16px);
+  }
+  .brand { display: flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; font-weight: 700; }
+  .brand img { width: 28px; height: 28px; border-radius: 7px; }
+  .brand:hover { color: var(--ink); }
+  .top nav { margin-left: auto; display: flex; align-items: center; gap: 18px; font-size: 14px; }
+  .top nav a { color: var(--dim); text-decoration: none; }
+  .top nav a:hover { color: var(--ink); }
+  .lang {
+    display: inline-flex; gap: 2px; padding: 3px;
+    border-radius: 999px; border: 1px solid var(--line); background: var(--bg);
+  }
+  .lang button {
+    appearance: none; border: 0; background: transparent; cursor: pointer;
+    color: var(--muted); font: 600 12px/1 var(--sans);
+    padding: 6px 10px; border-radius: 999px;
+  }
+  .lang button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: 0 1px 4px rgba(52, 49, 61, 0.10); }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    position: relative; isolation: isolate;
+    padding: 56px 20px 8px;
+    text-align: center;
+  }
+  .hero::before {
+    content: ""; position: absolute; inset: -30% -10% 0; z-index: -1; pointer-events: none;
+    background:
+      radial-gradient(42% 55% at 14% 26%, rgba(255, 45, 85, 0.10), transparent 70%),
+      radial-gradient(40% 55% at 88% 30%, rgba(10, 132, 255, 0.09), transparent 70%);
+    filter: blur(24px);
+  }
+  .hero .icon {
+    width: 128px; height: 128px; display: block; margin: 0 auto 24px; border-radius: 29px;
+    filter: drop-shadow(0 10px 24px rgba(214, 120, 60, 0.22));
+  }
+  .wordmark {
+    margin: 0;
+    font: 700 clamp(52px, 9vw, 84px)/1 var(--display);
+    letter-spacing: -0.045em; color: var(--ink);
+  }
+  .headline {
+    margin: 18px auto 0; max-width: 720px;
+    font: 700 clamp(26px, 4vw, 38px)/1.2 var(--sans); letter-spacing: -0.02em; color: var(--ink);
+  }
+  .sub { margin: 14px auto 0; max-width: 600px; color: var(--dim); font-size: 19px; }
+  .cta { margin: 28px 0 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 12px 22px; border-radius: 12px;
+    font-weight: 600; font-size: 16px; text-decoration: none;
+    border: 1px solid var(--line-strong); color: var(--fg); background: var(--card);
+    transition: background .15s, transform .15s;
+  }
+  .btn:hover { background: var(--card-hover); color: var(--ink); transform: translateY(-1px); }
+  .btn.primary { background: var(--ink); color: var(--cream); border-color: transparent; }
+  .btn.primary:hover { background: #2A2A30; color: var(--cream); }
+  .btn svg { width: 18px; height: 18px; flex: none; }
+  .note { margin: 14px 0 0; color: var(--muted); font-size: 14px; }
+
+  .shot-mac { max-width: 1120px; margin: 40px auto 0; padding: 0 20px; }
+  .shot-mac img { display: block; width: 100%; filter: drop-shadow(0 18px 40px rgba(52, 49, 61, 0.12)); }
+
+  /* ---------- Sections ---------- */
+  section { max-width: 1040px; margin: 0 auto; padding: 88px 20px 0; }
+  .eyebrow { margin: 0 0 8px; color: var(--muted); font: 600 13px/1 var(--sans); letter-spacing: .08em; text-transform: uppercase; }
+  h2 { margin: 0; font: 700 clamp(28px, 4vw, 40px)/1.15 var(--sans); letter-spacing: -0.02em; color: var(--ink); }
+  .lead { margin: 14px 0 0; max-width: 640px; color: var(--dim); font-size: 18px; }
+
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 32px; }
+  .feature {
+    padding: 22px 22px 20px; border-radius: var(--radius);
+    background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow);
+  }
+  .feature .glyph {
+    width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center;
+    margin-bottom: 14px; font-size: 18px;
+  }
+  .glyph.red { background: #FBE3E7; } .glyph.blue { background: #E2EEFA; }
+  .glyph.cream { background: var(--panel); } .glyph.green { background: #E2F4E6; }
+  .feature h3 { margin: 0 0 6px; font-size: 17px; color: var(--ink); }
+  .feature p { margin: 0; color: var(--muted); font-size: 15px; }
+  h2 kbd { font-size: 0.8em; padding: 0 0.25em; border-radius: 0.2em; vertical-align: 0.06em; }
+  kbd {
+    display: inline-block; padding: 0 6px; border-radius: 6px;
+    background: var(--panel); border: 1px solid var(--line-strong);
+    font: 500 14px/1.5 ui-monospace, "SF Mono", Menlo, monospace;
+  }
+
+  .split { display: grid; grid-template-columns: 1.1fr 1fr; gap: 48px; align-items: center; }
+  .phones { display: flex; justify-content: center; gap: 18px; }
+  .phones img { width: min(46%, 260px); filter: drop-shadow(0 18px 36px rgba(52, 49, 61, 0.14)); }
+  .phones img.lower { margin-top: 56px; }
+  .list { list-style: none; padding: 0; margin: 26px 0 0; }
+  .list li { padding: 14px 0; border-top: 1px solid var(--line); }
+  .list li:first-child { border-top: 0; }
+  .list b { display: block; color: var(--ink); }
+  .list span { color: var(--muted); font-size: 15px; }
+
+  .privacy {
+    margin-top: 32px; padding: 32px; border-radius: 22px;
+    background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow);
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;
+  }
+  .privacy b { display: block; color: var(--ink); margin-bottom: 4px; }
+  .privacy span { color: var(--muted); font-size: 15px; }
+
+  .closing { text-align: center; padding-bottom: 96px; }
+  .closing .icon { width: 72px; height: 72px; border-radius: 16px; margin: 0 auto 18px; display: block; }
+
+  footer {
+    max-width: 1040px; margin: 0 auto; padding: 24px 20px 48px;
+    border-top: 1px solid var(--line);
+    display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: center;
+    color: var(--dim); font-size: 13px;
+  }
+
+  @media (max-width: 860px) {
+    .grid { grid-template-columns: 1fr 1fr; }
+    .split { grid-template-columns: 1fr; gap: 32px; }
+    .privacy { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 560px) {
+    body { font-size: 16px; }
+    .top nav .hide-sm { display: none; }
+    .grid, .privacy { grid-template-columns: 1fr; }
+    .privacy { padding: 22px; }
+    section { padding-top: 64px; }
+    .hero { padding-top: 40px; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn { transition: none; } }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="./"><img src="support/icon.png" width="28" height="28" alt="">Copymunk</a>
+  <nav>
+    <a class="hide-sm" href="#mac">Mac</a>
+    <a class="hide-sm" href="#iphone">iPhone &amp; iPad</a>
+    <a href="support/"><span data-lang="en">Support</span><span data-lang="zh">支持</span></a>
+    <div class="lang" role="group" aria-label="Language / 语言">
+      <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-set-lang="zh" aria-pressed="false">中文</button>
+    </div>
+  </nav>
+</header>
+
+<div class="hero">
+  <img class="icon" src="support/icon.png" width="128" height="128" alt="Copymunk app icon">
+  <h1 class="wordmark">Copymunk</h1>
+  <p class="headline" data-lang="en">Everything you copied, one key away.</p>
+  <p class="headline" data-lang="zh">复制过的一切，一键即达。</p>
+  <p class="sub" data-lang="en">An open-source clipboard manager for Mac, iPhone and iPad. Like a chipmunk, it tucks away everything you copy, so you never lose it again.</p>
+  <p class="sub" data-lang="zh">开源的剪贴板管理工具，支持 Mac、iPhone 和 iPad。像花栗鼠一样，把你复制过的东西都囤起来，再也不会丢。</p>
+  <p class="cta">
+    <a class="btn primary" href="https://apps.apple.com/app/id6813955206">
+      <span data-lang="en">Download on the App Store</span><span data-lang="zh">在 App Store 下载</span>
+    </a>
+    <a class="btn" href="https://github.com/VibeMage/copyo/releases/latest">
+      <span data-lang="en">Mac direct download</span><span data-lang="zh">Mac 直接下载版</span>
+    </a>
+  </p>
+  <p class="note" data-lang="en">One app for Mac, iPhone and iPad · No account · Open source (GPLv3)</p>
+  <p class="note" data-lang="zh">Mac、iPhone、iPad 通用 · 无需账号 · GPLv3 开源</p>
+</div>
+
+<div class="shot-mac">
+  <img data-lang="en" src="assets/mac-panel-en.jpg" width="1600" height="503" alt="The Copymunk panel on Mac: a search field, filters and cards for text, links and colors">
+  <img data-lang="zh" src="assets/mac-panel-zh.jpg" width="1600" height="503" alt="Mac 上的 Copymunk 面板：搜索框、筛选和文本、链接、颜色卡片" hidden>
+</div>
+
+<!-- ===================== Mac ===================== -->
+<section id="mac">
+  <p class="eyebrow">Mac</p>
+  <h2 data-lang="en">Press <kbd>⇧⌘V</kbd>. It's all there.</h2>
+  <h2 data-lang="zh">按下 <kbd>⇧⌘V</kbd>，全都在。</h2>
+  <p class="lead" data-lang="en">Copymunk lives in the menu bar and quietly saves everything you copy. Your history slides up right above the Dock, ready to search with the keyboard.</p>
+  <p class="lead" data-lang="zh">Copymunk 常驻菜单栏，默默记下你复制的每一样东西。历史记录从 Dock 上方浮起，用键盘就能搜索和选取。</p>
+  <div class="grid">
+    <div class="feature"><div class="glyph blue">⌨︎</div>
+      <h3 data-lang="en">Keyboard first</h3><h3 data-lang="zh">键盘优先</h3>
+      <p data-lang="en">Type to search, arrow keys to move, Return to put it back on the clipboard, then paste with <kbd>⌘V</kbd>.</p>
+      <p data-lang="zh">输入即搜索，方向键移动，回车放回剪贴板，再按 <kbd>⌘V</kbd> 粘贴。</p></div>
+    <div class="feature"><div class="glyph red">◆</div>
+      <h3 data-lang="en">Every kind of clip</h3><h3 data-lang="zh">什么都能存</h3>
+      <p data-lang="en">Text, rich text, links, colors, images and files, each shown as a card with the app it came from.</p>
+      <p data-lang="zh">文本、富文本、链接、颜色、图片和文件，每条都是一张卡片，标着来自哪个 App。</p></div>
+    <div class="feature"><div class="glyph cream">📌</div>
+      <h3 data-lang="en">Pinboards</h3><h3 data-lang="zh">Pinboard</h3>
+      <p data-lang="en">Keep the clips you reuse on Pinboards. Clearing history never touches them.</p>
+      <p data-lang="zh">常用的内容固定到 Pinboard，清空历史也不会动到它们。</p></div>
+    <div class="feature"><div class="glyph green">☁︎</div>
+      <h3 data-lang="en">Sync, your way</h3><h3 data-lang="zh">同步由你决定</h3>
+      <p data-lang="en">Off by default. Turn it on to sync through your own iCloud or a folder you pick.</p>
+      <p data-lang="zh">默认关闭。打开后通过你自己的 iCloud 或你选的文件夹同步。</p></div>
+    <div class="feature"><div class="glyph blue">🔒</div>
+      <h3 data-lang="en">Skips secrets</h3><h3 data-lang="zh">不记密码</h3>
+      <p data-lang="en">Concealed content from password managers is never recorded.</p>
+      <p data-lang="zh">密码管理器标记为隐藏的内容，一律不记录。</p></div>
+    <div class="feature"><div class="glyph red">✓</div>
+      <h3 data-lang="en">No permissions</h3><h3 data-lang="zh">无需授权</h3>
+      <p data-lang="en">No Accessibility or input monitoring access. Copymunk never asks for privacy permissions.</p>
+      <p data-lang="zh">不需要辅助功能或输入监控权限，Copymunk 从不申请任何隐私权限。</p></div>
+  </div>
+</section>
+
+<!-- ===================== iPhone & iPad ===================== -->
+<section id="iphone">
+  <div class="split">
+    <div>
+      <p class="eyebrow">iPhone &amp; iPad</p>
+      <h2 data-lang="en">Your Mac's clipboard, in your pocket.</h2>
+      <h2 data-lang="zh">Mac 上复制过的一切，装进口袋。</h2>
+      <p class="lead" data-lang="en">History syncs through your own iCloud, so you can search it anywhere and tap any clip to copy it again.</p>
+      <p class="lead" data-lang="zh">历史通过你自己的 iCloud 同步，随时搜索，轻点任意一条即可再次复制。</p>
+      <ul class="list" data-lang="en">
+        <li><b>Save from any app</b><span>Use the share sheet to save text, links and images, straight into a Pinboard if you like.</span></li>
+        <li><b>Quick Save</b><span>One press on the Action Button, a Control Center or Lock Screen control, or Back Tap.</span></li>
+        <li><b>Widgets and Shortcuts</b><span>Recent Clips on your Home Screen, and "Save Clipboard" in Shortcuts and Siri.</span></li>
+        <li><b>Made for iPad</b><span>Sidebar and card grid, drag and drop, and full hardware keyboard control.</span></li>
+      </ul>
+      <ul class="list" data-lang="zh">
+        <li><b>在任意 App 里保存</b><span>通过分享面板保存文本、链接和图片，也可以直接放进 Pinboard。</span></li>
+        <li><b>一键保存</b><span>操作按钮、控制中心或锁屏控件一按即存，也可以用「轻点背面」。</span></li>
+        <li><b>小组件和快捷指令</b><span>主屏幕上的「最近的内容」，以及快捷指令和 Siri 里的「保存剪贴板」。</span></li>
+        <li><b>为 iPad 设计</b><span>侧栏加卡片网格，支持拖放和完整的硬件键盘操作。</span></li>
+      </ul>
+    </div>
+    <div class="phones">
+      <img data-lang="en" src="assets/phone-history-en.jpg" width="560" height="1139" alt="History on iPhone">
+      <img data-lang="en" class="lower" src="assets/phone-share-en.jpg" width="560" height="1139" alt="Saving from the share sheet on iPhone">
+      <img data-lang="zh" src="assets/phone-history-zh.jpg" width="560" height="1139" alt="iPhone 上的历史记录" hidden>
+      <img data-lang="zh" class="lower" src="assets/phone-share-zh.jpg" width="560" height="1139" alt="在 iPhone 分享面板里保存" hidden>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== Privacy ===================== -->
+<section id="privacy">
+  <p class="eyebrow" data-lang="en">Privacy</p><p class="eyebrow" data-lang="zh">隐私</p>
+  <h2 data-lang="en">Your clips stay yours.</h2>
+  <h2 data-lang="zh">你的内容只属于你。</h2>
+  <div class="privacy">
+    <div data-lang="en"><b>No servers of ours</b><span>Sync goes through Apple's iCloud to a private database in your own account.</span></div>
+    <div data-lang="en"><b>No account</b><span>No sign-up, no sign-in.</span></div>
+    <div data-lang="en"><b>No tracking</b><span>No ads, no analytics, no third-party SDKs.</span></div>
+    <div data-lang="en"><b>Open source</b><span>Every line is on GitHub under the GNU GPLv3.</span></div>
+    <div data-lang="zh"><b>没有我们的服务器</b><span>同步走 Apple 的 iCloud，存在你自己账户下的私有数据库里。</span></div>
+    <div data-lang="zh"><b>无需账号</b><span>不用注册，也不用登录。</span></div>
+    <div data-lang="zh"><b>不追踪</b><span>无广告，无统计，无第三方 SDK。</span></div>
+    <div data-lang="zh"><b>开源</b><span>全部代码以 GNU GPLv3 发布在 GitHub。</span></div>
+  </div>
+  <p class="note" style="text-align:left">
+    <a href="privacy/" data-lang="en">Read the privacy policy</a><a href="privacy/" data-lang="zh">阅读隐私政策</a>
+  </p>
+</section>
+
+<section class="closing">
+  <img class="icon" src="support/icon.png" width="72" height="72" alt="">
+  <h2 data-lang="en">Never lose a copy again.</h2>
+  <h2 data-lang="zh">复制过的，再也不会丢。</h2>
+  <p class="cta">
+    <a class="btn primary" href="https://apps.apple.com/app/id6813955206"><span data-lang="en">Download on the App Store</span><span data-lang="zh">在 App Store 下载</span></a>
+    <a class="btn" href="support/"><span data-lang="en">Help &amp; FAQ</span><span data-lang="zh">帮助与常见问题</span></a>
+  </p>
+</section>
+
+<footer>
+  <span>© 2026 Copymunk Contributors · GNU GPLv3</span>
+  <a href="support/"><span data-lang="en">Support</span><span data-lang="zh">支持</span></a>
+  <a href="privacy/"><span data-lang="en">Privacy Policy</span><span data-lang="zh">隐私政策</span></a>
+  <a href="mailto:support@copymunk.com">support@copymunk.com</a>
+  <a href="https://github.com/VibeMage/copyo"><span data-lang="en">Source on GitHub</span><span data-lang="zh">GitHub 源码</span></a>
+</footer>
+
+<script>
+(function () {
+  // 与 support/ 共用同一个 localStorage 键，在两页之间切换时语言保持一致。
+  var buttons = document.querySelectorAll('[data-set-lang]');
+  function apply(lang) {
+    document.documentElement.lang = lang === 'zh' ? 'zh-Hans' : 'en';
+    document.querySelectorAll('[data-lang]').forEach(function (el) {
+      el.hidden = el.getAttribute('data-lang') !== lang;
+    });
+    buttons.forEach(function (b) {
+      b.setAttribute('aria-pressed', b.getAttribute('data-set-lang') === lang ? 'true' : 'false');
+    });
+    try { localStorage.setItem('copyo-lang', lang); } catch (e) {}
+  }
+  var initial = 'en';
+  var hash = location.hash.replace('#', '');
+  if (hash === 'zh' || hash === 'en') {
+    initial = hash;
+  } else {
+    var saved = null;
+    try { saved = localStorage.getItem('copyo-lang'); } catch (e) {}
+    if (saved === 'zh' || saved === 'en') initial = saved;
+    else if ((navigator.language || '').toLowerCase().indexOf('zh') === 0) initial = 'zh';
+  }
+  apply(initial);
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      apply(b.getAttribute('data-set-lang'));
+      history.replaceState(null, '', '#' + b.getAttribute('data-set-lang'));
+    });
+  });
+})();
+</script>
+</body>
+</html>
