@@ -4,7 +4,7 @@
 # 用法:
 #   ./scripts/asc.rb builds [IOS|MAC_OS]   最近的构建与处理状态（只读）
 #   ./scripts/asc.rb version [IOS|MAC_OS]  待发布的版本：状态、发布方式、选中的构建（只读）
-#   ./scripts/asc.rb attach <构建号>       把 iOS 待提交版本的构建换成这一个（只改草稿，不提交审核）
+#   ./scripts/asc.rb attach <构建号> [IOS|MAC_OS]  把该平台（默认 iOS）待提交版本的构建换成这一个（只改草稿，不提交审核）
 #   ./scripts/asc.rb review-attachment <文件>  给 iOS 待提交版本的「App 审核信息」传一个附件（演示视频），
 #                                          同名的旧附件先删掉
 #   ./scripts/asc.rb mac-media <目录> [--dry-run]  把 Mac 待提交版本的商店截图与预览视频换成 <目录> 里的
@@ -238,17 +238,18 @@ when "version"
   v = ASC.pending_version((ARGV[0] || "IOS").upcase)
   puts "版本 #{v['versionString']} · 状态 #{v['appStoreState']} · 发布方式 #{v['releaseType']} · 构建 #{v['build'] || '（未选）'}"
 when "attach"
-  number = ARGV[0] or abort "用法：#{$PROGRAM_NAME} attach <构建号>"
-  version = ASC.pending_version("IOS")
+  number = ARGV[0] or abort "用法：#{$PROGRAM_NAME} attach <构建号> [IOS|MAC_OS]"
+  platform = (ARGV[1] || "IOS").upcase
+  version = ASC.pending_version(platform)
   unless %w[PREPARE_FOR_SUBMISSION DEVELOPER_REJECTED REJECTED METADATA_REJECTED].include?(version["appStoreState"])
     abort "版本 #{version['versionString']} 当前是 #{version['appStoreState']}，不能换构建（审核中要先撤回）"
   end
-  build = ASC.builds("IOS", limit: 50).find { |b| b["version"] == number && b["short"] == version["versionString"] }
+  build = ASC.builds(platform, limit: 50).find { |b| b["version"] == number && b["short"] == version["versionString"] }
   abort "找不到 #{version['versionString']} (#{number}) 的构建" unless build
   abort "构建 #{number} 还在处理（#{build['processingState']}），等它变成 VALID 再换" unless build["processingState"] == "VALID"
   ASC.request(:patch, "/v1/appStoreVersions/#{version['id']}/relationships/build",
               body: { data: { type: "builds", id: build["id"] } })
-  after = ASC.pending_version("IOS")
+  after = ASC.pending_version(platform)
   puts "版本 #{after['versionString']} 的构建：#{version['build'] || '（未选）'} → #{after['build']}"
 when "review-attachment"
   path = ARGV[0] or abort "用法：#{$PROGRAM_NAME} review-attachment <文件>"
@@ -421,7 +422,7 @@ when "mac-media"
     abort "替换已经做完，只是最后核对时没读到远端（#{e.class}：#{e.message}）；稍后用 --dry-run 再看一眼即可"
   end
 else
-  abort "用法：#{$PROGRAM_NAME} builds [IOS|MAC_OS] | version [IOS|MAC_OS] | attach <构建号> | " \
+  abort "用法：#{$PROGRAM_NAME} builds [IOS|MAC_OS] | version [IOS|MAC_OS] | attach <构建号> [IOS|MAC_OS] | " \
         "review-attachment <文件> | mac-media <素材目录> [--dry-run]"
 end
 rescue ASC::Error => e
