@@ -28,7 +28,7 @@ Copymunk 是一款开源的 macOS 剪贴板管理工具：菜单栏常驻，`⇧
 
 Mac 版已在 [Mac App Store](https://apps.apple.com/app/id6813955206) 上架。
 
-也可以从 [Releases](https://github.com/VibeMage/copyo/releases) 下载 DMG，打开后把 Copymunk
+也可以从 [Releases](https://github.com/VibeMage/copymunk/releases) 下载 DMG，打开后把 Copymunk
 拖进 Applications 即可。官方发布均已使用 Developer ID 签名并通过 Apple 公证——双击即可打开，
 仅首次有一次「从互联网下载的 App」标准确认弹窗。
 
@@ -37,9 +37,9 @@ Mac 版已在 [Mac App Store](https://apps.apple.com/app/id6813955206) 上架。
 需要 Xcode 16+、macOS 14+。
 
 ```bash
-git clone https://github.com/VibeMage/copyo.git && cd copyo
+git clone https://github.com/VibeMage/copymunk.git && cd copymunk
 xcodebuild -project Copyo.xcodeproj -scheme Copyo -configuration Release -derivedDataPath build build
-open build/Build/Products/Release/Copyo.app   # 或拷贝到 /Applications
+open build/Build/Products/Release/Copymunk.app   # 或拷贝到 /Applications
 ```
 
 也可以直接用 Xcode 打开 `Copyo.xcodeproj` 运行（⌘R）。

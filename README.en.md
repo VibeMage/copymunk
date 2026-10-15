@@ -28,7 +28,7 @@ Data lives on this Mac (`~/Library/Application Support/Copyo/`) and syncing is o
 
 Copymunk is available on the [Mac App Store](https://apps.apple.com/app/id6813955206).
 
-You can also grab the DMG from [Releases](https://github.com/VibeMage/copyo/releases), open it and drag Copymunk
+You can also grab the DMG from [Releases](https://github.com/VibeMage/copymunk/releases), open it and drag Copymunk
 into Applications. Official releases are signed with a Developer ID and notarized by Apple, so a double-click is all it takes —
 you only get the standard "app downloaded from the Internet" confirmation dialog the first time.
 
@@ -37,9 +37,9 @@ you only get the standard "app downloaded from the Internet" confirmation dialog
 Requires Xcode 16+ and macOS 14+.
 
 ```bash
-git clone https://github.com/VibeMage/copyo.git && cd copyo
+git clone https://github.com/VibeMage/copymunk.git && cd copymunk
 xcodebuild -project Copyo.xcodeproj -scheme Copyo -configuration Release -derivedDataPath build build
-open build/Build/Products/Release/Copyo.app   # or copy it to /Applications
+open build/Build/Products/Release/Copymunk.app   # or copy it to /Applications
 ```
 
 You can also just open `Copyo.xcodeproj` in Xcode and run it (⌘R).

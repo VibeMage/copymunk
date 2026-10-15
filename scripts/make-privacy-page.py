@@ -328,8 +328,8 @@ TEMPLATE = """<!doctype html>
   <span>© 2026 Copymunk Contributors · GNU GPLv3</span>
   <a href="../support/" data-lang="en">Support</a>
   <a href="../support/" data-lang="zh">支持与帮助</a>
-  <a href="https://github.com/VibeMage/copyo/blob/main/PRIVACY.md" data-lang="en">Source of this policy</a>
-  <a href="https://github.com/VibeMage/copyo/blob/main/PRIVACY.md" data-lang="zh">本政策原文</a>
+  <a href="https://github.com/VibeMage/copymunk/blob/main/PRIVACY.md" data-lang="en">Source of this policy</a>
+  <a href="https://github.com/VibeMage/copymunk/blob/main/PRIVACY.md" data-lang="zh">本政策原文</a>
 </footer>
 
 <script>

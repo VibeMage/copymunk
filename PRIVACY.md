@@ -98,7 +98,7 @@ use iCloud sync, deleting entries inside the app removes them from your iCloud
 and your other devices too; deleting the app alone does not remove the iCloud
 copy.
 
-Questions: open an issue at https://github.com/VibeMage/copyo/issues
+Questions: open an issue at https://github.com/VibeMage/copymunk/issues
 
 ## 中文
 
@@ -168,4 +168,4 @@ Copymunk 不收集、不传输、不出售任何数据。我们不运营任何�
 里的「清空历史」会删除所有没有固定到 Pinboard 的条目。若你使用 iCloud 同步，在应用里删除
 条目同样会从你的 iCloud 和其他设备中删除；只删除应用不会删除 iCloud 中的副本。
 
-如有疑问：https://github.com/VibeMage/copyo/issues
+如有疑问：https://github.com/VibeMage/copymunk/issues
