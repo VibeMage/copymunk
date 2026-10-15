@@ -1486,3 +1486,29 @@ App 信息的名称是整条记录共享的：1.2.2 过审后 iOS 商店页也�
 提交前对 ASC 的最终读回：构建 5 `VALID`、`usesNonExemptEncryption = false`；两种语言的描述里没有旧名，
 截图各 5 张、预览各 1 段，全部 `COMPLETE`；审核备注 3984 字符，旧名只出现在「renamed from Copyo」和容器 ID 里。
 `asc.rb` 仍然不提供提交命令，这次是一次性脚本。
+
+## 三十二、iOS 1.1.1 (14)：紧急修复 + 改名，已提审（2026-10-15）
+
+**起因**：1.1.0 上线后历史列表从卡片上拖不动，左右滑也失灵。`SwipeableCard` 在每张卡上挂了 SwiftUI 的
+`DragGesture`，iOS 18 起在 ScrollView 里它会把触摸整个吃掉。改成 `UIGestureRecognizerRepresentable` 包的
+`UIPanGestureRecognizer`，起手横向速度明显占优才开始，否则失败、交还给滚动。`CopyoIOSUITests/SwipeCardTests`
+覆盖上下滚动 / 左滑删除 / 右滑固定，换回旧手势时滚动用例会失败。
+
+维护者定的是**和改名 Copymunk 一起发**（方案 B），所以构建从合并了 `feat/rename-copymunk` 的 main 出：
+
+| 构建 | 说明 |
+| --- | --- |
+| 12 | 只有滑动修复、还叫 Copyo，只留在 TestFlight |
+| 13 | 合并改名之后的第一个包 |
+| 14 | 分享面板标题旁的小图标原来是代码手画的旧红蓝卡片（`CopyoMark`），改成 `CopyoShared/ShareAssets.xcassets/AppMark`（由 iOS AppIcon 缩出，Mac 目标排除）。**送审的是这个** |
+
+版本页：描述把面向用户的 Copyo 换成 Copymunk（`iCloud.dev.vibemage.Copyo` 这类标识不动）；推广文本新版本页不会自动带，要从上一版拷；
+更新说明中英各一段（改名 + 修复）；版权 `© 2026 Copymunk Contributors`；截图重拍（合成脚本改用 iOS AppIcon 并切主屏幕圆角，
+6.5 英寸那套照旧从 6.9 英寸按宽缩放、上下裁）；审核备注开头加一句改名说明，删掉了「附视频」那句（视频还是旧名，没挂到新版本上）。
+名称、副标题、隐私网址是 App 级字段，随 Mac 1.2.2 先一步提审时已锁定（见第三十一节）。
+
+坑：一个截图集上限 10 张，「先传新的再删旧的」在 6 张的集合上会撞上限（409 `SCREENSHOT_TOO_MANY`）；没提审的版本页直接先删后传。
+机器负载很高时（别的会话在跑 Godot / Blender，load average 四五百）模拟器拍图会卡住，`capture-store-shots-ios.sh` 现在可以
+`LANGS=en` / `ONLY=share` 只补拍一部分。
+
+2026-10-15 00:45 UTC 用 API 提交，状态「等待审核」，过审自动上架。
