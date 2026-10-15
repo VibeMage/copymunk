@@ -192,11 +192,17 @@ TEMPLATE = """<!doctype html>
   .top {
     position: sticky; top: 0; z-index: 10;
     display: flex; align-items: center; gap: 18px;
-    max-width: 760px; margin: 0 auto;
-    padding: 12px 20px;
+    /* 底色铺满整行，内容仍按 760px 版心对齐；在页面顶部时透明，滚动后才出现毛玻璃和分隔线，
+       否则半透明底只盖住版心那一段，会在首屏渐变上露出一个方块 */
+    padding: 12px max(20px, calc((100% - 760px) / 2 + 20px));
+    border-bottom: 1px solid transparent;
+    transition: background-color .2s, border-color .2s;
+  }
+  .top.scrolled {
     background: rgba(244, 242, 237, 0.82);
     backdrop-filter: saturate(160%) blur(16px);
     -webkit-backdrop-filter: saturate(160%) blur(16px);
+    border-bottom-color: var(--line);
   }
   .brand { display: flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; font-weight: 700; }
   .brand img { width: 28px; height: 28px; border-radius: 7px; }
@@ -330,6 +336,15 @@ TEMPLATE = """<!doctype html>
       history.replaceState(null, '', '#' + b.getAttribute('data-set-lang'));
     });
   });
+})();
+</script>
+<script>
+// 顶栏在页面顶部时透明，滚动后才加毛玻璃底和分隔线
+(function () {
+  var bar = document.querySelector('.top');
+  function update() { bar.classList.toggle('scrolled', window.scrollY > 4); }
+  update();
+  window.addEventListener('scroll', update, { passive: true });
 })();
 </script>
 </body>
