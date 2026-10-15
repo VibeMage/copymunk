@@ -11,13 +11,27 @@
 # 用法:
 #   ./scripts/build-release.sh
 #     - 自动签名，描述文件由 -allowProvisioningUpdates 自动申请
-#   NOTARY_PROFILE=copyo-notary ./scripts/build-release.sh
-#     - 导出后提交 Apple 公证并 staple。需先做一次性配置:
-#       xcrun notarytool store-credentials copyo-notary \
-#         --apple-id <AppleID邮箱> --team-id <TEAMID> --password <App专用密码>
+#   NOTARIZE=1 ./scripts/build-release.sh
+#     - 导出后提交 Apple 公证并 staple，凭据用下面的 App Store Connect API 密钥
+#   NOTARY_PROFILE=<配置名> ./scripts/build-release.sh
+#     - 同上，但改用 notarytool 钥匙串配置（xcrun notarytool store-credentials 存的）
+#
+# App Store Connect API 密钥（与 scripts/asc.rb 共用，仓库是公开的，不进仓库）:
+#   ~/.appstoreconnect/copyo.env                      ASC_KEY_ID / ASC_ISSUER_ID
+#   ~/.appstoreconnect/private_keys/AuthKey_<ID>.p8
+# 有这把密钥时，xcodebuild 用它登录开发者账号申请 Developer ID 描述文件，
+# Xcode 里没登录 Apple ID 也能导出（否则报 "No Accounts"）；公证也用它，
+# 不需要 App 专用密码。
 #   SIGN_IDENTITY="Developer ID Application: Name (TEAMID)" ./scripts/build-release.sh
 #     - 可选覆盖：钥匙串里有多张 Developer ID 证书时指定用哪一张，
 #       不设则由 Xcode 自动挑选
+#   EXPORT_PROFILE="Copymunk Developer ID" NOTARIZE=1 ./scripts/build-release.sh
+#     - 导出改用手动签名：本机钥匙串里的 Developer ID 证书 + 这个名字的描述文件。
+#       用 API 密钥登录时必须这样做：自动签名会去申请 Apple 托管的云端证书，
+#       而这把密钥没有该权限（报 "Cloud signing permission error"）。
+#       描述文件「Copymunk Developer ID」（类型 MAC_APP_DIRECT）2026-10-15 用 ASC API 建好，
+#       绑定序列号 1F260DB77707FECA 的证书，和证书一起在 2027-02-01 到期，
+#       到期后续证书、重建描述文件，放进 ~/Library/Developer/Xcode/UserData/Provisioning Profiles/
 #
 # 前置条件（一次性，在 Xcode 里完成）:
 #   1. Xcode → Settings → Accounts 登录 Apple ID 并选中团队 9A94W79V84
@@ -37,6 +51,25 @@ TEAM_ID=9A94W79V84
 BUNDLE_ID=dev.vibemage.Copyo
 # 上架脚本用的是 build/Copyo.xcarchive，这里另起一个名字，两个脚本互不覆盖
 ARCHIVE=build/Copyo-Release.xcarchive
+
+ASC_ENV="$HOME/.appstoreconnect/copyo.env"
+if [[ ( -z "${ASC_KEY_ID:-}" || -z "${ASC_ISSUER_ID:-}" ) && -f "$ASC_ENV" ]]; then
+  ASC_KEY_ID=$(sed -n 's/^[[:space:]]*export[[:space:]]*ASC_KEY_ID=\([^[:space:]]*\).*/\1/p' "$ASC_ENV" | head -1)
+  ASC_ISSUER_ID=$(sed -n 's/^[[:space:]]*export[[:space:]]*ASC_ISSUER_ID=\([^[:space:]]*\).*/\1/p' "$ASC_ENV" | head -1)
+fi
+ASC_KEY_PATH="$HOME/.appstoreconnect/private_keys/AuthKey_${ASC_KEY_ID:-}.p8"
+AUTH_ARGS=()
+if [[ -n "${ASC_KEY_ID:-}" && -n "${ASC_ISSUER_ID:-}" && -f "$ASC_KEY_PATH" ]]; then
+  AUTH_ARGS=(
+    -authenticationKeyPath "$ASC_KEY_PATH"
+    -authenticationKeyID "$ASC_KEY_ID"
+    -authenticationKeyIssuerID "$ASC_ISSUER_ID"
+  )
+fi
+if [[ "${NOTARIZE:-}" == 1 && -z "${NOTARY_PROFILE:-}" && ${#AUTH_ARGS[@]} -eq 0 ]]; then
+  echo "NOTARIZE=1 需要 App Store Connect API 密钥（见脚本开头），或改设 NOTARY_PROFILE" >&2
+  exit 1
+fi
 
 VERSION=$(sed -n 's/.*MARKETING_VERSION = "\{0,1\}\([0-9][0-9.A-Za-z-]*\)"\{0,1\};.*/\1/p' Copyo.xcodeproj/project.pbxproj | head -1)
 if [[ -z "$VERSION" ]]; then
@@ -79,6 +112,7 @@ ARCHIVE_ARGS=(
   -archivePath "$ARCHIVE"
   -derivedDataPath build
   -allowProvisioningUpdates
+  ${AUTH_ARGS[@]+"${AUTH_ARGS[@]}"}
   CODE_SIGN_STYLE=Automatic
   DEVELOPMENT_TEAM="$TEAM_ID"
   # 自动签名归档时只认 Apple Development 身份（写别的会被判成
@@ -121,11 +155,24 @@ EXPORT_PLIST="$EXPORT_DIR/exportOptions.plist"
 	<string>export</string>
 	<key>teamID</key>
 	<string>${TEAM_ID}</string>
-	<key>signingStyle</key>
-	<string>automatic</string>
 PLIST
+  if [[ -n "${EXPORT_PROFILE:-}" ]]; then
+    cat <<PLIST
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>signingCertificate</key>
+	<string>${SIGN_IDENTITY:-Developer ID Application}</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>${BUNDLE_ID}</key>
+		<string>${EXPORT_PROFILE}</string>
+	</dict>
+PLIST
+  else
+    printf '\t<key>signingStyle</key>\n\t<string>automatic</string>\n'
+  fi
   # 多张 Developer ID 证书时才需要指名道姓，默认让 Xcode 自己挑
-  if [[ -n "${SIGN_IDENTITY:-}" ]]; then
+  if [[ -z "${EXPORT_PROFILE:-}" && -n "${SIGN_IDENTITY:-}" ]]; then
     printf '\t<key>signingCertificate</key>\n\t<string>%s</string>\n' "$SIGN_IDENTITY"
   fi
   cat <<'PLIST'
@@ -139,7 +186,7 @@ if ! xcodebuild -exportArchive \
      -archivePath "$ARCHIVE" \
      -exportPath "$EXPORT_DIR/out" \
      -exportOptionsPlist "$EXPORT_PLIST" \
-     -allowProvisioningUpdates > "$EXPORT_LOG" 2>&1; then
+     -allowProvisioningUpdates ${AUTH_ARGS[@]+"${AUTH_ARGS[@]}"} > "$EXPORT_LOG" 2>&1; then
   echo "导出失败" >&2
   grep -E "error:|Error Domain" "$EXPORT_LOG" >&2 || tail -20 "$EXPORT_LOG" >&2
   if matches_signing_error "$EXPORT_LOG"; then
@@ -159,12 +206,17 @@ if [[ ! -d "$APP" ]]; then
 fi
 codesign --verify --strict "$APP"
 
-# 公证：设置 NOTARY_PROFILE（notarytool 钥匙串配置名）时执行
+# 公证：设置 NOTARY_PROFILE（notarytool 钥匙串配置名）或 NOTARIZE=1（用 API 密钥）时执行
 if [[ -n "${NOTARY_PROFILE:-}" ]]; then
+  NOTARY_AUTH=(--keychain-profile "$NOTARY_PROFILE")
+elif [[ "${NOTARIZE:-}" == 1 ]]; then
+  NOTARY_AUTH=(--key "$ASC_KEY_PATH" --key-id "$ASC_KEY_ID" --issuer "$ASC_ISSUER_ID")
+fi
+if [[ -n "${NOTARY_AUTH+x}" ]]; then
   echo "==> 提交 Apple 公证（通常 1-5 分钟）"
   NOTARY_TMP=$(mktemp -d)
   ditto -c -k --keepParent "$APP" "$NOTARY_TMP/Copyo.zip"
-  xcrun notarytool submit "$NOTARY_TMP/Copyo.zip" --keychain-profile "$NOTARY_PROFILE" --wait
+  xcrun notarytool submit "$NOTARY_TMP/Copyo.zip" "${NOTARY_AUTH[@]}" --wait
   rm -rf "$NOTARY_TMP"
   echo "==> Staple 公证票据"
   xcrun stapler staple "$APP"
@@ -195,7 +247,7 @@ echo ""
 ls -lh dist/
 echo ""
 echo "归档：${ARCHIVE}"
-if [[ -n "${NOTARY_PROFILE:-}" ]]; then
+if [[ -n "${NOTARY_AUTH+x}" ]]; then
   echo "完成。已签名并通过 Apple 公证：双击即装，仅首次有一次「从互联网下载」的标准确认。"
 else
   echo "完成。已用 Developer ID 自动签名；建议加 NOTARY_PROFILE=<配置名> 继续公证。"
