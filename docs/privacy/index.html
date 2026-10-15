@@ -9,12 +9,10 @@
 <meta name="theme-color" content="#F4F2ED">
 <meta property="og:title" content="Copymunk Privacy Policy">
 <meta property="og:description" content="Copymunk does not collect, transmit, or sell any data.">
-<meta property="og:image" content="../support/icon.png">
+<meta property="og:image" content="https://copymunk.com/support/icon.png">
 <link rel="icon" href="../support/icon.png" type="image/png">
+<link rel="apple-touch-icon" href="../support/icon.png">
 <link rel="canonical" href="https://copymunk.com/privacy/">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
 <style>
   :root {
     color-scheme: light;
@@ -33,7 +31,6 @@
     --radius: 12px;
     --shadow: 0 8px 28px rgba(52, 49, 61, 0.08);
     --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --display: "Space Grotesk", var(--sans);
   }
   * { box-sizing: border-box; }
   body {
@@ -49,69 +46,37 @@
   a:focus-visible, button:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
   [hidden] { display: none !important; }
 
-  .hero {
-    position: relative;
-    isolation: isolate;
-    padding: 56px 20px 8px;
-    text-align: center;
-    overflow: hidden;
+  /* 顶栏与首页、支持页一致 */
+  .top {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; gap: 18px;
+    max-width: 760px; margin: 0 auto;
+    padding: 12px 20px;
+    background: rgba(244, 242, 237, 0.82);
+    backdrop-filter: saturate(160%) blur(16px);
+    -webkit-backdrop-filter: saturate(160%) blur(16px);
   }
-  .hero::before {
-    content: "";
-    position: absolute;
-    inset: -20% -10%;
-    z-index: -1;
-    pointer-events: none;
-    background:
-      radial-gradient(42% 55% at 16% 22%, rgba(255, 45, 85, 0.10), transparent 70%),
-      radial-gradient(40% 55% at 86% 34%, rgba(10, 132, 255, 0.09), transparent 70%);
-    filter: blur(24px);
-  }
-  .icon {
-    width: 88px; height: 88px;
-    display: block; margin: 0 auto 18px;
-    border-radius: 20px;
-    filter: drop-shadow(-4px -3px 18px rgba(255, 45, 85, 0.14)) drop-shadow(4px 3px 18px rgba(10, 132, 255, 0.14));
-  }
-  .wordmark {
-    font: 700 clamp(40px, 7vw, 60px)/1 var(--display);
-    letter-spacing: -0.045em;
-    color: var(--ink);
-    margin: 0;
-    text-shadow: -0.018em -0.014em 0 rgba(255, 45, 85, 0.65), 0.018em 0.014em 0 rgba(10, 132, 255, 0.65);
-  }
-  .wordmark a { color: inherit; text-decoration: none; }
-  .wordmark small {
-    display: block;
-    margin-top: 12px;
-    font: 600 clamp(20px, 3vw, 26px)/1.2 var(--sans);
-    letter-spacing: 0;
-    text-shadow: none;
-    color: var(--fg);
-  }
-  .tagline { margin: 12px auto 0; max-width: 560px; color: var(--dim); font-size: 15px; }
+  .brand { display: flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; font-weight: 700; }
+  .brand img { width: 28px; height: 28px; border-radius: 7px; }
+  .brand:hover { color: var(--ink); }
+  .top nav { margin-left: auto; display: flex; align-items: center; gap: 18px; font-size: 14px; }
+  .top nav a { color: var(--dim); text-decoration: none; }
+  .top nav a:hover { color: var(--ink); }
+  .top nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
   .lang {
-    display: inline-flex;
-    gap: 4px;
-    margin-top: 22px;
-    padding: 4px;
-    border-radius: 999px;
-    background: var(--bg);
-    border: 1px solid var(--line);
+    display: inline-flex; gap: 2px; padding: 3px;
+    border-radius: 999px; border: 1px solid var(--line); background: var(--bg);
   }
   .lang button {
-    appearance: none;
-    border: 0;
-    background: transparent;
-    color: var(--muted);
-    font: 600 13px/1 var(--sans);
-    padding: 8px 14px;
-    border-radius: 999px;
-    cursor: pointer;
-    transition: background .15s, color .15s;
+    appearance: none; border: 0; background: transparent; cursor: pointer;
+    color: var(--muted); font: 600 12px/1 var(--sans);
+    padding: 6px 10px; border-radius: 999px;
   }
-  .lang button:hover { background: var(--card-hover); color: var(--fg); }
   .lang button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: 0 1px 4px rgba(52, 49, 61, 0.10); }
+
+  .page-head { margin: 0 0 28px; }
+  .page-head h1 { margin: 0; font: 700 clamp(30px, 5vw, 40px)/1.15 var(--sans); letter-spacing: -0.02em; color: var(--ink); }
+  .page-head p { margin: 10px 0 0; color: var(--dim); font-size: 15px; }
 
   main { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
   .card {
@@ -157,27 +122,29 @@
   }
 
   @media (max-width: 640px) {
+    .top nav .hide-sm { display: none; }
     .card-body { padding: 16px; }
   }
 </style>
 </head>
 <body>
 
-<header class="hero">
-  <a href="../support/"><img class="icon" src="../support/icon.png" width="88" height="88" alt="Copymunk app icon"></a>
-  <h1 class="wordmark"><a href="../support/">Copymunk</a>
-    <small data-lang="en">Privacy Policy</small>
-    <small data-lang="zh">隐私政策</small>
-  </h1>
-  <p class="tagline" data-lang="en">Effective date: 2026-09-27</p>
-  <p class="tagline" data-lang="zh">生效日期：2026-09-27</p>
-  <div class="lang" role="group" aria-label="Language / 语言">
-    <button type="button" data-set-lang="en" aria-pressed="true">English</button>
-    <button type="button" data-set-lang="zh" aria-pressed="false">中文</button>
-  </div>
+<header class="top">
+  <a class="brand" href="../"><img src="../support/icon.png" width="28" height="28" alt="">Copymunk</a>
+  <nav>
+    <a class="hide-sm" href="../"><span data-lang="en">Home</span><span data-lang="zh">首页</span></a>
+    <a class="hide-sm" href="../support/"><span data-lang="en">Support</span><span data-lang="zh">支持</span></a>
+    <a href="./" aria-current="page"><span data-lang="en">Privacy</span><span data-lang="zh">隐私</span></a>
+    <div class="lang" role="group" aria-label="Language / 语言">
+      <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-set-lang="zh" aria-pressed="false">中文</button>
+    </div>
+  </nav>
 </header>
 
 <main>
+<div class="page-head" data-lang="en"><h1>Privacy Policy</h1><p>Effective date: 2026-09-27</p></div>
+<div class="page-head" data-lang="zh"><h1>隐私政策</h1><p>生效日期：2026-09-27</p></div>
   <section data-lang="en">
     <div class="card">
       <div class="card-body">
@@ -296,8 +263,9 @@
 
 <footer>
   <span>© 2026 Copymunk Contributors · GNU GPLv3</span>
-  <a href="../support/" data-lang="en">Support</a>
-  <a href="../support/" data-lang="zh">支持与帮助</a>
+  <a href="../"><span data-lang="en">Home</span><span data-lang="zh">首页</span></a>
+  <a href="../support/"><span data-lang="en">Support</span><span data-lang="zh">支持</span></a>
+  <a href="mailto:support@copymunk.com">support@copymunk.com</a>
   <a href="https://github.com/VibeMage/copymunk/blob/main/PRIVACY.md" data-lang="en">Source of this policy</a>
   <a href="https://github.com/VibeMage/copymunk/blob/main/PRIVACY.md" data-lang="zh">本政策原文</a>
 </footer>

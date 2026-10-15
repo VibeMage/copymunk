@@ -1,0 +1,5 @@
+# 仓库里的内部文档（不是网站内容）放在 docs/ 下，会被 Cloudflare Pages 一起发布。
+# 产品域名上不该直接展示它们，转到 GitHub 上的原文。
+/ci.md https://github.com/VibeMage/copymunk/blob/main/docs/ci.md 301
+/ios-plan.md https://github.com/VibeMage/copymunk/blob/main/docs/ios-plan.md 301
+/appstore-submission.md https://github.com/VibeMage/copymunk/blob/main/docs/appstore-submission.md 301
