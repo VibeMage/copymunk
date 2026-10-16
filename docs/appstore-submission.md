@@ -1512,3 +1512,50 @@ App 信息的名称是整条记录共享的：1.2.2 过审后 iOS 商店页也�
 `LANGS=en` / `ONLY=share` 只补拍一部分。
 
 2026-10-15 00:45 UTC 用 API 提交，状态「等待审核」，过审自动上架。
+
+## 三十三、Mac 1.3 (6) 与 iOS 1.3 (15)：18 种界面语言，已提审（2026-10-17）
+
+Mac 1.2.2 (5) 与 iOS 1.1.1 (14) 都已上架（`READY_FOR_SALE`）。这一版两端的营销版本号**对齐为 1.3**
+（iOS 从 1.1.1 直接跳过来，和这一轮提交的 `[1.3]` 标签一致，维护者定的）。
+
+### 这一版里有什么
+
+- 界面语言从 3 种（英、简中、法）扩到 **18 种**：新增繁中、日、韩、德、西、意、葡（巴西）、荷、波、俄、土、阿、印尼、泰、越。
+  阿拉伯语做了 RTL 审查：键位串用 LRI…PDI 隔离、iOS 左右滑按逻辑方向换算、`chevron.forward`。
+  前 5 种 Mac / iOS 逐屏看过排版，后 10 种只做了校验脚本与宽度比对，没有上屏；15 种都还没请母语者校对（`copyo-63n.8`）。
+- Mac：纯文本复制只认 `⇧↩`，1.1 的 `⌥↩` 隐藏别名按设计稿第八节第 17 条在本版删除。
+- iOS：设置页「隐私政策」从 Gist 改为 `https://copymunk.com/privacy/`，「源代码」改指 `VibeMage/copymunk`；
+  分享面板与小组件补上漏译的相对时间与旁白标签。
+- 构建设置里残留的旧名：版权串改为 `Copyright © 2026 Copymunk Contributors. GNU GPLv3.`，相册权限说明基础值改为 Copymunk。
+
+### 出包与上传
+
+- 从 `origin/main`（`971278f`）建干净 worktree，`NO_BUMP=1` 跑 `build-appstore.sh` 与 `UPLOAD=1 build-appstore-ios.sh`；
+  Mac 的 pkg 照第二十七节用 altool + API 密钥上传。两个构建几分钟内 `VALID`，`usesNonExemptEncryption = false`。
+- 归档在 `~/Library/Developer/Xcode/Archives/2026-10-17/`（`Copymunk macOS 1.3 (6) AppStore.xcarchive`、
+  `Copymunk iOS 1.3 (15) AppStore.xcarchive`），复制完才删 worktree。
+
+### ASC
+
+- 用 API 新建两个平台的 1.3 版本（`AFTER_APPROVAL`，版权 `© 2026 Copymunk Contributors`）。描述、关键词、截图、预览视频、
+  审核联系人与备注都从上一版自动带过来；**推广文本没有带**，照旧从上架版拷。
+- 两个平台、两种语言的支持网址都是 `https://copymunk.com/support/`，营销网址 `https://copymunk.com`
+  （iOS 版本页的支持网址到这一版才从 `vibemage.github.io/copyo/support/` 改过来，见 `copyo-stt.14`）。
+- iOS 描述：「One press on the Action Button / 操作按钮……一按即存」改成按住（App 里的引导写的就是按住）；
+  英文关键词加 `clipboard`，为了不超 100 字符去掉了 `clips`。
+- 新功能说明（中英）：18 种语言，以及在哪里给 Copymunk 单独选语言（Mac「系统设置 › 通用 › 语言与地区」、
+  iOS「设置 › Copymunk › 语言」）；Mac 另写 ⌥↩ 移除，iOS 另写漏译修复。
+- 审核备注：「NEW IN 1.2.2」/「1.1.1: renamed…」换成 1.3 一句；语言改成 18 种的代码列表（商店页只维护中英，
+  但备注要写实际的界面语言）；iOS 备注里的源代码地址改成 `VibeMage/copymunk`。为压进 4000 字符，语言用代码写，
+  另压了两三处措辞。最终 Mac 3989、iOS 3992 字符。
+- App 信息（两平台共用，新版本处于准备提交时才解锁）：副标题英文 `Clipboard history, synced`、
+  中文 `剪贴板历史，Mac 与 iPhone 同步`（维护者确认；名字保持裸名 Copymunk）；隐私政策网址中英都改为
+  `https://copymunk.com/privacy/`。第二分类没有动。
+- 商店元数据只维护英文与简体中文两套（维护者 2026-10-16 决定），其他地区回退到英文；ROADMAP 里原来的「补法语商店页」一条随之删掉。
+
+### 已提交审核
+
+提交前读回：两平台构建 VALID、出口合规 false；四个本地化的描述 / 新功能 / 推广文本 / 关键词里没有旧名，
+截图（Mac 各 5 张，iOS 6.5 英寸 6 张 + iPad 4 张）与 Mac 预览全部 `COMPLETE`；备注里的 Copyo 只剩容器 ID。
+维护者要求「没有问题后提审」，用一次性脚本为两个平台各建一个 reviewSubmission、挂版本、提交，状态均为 `WAITING_FOR_REVIEW`。
+`asc.rb` 仍不提供提交命令。

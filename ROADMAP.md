@@ -2,12 +2,12 @@
 
 ## 进行中
 
-- [ ] **Mac 1.2.1 (4)：TestFlight 内测中，暂不提审**。版本页、构建、截图与视频、审核备注都已备好，
-  维护者自己用几天没问题后提审（见 docs/appstore-submission.md 第二十八节）
-- [ ] **iOS / iPadOS 首版 1.1.0：2026-09-27 提交审核，等待审核**。构建 11，附审核演示视频，
-  过审自动上架；与 Mac 版同一应用记录，组成 Universal Purchase（见 docs/appstore-submission.md 第二十六节）。
-  **仍然缺真机验证**：CloudKit、一键保存、Spotlight、触摸手势、VoiceOver 都只在模拟器上跑过，
-  而 CloudKit 是 iOS 版最大的价值所在。键盘扩展不随首版发，详情见下面「计划中」的 iOS 条目
+- [ ] **Mac 1.3 (6) 与 iOS / iPadOS 1.3 (15)：2026-10-17 提交审核，等待审核**，过审自动上架
+  （见 docs/appstore-submission.md 第三十三节）。这一版两端版本号对齐为 1.3：界面语言从 3 种扩到 18 种
+  （阿拉伯语从右到左），Mac 去掉 ⌥↩ 旧键位。上一版 Mac 1.2.2 (5) 与 iOS 1.1.1 (14) 已上架。
+  新增 15 种语言的译文还没请母语者校对，后 10 种也没有逐屏看过排版
+- [ ] **iOS 仍然缺真机验证**：CloudKit、一键保存、Spotlight、触摸手势、VoiceOver 都只在模拟器上跑过，
+  而 CloudKit 是 iOS 版最大的价值所在。键盘扩展仍不随包发，详情见下面「计划中」的 iOS 条目
 
 ## 计划中
 
@@ -53,9 +53,6 @@
 - [ ] 同步合并逻辑的单元测试。这是目前**唯一没有测试保护的复杂逻辑**，而它直接决定
   用户数据会不会丢。前提是先把 `Copyo/Services/SyncService.swift` 里的快照导入导出、
   游标推进、identity 去重下沉到 `CopyoCore`——留在 app target 里测不了
-- [ ] App Store 法语商店元数据：应用内界面已是法语，但商店页只有英文和简体中文两种，
-  法国区用户看到的仍是英文描述。补一套法语描述 / 关键词 / 截图（截图管线加一种语言即可，
-  见 `scripts/make-store-shots.py` 的 TEXT 表）
 - [ ] 应用内更新检查：比对 GitHub Releases，有新版时提示下载（仅直发版启用，
   App Store 版必须屏蔽该入口）
 - [ ] GitHub Actions CI：推送 tag 自动构建并附加 DMG 到 Release
