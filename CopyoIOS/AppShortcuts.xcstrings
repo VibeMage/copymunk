@@ -46,6 +46,15 @@
               "${applicationName}でクリップボードを保存"
             ]
           }
+        },
+        "zh-Hant": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "儲存剪貼板到 ${applicationName}",
+              "用 ${applicationName} 儲存剪貼板"
+            ]
+          }
         }
       }
     },
@@ -88,6 +97,14 @@
             "state": "translated",
             "values": [
               "${applicationName}でクリップボードを保存して"
+            ]
+          }
+        },
+        "zh-Hant": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "用 ${applicationName} 存剪貼板"
             ]
           }
         }
@@ -134,6 +151,14 @@
               "この項目を${applicationName}に保存"
             ]
           }
+        },
+        "zh-Hant": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "把這個存到 ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -176,6 +201,14 @@
             "state": "translated",
             "values": [
               "${applicationName}、クリップボードを保存"
+            ]
+          }
+        },
+        "zh-Hant": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} 儲存剪貼板"
             ]
           }
         }

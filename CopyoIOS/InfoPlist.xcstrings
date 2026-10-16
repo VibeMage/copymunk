@@ -40,6 +40,12 @@
             "state" : "translated",
             "value" : "Copymunk 会把你选中的图片存入照片图库。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copymunk 會將你選擇的影像儲存到照片圖庫。"
+          }
         }
       }
     }

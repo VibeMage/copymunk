@@ -33,6 +33,12 @@
             "state": "translated",
             "value": "%@ 同时被另一个 App 占用：按下时会触发那个 App，Copymunk 不一定响应，请换一个组合"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 同時被另一個 App 使用：按下時會觸發該 App，Copymunk 不一定會回應，請換一個組合"
+          }
         }
       }
     },
@@ -68,6 +74,12 @@
             "state": "translated",
             "value": "%@ 现在不起作用，它已被另一个 App 占用，请换一个组合"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 目前無法使用，它已被另一個 App 佔用，請換一個組合"
+          }
         }
       }
     },
@@ -102,6 +114,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ 现在不起作用，它已被系统快捷键占用，请换一个组合，或在系统设置里关掉那个快捷键"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 目前無法使用，它已被系統快速鍵佔用，請換一個組合，或在系統設定中關閉該快速鍵"
           }
         }
       }
@@ -254,6 +272,28 @@
             "state": "translated",
             "value": "%@ · %lld 字符"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg 個字元"
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -405,6 +445,28 @@
             "state": "translated",
             "value": "%@ · %lld 个文件"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg 個檔案"
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -445,6 +507,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@，来自 %2$@，%3$@，%4$@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@，來自 %2$@，%3$@，%4$@"
           }
         }
       }
@@ -547,6 +615,18 @@
             "state": "translated",
             "value": "%lld 字"
           }
+        },
+        "zh-Hant": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld 個字元"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -647,6 +727,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld 个文件"
+          }
+        },
+        "zh-Hant": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld 個檔案"
+                }
+              }
+            }
           }
         }
       }
@@ -749,6 +841,18 @@
             "state": "translated",
             "value": "另外 %lld 个文件"
           }
+        },
+        "zh-Hant": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "還有 %lld 個檔案"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -850,6 +954,18 @@
             "state": "translated",
             "value": "%lld 条结果"
           }
+        },
+        "zh-Hant": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld 個結果"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -881,6 +997,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 天前"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "%lld 天前"
@@ -920,6 +1042,12 @@
             "state": "translated",
             "value": "%lld 小时前"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 小時前"
+          }
         }
       }
     },
@@ -954,6 +1082,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld 分钟前"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 分鐘前"
           }
         }
       }
@@ -990,6 +1124,12 @@
             "state": "translated",
             "value": "100 条"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "100 個項目"
+          }
         }
       }
     },
@@ -1024,6 +1164,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1000 条"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1000 個項目"
           }
         }
       }
@@ -1060,6 +1206,12 @@
             "state": "translated",
             "value": "300 条"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "300 個項目"
+          }
         }
       }
     },
@@ -1094,6 +1246,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "500 条"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "500 個項目"
           }
         }
       }
@@ -1130,6 +1288,12 @@
             "state": "translated",
             "value": "关于"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關於"
+          }
         }
       }
     },
@@ -1164,6 +1328,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "添加"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "加入"
           }
         }
       }
@@ -1200,6 +1370,12 @@
             "state": "translated",
             "value": "添加 App"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "加入 App"
+          }
         }
       }
     },
@@ -1235,6 +1411,12 @@
             "state": "translated",
             "value": "复制后 Copymunk 把内容写回系统剪贴板并把焦点交还给原来的 App，由你自己按 ⌘V —— Copymunk 从不代你粘贴。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拷貝後，Copymunk 會把項目寫回系統剪貼板，並將焦點交還給原來的 App，由你自己按下 ⌘V——Copymunk 從不替你貼上。"
+          }
         }
       }
     },
@@ -1266,6 +1448,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全部"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "全部"
@@ -1305,6 +1493,12 @@
             "state": "translated",
             "value": "始终以纯文本复制"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一律拷貝為純文字"
+          }
         }
       }
     },
@@ -1339,6 +1533,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "始终开启"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "永遠開啟"
           }
         }
       }
@@ -1375,6 +1575,12 @@
             "state": "translated",
             "value": "任意多台设备都能共享的文件夹皆可，例如 iCloud Drive 里的某个文件夹或公司共享盘。Copymunk 会把自己的文件放在其中的专属子文件夹里，且只能访问你在此选定的文件夹。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "任何你所有裝置都能共享的資料夾皆可，例如 iCloud 雲碟裡的某個資料夾，或公司的共享磁碟。Copymunk 會把自己的檔案放在其中專屬的子資料夾裡，而且只能存取你在這裡選擇的資料夾。"
+          }
         }
       }
     },
@@ -1409,6 +1615,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "复制任何东西，它都会出现在这里。Copymunk 在后台自动记录，不需要你做任何事。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你拷貝的任何內容都會出現在這裡。Copymunk 會在背景自動記錄，你什麼都不用做。"
           }
         }
       }
@@ -1445,6 +1657,12 @@
             "state": "translated",
             "value": "按 ↩ 时生效。⇧↩ 始终以纯文本复制。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "按下 ↩ 時生效。⇧↩ 一律拷貝為純文字。"
+          }
         }
       }
     },
@@ -1479,6 +1697,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "可用"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "可使用"
           }
         }
       }
@@ -1515,6 +1739,12 @@
             "state": "translated",
             "value": "复制后回到原来的 App，按 ⌘V 粘贴"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拷貝後回到原來的 App，按下 ⌘V 貼上"
+          }
         }
       }
     },
@@ -1546,6 +1776,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "取消"
@@ -1585,6 +1821,12 @@
             "state": "translated",
             "value": "无法访问这个文件夹"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法存取這個資料夾"
+          }
         }
       }
     },
@@ -1619,6 +1861,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "捕获"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "擷取"
           }
         }
       }
@@ -1655,6 +1903,12 @@
             "state": "translated",
             "value": "正在检查…"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在檢查…"
+          }
         }
       }
     },
@@ -1689,6 +1943,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "选择"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選擇"
           }
         }
       }
@@ -1725,6 +1985,12 @@
             "state": "translated",
             "value": "重新选择…"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新選擇…"
+          }
         }
       }
     },
@@ -1759,6 +2025,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "选择文件夹…"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選擇資料夾…"
           }
         }
       }
@@ -1795,6 +2067,12 @@
             "state": "translated",
             "value": "请选择一个你的所有 Mac 都能读写的文件夹。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請選擇一個你所有 Mac 都能讀寫的資料夾。"
+          }
         }
       }
     },
@@ -1829,6 +2107,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "在下方选择同步文件夹后即可开启同步。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在下方選擇同步資料夾後即可開啟同步。"
           }
         }
       }
@@ -1865,6 +2149,12 @@
             "state": "translated",
             "value": "同步文件夹需要重新选择"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "需要重新選擇同步資料夾"
+          }
         }
       }
     },
@@ -1899,6 +2189,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "清空"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "清除"
           }
         }
       }
@@ -1935,6 +2231,12 @@
             "state": "translated",
             "value": "清空历史记录？"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要清除歷史記錄嗎？"
+          }
         }
       }
     },
@@ -1969,6 +2271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "清空历史…"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "清除歷史記錄…"
           }
         }
       }
@@ -2005,6 +2313,12 @@
             "state": "translated",
             "value": "点一下可以改"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "按一下即可更改"
+          }
         }
       }
     },
@@ -2039,6 +2353,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "剪贴板"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "剪貼板"
           }
         }
       }
@@ -2075,6 +2395,12 @@
             "state": "translated",
             "value": "关闭"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉"
+          }
         }
       }
     },
@@ -2109,6 +2435,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "关闭面板"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉面板"
           }
         }
       }
@@ -2145,6 +2477,12 @@
             "state": "translated",
             "value": "颜色"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "顏色"
+          }
         }
       }
     },
@@ -2179,6 +2517,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "来自 1Password、钥匙串的内容不会被记录"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "永遠不會記錄來自 1Password 和鑰匙圈的內容"
           }
         }
       }
@@ -2215,6 +2559,12 @@
             "state": "translated",
             "value": "已复制 · 按 ⌘V 粘贴"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已拷貝 · 按下 ⌘V 貼上"
+          }
         }
       }
     },
@@ -2249,6 +2599,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "已复制，按 ⌘V 粘贴"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已拷貝，按下 ⌘V 貼上"
           }
         }
       }
@@ -2285,6 +2641,12 @@
             "state": "translated",
             "value": "复制"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拷貝"
+          }
         }
       }
     },
@@ -2319,6 +2681,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "直接复制第 N 张"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "直接拷貝第 N 張卡片"
           }
         }
       }
@@ -2355,6 +2723,12 @@
             "state": "translated",
             "value": "复制选中项"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拷貝所選項目"
+          }
         }
       }
     },
@@ -2389,6 +2763,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "纯文本复制"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "以純文字拷貝所選項目"
           }
         }
       }
@@ -2425,6 +2805,12 @@
             "state": "translated",
             "value": "纯文本复制"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拷貝為純文字"
+          }
         }
       }
     },
@@ -2459,6 +2845,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk 无法删除你的剪贴板历史。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk 無法刪除你的剪貼板歷史記錄。"
           }
         }
       }
@@ -2495,6 +2887,12 @@
             "state": "translated",
             "value": "Copymunk 够不着你的同步文件夹，那里的副本没有被删除。请在「设置」里重新选一次那个文件夹，或者自己把它删掉。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk 無法連到你的同步資料夾，所以那裡的副本沒有被刪除。請在「設定」中重新選擇該資料夾，或自行將它刪除。"
+          }
         }
       }
     },
@@ -2529,6 +2927,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk 无法自行重启。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk 無法自行重新啟動。"
           }
         }
       }
@@ -2565,6 +2969,12 @@
             "state": "translated",
             "value": "Copymunk 会删掉自己写进同步文件夹的快照和图片，并把「共享文件夹」同步关掉：文件夹同步没有办法告诉其他 Mac 删除内容，继续开着的话它们的历史会原样灌回来。其他 Mac 放进那个文件夹的东西会一直留着，需要的话请自己删掉。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk 會刪除它寫進同步資料夾的快照和影像，並關閉「共享資料夾」同步：資料夾同步無法通知你的其他 Mac 刪除內容，若繼續開著，它們的歷史記錄會原封不動地再拷貝回來。其他 Mac 放進該資料夾的內容會一直保留，直到你自行刪除。"
+          }
         }
       }
     },
@@ -2599,6 +3009,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk 是在 iCloud 同步关闭时擦除这台 Mac 的，iCloud 上那份副本从未被删除。重新打开 iCloud 同步有可能把那些条目带回来。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk 是在 iCloud 同步關閉時清除這台 Mac 的，因此 iCloud 上的副本從未被移除。開啟 iCloud 同步可能會讓那些項目再回來。"
           }
         }
       }
@@ -2635,6 +3051,12 @@
             "state": "translated",
             "value": "Copymunk 正在把这次删除发送到你的 iCloud 私有数据库。请让 Copymunk 保持打开并保持 iCloud 登录状态。Copymunk 无法告诉你它什么时候发送完。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk 正在將這次刪除傳送到你的 iCloud 私人資料庫。請讓 Copymunk 保持打開，並維持登入 iCloud。Copymunk 無法告訴你何時傳送完畢。"
+          }
         }
       }
     },
@@ -2669,6 +3091,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk 正在只使用本地数据库，数据一条都没有丢失。解决上面的问题后重启 Copymunk 即可。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk 目前只使用本機資料庫，因此沒有遺失任何資料。解決上述問題後，請重新啟動 Copymunk。"
           }
         }
       }
@@ -2705,6 +3133,12 @@
             "state": "translated",
             "value": "Copymunk 已在菜单栏常驻运行（右上角的花栗鼠图标）。\n\n• 点按菜单栏图标随时呼出剪贴板面板\n• 复制过的内容会自动记录，输入即可搜索\n• 选中条目按回车放回剪贴板，再由你自己按 ⌘V 粘贴；⇧回车以纯文本复制\n• 点击面板右上角的齿轮，或右键菜单栏图标，即可打开设置"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk 常駐在選單列中（右上角的花栗鼠圖像）。\n\n• 隨時按一下選單列圖像即可叫出剪貼板面板\n• 你拷貝的所有內容都會自動儲存，直接輸入即可搜尋\n• 選取項目後按下 Return 將它放回剪貼板，再由你自己按 ⌘V 貼上；⇧Return 會以純文字拷貝\n• 按一下面板中的齒輪，或在選單列圖像上按右鍵，即可打開設定"
+          }
         }
       }
     },
@@ -2739,6 +3173,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk 已在菜单栏常驻运行（右上角的花栗鼠图标）。\n\n• 按 %@ 随时呼出剪贴板面板\n• 复制过的内容会自动记录，输入即可搜索\n• 选中条目按回车放回剪贴板，再由你自己按 ⌘V 粘贴；⇧回车以纯文本复制\n• 点击面板右上角的齿轮，或右键菜单栏图标，即可打开设置"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk 常駐在選單列中（右上角的花栗鼠圖像）。\n\n• 隨時按下 %@ 即可叫出剪貼板面板\n• 你拷貝的所有內容都會自動儲存，直接輸入即可搜尋\n• 選取項目後按下 Return 將它放回剪貼板，再由你自己按 ⌘V 貼上；⇧Return 會以純文字拷貝\n• 按一下面板中的齒輪，或在選單列圖像上按右鍵，即可打開設定"
           }
         }
       }
@@ -2775,6 +3215,12 @@
             "state": "translated",
             "value": "Copymunk 在后台记录，不需要任何权限"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk 在背景記錄，不需要任何權限"
+          }
         }
       }
     },
@@ -2809,6 +3255,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk 会重启并清除数据库文件，这样被删掉的条目就无法再从这台 Mac 上恢复。删除还没触及到的那部分会留在你的 iCloud 私有数据库里，并且会重新回到这台 Mac 上。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk 會重新啟動並清除資料庫檔案，讓你刪除的項目無法再從這台 Mac 復原。刪除尚未觸及的部分會留在你的 iCloud 私人資料庫中，並會再次回到這台 Mac。"
           }
         }
       }
@@ -2845,6 +3297,12 @@
             "state": "translated",
             "value": "Copymunk 会自行重启，以便把数据库文件彻底清除干净。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk 會自行重新啟動，以完成清除資料庫檔案。"
+          }
         }
       }
     },
@@ -2879,6 +3337,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "创建"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "建立"
           }
         }
       }
@@ -2915,6 +3379,12 @@
             "state": "translated",
             "value": "创建并固定"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "建立並釘選"
+          }
         }
       }
     },
@@ -2949,6 +3419,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "剪切"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "剪下"
           }
         }
       }
@@ -2985,6 +3461,12 @@
             "state": "translated",
             "value": "在筛选间循环"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "循環切換篩選條件"
+          }
         }
       }
     },
@@ -3019,6 +3501,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "删除"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "刪除"
           }
         }
       }
@@ -3055,6 +3543,12 @@
             "state": "translated",
             "value": "全部删除"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全部刪除"
+          }
         }
       }
     },
@@ -3089,6 +3583,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "删除所有数据？"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要刪除所有資料嗎？"
           }
         }
       }
@@ -3125,6 +3625,12 @@
             "state": "translated",
             "value": "删除所有数据…"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "刪除所有資料…"
+          }
         }
       }
     },
@@ -3159,6 +3665,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "删除 Pinboard"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "刪除 Pinboard"
           }
         }
       }
@@ -3195,6 +3707,12 @@
             "state": "translated",
             "value": "删除 Pinboard「%@」"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "刪除 Pinboard「%@」"
+          }
         }
       }
     },
@@ -3229,6 +3747,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "不记录这些 App"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不記錄這些 App"
           }
         }
       }
@@ -3265,6 +3789,12 @@
             "state": "translated",
             "value": "编辑"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "編輯"
+          }
         }
       }
     },
@@ -3299,6 +3829,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Esc 清空搜索 · 再按一次关闭面板"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc 清除搜尋 · 再按一次關閉面板"
           }
         }
       }
@@ -3335,6 +3871,12 @@
             "state": "translated",
             "value": "Esc 关闭"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc 關閉"
+          }
         }
       }
     },
@@ -3369,6 +3911,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "这台 Mac 上的数据已全部删除。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這台 Mac 上的所有資料都已刪除。"
           }
         }
       }
@@ -3405,6 +3953,12 @@
             "state": "translated",
             "value": "复制过的东西都在这里。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你拷貝過的所有內容都在這裡。"
+          }
         }
       }
     },
@@ -3439,6 +3993,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "复制过的东西都在这里，按 %@ 随时取回。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你拷貝過的所有內容都在這裡，隨時按下 %@ 即可取回。"
           }
         }
       }
@@ -3475,6 +4035,12 @@
             "state": "translated",
             "value": "文件"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "檔案"
+          }
         }
       }
     },
@@ -3509,6 +4075,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "完成这台 Mac 的擦除"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完成清除這台 Mac"
           }
         }
       }
@@ -3545,6 +4117,12 @@
             "state": "translated",
             "value": "完成这台 Mac 的擦除？"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要完成清除這台 Mac 嗎？"
+          }
         }
       }
     },
@@ -3579,6 +4157,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "聚焦搜索"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "聚焦搜尋"
           }
         }
       }
@@ -3615,6 +4199,12 @@
             "state": "translated",
             "value": "通用"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一般"
+          }
         }
       }
     },
@@ -3650,6 +4240,12 @@
             "state": "translated",
             "value": "唤出"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "叫出"
+          }
         }
       }
     },
@@ -3681,6 +4277,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "知道了"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "知道了"
@@ -3720,6 +4322,12 @@
             "state": "translated",
             "value": "帮助"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "說明"
+          }
         }
       }
     },
@@ -3754,6 +4362,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "历史"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "歷史記錄"
           }
         }
       }
@@ -3790,6 +4404,12 @@
             "state": "translated",
             "value": "忽略密码管理器"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "忽略密碼管理工具"
+          }
         }
       }
     },
@@ -3824,6 +4444,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "图片"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "影像"
           }
         }
       }
@@ -3860,6 +4486,12 @@
             "state": "translated",
             "value": "面板内"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "面板內"
+          }
         }
       }
     },
@@ -3895,6 +4527,12 @@
             "state": "translated",
             "value": "包括所有 Pinboard 与已固定的条目"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "包括所有 Pinboard 及其中釘選的項目"
+          }
         }
       }
     },
@@ -3926,6 +4564,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最多保留"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "最多保留"
@@ -3965,6 +4609,12 @@
             "state": "translated",
             "value": "按键 %lld"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "按鍵 %lld"
+          }
         }
       }
     },
@@ -3999,6 +4649,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "上周"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上週"
           }
         }
       }
@@ -4035,6 +4691,12 @@
             "state": "translated",
             "value": "登录时启动 Copymunk"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "登入時啟動 Copymunk"
+          }
         }
       }
     },
@@ -4069,6 +4731,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "链接"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "連結"
           }
         }
       }
@@ -4105,6 +4773,12 @@
             "state": "translated",
             "value": "直接镜像到你的 iCloud，删除会在所有设备生效。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "直接將歷史記錄鏡像到你的 iCloud，刪除項目會在所有裝置上生效。"
+          }
         }
       }
     },
@@ -4139,6 +4813,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "名称"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "名稱"
           }
         }
       }
@@ -4175,6 +4855,12 @@
             "state": "translated",
             "value": "新建 Pinboard"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增 Pinboard"
+          }
         }
       }
     },
@@ -4209,6 +4895,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "新 Pinboard 名称"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新 Pinboard 名稱"
           }
         }
       }
@@ -4245,6 +4937,12 @@
             "state": "translated",
             "value": "新建 Pinboard…"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增 Pinboard…"
+          }
         }
       }
     },
@@ -4279,6 +4977,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "还没有添加 App"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "尚未加入 App"
           }
         }
       }
@@ -4315,6 +5019,12 @@
             "state": "translated",
             "value": "未选择文件夹"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未選擇資料夾"
+          }
         }
       }
     },
@@ -4349,6 +5059,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "还没有选择同步文件夹"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "尚未選擇同步資料夾"
           }
         }
       }
@@ -4385,6 +5101,12 @@
             "state": "translated",
             "value": "稍后"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "現在不要"
+          }
         }
       }
     },
@@ -4420,6 +5142,12 @@
             "state": "translated",
             "value": "未登录"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未登入"
+          }
         }
       }
     },
@@ -4451,6 +5179,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "尚未同步"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "尚未同步"
@@ -4490,6 +5224,12 @@
             "state": "translated",
             "value": "还没有内容"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "還沒有內容"
+          }
         }
       }
     },
@@ -4524,6 +5264,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "没有匹配「%@」的内容"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "沒有符合「%@」的內容"
           }
         }
       }
@@ -4560,6 +5306,12 @@
             "state": "translated",
             "value": "这一类还没有内容"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這個類型還沒有內容"
+          }
         }
       }
     },
@@ -4594,6 +5346,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "没有删除任何内容。请再试一次；如果一直失败，请从菜单栏图标退出 Copymunk 再重新打开。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "沒有刪除任何內容。請再試一次；若持續失敗，請從選單列圖像結束 Copymunk 再重新打開。"
           }
         }
       }
@@ -4630,6 +5388,12 @@
             "state": "translated",
             "value": "从它们复制的内容不会进历史"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "從這些 App 拷貝的內容不會進入歷史記錄"
+          }
         }
       }
     },
@@ -4664,6 +5428,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "关闭"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉"
           }
         }
       }
@@ -4700,6 +5470,12 @@
             "state": "translated",
             "value": "只清除没有固定到 Pinboard 的条目"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "只會清除未釘選到 Pinboard 的項目"
+          }
         }
       }
     },
@@ -4734,6 +5510,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "打开 Copymunk"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打開 Copymunk"
           }
         }
       }
@@ -4770,6 +5552,12 @@
             "state": "translated",
             "value": "打开系统设置"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打開系統設定"
+          }
         }
       }
     },
@@ -4804,6 +5592,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "其他设备"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "其他裝置"
           }
         }
       }
@@ -4840,6 +5634,12 @@
             "state": "translated",
             "value": "粘贴"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "貼上"
+          }
         }
       }
     },
@@ -4874,6 +5674,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "固定"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "釘選"
           }
         }
       }
@@ -4910,6 +5716,12 @@
             "state": "translated",
             "value": "固定到"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "釘選到"
+          }
         }
       }
     },
@@ -4945,6 +5757,12 @@
             "state": "translated",
             "value": "固定到 Pinboard"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "釘選到 Pinboard"
+          }
         }
       }
     },
@@ -4976,6 +5794,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard"
@@ -5015,6 +5839,12 @@
             "state": "translated",
             "value": "已固定"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已釘選"
+          }
         }
       }
     },
@@ -5049,6 +5879,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "随时按 %@ 唤出这个面板"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "隨時按下 %@ 叫出這個面板"
           }
         }
       }
@@ -5085,6 +5921,12 @@
             "state": "translated",
             "value": "请按下新快捷键…"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請按下新的快速鍵…"
+          }
         }
       }
     },
@@ -5119,6 +5961,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "预览"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "預覽"
           }
         }
       }
@@ -5155,6 +6003,12 @@
             "state": "translated",
             "value": "这台 Mac 无法接收推送通知，其他设备上的改动只有在 Copymunk 启动时才会同步下来。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這台 Mac 無法接收推播通知，因此其他裝置上的變更只會在 Copymunk 啟動時同步過來。"
+          }
         }
       }
     },
@@ -5189,6 +6043,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "退出 Copymunk"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "結束 Copymunk"
           }
         }
       }
@@ -5225,6 +6085,12 @@
             "state": "translated",
             "value": "请从菜单栏图标退出 Copymunk 再重新打开——它会在下次启动时把数据库文件清除干净。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請從選單列圖像結束 Copymunk 再重新打開——它會在下次啟動時完成清除資料庫檔案。"
+          }
         }
       }
     },
@@ -5259,6 +6125,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "请从菜单栏图标退出 Copymunk 再重新打开。你新选的同步方式已经保存好了。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請從選單列圖像結束 Copymunk 再重新打開。你新選的同步方式已經儲存。"
           }
         }
       }
@@ -5295,6 +6167,12 @@
             "state": "translated",
             "value": "自动记录剪贴板"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自動記錄剪貼板"
+          }
         }
       }
     },
@@ -5326,6 +6204,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重做"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "重做"
@@ -5365,6 +6249,12 @@
             "state": "translated",
             "value": "移除所选 App"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "移除所選 App"
+          }
         }
       }
     },
@@ -5396,6 +6286,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重置"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "重置"
@@ -5435,6 +6331,12 @@
             "state": "translated",
             "value": "重启 Copymunk"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新啟動 Copymunk"
+          }
         }
       }
     },
@@ -5469,6 +6371,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "重启 Copymunk 以停止 iCloud 同步？"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要重新啟動 Copymunk 以停止 iCloud 同步嗎？"
           }
         }
       }
@@ -5505,6 +6413,12 @@
             "state": "translated",
             "value": "恢复默认位置"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "回復預設位置"
+          }
         }
       }
     },
@@ -5539,6 +6453,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "受限"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "受限制"
           }
         }
       }
@@ -5575,6 +6495,12 @@
             "state": "translated",
             "value": "富文本"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "格式文字"
+          }
         }
       }
     },
@@ -5609,6 +6535,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "富文本"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "帶格式文字"
           }
         }
       }
@@ -5645,6 +6577,12 @@
             "state": "translated",
             "value": "在卡片上右键 → 固定到 Pinboard，常用的内容就会一直留在这里。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在卡片上按右鍵並選擇「釘選到 Pinboard」，常用的項目就會一直留在這裡。"
+          }
         }
       }
     },
@@ -5679,6 +6617,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "把历史存成快照放进一个文件夹，iCloud Drive 或任意共享目录都行；删除不会同步到其他设备。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "將歷史記錄以快照形式存放在資料夾中——iCloud 雲碟或任何共享資料夾皆可。刪除不會同步到你的其他裝置。"
           }
         }
       }
@@ -5715,6 +6659,12 @@
             "state": "translated",
             "value": "搜索"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "搜尋"
+          }
         }
       }
     },
@@ -5749,6 +6699,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "搜索历史"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "搜尋歷史記錄"
           }
         }
       }
@@ -5785,6 +6741,12 @@
             "state": "translated",
             "value": "全选"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全選"
+          }
         }
       }
     },
@@ -5819,6 +6781,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "设置"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定"
           }
         }
       }
@@ -5855,6 +6823,12 @@
             "state": "translated",
             "value": "设置…"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定…"
+          }
         }
       }
     },
@@ -5889,6 +6863,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "共享文件夹"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "共享資料夾"
           }
         }
       }
@@ -5925,6 +6905,12 @@
             "state": "translated",
             "value": "共享文件夹已同步"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "共享資料夾已同步"
+          }
         }
       }
     },
@@ -5959,6 +6945,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "快捷键"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "快速鍵"
           }
         }
       }
@@ -5995,6 +6987,12 @@
             "state": "translated",
             "value": "显示全部历史"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "顯示所有歷史記錄"
+          }
         }
       }
     },
@@ -6029,6 +7027,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "唤出面板"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "叫出面板"
           }
         }
       }
@@ -6065,6 +7069,12 @@
             "state": "translated",
             "value": "在菜单栏显示图标"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在選單列顯示圖像"
+          }
         }
       }
     },
@@ -6099,6 +7109,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "空格"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "空白鍵"
           }
         }
       }
@@ -6135,6 +7151,12 @@
             "state": "translated",
             "value": "启动"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "啟動"
+          }
         }
       }
     },
@@ -6170,6 +7192,12 @@
             "state": "translated",
             "value": "状态"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "狀態"
+          }
         }
       }
     },
@@ -6201,6 +7229,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同步"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "同步"
@@ -6240,6 +7274,12 @@
             "state": "translated",
             "value": "同步文件夹"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同步資料夾"
+          }
         }
       }
     },
@@ -6271,6 +7311,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同步方式"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "同步方式"
@@ -6310,6 +7356,12 @@
             "state": "translated",
             "value": "立即同步"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "立即同步"
+          }
         }
       }
     },
@@ -6345,6 +7397,12 @@
             "state": "translated",
             "value": "改了同步方式，重启后生效"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同步方式已變更，重新啟動後生效"
+          }
         }
       }
     },
@@ -6376,6 +7434,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已同步"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "已同步"
@@ -6415,6 +7479,12 @@
             "state": "translated",
             "value": "暂时不可用"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "暫時無法使用"
+          }
         }
       }
     },
@@ -6449,6 +7519,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "文本"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文字"
           }
         }
       }
@@ -6485,6 +7561,12 @@
             "state": "translated",
             "value": "组合键需要至少包含 ⌘、⌥ 或 ⌃ 其中之一，按 Esc 取消。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "組合鍵必須至少包含 ⌘、⌥ 或 ⌃ 其中之一。按下 Esc 取消。"
+          }
         }
       }
     },
@@ -6519,6 +7601,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "你 iCloud 私有数据库里的那份副本没有被动过，因为 iCloud 同步是关着的。把「同步」设为 iCloud、重新打开 Copymunk 再删一次，才能把它也删掉。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你 iCloud 私人資料庫中的副本沒有被動到，因為 iCloud 同步是關閉的。將「同步」設為 iCloud、重新打開 Copymunk 並再刪除一次，才能將它一併移除。"
           }
         }
       }
@@ -6555,6 +7643,12 @@
             "state": "translated",
             "value": "建好后把当前卡固定进去"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "建立後會將目前的卡片釘選進去"
+          }
         }
       }
     },
@@ -6589,6 +7683,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "目录被移走、改名或授权失效。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "資料夾已被移動或重新命名，或 Copymunk 已失去它的存取權限。"
           }
         }
       }
@@ -6625,6 +7725,12 @@
             "state": "translated",
             "value": "同样的删除已经排进队列，会发往你的 iCloud 私有数据库和你的其他 Mac。请让 Copymunk 保持打开并保持 iCloud 登录状态直到发送完成——Copymunk 无法告诉你那是什么时候。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同樣的刪除已排入佇列，將傳送到你的 iCloud 私人資料庫和你的其他 Mac。請讓 Copymunk 保持打開並維持登入 iCloud，直到傳送完畢——Copymunk 無法告訴你何時完成。"
+          }
         }
       }
     },
@@ -6659,6 +7765,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "这台 Mac 以前用过 iCloud 同步。同步关着的时候 Copymunk 碰不到 iCloud 上那份副本——把「同步」设为 iCloud、重新打开 Copymunk 再删一次，才能把那份也删掉。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這台 Mac 先前曾與 iCloud 同步。同步關閉時，Copymunk 無法動到 iCloud 上的副本——將「同步」設為 iCloud、重新打開 Copymunk 並再刪除一次，才能將該副本一併移除。"
           }
         }
       }
@@ -6695,6 +7807,12 @@
             "state": "translated",
             "value": "这个 Pinboard 还是空的"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這個 Pinboard 還是空的"
+          }
         }
       }
     },
@@ -6729,6 +7847,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "这个组合已被系统快捷键占用，已恢复为 %@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這個組合已被系統快速鍵佔用，已回復為 %@"
           }
         }
       }
@@ -6765,6 +7889,12 @@
             "state": "translated",
             "value": "这个组合已被另一个 App 占用，已恢复为 %@"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這個組合已被另一個 App 佔用，已回復為 %@"
+          }
         }
       }
     },
@@ -6799,6 +7929,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "这份 Copymunk 的签名不包含 iCloud 同步授权。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這份 Copymunk 的簽署不包含 iCloud 同步權限。"
           }
         }
       }
@@ -6835,6 +7971,12 @@
             "state": "translated",
             "value": "将删除所有剪贴板记录和所有 Pinboard，包括固定在里面的内容。此操作不可撤销。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這會刪除所有剪貼板記錄和所有 Pinboard，包括其中釘選的內容。此動作無法還原。"
+          }
         }
       }
     },
@@ -6869,6 +8011,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "将删除所有未固定到 Pinboard 的剪贴板记录。固定的内容和 Pinboard 会保留——要把它们一并删除，请用「删除所有数据」。此操作不可撤销。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這會刪除所有未釘選到 Pinboard 的剪貼板記錄。已釘選的項目和 Pinboard 會保留——若要一併刪除，請使用「刪除所有資料」。此動作無法還原。"
           }
         }
       }
@@ -6905,6 +8053,12 @@
             "state": "translated",
             "value": "立即试试"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "立即試試"
+          }
         }
       }
     },
@@ -6939,6 +8093,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "撤销"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "還原"
           }
         }
       }
@@ -6975,6 +8135,12 @@
             "state": "translated",
             "value": "无法确定"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法確定"
+          }
         }
       }
     },
@@ -7009,6 +8175,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "无限制"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無限制"
           }
         }
       }
@@ -7045,6 +8217,12 @@
             "state": "translated",
             "value": "取消固定"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消釘選"
+          }
         }
       }
     },
@@ -7079,6 +8257,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "在 Copymunk 重启之前，这台 Mac 仍会把你的剪贴板历史发送到你的 iCloud 私有数据库。Copymunk 同时还在发送你删掉的那些条目；重启时还没发出去的部分会留在 iCloud 里。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 Copymunk 重新啟動之前，這台 Mac 仍會將你的剪貼板歷史記錄傳送到你的 iCloud 私人資料庫。Copymunk 也仍在傳送你刪除的項目；重新啟動時尚未傳送的部分會留在 iCloud 中。"
           }
         }
       }
@@ -7115,6 +8299,12 @@
             "state": "translated",
             "value": "在 Copymunk 重启之前，这台 Mac 仍会把你的剪贴板历史发送到你的 iCloud 私有数据库。如果现在不重启，本次会话余下的时间里 Copymunk 会继续使用 iCloud 同步。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 Copymunk 重新啟動之前，這台 Mac 仍會將你的剪貼板歷史記錄傳送到你的 iCloud 私人資料庫。若現在不重新啟動，Copymunk 在本次執行期間會繼續使用 iCloud 同步。"
+          }
         }
       }
     },
@@ -7146,6 +8336,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "版本"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "版本"
@@ -7185,6 +8381,12 @@
             "state": "translated",
             "value": "欢迎使用 Copymunk"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "歡迎使用 Copymunk"
+          }
         }
       }
     },
@@ -7219,6 +8421,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "超出上限时最旧的未固定记录会被自动清理，固定到 Pinboard 的内容不受影响。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "超過上限時，最舊的未釘選項目會自動移除，釘選到 Pinboard 的內容不受影響。"
           }
         }
       }
@@ -7255,6 +8463,12 @@
             "state": "translated",
             "value": "关闭后可在访达中再次打开 Copymunk 找回设置"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉後，可在 Finder 中再次打開 Copymunk 以回到設定"
+          }
         }
       }
     },
@@ -7289,6 +8503,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "关闭后可按 %@ 或在访达中再次打开 Copymunk 找回设置"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉後，可按下 %@ 或在 Finder 中再次打開 Copymunk 以回到設定"
           }
         }
       }
@@ -7325,6 +8545,12 @@
             "state": "translated",
             "value": "剪贴板历史只保存在这台 Mac 上，不做任何同步。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "剪貼板歷史記錄只保留在這台 Mac 上，不做任何同步。"
+          }
         }
       }
     },
@@ -7359,6 +8585,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "你的历史只存在这台 Mac 和你自己选的同步位置里，Copymunk 不收集任何数据。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你的歷史記錄只存在於這台 Mac 和你選擇的同步位置中。Copymunk 不收集任何資料。"
           }
         }
       }
@@ -7395,6 +8627,12 @@
             "state": "translated",
             "value": "iCloud 账户"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud 帳號"
+          }
         }
       }
     },
@@ -7430,6 +8668,12 @@
             "state": "translated",
             "value": "这台 Mac 没有打开 iCloud Drive。请在系统设置里打开，或者另选一个文件夹。"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這台 Mac 未開啟 iCloud 雲碟。請在系統設定中開啟，或選擇其他資料夾。"
+          }
         }
       }
     },
@@ -7461,6 +8705,12 @@
           }
         },
         "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud 已同步"
+          }
+        },
+        "zh-Hant": {
           "stringUnit": {
             "state": "translated",
             "value": "iCloud 已同步"
@@ -7500,6 +8750,12 @@
             "state": "translated",
             "value": "无法启动 iCloud 同步：%@"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法啟動 iCloud 同步：%@"
+          }
         }
       }
     },
@@ -7535,6 +8791,12 @@
             "state": "translated",
             "value": "iCloud 同步需要处理"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud 同步需要處理"
+          }
         }
       }
     },
@@ -7569,6 +8831,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "刚刚"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "剛剛"
           }
         }
       }
