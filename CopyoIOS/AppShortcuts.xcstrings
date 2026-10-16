@@ -91,6 +91,15 @@
               "Dùng ${applicationName} lưu bảng nhớ tạm"
             ]
           }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에 내 클립보드 저장",
+              "${applicationName}에 클립보드 저장해 줘"
+            ]
+          }
         }
       }
     },
@@ -173,6 +182,14 @@
             "state": "translated",
             "values": [
               "Lưu bảng nhớ tạm bằng ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에서 클립보드 저장"
             ]
           }
         }
@@ -259,6 +276,14 @@
               "Lưu mục này vào ${applicationName}"
             ]
           }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에 이 항목 저장"
+            ]
+          }
         }
       }
     },
@@ -341,6 +366,14 @@
             "state": "translated",
             "values": [
               "${applicationName} lưu bảng nhớ tạm"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} 클립보드 저장"
             ]
           }
         }

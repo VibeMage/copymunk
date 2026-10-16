@@ -418,6 +418,7 @@
 				fr,
 				it,
 				ja,
+				ko,
 				tr,
 				vi,
 				"zh-Hans",
