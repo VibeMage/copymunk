@@ -26,7 +26,7 @@ On the Mac, data stays on this Mac by default (`~/Library/Application Support/Co
 - **Custom shortcut**: `⇧⌘V` by default; record any key combination in Settings
 - **History limit**: 100/300/500/1000/unlimited; past the limit, the oldest unpinned entries are cleaned up automatically
 - **Launch at login**, hiding the menu bar icon, pausing capture, plain-text mode and other settings
-- **Eight languages**: English, Simplified and Traditional Chinese, French, German, Spanish, Japanese and Arabic (laid out right to left), following the system language, built on a String Catalog
+- **18 languages**: English, Simplified and Traditional Chinese, French, German, Spanish, Italian, Portuguese (Brazil), Dutch, Polish, Russian, Turkish, Japanese, Korean, Thai, Vietnamese, Indonesian and Arabic (laid out right to left), following the system language, built on a String Catalog
 
 ### iPhone and iPad
 

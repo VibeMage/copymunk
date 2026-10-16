@@ -26,7 +26,7 @@ Mac 版数据默认只保存在本机（`~/Library/Application Support/Copyo/`�
 - **自定义快捷键**：默认 `⇧⌘V`，可在设置中录制任意组合键
 - **历史上限**：100/300/500/1000/无限制，超限自动清理最旧的未固定记录
 - **开机自启**、隐藏菜单栏图标、暂停记录、纯文本模式等设置
-- **多语言界面**：跟随系统语言（简体中文 / 繁體中文 / English / Français / Deutsch / Español / 日本語 / العربية，阿拉伯语按从右到左排版），基于 String Catalog
+- **多语言界面**：跟随系统语言，共 18 种（简体中文 / 繁體中文 / English / Français / Deutsch / Español / Italiano / Português (Brasil) / Nederlands / Polski / Русский / Türkçe / 日本語 / 한국어 / ไทย / Tiếng Việt / Bahasa Indonesia / العربية，阿拉伯语按从右到左排版），基于 String Catalog
 
 ### iPhone 与 iPad
 
