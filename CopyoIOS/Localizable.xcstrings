@@ -16,6 +16,12 @@
             "value": "%lld"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -43,6 +49,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld characters"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld caracteres"
           }
         },
         "fr": {
@@ -74,6 +86,12 @@
             "value": "%lld characters · Plain text"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld caracteres · Texto sin formato"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -101,6 +119,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld characters · Rich text"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld caracteres · Texto enriquecido"
           }
         },
         "fr": {
@@ -132,6 +156,12 @@
             "value": "%lld files"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld archivos"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -159,6 +189,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld items"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld elementos"
           }
         },
         "fr": {
@@ -190,6 +226,12 @@
             "value": "%lld result"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld resultado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -217,6 +259,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld results"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld resultados"
           }
         },
         "fr": {
@@ -248,6 +296,12 @@
             "value": "%lldd"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld d"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -275,6 +329,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lldh"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld h"
           }
         },
         "fr": {
@@ -306,6 +366,12 @@
             "value": "%lldm"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld min"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -333,6 +399,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 character"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 carácter"
           }
         },
         "fr": {
@@ -364,6 +436,12 @@
             "value": "1 character · Plain text"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 carácter · Texto sin formato"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -391,6 +469,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 character · Rich text"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 carácter · Texto enriquecido"
           }
         },
         "fr": {
@@ -422,6 +506,12 @@
             "value": "1 file"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 archivo"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -449,6 +539,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 item"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 elemento"
           }
         },
         "fr": {
@@ -481,6 +577,12 @@
             "value": "1w"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 sem."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -508,6 +610,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "331 Caoxi North Rd, Tower B, 12F, Xuhui, Shanghai"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "331 Caoxi North Rd, Torre B, planta 12, Xuhui, Shanghái"
           }
         },
         "fr": {
@@ -539,6 +647,12 @@
             "value": "About"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -566,6 +680,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Action Button"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Botón de acción"
           }
         },
         "fr": {
@@ -597,6 +717,12 @@
             "value": "Action Button, Back Tap or Control Center"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Botón de acción, Toque posterior o Centro de control"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -624,6 +750,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Add Copymunk’s “Save Clipboard” action"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añade la acción “Guardar portapapeles” de Copymunk"
           }
         },
         "fr": {
@@ -655,6 +787,12 @@
             "value": "Add the “Save Clipboard” Shortcut"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir el atajo “Guardar portapapeles”"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -682,6 +820,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Add “Save Clipboard”"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añade “Guardar portapapeles”"
           }
         },
         "fr": {
@@ -713,6 +857,12 @@
             "value": "Adding clips to system search"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadiendo elementos a la búsqueda del sistema"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -740,6 +890,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "After copying, press the Action Button, double-tap the back of your iPhone, or tap the Control Center button. Copymunk opens and shows “Saved”."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Después de copiar, pulsa el botón de acción, toca dos veces la parte posterior del iPhone o toca el botón del centro de control. Copymunk se abre y muestra “Guardado”."
           }
         },
         "fr": {
@@ -771,6 +927,12 @@
             "value": "After copying, tap the “Save Clipboard” button in Control Center. Copymunk opens and shows “Saved”."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Después de copiar, toca el botón “Guardar portapapeles” en el centro de control. Copymunk se abre y muestra “Guardado”."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -798,6 +960,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "All"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo"
           }
         },
         "fr": {
@@ -829,6 +997,12 @@
             "value": "Allow"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Permitir"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -856,6 +1030,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Allow Paste from Other Apps"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Permitir pegar desde otras apps"
           }
         },
         "fr": {
@@ -887,6 +1067,12 @@
             "value": "Already saved"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ya estaba guardado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -914,6 +1100,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "An open-source clipboard manager. Mac, iPhone and iPad share one history through your own iCloud account."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un gestor de portapapeles de código abierto. Mac, iPhone y iPad comparten un mismo historial a través de tu propia cuenta de iCloud."
           }
         },
         "fr": {
@@ -945,6 +1137,12 @@
             "value": "Anything you copy on your Mac needs no action at all — it arrives here through iCloud."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lo que copias en tu Mac no requiere nada por tu parte — llega aquí a través de iCloud."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -972,6 +1170,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Anything you copy on your Mac shows up here through iCloud. To keep something from this iPad, use Share or Quick Save."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo lo que copias en tu Mac aparece aquí a través de iCloud. Para guardar algo desde este iPad, usa “Compartir” o “Guardado rápido”."
           }
         },
         "fr": {
@@ -1003,6 +1207,12 @@
             "value": "Anything you copy on your Mac shows up here through iCloud. To keep something from this iPhone, use Share or Quick Save."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo lo que copias en tu Mac aparece aquí a través de iCloud. Para guardar algo desde este iPhone, usa “Compartir” o “Guardado rápido”."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1030,6 +1240,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ask"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preguntar"
           }
         },
         "fr": {
@@ -1061,6 +1277,12 @@
             "value": "Back Tap"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toque posterior"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1088,6 +1310,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Back Tap can only run a shortcut, so it needs one that runs “Save Clipboard”."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toque posterior solo puede ejecutar un atajo, así que necesita uno que ejecute “Guardar portapapeles”."
           }
         },
         "fr": {
@@ -1119,6 +1347,12 @@
             "value": "Back Tap can only run a shortcut, which is why this one needs the shortcut above."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toque posterior solo puede ejecutar un atajo; por eso este método necesita el atajo de arriba."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1146,6 +1380,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "By Date Created"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por fecha de creación"
           }
         },
         "fr": {
@@ -1177,6 +1417,12 @@
             "value": "By Item Count"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por número de elementos"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1204,6 +1450,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "By Name"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por nombre"
           }
         },
         "fr": {
@@ -1235,6 +1487,12 @@
             "value": "By Pin Time"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por fecha de fijación"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1262,6 +1520,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "By Source"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por origen"
           }
         },
         "fr": {
@@ -1293,6 +1557,12 @@
             "value": "By Time"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por fecha"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1320,6 +1590,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "By Type"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por tipo"
           }
         },
         "fr": {
@@ -1351,6 +1627,12 @@
             "value": "Cancel"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1378,6 +1660,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Characters"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caracteres"
           }
         },
         "fr": {
@@ -1409,6 +1697,12 @@
             "value": "Choose “Allow”"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige “Permitir”"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1436,6 +1730,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Clear"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar"
           }
         },
         "fr": {
@@ -1467,6 +1767,12 @@
             "value": "Clear History"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar historial"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1494,6 +1800,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Clear History?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Borrar el historial?"
           }
         },
         "fr": {
@@ -1525,6 +1837,12 @@
             "value": "Clear Search"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar búsqueda"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1552,6 +1870,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Clip"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elemento"
           }
         },
         "fr": {
@@ -1583,6 +1907,12 @@
             "value": "Clipboard"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portapapeles"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1607,6 +1937,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "Color"
@@ -1641,6 +1977,12 @@
             "value": "Colors"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colores"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1668,6 +2010,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Continue"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuar"
           }
         },
         "fr": {
@@ -1699,6 +2047,12 @@
             "value": "Control Center"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Centro de control"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1726,6 +2080,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copied"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiado"
           }
         },
         "fr": {
@@ -1757,6 +2117,12 @@
             "value": "Copied as plain text"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiado como texto sin formato"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1784,6 +2150,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copy"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar"
           }
         },
         "fr": {
@@ -1815,6 +2187,12 @@
             "value": "Copy All as Plain Text"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar todo como texto sin formato"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1842,6 +2220,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copy Clip"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar elemento"
           }
         },
         "fr": {
@@ -1873,6 +2257,12 @@
             "value": "Copy as Plain Text"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar como texto sin formato"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1900,6 +2290,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk Keyboard"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teclado Copymunk"
           }
         },
         "fr": {
@@ -1931,6 +2327,12 @@
             "value": "Copymunk can't open its library right now."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk no puede abrir su biblioteca en este momento."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1958,6 +2360,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk can’t read the current value of this setting"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk no puede leer el valor actual de este ajuste"
           }
         },
         "fr": {
@@ -1989,6 +2397,12 @@
             "value": "Copymunk couldn't read that image."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk no ha podido leer esa imagen."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2016,6 +2430,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk couldn't read what you shared."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk no ha podido leer lo que has compartido."
           }
         },
         "fr": {
@@ -2047,6 +2467,12 @@
             "value": "Couldn't save"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se ha podido guardar"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2074,6 +2500,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Create"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crear"
           }
         },
         "fr": {
@@ -2105,6 +2537,12 @@
             "value": "Default pinboard"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard predeterminado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2132,6 +2570,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Delete"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar"
           }
         },
         "fr": {
@@ -2163,6 +2607,12 @@
             "value": "Delete Pinboard"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar Pinboard"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2190,6 +2640,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Delete this clip?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Eliminar este elemento?"
           }
         },
         "fr": {
@@ -2221,6 +2677,12 @@
             "value": "Delete “%@”?"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Eliminar “%@”?"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2248,6 +2710,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deleted"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminado"
           }
         },
         "fr": {
@@ -2279,6 +2747,12 @@
             "value": "Deny"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Denegar"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2306,6 +2780,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dimensions"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dimensiones"
           }
         },
         "fr": {
@@ -2337,6 +2817,12 @@
             "value": "Dismiss"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2364,6 +2850,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Don't pin"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No fijar"
           }
         },
         "fr": {
@@ -2395,6 +2887,12 @@
             "value": "Done"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2422,6 +2920,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Every time you open or come back to Copymunk it reads the current clipboard and saves it to your history. “Paste from Other Apps” has to be set to Allow."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada vez que abres Copymunk o vuelves a él, lee el portapapeles actual y lo guarda en tu historial. “Pegar desde otras apps” tiene que estar en “Permitir”."
           }
         },
         "fr": {
@@ -2453,6 +2957,12 @@
             "value": "Everything you copy on your Mac arrives here through iCloud. Search anytime, tap to copy."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo lo que copias en tu Mac llega aquí a través de iCloud. Busca cuando quieras y toca para copiar."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2480,6 +2990,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "File"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archivo"
           }
         },
         "fr": {
@@ -2511,6 +3027,12 @@
             "value": "File contents stay on your Mac. Copymunk keeps the name so you can find it there."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El contenido de los archivos se queda en tu Mac. Copymunk guarda el nombre para que puedas encontrarlo allí."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2538,6 +3060,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Files"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archivos"
           }
         },
         "fr": {
@@ -2569,6 +3097,12 @@
             "value": "Get Started"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empezar"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2596,6 +3130,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Give Save Content some text, a link, or an image."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dale a “Guardar contenido” un texto, un enlace o una imagen."
           }
         },
         "fr": {
@@ -2627,6 +3167,12 @@
             "value": "Go to Settings"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ir a Ajustes"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2654,6 +3200,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "History"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historial"
           }
         },
         "fr": {
@@ -2685,6 +3237,12 @@
             "value": "History Limit"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Límite del historial"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2712,6 +3270,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "History cleared"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historial borrado"
           }
         },
         "fr": {
@@ -2743,6 +3307,12 @@
             "value": "How Copymunk Saves Clips"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cómo guarda Copymunk los elementos"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2770,6 +3340,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Icon"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Icono"
           }
         },
         "fr": {
@@ -2801,6 +3377,12 @@
             "value": "Image"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imagen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2828,6 +3410,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Images"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imágenes"
           }
         },
         "fr": {
@@ -2859,6 +3447,12 @@
             "value": "In Settings › Apps › Copymunk, set Paste from Other Apps to Allow. Copymunk then saves new clips without asking."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En Ajustes › Apps › Copymunk, cambia “Pegar desde otras apps” a “Permitir”. Así Copymunk guardará los elementos nuevos sin preguntar."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2886,6 +3480,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "In iOS Settings"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes de iOS"
           }
         },
         "fr": {
@@ -2917,6 +3517,12 @@
             "value": "It syncs to the Pinboard tab on your Mac."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se sincroniza con la pestaña Pinboard de tu Mac."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2944,6 +3550,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "It syncs to the Pinboard tags on your Mac."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se sincroniza con las etiquetas de Pinboard de tu Mac."
           }
         },
         "fr": {
@@ -2975,6 +3587,12 @@
             "value": "It will be removed from Copymunk on all your devices."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se eliminará de Copymunk en todos tus dispositivos."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3002,6 +3620,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Its clips go back to History and are not deleted."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sus elementos vuelven al historial y no se eliminan."
           }
         },
         "fr": {
@@ -3033,6 +3657,12 @@
             "value": "Just now"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora mismo"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3060,6 +3690,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Last week"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semana pasada"
           }
         },
         "fr": {
@@ -3091,6 +3727,12 @@
             "value": "Link"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enlace"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3118,6 +3760,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Links"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enlaces"
           }
         },
         "fr": {
@@ -3149,6 +3797,12 @@
             "value": "Loading…"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando…"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3176,6 +3830,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mac only"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo en Mac"
           }
         },
         "fr": {
@@ -3207,6 +3867,12 @@
             "value": "Maybe Later"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quizá más tarde"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3234,6 +3900,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "More"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Más"
           }
         },
         "fr": {
@@ -3265,6 +3937,12 @@
             "value": "Name"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3292,6 +3970,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "New Pinboard"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuevo Pinboard"
           }
         },
         "fr": {
@@ -3323,6 +4007,12 @@
             "value": "New Pinboard…"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuevo Pinboard…"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3350,6 +4040,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "New clipboard content"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuevo contenido en el portapapeles"
           }
         },
         "fr": {
@@ -3381,6 +4077,12 @@
             "value": "No clips yet"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay elementos"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3408,6 +4110,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "No pinboards"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay Pinboards"
           }
         },
         "fr": {
@@ -3439,6 +4147,12 @@
             "value": "No results"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin resultados"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3466,6 +4180,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Not pinned"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin fijar"
           }
         },
         "fr": {
@@ -3497,6 +4217,12 @@
             "value": "Not synced"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin sincronizar"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3524,6 +4250,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Not there yet? Copy something in another app, come back to Copymunk once, then look again."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿No aparece? Copia algo en otra app, vuelve una vez a Copymunk y mira de nuevo."
           }
         },
         "fr": {
@@ -3555,6 +4287,12 @@
             "value": "Nothing pinned yet"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay nada fijado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3582,6 +4320,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nothing to save"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada que guardar"
           }
         },
         "fr": {
@@ -3613,6 +4357,12 @@
             "value": "Now"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3637,6 +4387,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "OK"
@@ -3671,6 +4427,12 @@
             "value": "Off"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3698,6 +4460,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Off by default. Turn it on and your clips become searchable from the Home Screen, the Lock Screen and Siri Suggestions — including the verification codes, passwords and private messages that end up in a clipboard history. Turning it off deletes everything Copymunk put in the index."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivado de forma predeterminada. Si lo activas, tus elementos se podrán buscar desde la pantalla de inicio, la pantalla bloqueada y las Sugerencias de Siri — incluidos los códigos de verificación, las contraseñas y los mensajes privados que acaban en un historial del portapapeles. Al desactivarlo, se elimina todo lo que Copymunk añadió al índice."
           }
         },
         "fr": {
@@ -3729,6 +4497,12 @@
             "value": "On · waiting for the first sync"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activado · esperando la primera sincronización"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3756,6 +4530,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "One press saves whatever is on the clipboard right now. Copymunk opens and shows “Saved”."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una sola pulsación guarda lo que haya ahora en el portapapeles. Copymunk se abre y muestra “Guardado”."
           }
         },
         "fr": {
@@ -3787,6 +4567,12 @@
             "value": "Only needed once"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo hace falta una vez"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3814,6 +4600,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Open Control Center and press and hold an empty spot"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre el centro de control y mantén pulsado un espacio vacío"
           }
         },
         "fr": {
@@ -3845,6 +4637,12 @@
             "value": "Open Copymunk’s Settings"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Copymunk en Ajustes"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3872,6 +4670,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Open Details"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir detalles"
           }
         },
         "fr": {
@@ -3903,6 +4707,12 @@
             "value": "Open History and tap Paste to save it"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre el historial y toca “Pegar” para guardarlo"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3930,6 +4740,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Open Settings"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Ajustes"
           }
         },
         "fr": {
@@ -3961,6 +4777,12 @@
             "value": "Open Settings › Accessibility › Touch › Back Tap"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre Ajustes › Accesibilidad › Tocar › Toque posterior"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3988,6 +4810,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Open Settings › Action Button"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre Ajustes › Botón de acción"
           }
         },
         "fr": {
@@ -4019,6 +4847,12 @@
             "value": "Open Settings › Apps › Copymunk"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre Ajustes › Apps › Copymunk"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4046,6 +4880,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Open Shortcuts"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Atajos"
           }
         },
         "fr": {
@@ -4077,6 +4917,12 @@
             "value": "Open Source · GitHub"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Código abierto · GitHub"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4104,6 +4950,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Open in Safari"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir en Safari"
           }
         },
         "fr": {
@@ -4135,6 +4987,12 @@
             "value": "Opens Copymunk and saves whatever is on the clipboard right now."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre Copymunk y guarda lo que haya ahora en el portapapeles."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4162,6 +5020,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Paste to save it to your history"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pega para guardarlo en tu historial"
           }
         },
         "fr": {
@@ -4193,6 +5057,12 @@
             "value": "Pick “Save Clipboard” under Copymunk"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige “Guardar portapapeles” debajo de Copymunk"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4220,6 +5090,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pin"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fijar"
           }
         },
         "fr": {
@@ -4251,6 +5127,12 @@
             "value": "Pin a clip to keep it out of the history limit."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fija un elemento para que no cuente en el límite del historial."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4278,6 +5160,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pin to Pinboard"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fijar en Pinboard"
           }
         },
         "fr": {
@@ -4309,6 +5197,12 @@
             "value": "Pin to…"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fijar en…"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4333,6 +5227,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard"
@@ -4367,6 +5267,12 @@
             "value": "Pinboard created"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard creado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4394,6 +5300,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard deleted"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard eliminado"
           }
         },
         "fr": {
@@ -4425,6 +5337,12 @@
             "value": "Pinboards are shared with your Mac. Swiping a card right pins it to the first pinboard; long-press to pick another."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los Pinboards se comparten con tu Mac. Al deslizar una tarjeta a la derecha, se fija en el primer Pinboard; mantenla pulsada para elegir otro."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4452,6 +5370,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinned"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fijado"
           }
         },
         "fr": {
@@ -4483,6 +5407,12 @@
             "value": "Plain Text"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin formato"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4510,6 +5440,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Press and hold the Action Button to save"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mantén pulsado el botón de acción para guardar"
           }
         },
         "fr": {
@@ -4541,6 +5477,12 @@
             "value": "Preview"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vista previa"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4568,6 +5510,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Privacy"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacidad"
           }
         },
         "fr": {
@@ -4599,6 +5547,12 @@
             "value": "Quick Save"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardado rápido"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4626,6 +5580,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Read Clipboard Automatically"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leer el portapapeles automáticamente"
           }
         },
         "fr": {
@@ -4657,6 +5617,12 @@
             "value": "Reads the current clipboard"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lee el portapapeles actual"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4684,6 +5650,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Released under the GNU GPLv3."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Publicado con la licencia GNU GPLv3."
           }
         },
         "fr": {
@@ -4715,6 +5687,12 @@
             "value": "Remove from Pinboard"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar del Pinboard"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4742,6 +5720,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Removed from system search"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminado de la búsqueda del sistema"
           }
         },
         "fr": {
@@ -4773,6 +5757,12 @@
             "value": "Rename"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renombrar"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4800,6 +5790,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rename Pinboard"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renombrar Pinboard"
           }
         },
         "fr": {
@@ -4831,6 +5827,12 @@
             "value": "Renamed"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renombrado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4858,6 +5860,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rich"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enriquecido"
           }
         },
         "fr": {
@@ -4889,6 +5897,12 @@
             "value": "Running in local-only mode"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Funcionando solo en modo local"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4916,6 +5930,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Save"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar"
           }
         },
         "fr": {
@@ -4958,6 +5978,12 @@
             "state": "translated",
             "value": "${text} in Copymunk sichern"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar ${text} en Copymunk"
+          }
         }
       }
     },
@@ -4974,6 +6000,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Save Clipboard"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar portapapeles"
           }
         },
         "fr": {
@@ -5005,6 +6037,12 @@
             "value": "Save Content"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar contenido"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5032,6 +6070,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Save to Copymunk"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar en Copymunk"
           }
         },
         "fr": {
@@ -5063,6 +6107,12 @@
             "value": "Saved"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5090,6 +6140,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Saves text, a link, or an image to Copymunk without opening the app."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guarda texto, un enlace o una imagen en Copymunk sin abrir la app."
           }
         },
         "fr": {
@@ -5121,6 +6177,12 @@
             "value": "Saves what's on the clipboard to Copymunk."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guarda en Copymunk lo que hay en el portapapeles."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5148,6 +6210,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Search"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar"
           }
         },
         "fr": {
@@ -5179,6 +6247,12 @@
             "value": "Search for Copymunk in the action list"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Busca Copymunk en la lista de acciones"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5206,6 +6280,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Search history"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar en el historial"
           }
         },
         "fr": {
@@ -5237,6 +6317,12 @@
             "value": "Select text or an image in any app, tap Share, then tap “Copymunk”. You can pick a Pinboard on the way in."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selecciona texto o una imagen en cualquier app, toca “Compartir” y luego “Copymunk”. Puedes elegir un Pinboard sobre la marcha."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5264,6 +6350,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Set Up Quick Save"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configurar Guardado rápido"
           }
         },
         "fr": {
@@ -5295,6 +6387,12 @@
             "value": "Set as Default"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar como predeterminado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5322,6 +6420,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Set it to Allow and Copymunk reads the clipboard the moment it opens, with no prompt. This is an iOS privacy setting, so it can only be changed in Settings."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cámbialo a “Permitir” y Copymunk leerá el portapapeles nada más abrirse, sin preguntar. Es un ajuste de privacidad de iOS, así que solo se puede cambiar en Ajustes."
           }
         },
         "fr": {
@@ -5353,6 +6457,12 @@
             "value": "Settings"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5380,6 +6490,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Settings › General › Keyboard › Keyboards"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes › General › Teclado › Teclados"
           }
         },
         "fr": {
@@ -5411,6 +6527,12 @@
             "value": "Share"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compartir"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5438,6 +6560,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Share one history with your Mac"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un mismo historial con tu Mac"
           }
         },
         "fr": {
@@ -5469,6 +6597,12 @@
             "value": "Share sheet"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menú Compartir"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5496,6 +6630,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Show Clips in System Search"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar elementos en la búsqueda del sistema"
           }
         },
         "fr": {
@@ -5527,6 +6667,12 @@
             "value": "Show History"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar historial"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5554,6 +6700,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Show Pinboards"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Pinboards"
           }
         },
         "fr": {
@@ -5585,6 +6737,12 @@
             "value": "Show Settings"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar ajustes"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5612,6 +6770,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sign in to iCloud to sync with your Mac"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inicia sesión en iCloud para sincronizar con tu Mac"
           }
         },
         "fr": {
@@ -5643,6 +6807,12 @@
             "value": "Sign in to the same Apple Account on your Mac and iPad. Your clips travel through iCloud only, never through a third-party server."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inicia sesión con la misma Cuenta de Apple en tu Mac y en tu iPad. Tus elementos viajan solo a través de iCloud, nunca por un servidor de terceros."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5670,6 +6840,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sign in to the same Apple Account on your Mac and iPhone. Your clips travel through iCloud only, never through a third-party server."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inicia sesión con la misma Cuenta de Apple en tu Mac y en tu iPhone. Tus elementos viajan solo a través de iCloud, nunca por un servidor de terceros."
           }
         },
         "fr": {
@@ -5701,6 +6877,12 @@
             "value": "Skip"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Omitir"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5728,6 +6910,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sort"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordenar"
           }
         },
         "fr": {
@@ -5759,6 +6947,12 @@
             "value": "Sort By"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordenar por"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5786,6 +6980,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Source"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Origen"
           }
         },
         "fr": {
@@ -5817,6 +7017,12 @@
             "value": "Space"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espacio"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5844,6 +7050,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Status"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estado"
           }
         },
         "fr": {
@@ -5875,6 +7087,12 @@
             "value": "Swipe a card right in History, or long-press it and pick this pinboard."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desliza una tarjeta a la derecha en el historial, o mantenla pulsada y elige este Pinboard."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5902,6 +7120,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Swipe to “Controls”, then tap “Choose a Control”"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desliza hasta “Controles” y toca “Elegir un control”"
           }
         },
         "fr": {
@@ -5933,6 +7157,12 @@
             "value": "Switch to the Copymunk keyboard in any text field and tap a card to type it — no jumping between apps."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambia al teclado Copymunk en cualquier campo de texto y toca una tarjeta para escribirla — sin saltar de una app a otra."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5960,6 +7190,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sync"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronización"
           }
         },
         "fr": {
@@ -5991,6 +7227,12 @@
             "value": "Synced"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6020,6 +7262,12 @@
             "value": "Synced · %@"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizado · %@"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6047,6 +7295,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Syncing"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizando"
           }
         },
         "fr": {
@@ -6079,6 +7333,12 @@
             "value": "System Search"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Búsqueda del sistema"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6106,6 +7366,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Takes effect after you reopen Copymunk"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se aplica al volver a abrir Copymunk"
           }
         },
         "fr": {
@@ -6137,6 +7403,12 @@
             "value": "Tap the back of your iPhone twice to save"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca dos veces la parte posterior del iPhone para guardar"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6164,6 +7436,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tap the button above and create a new shortcut"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca el botón de arriba y crea un atajo nuevo"
           }
         },
         "fr": {
@@ -6195,6 +7473,12 @@
             "value": "Tap the button above to add the shortcut"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca el botón de arriba para añadir el atajo"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6222,6 +7506,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tap “Add New Keyboard…” and choose Copymunk"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca “Añadir teclado nuevo…” y elige Copymunk"
           }
         },
         "fr": {
@@ -6253,6 +7543,12 @@
             "value": "Tap “Add a Control” and search for Copymunk"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca “Añadir un control” y busca Copymunk"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6280,6 +7576,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tap “Double Tap” and choose the shortcut"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca “Doble toque” y elige el atajo"
           }
         },
         "fr": {
@@ -6311,6 +7613,12 @@
             "value": "Tap “Paste from Other Apps”"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca “Pegar desde otras apps”"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6338,6 +7646,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Text"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texto"
           }
         },
         "fr": {
@@ -6369,6 +7683,12 @@
             "value": "That clip is no longer in Copymunk."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ese elemento ya no está en Copymunk."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6396,6 +7716,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "The Lock Screen buttons work the same way"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los botones de la pantalla bloqueada funcionan igual"
           }
         },
         "fr": {
@@ -6427,6 +7753,12 @@
             "value": "The control comes with Copymunk, so there is nothing to add first."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El control viene con Copymunk, así que no hay que añadir nada antes."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6454,6 +7786,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "The keyboard extension needs it to read your history. The Copymunk keyboard never goes online, and never records what you type."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La extensión de teclado lo necesita para leer tu historial. El teclado Copymunk nunca se conecta a internet ni registra lo que escribes."
           }
         },
         "fr": {
@@ -6485,6 +7823,12 @@
             "value": "There's nothing to save here."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aquí no hay nada que guardar."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6512,6 +7856,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "This build is not signed for iCloud sync"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta compilación no está firmada para la sincronización con iCloud"
           }
         },
         "fr": {
@@ -6543,6 +7893,12 @@
             "value": "This deletes every clip that isn’t pinned to a Pinboard. It can’t be undone."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se eliminarán todos los elementos que no estén fijados en un Pinboard. No se puede deshacer."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6570,6 +7926,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "This Device"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este dispositivo"
           }
         },
         "fr": {
@@ -6601,6 +7963,12 @@
             "value": "Three ways to save from this iPad"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tres formas de guardar desde este iPad"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6628,6 +7996,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Three ways to save from this iPhone"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tres formas de guardar desde este iPhone"
           }
         },
         "fr": {
@@ -6659,6 +8033,12 @@
             "value": "Time"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fecha"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6686,6 +8066,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tired of tapping Allow Paste?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿No quieres tocar “Permitir pegar” cada vez?"
           }
         },
         "fr": {
@@ -6717,6 +8103,12 @@
             "value": "Toggle Sidebar"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar u ocultar la barra lateral"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6744,6 +8136,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Try another keyword or filter."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prueba con otra palabra clave u otro filtro."
           }
         },
         "fr": {
@@ -6775,6 +8173,12 @@
             "value": "Turn on iCloud Sync"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar la sincronización con iCloud"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6802,6 +8206,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Turn on “Allow Full Access”"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activa “Permitir acceso total”"
           }
         },
         "fr": {
@@ -6833,6 +8243,12 @@
             "value": "Two last things"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dos últimas cosas"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6857,6 +8273,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "URL"
@@ -6891,6 +8313,12 @@
             "value": "Unlimited"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ilimitado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6918,6 +8346,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Unpin"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dejar de fijar"
           }
         },
         "fr": {
@@ -6949,6 +8383,12 @@
             "value": "Unpinned"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ya no está fijado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6976,6 +8416,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Until you allow it, History shows a “New clipboard content” banner at the top — use the system paste button there to save by hand."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mientras no lo permitas, el historial muestra arriba un aviso de “Nuevo contenido en el portapapeles” — usa el botón de pegar del sistema que aparece ahí para guardarlo manualmente."
           }
         },
         "fr": {
@@ -7007,6 +8453,12 @@
             "value": "Version %@"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versión %@"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7034,6 +8486,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "When you open Copymunk"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Al abrir Copymunk"
           }
         },
         "fr": {
@@ -7065,6 +8523,12 @@
             "value": "With this off, Copymunk won’t read the clipboard when it opens — use the banner at the top of History to paste and save by hand."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Si lo desactivas, Copymunk no leerá el portapapeles al abrirse — usa el aviso de la parte superior del historial para pegar y guardar manualmente."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7092,6 +8556,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "You can change both later in Settings."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puedes cambiar ambas cosas más tarde en Ajustes."
           }
         },
         "fr": {
@@ -7123,6 +8593,12 @@
             "value": "Your Mac clipboard, in your pocket"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El portapapeles de tu Mac, en tu bolsillo"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7150,6 +8626,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Your verification code is 482913. It expires in 5 minutes."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu código de verificación es 482913. Caduca en 5 minutos."
           }
         },
         "fr": {
@@ -7181,6 +8663,12 @@
             "value": "clip"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "recorte"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7208,6 +8696,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "clipboard"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "portapapeles"
           }
         },
         "fr": {
@@ -7239,6 +8733,12 @@
             "value": "iCloud Sync"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronización con iCloud"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7266,6 +8766,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud is restricted on this device"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud está restringido en este dispositivo"
           }
         },
         "fr": {
@@ -7297,6 +8803,12 @@
             "value": "iCloud is temporarily unavailable. Copymunk will try again."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud no está disponible temporalmente. Copymunk volverá a intentarlo."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7324,6 +8836,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud sync failed"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error al sincronizar con iCloud"
           }
         },
         "fr": {
@@ -7355,6 +8873,12 @@
             "value": "iCloud sync is turned off"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La sincronización con iCloud está desactivada"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7382,6 +8906,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOS asks every time"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS pregunta cada vez"
           }
         },
         "fr": {
@@ -7413,6 +8943,12 @@
             "value": "iOS asks the first time Copymunk reads the clipboard. Tap Allow Paste; later you can set it to Allow in Settings."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS te preguntará la primera vez que Copymunk lea el portapapeles. Toca “Permitir pegar”; más adelante puedes cambiarlo a “Permitir” en Ajustes."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7440,6 +8976,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOS won’t let apps read the clipboard in the background, so Copymunk only saves at these three moments."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS no permite que las apps lean el portapapeles en segundo plano, así que Copymunk solo guarda en estos tres momentos."
           }
         },
         "fr": {
@@ -7471,6 +9013,12 @@
             "value": "iOS won’t let apps read the clipboard in the background. Copymunk only saves at these three moments."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS no permite que las apps lean el portapapeles en segundo plano. Copymunk solo guarda en estos tres momentos."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7498,6 +9046,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iPhone 15 Pro and later"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone 15 Pro y modelos posteriores"
           }
         },
         "fr": {
@@ -7529,6 +9083,12 @@
             "value": "now"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ahora"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7556,6 +9116,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "paste"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pegar"
           }
         },
         "fr": {
@@ -7587,6 +9153,12 @@
             "value": "save"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "guardar"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7616,6 +9188,12 @@
             "value": "“%@” is now the default"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” es ahora el predeterminado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7643,6 +9221,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Share › Copymunk in any app"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compartir › Copymunk en cualquier app"
           }
         },
         "fr": {

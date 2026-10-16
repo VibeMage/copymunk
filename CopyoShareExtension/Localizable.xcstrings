@@ -16,6 +16,12 @@
             "value": "%lld characters · Plain text"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld caracteres · Texto sin formato"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -43,6 +49,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld characters · Rich text"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld caracteres · Texto enriquecido"
           }
         },
         "fr": {
@@ -74,6 +86,12 @@
             "value": "%lldd"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld d"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -101,6 +119,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lldh"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld h"
           }
         },
         "fr": {
@@ -132,6 +156,12 @@
             "value": "%lldm"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld min"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -159,6 +189,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 character · Plain text"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 carácter · Texto sin formato"
           }
         },
         "fr": {
@@ -190,6 +226,12 @@
             "value": "1 character · Rich text"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 carácter · Texto enriquecido"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -217,6 +259,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cancel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
           }
         },
         "fr": {
@@ -248,6 +296,12 @@
             "value": "Clip"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elemento"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -277,6 +331,12 @@
             "value": "Clipboard"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portapapeles"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -301,6 +361,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "Color"
@@ -335,6 +401,12 @@
             "value": "Copy Clip"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar elemento"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -362,6 +434,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk can't open its library right now."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk no puede abrir su biblioteca en este momento."
           }
         },
         "fr": {
@@ -393,6 +471,12 @@
             "value": "Copymunk couldn't read that image."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk no ha podido leer esa imagen."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -420,6 +504,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk couldn't read what you shared."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk no ha podido leer lo que has compartido."
           }
         },
         "fr": {
@@ -451,6 +541,12 @@
             "value": "Couldn't save"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se ha podido guardar"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -478,6 +574,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Don't pin"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No fijar"
           }
         },
         "fr": {
@@ -509,6 +611,12 @@
             "value": "File"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archivo"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -536,6 +644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Give Save Content some text, a link, or an image."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dale a “Guardar contenido” un texto, un enlace o una imagen."
           }
         },
         "fr": {
@@ -567,6 +681,12 @@
             "value": "Image"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imagen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -594,6 +714,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Last week"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semana pasada"
           }
         },
         "fr": {
@@ -625,6 +751,12 @@
             "value": "Link"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enlace"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -652,6 +784,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Loading…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando…"
           }
         },
         "fr": {
@@ -683,6 +821,12 @@
             "value": "No pinboards"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay Pinboards"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -710,6 +854,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nothing to save"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada que guardar"
           }
         },
         "fr": {
@@ -741,6 +891,12 @@
             "value": "Now"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -765,6 +921,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "OK"
@@ -799,6 +961,12 @@
             "value": "Opens Copymunk and saves whatever is on the clipboard right now."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre Copymunk y guarda lo que haya ahora en el portapapeles."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -826,6 +994,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pin to Pinboard"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fijar en Pinboard"
           }
         },
         "fr": {
@@ -857,6 +1031,12 @@
             "value": "Rich"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enriquecido"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -884,6 +1064,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Save"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar"
           }
         },
         "fr": {
@@ -926,6 +1112,12 @@
             "state": "translated",
             "value": "${text} in Copymunk sichern"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar ${text} en Copymunk"
+          }
         }
       }
     },
@@ -942,6 +1134,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Save Clipboard"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar portapapeles"
           }
         },
         "fr": {
@@ -973,6 +1171,12 @@
             "value": "Save Content"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar contenido"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1000,6 +1204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Save to Copymunk"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar en Copymunk"
           }
         },
         "fr": {
@@ -1031,6 +1241,12 @@
             "value": "Saved"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardado"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1058,6 +1274,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Saves text, a link, or an image to Copymunk without opening the app."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guarda texto, un enlace o una imagen en Copymunk sin abrir la app."
           }
         },
         "fr": {
@@ -1089,6 +1311,12 @@
             "value": "Saves what's on the clipboard to Copymunk."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guarda en Copymunk lo que hay en el portapapeles."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1116,6 +1344,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Text"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texto"
           }
         },
         "fr": {
@@ -1147,6 +1381,12 @@
             "value": "There's nothing to save here."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aquí no hay nada que guardar."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1174,6 +1414,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "This Device"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este dispositivo"
           }
         },
         "fr": {
@@ -1205,6 +1451,12 @@
             "value": "Timed out reading what you shared."
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se ha agotado el tiempo al leer lo que has compartido."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1229,6 +1481,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "URL"
@@ -1263,6 +1521,12 @@
             "value": "clip"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "recorte"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1290,6 +1554,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "clipboard"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "portapapeles"
           }
         },
         "fr": {
@@ -1321,6 +1591,12 @@
             "value": "now"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ahora"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1350,6 +1626,12 @@
             "value": "paste"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pegar"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1377,6 +1659,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "save"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "guardar"
           }
         },
         "fr": {

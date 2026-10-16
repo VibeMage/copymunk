@@ -28,6 +28,15 @@
               "Zwischenablage in ${applicationName} sichern"
             ]
           }
+        },
+        "es": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Guardar mi portapapeles en ${applicationName}",
+              "Guarda mi portapapeles en ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -54,6 +63,14 @@
             "state": "translated",
             "values": [
               "Zwischenablage mit ${applicationName} sichern"
+            ]
+          }
+        },
+        "es": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Guardar el portapapeles con ${applicationName}"
             ]
           }
         }
@@ -84,6 +101,14 @@
               "Diesen Eintrag in ${applicationName} sichern"
             ]
           }
+        },
+        "es": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Guardar este elemento en ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -110,6 +135,14 @@
             "state": "translated",
             "values": [
               "${applicationName} Zwischenablage sichern"
+            ]
+          }
+        },
+        "es": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} guardar portapapeles"
             ]
           }
         }
