@@ -145,6 +145,15 @@
               "Salve minha área de transferência no ${applicationName}"
             ]
           }
+        },
+        "pl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Zachowaj mój schowek w ${applicationName}",
+              "Zachowaj schowek w aplikacji ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -276,6 +285,14 @@
             "state": "translated",
             "values": [
               "Salvar a área de transferência com o ${applicationName}"
+            ]
+          }
+        },
+        "pl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Zachowaj schowek przy użyciu ${applicationName}"
             ]
           }
         }
@@ -410,6 +427,14 @@
               "Salvar este item no ${applicationName}"
             ]
           }
+        },
+        "pl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Zachowaj ten element w ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -540,6 +565,14 @@
             "state": "translated",
             "values": [
               "${applicationName} salvar área de transferência"
+            ]
+          }
+        },
+        "pl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} zachowaj schowek"
             ]
           }
         }

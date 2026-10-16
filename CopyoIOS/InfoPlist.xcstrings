@@ -65,6 +65,12 @@
             "value" : "Copymunk bewaart de afbeelding die je kiest in je fotobibliotheek."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copymunk zachowuje wybrany obrazek w Twojej bibliotece zdjęć."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",

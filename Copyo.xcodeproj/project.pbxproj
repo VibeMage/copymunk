@@ -421,6 +421,7 @@
 				ja,
 				ko,
 				nl,
+				pl,
 				"pt-BR",
 				ru,
 				th,

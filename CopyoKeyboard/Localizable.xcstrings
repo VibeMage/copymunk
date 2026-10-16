@@ -64,6 +64,12 @@
             "value": "%lld tekens · Platte tekst"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Znaki: %lld · Zwykły tekst"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -169,6 +175,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld tekens · RTF-tekst"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Znaki: %lld · Tekst sformatowany"
           }
         },
         "pt-BR": {
@@ -278,6 +290,12 @@
             "value": "%lld resultaten"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyniki: %lld"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -380,6 +398,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld d"
+          }
+        },
+        "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "%lld d"
@@ -492,6 +516,12 @@
             "value": "%lld u"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld godz."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -594,6 +624,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld min"
+          }
+        },
+        "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "%lld min"
@@ -706,6 +742,12 @@
             "value": "1 teken · Platte tekst"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 znak · Zwykły tekst"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -811,6 +853,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 teken · RTF-tekst"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 znak · Tekst sformatowany"
           }
         },
         "pt-BR": {
@@ -920,6 +968,12 @@
             "value": "1 resultaat"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 wynik"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1025,6 +1079,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Items kunnen nu niet worden gelezen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie można teraz odczytać elementów"
           }
         },
         "pt-BR": {
@@ -1134,6 +1194,12 @@
             "value": "Annuleer"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anuluj"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1239,6 +1305,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wis zoekopdracht"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wymaż wyszukiwanie"
           }
         },
         "pt-BR": {
@@ -1348,6 +1420,12 @@
             "value": "Item"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Element"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1453,6 +1531,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Klembord"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schowek"
           }
         },
         "pt-BR": {
@@ -1562,6 +1646,12 @@
             "value": "Sluit"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamknij"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1667,6 +1757,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kleur"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kolor"
           }
         },
         "pt-BR": {
@@ -1776,6 +1872,12 @@
             "value": "Kopieer item"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiuj element"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1881,6 +1983,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk kan zijn bibliotheek nu niet openen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk nie może teraz otworzyć swojej biblioteki."
           }
         },
         "pt-BR": {
@@ -1990,6 +2098,12 @@
             "value": "Copymunk kon die afbeelding niet lezen."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk nie mógł odczytać tego obrazka."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2095,6 +2209,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk kon niet lezen wat je hebt gedeeld."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk nie mógł odczytać udostępnionej zawartości."
           }
         },
         "pt-BR": {
@@ -2204,6 +2324,12 @@
             "value": "Bewaren mislukt"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie można zachować"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2309,6 +2435,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verwijder"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń"
           }
         },
         "pt-BR": {
@@ -2418,6 +2550,12 @@
             "value": "Niet vastmaken"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie przypinaj"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2523,6 +2661,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bestand"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plik"
           }
         },
         "pt-BR": {
@@ -2632,6 +2776,12 @@
             "value": "Bestanden blijven op je Mac"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pliki pozostają na Macu"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2737,6 +2887,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Volledige toegang is nodig om je geschiedenis te tonen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Do wyświetlenia historii wymagany jest pełny dostęp"
           }
         },
         "pt-BR": {
@@ -2846,6 +3002,12 @@
             "value": "Geef ‘Bewaar inhoud’ wat tekst, een link of een afbeelding."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przekaż czynności „Zachowaj zawartość” tekst, łącze lub obrazek."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2951,6 +3113,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geschiedenis"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historia"
           }
         },
         "pt-BR": {
@@ -3060,6 +3228,12 @@
             "value": "Houd een kaart vast voor voorvertoning"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przytrzymaj kartę: podgląd"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3165,6 +3339,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afbeelding"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obrazek"
           }
         },
         "pt-BR": {
@@ -3274,6 +3454,12 @@
             "value": "Afbeeldingen kun je alleen in Copymunk kopiëren"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obrazki można kopiować tylko w Copymunk"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3379,6 +3565,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Voeg in"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wstaw"
           }
         },
         "pt-BR": {
@@ -3488,6 +3680,12 @@
             "value": "Vorige week"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tydzień temu"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3593,6 +3791,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Letters"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Litery"
           }
         },
         "pt-BR": {
@@ -3702,6 +3906,12 @@
             "value": "Link"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Łącze"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3807,6 +4017,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Laden…"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wczytywanie…"
           }
         },
         "pt-BR": {
@@ -3916,6 +4132,12 @@
             "value": "Alleen Mac"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tylko Mac"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4021,6 +4243,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Volgende toetsenbord"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Następna klawiatura"
           }
         },
         "pt-BR": {
@@ -4130,6 +4358,12 @@
             "value": "Nog geen items"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak elementów"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4235,6 +4469,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geen resultaten"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak wyników"
           }
         },
         "pt-BR": {
@@ -4344,6 +4584,12 @@
             "value": "Geen Pinboards"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak Pinboardów"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4449,6 +4695,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Niet gesynchroniseerd"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bez synchronizacji"
           }
         },
         "pt-BR": {
@@ -4558,6 +4810,12 @@
             "value": "Niets om te bewaren"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nic do zachowania"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4663,6 +4921,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nu"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teraz"
           }
         },
         "pt-BR": {
@@ -4772,6 +5036,12 @@
             "value": "Cijfers en leestekens"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cyfry i interpunkcja"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4874,6 +5144,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "OK"
@@ -4986,6 +5262,12 @@
             "value": "Open Copymunk één keer en kom dan terug."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz raz Copymunk, a potem wróć."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -5091,6 +5373,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opent Copymunk en bewaart wat er op dit moment op het klembord staat."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwiera Copymunk i zachowuje bieżącą zawartość schowka."
           }
         },
         "pt-BR": {
@@ -5200,6 +5488,12 @@
             "value": "Maak vast op Pinboard"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przypnij do Pinboardu"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -5305,6 +5599,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vastgemaakt"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przypięty"
           }
         },
         "pt-BR": {
@@ -5414,6 +5714,12 @@
             "value": "Voorvertoning"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podgląd"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -5519,6 +5825,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Recent"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostatnie"
           }
         },
         "pt-BR": {
@@ -5628,6 +5940,12 @@
             "value": "Recente items"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostatnie elementy"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -5730,6 +6048,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RTF"
+          }
+        },
+        "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "RTF"
@@ -5842,6 +6166,12 @@
             "value": "Bewaar"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zachowaj"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -5947,6 +6277,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bewaar klembord"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zachowaj schowek"
           }
         },
         "pt-BR": {
@@ -6056,6 +6392,12 @@
             "value": "Bewaar inhoud"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zachowaj zawartość"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -6161,6 +6503,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bewaar in Copymunk"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zachowaj w Copymunk"
           }
         },
         "pt-BR": {
@@ -6270,6 +6618,12 @@
             "value": "Bewaard"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zachowano"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -6375,6 +6729,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bewaart tekst, een link of een afbeelding in Copymunk zonder de app te openen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zachowuje tekst, łącze lub obrazek w Copymunk bez otwierania aplikacji."
           }
         },
         "pt-BR": {
@@ -6484,6 +6844,12 @@
             "value": "Bewaart wat er op het klembord staat in Copymunk."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zachowuje zawartość schowka w Copymunk."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -6589,6 +6955,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zoek"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukaj"
           }
         },
         "pt-BR": {
@@ -6698,6 +7070,12 @@
             "value": "Zoek in geschiedenis"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukaj w historii"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -6805,6 +7183,12 @@
             "value": "Instellingen › Algemeen › Toetsenbord › Toetsenborden › Copymunk. Het Copymunk-toetsenbord gaat nooit online en legt nooit vast wat je typt."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia › Ogólne › Klawiatura › Klawiatury › Copymunk. Klawiatura Copymunk nigdy nie łączy się z internetem i nigdy nie rejestruje tego, co piszesz."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -6907,6 +7291,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shift"
+          }
+        },
+        "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Shift"
@@ -7019,6 +7409,12 @@
             "value": "Gesynchroniseerd"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zsynchronizowano"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -7124,6 +7520,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synchroniseren…"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchronizowanie…"
           }
         },
         "pt-BR": {
@@ -7233,6 +7635,12 @@
             "value": "Tik om te kopiëren"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stuknij, aby skopiować"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -7340,6 +7748,12 @@
             "value": "Tik om in te voegen"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stuknij, aby wstawić"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -7442,6 +7856,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekst"
+          }
+        },
+        "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Tekst"
@@ -7554,6 +7974,12 @@
             "value": "De items die je het laatst hebt gekopieerd. Tik op een item om het opnieuw te kopiëren."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostatnio skopiowane elementy. Stuknij w jeden z nich, aby skopiować go ponownie."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -7659,6 +8085,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Er is hier niets om te bewaren."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie ma tu nic do zachowania."
           }
         },
         "pt-BR": {
@@ -7768,6 +8200,12 @@
             "value": "Dit apparaat"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To urządzenie"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -7870,6 +8308,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL"
+          }
+        },
+        "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "URL"
@@ -7982,6 +8426,12 @@
             "value": "item"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "element"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8087,6 +8537,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "klembord"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "schowek"
           }
         },
         "pt-BR": {
@@ -8196,6 +8652,12 @@
             "value": "nu"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "teraz"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8303,6 +8765,12 @@
             "value": "plakken"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "wklej"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8405,6 +8873,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "return"
+          }
+        },
+        "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "return"
@@ -8517,6 +8991,12 @@
             "value": "bewaren"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "zachowaj"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8622,6 +9102,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "spatie"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "spacja"
           }
         },
         "pt-BR": {
