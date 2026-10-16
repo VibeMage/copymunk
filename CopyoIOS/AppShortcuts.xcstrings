@@ -64,6 +64,15 @@
               "احفظ حافظتي في ${applicationName}"
             ]
           }
+        },
+        "tr": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Panomu ${applicationName} uygulamasına kaydet",
+              "${applicationName} ile panomu kaydet"
+            ]
+          }
         }
       }
     },
@@ -122,6 +131,14 @@
             "state": "translated",
             "values": [
               "احفظ الحافظة باستخدام ${applicationName}"
+            ]
+          }
+        },
+        "tr": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} ile panoyu kaydet"
             ]
           }
         }
@@ -184,6 +201,14 @@
               "احفظ هذا العنصر في ${applicationName}"
             ]
           }
+        },
+        "tr": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Bu öğeyi ${applicationName} uygulamasına kaydet"
+            ]
+          }
         }
       }
     },
@@ -242,6 +267,14 @@
             "state": "translated",
             "values": [
               "${applicationName}، احفظ الحافظة"
+            ]
+          }
+        },
+        "tr": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} panoyu kaydet"
             ]
           }
         }

@@ -41,6 +41,12 @@
             "value" : "Copymunkは選択した画像を写真ライブラリに保存します。"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copymunk seçtiğiniz görüntüyü fotoğraf arşivinize kaydeder."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",

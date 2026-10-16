@@ -417,6 +417,7 @@
 				es,
 				fr,
 				ja,
+				tr,
 				"zh-Hans",
 				"zh-Hant",
 			);

@@ -40,6 +40,12 @@
             "value": "%lld"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -91,6 +97,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld文字"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld karakter"
           }
         },
         "zh-Hans": {
@@ -146,6 +158,12 @@
             "value": "%lld文字 · プレーンテキスト"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld karakter · Düz metin"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -197,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld文字 · リッチテキスト"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld karakter · Biçimli metin"
           }
         },
         "zh-Hans": {
@@ -252,6 +276,12 @@
             "value": "%lld個のファイル"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld dosya"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -303,6 +333,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld項目"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld öğe"
           }
         },
         "zh-Hans": {
@@ -358,6 +394,12 @@
             "value": "%lld件の結果"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld sonuç"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -409,6 +451,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld件の結果"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld sonuç"
           }
         },
         "zh-Hans": {
@@ -464,6 +512,12 @@
             "value": "%lld日"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld g."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -515,6 +569,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld時間"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld sa."
           }
         },
         "zh-Hans": {
@@ -570,6 +630,12 @@
             "value": "%lld分"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld dk."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -621,6 +687,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1文字"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 karakter"
           }
         },
         "zh-Hans": {
@@ -676,6 +748,12 @@
             "value": "1文字 · プレーンテキスト"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 karakter · Düz metin"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -727,6 +805,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1文字 · リッチテキスト"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 karakter · Biçimli metin"
           }
         },
         "zh-Hans": {
@@ -782,6 +866,12 @@
             "value": "1個のファイル"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 dosya"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -833,6 +923,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1項目"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 öğe"
           }
         },
         "zh-Hans": {
@@ -889,6 +985,12 @@
             "value": "先週"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 hf."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -940,6 +1042,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "東京都港区虎ノ門1-2-3 Bタワー12階"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bağdat Caddesi No: 331, B Blok, Kat 12, Kadıköy, İstanbul"
           }
         },
         "zh-Hans": {
@@ -995,6 +1103,12 @@
             "value": "情報"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hakkında"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1046,6 +1160,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "アクションボタン"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eylem Düğmesi"
           }
         },
         "zh-Hans": {
@@ -1101,6 +1221,12 @@
             "value": "アクションボタン、背面タップ、コントロールセンター"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eylem Düğmesi, Arkaya Dokun veya Denetim Merkezi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1152,6 +1278,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunkの「クリップボードを保存」アクションを追加"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk’un “Panoyu Kaydet” eylemini ekleyin"
           }
         },
         "zh-Hans": {
@@ -1207,6 +1339,12 @@
             "value": "「クリップボードを保存」ショートカットを追加"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Panoyu Kaydet” Kestirmesini Ekle"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1258,6 +1396,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "「クリップボードを保存」を追加"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Panoyu Kaydet” denetimini ekleyin"
           }
         },
         "zh-Hans": {
@@ -1313,6 +1457,12 @@
             "value": "システム検索に追加しています"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öğeler sistem aramasına ekleniyor"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1364,6 +1514,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "コピーしたあと、アクションボタンを押すか、iPhoneの背面をダブルタップするか、コントロールセンターのボタンをタップします。Copymunkが開いて「保存しました」と表示されます。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopyaladıktan sonra Eylem düğmesine basın, iPhone’unuzun arkasına iki kez dokunun veya Denetim Merkezi’ndeki düğmeye dokunun. Copymunk açılır ve “Kaydedildi” mesajını gösterir."
           }
         },
         "zh-Hans": {
@@ -1419,6 +1575,12 @@
             "value": "コピーしたあと、コントロールセンターの「クリップボードを保存」ボタンをタップします。Copymunkが開いて「保存しました」と表示されます。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopyaladıktan sonra Denetim Merkezi’ndeki “Panoyu Kaydet” düğmesine dokunun. Copymunk açılır ve “Kaydedildi” mesajını gösterir."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1470,6 +1632,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "すべて"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tümü"
           }
         },
         "zh-Hans": {
@@ -1525,6 +1693,12 @@
             "value": "許可"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İzin Ver"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1576,6 +1750,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "「ほかのアプリからペースト」を許可"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diğer Uygulamalardan Yapıştır"
           }
         },
         "zh-Hans": {
@@ -1631,6 +1811,12 @@
             "value": "保存済み"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaten kaydedilmiş"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1682,6 +1868,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "オープンソースのクリップボードマネージャ。Mac、iPhone、iPadが、あなた自身のiCloudアカウントを通じて1つの履歴を共有します。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Açık kaynaklı bir pano yöneticisi. Mac, iPhone ve iPad kendi iCloud hesabınız üzerinden tek bir geçmişi paylaşır."
           }
         },
         "zh-Hans": {
@@ -1737,6 +1929,12 @@
             "value": "Macでコピーしたものは、何もしなくてもiCloud経由でここに届きます。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac’inizde kopyaladığınız her şey için hiçbir şey yapmanız gerekmez — iCloud aracılığıyla buraya gelir."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1788,6 +1986,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Macでコピーしたものは、iCloud経由でここに表示されます。このiPadから残したいものは、「共有」か「クイック保存」を使って保存してください。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac’inizde kopyaladığınız her şey iCloud aracılığıyla burada görünür. Bu iPad’den bir şey saklamak için “Paylaş” veya “Hızlı Kaydet” özelliğini kullanın."
           }
         },
         "zh-Hans": {
@@ -1843,6 +2047,12 @@
             "value": "Macでコピーしたものは、iCloud経由でここに表示されます。このiPhoneから残したいものは、「共有」か「クイック保存」を使って保存してください。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac’inizde kopyaladığınız her şey iCloud aracılığıyla burada görünür. Bu iPhone’dan bir şey saklamak için “Paylaş” veya “Hızlı Kaydet” özelliğini kullanın."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1894,6 +2104,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "確認"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sor"
           }
         },
         "zh-Hans": {
@@ -1949,6 +2165,12 @@
             "value": "背面タップ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arkaya Dokun"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2000,6 +2222,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "背面タップで実行できるのはショートカットだけなので、「クリップボードを保存」を実行するショートカットが必要です。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arkaya Dokun yalnızca bir kestirme çalıştırabilir; bu yüzden “Panoyu Kaydet” eylemini çalıştıran bir kestirme gerekir."
           }
         },
         "zh-Hans": {
@@ -2055,6 +2283,12 @@
             "value": "背面タップで実行できるのはショートカットだけなので、上のショートカットが必要です。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arkaya Dokun yalnızca bir kestirme çalıştırabilir; bu yöntemin yukarıdaki kestirmeye ihtiyaç duymasının nedeni budur."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2106,6 +2340,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "作成日順"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oluşturma Tarihine Göre"
           }
         },
         "zh-Hans": {
@@ -2161,6 +2401,12 @@
             "value": "項目数順"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öğe Sayısına Göre"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2212,6 +2458,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "名前順"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ada Göre"
           }
         },
         "zh-Hans": {
@@ -2267,6 +2519,12 @@
             "value": "ピン留め日時順"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İğneleme Zamanına Göre"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2318,6 +2576,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "コピー元順"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaynağa Göre"
           }
         },
         "zh-Hans": {
@@ -2373,6 +2637,12 @@
             "value": "日時順"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamana Göre"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2424,6 +2694,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "種類順"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Türe Göre"
           }
         },
         "zh-Hans": {
@@ -2479,6 +2755,12 @@
             "value": "キャンセル"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vazgeç"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2530,6 +2812,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "文字数"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Karakter"
           }
         },
         "zh-Hans": {
@@ -2585,6 +2873,12 @@
             "value": "「許可」を選択"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“İzin Ver”i seçin"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2636,6 +2930,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "消去"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temizle"
           }
         },
         "zh-Hans": {
@@ -2691,6 +2991,12 @@
             "value": "履歴を消去"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmişi Temizle"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2742,6 +3048,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "履歴を消去しますか？"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmiş Temizlensin mi?"
           }
         },
         "zh-Hans": {
@@ -2797,6 +3109,12 @@
             "value": "検索をクリア"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aramayı Temizle"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2848,6 +3166,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "項目"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öğe"
           }
         },
         "zh-Hans": {
@@ -2903,6 +3227,12 @@
             "value": "クリップボード"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pano"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2954,6 +3284,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "カラー"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renk"
           }
         },
         "zh-Hans": {
@@ -3009,6 +3345,12 @@
             "value": "カラー"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renkler"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3060,6 +3402,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "続ける"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sürdür"
           }
         },
         "zh-Hans": {
@@ -3115,6 +3463,12 @@
             "value": "コントロールセンター"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Denetim Merkezi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3166,6 +3520,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "コピーしました"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopyalandı"
           }
         },
         "zh-Hans": {
@@ -3221,6 +3581,12 @@
             "value": "プレーンテキストでコピーしました"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Düz metin olarak kopyalandı"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3272,6 +3638,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "コピー"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopyala"
           }
         },
         "zh-Hans": {
@@ -3327,6 +3699,12 @@
             "value": "すべてプレーンテキストでコピー"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tümünü Düz Metin Olarak Kopyala"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3378,6 +3756,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "項目をコピー"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öğeyi Kopyala"
           }
         },
         "zh-Hans": {
@@ -3433,6 +3817,12 @@
             "value": "プレーンテキストでコピー"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Düz Metin Olarak Kopyala"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3484,6 +3874,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunkキーボード"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk Klavyesi"
           }
         },
         "zh-Hans": {
@@ -3539,6 +3935,12 @@
             "value": "Copymunkは現在ライブラリを開けません。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk şu anda kendi arşivini açamıyor."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3590,6 +3992,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunkはこの設定の現在の値を読み取れません"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk bu ayarın geçerli değerini okuyamıyor"
           }
         },
         "zh-Hans": {
@@ -3645,6 +4053,12 @@
             "value": "Copymunkはその画像を読み取れませんでした。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk bu görüntüyü okuyamadı."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3696,6 +4110,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunkは共有された内容を読み取れませんでした。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk paylaştığınız içeriği okuyamadı."
           }
         },
         "zh-Hans": {
@@ -3751,6 +4171,12 @@
             "value": "保存できませんでした"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydedilemedi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3802,6 +4228,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "作成"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oluştur"
           }
         },
         "zh-Hans": {
@@ -3857,6 +4289,12 @@
             "value": "デフォルトのPinboard"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varsayılan Pinboard"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3908,6 +4346,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "削除"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sil"
           }
         },
         "zh-Hans": {
@@ -3963,6 +4407,12 @@
             "value": "Pinboardを削除"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard’u Sil"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4014,6 +4464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "この項目を削除しますか？"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu öğe silinsin mi?"
           }
         },
         "zh-Hans": {
@@ -4069,6 +4525,12 @@
             "value": "「%@」を削除しますか？"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” silinsin mi?"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4120,6 +4582,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "削除しました"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Silindi"
           }
         },
         "zh-Hans": {
@@ -4175,6 +4643,12 @@
             "value": "拒否"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reddet"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4226,6 +4700,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "サイズ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boyutlar"
           }
         },
         "zh-Hans": {
@@ -4281,6 +4761,12 @@
             "value": "閉じる"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kapat"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4332,6 +4818,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ピン留めしない"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İğneleme"
           }
         },
         "zh-Hans": {
@@ -4387,6 +4879,12 @@
             "value": "完了"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitti"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4438,6 +4936,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunkを開くたび、またはCopymunkに戻るたびに、現在のクリップボードを読み取って履歴に保存します。「ほかのアプリからペースト」を「許可」に設定しておく必要があります。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk’u her açtığınızda veya ona her döndüğünüzde Copymunk geçerli panoyu okur ve geçmişinize kaydeder. “Diğer Uygulamalardan Yapıştır” ayarının “İzin Ver” olması gerekir."
           }
         },
         "zh-Hans": {
@@ -4493,6 +4997,12 @@
             "value": "Macでコピーしたものはすべて、iCloud経由でここに届きます。いつでも検索でき、タップするだけでコピーできます。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac’inizde kopyaladığınız her şey iCloud aracılığıyla buraya gelir. İstediğiniz zaman arayın, kopyalamak için dokunun."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4544,6 +5054,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ファイル"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dosya"
           }
         },
         "zh-Hans": {
@@ -4599,6 +5115,12 @@
             "value": "ファイルの内容はMacにのみ保存されています。Macで見つけられるように、Copymunkはファイル名を残しています。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dosya içeriği Mac’inizde kalır. Orada bulabilmeniz için Copymunk dosyanın adını saklar."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4650,6 +5172,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ファイル"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dosyalar"
           }
         },
         "zh-Hans": {
@@ -4705,6 +5233,12 @@
             "value": "はじめる"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başla"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4756,6 +5290,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "「コンテンツを保存」には、テキスト、リンク、画像のいずれかを指定してください。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“İçeriği Kaydet” eylemine bir metin, bağlantı veya görüntü verin."
           }
         },
         "zh-Hans": {
@@ -4811,6 +5351,12 @@
             "value": "設定へ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar’a Git"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4862,6 +5408,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "履歴"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmiş"
           }
         },
         "zh-Hans": {
@@ -4917,6 +5469,12 @@
             "value": "履歴の上限"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmiş Sınırı"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4968,6 +5526,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "履歴を消去しました"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmiş temizlendi"
           }
         },
         "zh-Hans": {
@@ -5023,6 +5587,12 @@
             "value": "Copymunkの保存方法"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk Öğeleri Nasıl Kaydeder"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5074,6 +5644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "アイコン"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simge"
           }
         },
         "zh-Hans": {
@@ -5129,6 +5705,12 @@
             "value": "画像"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görüntü"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5180,6 +5762,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "画像"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görüntüler"
           }
         },
         "zh-Hans": {
@@ -5235,6 +5823,12 @@
             "value": "「設定 › アプリ › Copymunk」で、「ほかのアプリからペースト」を「許可」に設定してください。以後、Copymunkは確認なしで新しい項目を保存します。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar › Uygulamalar › Copymunk bölümünde “Diğer Uygulamalardan Yapıştır” ayarını “İzin Ver” olarak belirleyin. Copymunk bundan sonra yeni öğeleri sormadan kaydeder."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5286,6 +5880,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOSの設定"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS Ayarları"
           }
         },
         "zh-Hans": {
@@ -5341,6 +5941,12 @@
             "value": "MacのPinboardタブに同期されます。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac’inizdeki Pinboard sekmesiyle eşzamanlanır."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5392,6 +5998,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "MacのPinboardタグに同期されます。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac’inizdeki Pinboard etiketleriyle eşzamanlanır."
           }
         },
         "zh-Hans": {
@@ -5447,6 +6059,12 @@
             "value": "すべてのデバイスのCopymunkから削除されます。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tüm aygıtlarınızdaki Copymunk’tan kaldırılacak."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5498,6 +6116,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "中の項目は履歴に戻り、削除はされません。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İçindeki öğeler Geçmiş’e döner ve silinmez."
           }
         },
         "zh-Hans": {
@@ -5553,6 +6177,12 @@
             "value": "たった今"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Az önce"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5604,6 +6234,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "先週"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçen hafta"
           }
         },
         "zh-Hans": {
@@ -5659,6 +6295,12 @@
             "value": "リンク"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bağlantı"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5710,6 +6352,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "リンク"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bağlantılar"
           }
         },
         "zh-Hans": {
@@ -5765,6 +6413,12 @@
             "value": "読み込み中…"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yükleniyor…"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5816,6 +6470,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Macのみ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yalnızca Mac"
           }
         },
         "zh-Hans": {
@@ -5871,6 +6531,12 @@
             "value": "あとで"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daha Sonra"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5922,6 +6588,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "その他"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daha Fazla"
           }
         },
         "zh-Hans": {
@@ -5977,6 +6649,12 @@
             "value": "名前"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ad"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6028,6 +6706,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "新規Pinboard"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeni Pinboard"
           }
         },
         "zh-Hans": {
@@ -6083,6 +6767,12 @@
             "value": "新規Pinboard…"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeni Pinboard…"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6134,6 +6824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "クリップボードに新しい内容"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panoda yeni içerik var"
           }
         },
         "zh-Hans": {
@@ -6189,6 +6885,12 @@
             "value": "まだ項目がありません"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Henüz öğe yok"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6240,6 +6942,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboardがありません"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard yok"
           }
         },
         "zh-Hans": {
@@ -6295,6 +7003,12 @@
             "value": "結果なし"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sonuç yok"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6346,6 +7060,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ピン留めなし"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İğnelenmemiş"
           }
         },
         "zh-Hans": {
@@ -6401,6 +7121,12 @@
             "value": "未同期"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eşzamanlanmadı"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6452,6 +7178,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "見つからない場合は、ほかのアプリで何かをコピーし、一度Copymunkに戻ってから、もう一度確認してください。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Henüz görünmüyor mu? Başka bir uygulamada bir şey kopyalayın, bir kez Copymunk’a dönün ve yeniden bakın."
           }
         },
         "zh-Hans": {
@@ -6507,6 +7239,12 @@
             "value": "ピン留めした項目はまだありません"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Henüz iğnelenmiş bir şey yok"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6558,6 +7296,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "保存するものがありません"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydedilecek bir şey yok"
           }
         },
         "zh-Hans": {
@@ -6613,6 +7357,12 @@
             "value": "今"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Şimdi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6664,6 +7414,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "OK"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamam"
           }
         },
         "zh-Hans": {
@@ -6719,6 +7475,12 @@
             "value": "オフ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kapalı"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6770,6 +7532,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "デフォルトではオフです。オンにすると、ホーム画面、ロック画面、Siriからの提案で項目を検索できるようになります。クリップボード履歴に残った確認コード、パスワード、プライベートなメッセージも対象になります。オフにすると、Copymunkがインデックスに追加したものはすべて削除されます。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varsayılan olarak kapalıdır. Açtığınızda öğeleriniz Ana Ekran’dan, Kilitli Ekran’dan ve Siri Önerileri’nden aranabilir hâle gelir — pano geçmişine düşen doğrulama kodları, parolalar ve özel mesajlar da dahil. Kapattığınızda Copymunk’un dizine eklediği her şey silinir."
           }
         },
         "zh-Hans": {
@@ -6825,6 +7593,12 @@
             "value": "オン · 最初の同期を待機中"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Açık · ilk eşzamanlama bekleniyor"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6876,6 +7650,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ワンタッチで、いまクリップボードにある内容を保存します。Copymunkが開いて「保存しました」と表示されます。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tek basışla panoda o anda ne varsa kaydedilir. Copymunk açılır ve “Kaydedildi” mesajını gösterir."
           }
         },
         "zh-Hans": {
@@ -6931,6 +7711,12 @@
             "value": "最初の1回だけ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yalnızca bir kez gerekir"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6982,6 +7768,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "コントロールセンターを開き、空いている場所を長押し"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Denetim Merkezi’ni açın ve boş bir alanı basılı tutun"
           }
         },
         "zh-Hans": {
@@ -7037,6 +7829,12 @@
             "value": "Copymunkの設定を開く"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar’da Copymunk’u Aç"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7088,6 +7886,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "詳細を開く"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayrıntıları Aç"
           }
         },
         "zh-Hans": {
@@ -7143,6 +7947,12 @@
             "value": "履歴を開いて「ペースト」をタップすると保存できます"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydetmek için Geçmiş’i açın ve Yapıştır’a dokunun"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7194,6 +8004,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "設定を開く"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar’ı Aç"
           }
         },
         "zh-Hans": {
@@ -7249,6 +8065,12 @@
             "value": "「設定 › アクセシビリティ › タッチ › 背面タップ」を開く"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar › Erişilebilirlik › Dokunma › Arkaya Dokun"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7300,6 +8122,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "「設定 › アクションボタン」を開く"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar › Eylem Düğmesi"
           }
         },
         "zh-Hans": {
@@ -7355,6 +8183,12 @@
             "value": "「設定 › アプリ › Copymunk」を開く"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar › Uygulamalar › Copymunk"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7406,6 +8240,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "「ショートカット」を開く"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kestirmeler’i Aç"
           }
         },
         "zh-Hans": {
@@ -7461,6 +8301,12 @@
             "value": "オープンソース · GitHub"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Açık Kaynak · GitHub"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7512,6 +8358,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Safariで開く"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Safari’de Aç"
           }
         },
         "zh-Hans": {
@@ -7567,6 +8419,12 @@
             "value": "Copymunkを開き、いまクリップボードにある内容を保存します。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk’u açar ve panoda o anda ne varsa kaydeder."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7618,6 +8476,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ペーストして履歴に保存"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmişinize kaydetmek için yapıştırın"
           }
         },
         "zh-Hans": {
@@ -7673,6 +8537,12 @@
             "value": "Copymunkの下にある「クリップボードを保存」を選択"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk altında “Panoyu Kaydet”i seçin"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7724,6 +8594,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ピン留め"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İğnele"
           }
         },
         "zh-Hans": {
@@ -7779,6 +8655,12 @@
             "value": "ピン留めした項目は履歴の上限の対象外になります。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bir öğeyi geçmiş sınırının dışında tutmak için iğneleyin."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7830,6 +8712,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboardにピン留め"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard’a İğnele"
           }
         },
         "zh-Hans": {
@@ -7885,6 +8773,12 @@
             "value": "ピン留め先…"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Şuraya İğnele…"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7933,6 +8827,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard"
+          }
+        },
+        "tr": {
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard"
@@ -7991,6 +8891,12 @@
             "value": "Pinboardを作成しました"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard oluşturuldu"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8042,6 +8948,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboardを削除しました"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard silindi"
           }
         },
         "zh-Hans": {
@@ -8097,6 +9009,12 @@
             "value": "PinboardはMacと共有されます。カードを右にスワイプすると最初のPinboardにピン留めされ、長押しするとほかのPinboardを選べます。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard’lar Mac’inizle paylaşılır. Bir kartı sağa kaydırdığınızda kart ilk Pinboard’a iğnelenir; başka birini seçmek için kartı basılı tutun."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8148,6 +9066,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ピン留め済み"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İğnelendi"
           }
         },
         "zh-Hans": {
@@ -8203,6 +9127,12 @@
             "value": "プレーンテキスト"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Düz Metin"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8254,6 +9184,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "アクションボタンを長押しして保存"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydetmek için Eylem düğmesini basılı tutun"
           }
         },
         "zh-Hans": {
@@ -8309,6 +9245,12 @@
             "value": "プレビュー"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Önizleme"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8360,6 +9302,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "プライバシー"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gizlilik"
           }
         },
         "zh-Hans": {
@@ -8415,6 +9363,12 @@
             "value": "クイック保存"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hızlı Kaydet"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8466,6 +9420,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "クリップボードを自動で読み取る"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panoyu Otomatik Olarak Oku"
           }
         },
         "zh-Hans": {
@@ -8521,6 +9481,12 @@
             "value": "現在のクリップボードを読み取ります"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçerli panoyu okur"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8572,6 +9538,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "GNU GPLv3のもとで公開されています。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GNU GPLv3 lisansıyla yayımlanmıştır."
           }
         },
         "zh-Hans": {
@@ -8627,6 +9599,12 @@
             "value": "Pinboardから外す"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard’dan Kaldır"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8678,6 +9656,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "システム検索から削除しました"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistem aramasından kaldırıldı"
           }
         },
         "zh-Hans": {
@@ -8733,6 +9717,12 @@
             "value": "名称変更"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adını Değiştir"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8784,6 +9774,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboardの名称変更"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard’un Adını Değiştir"
           }
         },
         "zh-Hans": {
@@ -8839,6 +9835,12 @@
             "value": "名称を変更しました"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adı değiştirildi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8890,6 +9892,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "リッチ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biçimli"
           }
         },
         "zh-Hans": {
@@ -8945,6 +9953,12 @@
             "value": "ローカルのみのモードで実行中"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yalnızca yerel modda çalışıyor"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8996,6 +10010,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "保存"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydet"
           }
         },
         "zh-Hans": {
@@ -9062,6 +10082,12 @@
             "state": "translated",
             "value": "حفظ ${text} في Copymunk"
           }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "${text} içeriğini Copymunk’a kaydet"
+          }
         }
       }
     },
@@ -9102,6 +10128,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "クリップボードを保存"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panoyu Kaydet"
           }
         },
         "zh-Hans": {
@@ -9157,6 +10189,12 @@
             "value": "コンテンツを保存"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İçeriği Kaydet"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9208,6 +10246,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunkに保存"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk’a Kaydet"
           }
         },
         "zh-Hans": {
@@ -9263,6 +10307,12 @@
             "value": "保存しました"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydedildi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9314,6 +10364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "アプリを開かずに、テキスト、リンク、画像をCopymunkに保存します。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulamayı açmadan Copymunk’a metin, bağlantı veya görüntü kaydeder."
           }
         },
         "zh-Hans": {
@@ -9369,6 +10425,12 @@
             "value": "クリップボードの内容をCopymunkに保存します。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panodakileri Copymunk’a kaydeder."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9420,6 +10482,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "検索"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ara"
           }
         },
         "zh-Hans": {
@@ -9475,6 +10543,12 @@
             "value": "アクションの一覧でCopymunkを検索"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eylem listesinde Copymunk’u arayın"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9526,6 +10600,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "履歴を検索"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmişte ara"
           }
         },
         "zh-Hans": {
@@ -9581,6 +10661,12 @@
             "value": "任意のアプリでテキストや画像を選択し、「共有」をタップしてから「Copymunk」をタップします。その際にPinboardも選べます。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herhangi bir uygulamada metin veya görüntü seçin, “Paylaş”a, ardından “Copymunk”a dokunun. Kaydederken bir Pinboard da seçebilirsiniz."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9632,6 +10718,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "クイック保存を設定"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hızlı Kaydet’i Ayarla"
           }
         },
         "zh-Hans": {
@@ -9687,6 +10779,12 @@
             "value": "デフォルトに設定"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varsayılan Yap"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9738,6 +10836,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "「許可」に設定すると、Copymunkを開いた瞬間に確認なしでクリップボードを読み取ります。これはiOSのプライバシー設定のため、「設定」でのみ変更できます。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“İzin Ver” olarak ayarlarsanız Copymunk açıldığı anda panoyu sormadan okur. Bu bir iOS gizlilik ayarı olduğundan yalnızca Ayarlar’dan değiştirilebilir."
           }
         },
         "zh-Hans": {
@@ -9793,6 +10897,12 @@
             "value": "設定"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9844,6 +10954,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "「設定 › 一般 › キーボード › キーボード」"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar › Genel › Klavye › Klavyeler"
           }
         },
         "zh-Hans": {
@@ -9899,6 +11015,12 @@
             "value": "共有"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paylaş"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9950,6 +11072,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Macと1つの履歴を共有"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac’inizle tek bir geçmiş paylaşın"
           }
         },
         "zh-Hans": {
@@ -10005,6 +11133,12 @@
             "value": "共有シート"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paylaşma Sayfası"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10056,6 +11190,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "システム検索に項目を表示"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öğeleri Sistem Aramasında Göster"
           }
         },
         "zh-Hans": {
@@ -10111,6 +11251,12 @@
             "value": "履歴を表示"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmişi Göster"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10162,6 +11308,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboardを表示"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard’ları Göster"
           }
         },
         "zh-Hans": {
@@ -10217,6 +11369,12 @@
             "value": "設定を表示"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarları Göster"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10268,6 +11426,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Macと同期するにはiCloudにサインインしてください"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac’inizle eşzamanlamak için iCloud’da oturum açın"
           }
         },
         "zh-Hans": {
@@ -10323,6 +11487,12 @@
             "value": "MacとiPadで同じApple Accountにサインインしてください。項目はiCloudだけを経由し、他社のサーバを経由することはありません。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac’inizde ve iPad’inizde aynı Apple Hesabı ile oturum açın. Öğeleriniz yalnızca iCloud üzerinden aktarılır, asla üçüncü taraf bir sunucudan geçmez."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10374,6 +11544,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "MacとiPhoneで同じApple Accountにサインインしてください。項目はiCloudだけを経由し、他社のサーバを経由することはありません。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac’inizde ve iPhone’unuzda aynı Apple Hesabı ile oturum açın. Öğeleriniz yalnızca iCloud üzerinden aktarılır, asla üçüncü taraf bir sunucudan geçmez."
           }
         },
         "zh-Hans": {
@@ -10429,6 +11605,12 @@
             "value": "スキップ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atla"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10480,6 +11662,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "並べ替え"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sırala"
           }
         },
         "zh-Hans": {
@@ -10535,6 +11723,12 @@
             "value": "並び順"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Şuna Göre Sırala"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10586,6 +11780,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "コピー元"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaynak"
           }
         },
         "zh-Hans": {
@@ -10641,6 +11841,12 @@
             "value": "スペース"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boşluk"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10692,6 +11898,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "状態"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Durum"
           }
         },
         "zh-Hans": {
@@ -10747,6 +11959,12 @@
             "value": "履歴でカードを右にスワイプするか、長押ししてこのPinboardを選択してください。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmiş’te bir kartı sağa kaydırın veya kartı basılı tutup bu Pinboard’u seçin."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10798,6 +12016,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "「コントロール」までスワイプして、「コントロールを選択…」をタップ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Denetimler”e kaydırın, ardından “Bir Denetim Seçin”e dokunun"
           }
         },
         "zh-Hans": {
@@ -10853,6 +12077,12 @@
             "value": "任意のテキストフィールドでCopymunkキーボードに切り替え、カードをタップすると入力できます。アプリを行き来する必要はありません。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herhangi bir metin alanında Copymunk klavyesine geçin ve yazmak için bir karta dokunun — uygulamalar arasında gidip gelmenize gerek yok."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10904,6 +12134,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "同期"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eşzamanlama"
           }
         },
         "zh-Hans": {
@@ -10959,6 +12195,12 @@
             "value": "同期済み"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eşzamanlandı"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11012,6 +12254,12 @@
             "value": "同期済み · %@"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eşzamanlandı · %@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11063,6 +12311,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "同期中"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eşzamanlanıyor"
           }
         },
         "zh-Hans": {
@@ -11119,6 +12373,12 @@
             "value": "システム検索"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistem Araması"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11170,6 +12430,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunkを開き直すと適用されます"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk’u yeniden açtıktan sonra geçerli olur"
           }
         },
         "zh-Hans": {
@@ -11225,6 +12491,12 @@
             "value": "iPhoneの背面をダブルタップして保存"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydetmek için iPhone’unuzun arkasına iki kez dokunun"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11276,6 +12548,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "上のボタンをタップして、新規ショートカットを作成"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yukarıdaki düğmeye dokunun ve yeni bir kestirme oluşturun"
           }
         },
         "zh-Hans": {
@@ -11331,6 +12609,12 @@
             "value": "上のボタンをタップしてショートカットを追加"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kestirmeyi eklemek için yukarıdaki düğmeye dokunun"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11382,6 +12666,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "「新しいキーボードを追加」をタップしてCopymunkを選択"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Yeni Klavye Ekle…” seçeneğine dokunun ve Copymunk’u seçin"
           }
         },
         "zh-Hans": {
@@ -11437,6 +12727,12 @@
             "value": "「コントロールを追加」をタップしてCopymunkを検索"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Denetim Ekle”ye dokunun ve Copymunk’u arayın"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11488,6 +12784,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "「ダブルタップ」をタップしてショートカットを選択"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Çift Dokunma”ya dokunun ve kestirmeyi seçin"
           }
         },
         "zh-Hans": {
@@ -11543,6 +12845,12 @@
             "value": "「ほかのアプリからペースト」をタップ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Diğer Uygulamalardan Yapıştır”a dokunun"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11594,6 +12902,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "テキスト"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metin"
           }
         },
         "zh-Hans": {
@@ -11649,6 +12963,12 @@
             "value": "その項目はCopymunkにもうありません。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu öğe artık Copymunk’ta yok."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11700,6 +13020,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ロック画面のボタンも同じように使えます"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kilitli Ekran’daki düğmeler de aynı şekilde çalışır"
           }
         },
         "zh-Hans": {
@@ -11755,6 +13081,12 @@
             "value": "このコントロールはCopymunkに含まれているので、先に追加するものはありません。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu denetim Copymunk ile birlikte gelir; önce bir şey eklemeniz gerekmez."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11806,6 +13138,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "キーボード機能拡張が履歴を読み取るために必要です。Copymunkキーボードがインターネットに接続したり、入力内容を記録したりすることはありません。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klavye uzantısının geçmişinizi okuyabilmesi için bu gereklidir. Copymunk klavyesi asla internete bağlanmaz ve yazdıklarınızı asla kaydetmez."
           }
         },
         "zh-Hans": {
@@ -11861,6 +13199,12 @@
             "value": "ここには保存できるものがありません。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Burada kaydedilecek bir şey yok."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11912,6 +13256,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "このビルドはiCloud同期用に署名されていません"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu derleme iCloud eşzamanlaması için imzalanmamış"
           }
         },
         "zh-Hans": {
@@ -11967,6 +13317,12 @@
             "value": "Pinboardにピン留めされていない項目がすべて削除されます。この操作は取り消せません。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu işlem, bir Pinboard’a iğnelenmemiş tüm öğeleri siler. Geri alınamaz."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12018,6 +13374,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "このデバイス"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu Aygıt"
           }
         },
         "zh-Hans": {
@@ -12073,6 +13435,12 @@
             "value": "このiPadから保存する3つの方法"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu iPad’den kaydetmenin üç yolu"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12124,6 +13492,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "このiPhoneから保存する3つの方法"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu iPhone’dan kaydetmenin üç yolu"
           }
         },
         "zh-Hans": {
@@ -12179,6 +13553,12 @@
             "value": "日時"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaman"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12230,6 +13610,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "毎回「ペーストを許可」をタップするのが面倒ですか？"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sürekli “Yapıştırmaya İzin Ver”e dokunmaktan sıkıldınız mı?"
           }
         },
         "zh-Hans": {
@@ -12285,6 +13671,12 @@
             "value": "サイドバーの表示/非表示"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kenar çubuğunu göster veya gizle"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12336,6 +13728,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "別のキーワードやフィルタをお試しください。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başka bir anahtar sözcük veya filtre deneyin."
           }
         },
         "zh-Hans": {
@@ -12391,6 +13789,12 @@
             "value": "iCloud同期をオンにする"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud Eşzamanlamasını Aç"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12442,6 +13846,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "「フルアクセスを許可」をオン"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Tam Erişime İzin Ver”i açın"
           }
         },
         "zh-Hans": {
@@ -12497,6 +13907,12 @@
             "value": "最後に2つだけ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Son iki şey"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12545,6 +13961,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL"
+          }
+        },
+        "tr": {
           "stringUnit": {
             "state": "translated",
             "value": "URL"
@@ -12603,6 +14025,12 @@
             "value": "無制限"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sınırsız"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12654,6 +14082,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ピン留めを解除"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İğneyi Kaldır"
           }
         },
         "zh-Hans": {
@@ -12709,6 +14143,12 @@
             "value": "ピン留めを解除しました"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İğne kaldırıldı"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12760,6 +14200,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "許可するまでは、履歴の上部に「クリップボードに新しい内容」バナーが表示されます。そこにあるシステムのペーストボタンを使って手動で保存してください。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İzin verene kadar Geçmiş’in üst kısmında “Panoda yeni içerik var” afişi görünür — elle kaydetmek için oradaki sistem yapıştırma düğmesini kullanın."
           }
         },
         "zh-Hans": {
@@ -12815,6 +14261,12 @@
             "value": "バージョン%@"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sürüm %@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12866,6 +14318,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunkを開いたとき"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk’u açtığınızda"
           }
         },
         "zh-Hans": {
@@ -12921,6 +14379,12 @@
             "value": "オフの場合、Copymunkは開いたときにクリップボードを読み取りません。履歴の上部にあるバナーから、手動でペーストして保存してください。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu kapalıyken Copymunk açıldığında panoyu okumaz — elle yapıştırıp kaydetmek için Geçmiş’in üst kısmındaki afişi kullanın."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12972,6 +14436,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "どちらも、あとで「設定」で変更できます。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İkisini de daha sonra Ayarlar’dan değiştirebilirsiniz."
           }
         },
         "zh-Hans": {
@@ -13027,6 +14497,12 @@
             "value": "Macのクリップボードを、ポケットに"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac panonuz artık cebinizde"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13078,6 +14554,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "確認コードは482913です。有効期限は5分です。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doğrulama kodunuz: 482913. Kodun süresi 5 dakika içinde dolacak."
           }
         },
         "zh-Hans": {
@@ -13133,6 +14615,12 @@
             "value": "クリップ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "öğe"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13184,6 +14672,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "クリップボード"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pano"
           }
         },
         "zh-Hans": {
@@ -13239,6 +14733,12 @@
             "value": "iCloud同期"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud Eşzamanlama"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13290,6 +14790,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "このデバイスではiCloudが制限されています"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud bu aygıtta sınırlandırılmış"
           }
         },
         "zh-Hans": {
@@ -13345,6 +14851,12 @@
             "value": "iCloudは一時的に利用できません。Copymunkが再試行します。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud geçici olarak kullanılamıyor. Copymunk yeniden deneyecek."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13396,6 +14908,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud同期に失敗しました"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud eşzamanlaması başarısız oldu"
           }
         },
         "zh-Hans": {
@@ -13451,6 +14969,12 @@
             "value": "iCloud同期はオフです"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud eşzamanlaması kapalı"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13502,6 +15026,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOSが毎回確認します"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS her seferinde sorar"
           }
         },
         "zh-Hans": {
@@ -13557,6 +15087,12 @@
             "value": "Copymunkが初めてクリップボードを読み取るときにiOSが確認します。「ペーストを許可」をタップしてください。あとで「設定」で「許可」に変更できます。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk panoyu ilk kez okuduğunda iOS size sorar. “Yapıştırmaya İzin Ver”e dokunun; daha sonra Ayarlar’da bunu “İzin Ver” olarak değiştirebilirsiniz."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13608,6 +15144,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOSではアプリがバックグラウンドでクリップボードを読み取れないため、Copymunkはこの3つのタイミングでのみ保存します。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS, uygulamaların panoyu arka planda okumasına izin vermez; bu yüzden Copymunk yalnızca şu üç durumda kaydeder."
           }
         },
         "zh-Hans": {
@@ -13663,6 +15205,12 @@
             "value": "iOSではアプリがバックグラウンドでクリップボードを読み取れません。Copymunkはこの3つのタイミングでのみ保存します。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS, uygulamaların panoyu arka planda okumasına izin vermez. Copymunk yalnızca şu üç durumda kaydeder."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13714,6 +15262,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iPhone 15 Pro以降"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone 15 Pro ve sonraki modeller"
           }
         },
         "zh-Hans": {
@@ -13769,6 +15323,12 @@
             "value": "今"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "şimdi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13820,6 +15380,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ペースト"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "yapıştır"
           }
         },
         "zh-Hans": {
@@ -13875,6 +15441,12 @@
             "value": "保存"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "kaydet"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13928,6 +15500,12 @@
             "value": "「%@」をデフォルトに設定しました"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” artık varsayılan"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13979,6 +15557,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "任意のアプリで「共有」›「Copymunk」"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Herhangi bir uygulamada Paylaş › Copymunk"
           }
         },
         "zh-Hans": {

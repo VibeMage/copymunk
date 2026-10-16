@@ -40,6 +40,12 @@
             "value": "%lld文字 · プレーンテキスト"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld karakter · Düz metin"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -91,6 +97,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld文字 · リッチテキスト"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld karakter · Biçimli metin"
           }
         },
         "zh-Hans": {
@@ -146,6 +158,12 @@
             "value": "%lld件"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld sonuç"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -197,6 +215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld日"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld g."
           }
         },
         "zh-Hans": {
@@ -252,6 +276,12 @@
             "value": "%lld時間"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld sa."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -303,6 +333,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld分"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld dk."
           }
         },
         "zh-Hans": {
@@ -358,6 +394,12 @@
             "value": "1文字 · プレーンテキスト"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 karakter · Düz metin"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -409,6 +451,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1文字 · リッチテキスト"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 karakter · Biçimli metin"
           }
         },
         "zh-Hans": {
@@ -464,6 +512,12 @@
             "value": "1件"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 sonuç"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -515,6 +569,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "現在、項目を読み取れません"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öğeleriniz şu anda okunamıyor"
           }
         },
         "zh-Hans": {
@@ -570,6 +630,12 @@
             "value": "キャンセル"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vazgeç"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -621,6 +687,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "検索をクリア"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aramayı Temizle"
           }
         },
         "zh-Hans": {
@@ -676,6 +748,12 @@
             "value": "項目"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öğe"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -727,6 +805,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "クリップボード"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pano"
           }
         },
         "zh-Hans": {
@@ -782,6 +866,12 @@
             "value": "閉じる"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kapat"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -833,6 +923,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "カラー"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renk"
           }
         },
         "zh-Hans": {
@@ -888,6 +984,12 @@
             "value": "項目をコピー"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öğeyi Kopyala"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -939,6 +1041,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunkは現在ライブラリを開けません。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk şu anda kendi arşivini açamıyor."
           }
         },
         "zh-Hans": {
@@ -994,6 +1102,12 @@
             "value": "Copymunkはその画像を読み取れませんでした。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk bu görüntüyü okuyamadı."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1045,6 +1159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunkは共有された内容を読み取れませんでした。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk paylaştığınız içeriği okuyamadı."
           }
         },
         "zh-Hans": {
@@ -1100,6 +1220,12 @@
             "value": "保存できませんでした"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydedilemedi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1151,6 +1277,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "削除"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sil"
           }
         },
         "zh-Hans": {
@@ -1206,6 +1338,12 @@
             "value": "ピン留めしない"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İğneleme"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1257,6 +1395,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ファイル"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dosya"
           }
         },
         "zh-Hans": {
@@ -1312,6 +1456,12 @@
             "value": "ファイルはMacにのみあります"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dosyalar Mac’inizde kalır"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1363,6 +1513,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "履歴を表示するにはフルアクセスが必要です"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmişinizi göstermek için Tam Erişim gerekir"
           }
         },
         "zh-Hans": {
@@ -1418,6 +1574,12 @@
             "value": "「コンテンツを保存」には、テキスト、リンク、画像のいずれかを指定してください。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“İçeriği Kaydet” eylemine bir metin, bağlantı veya görüntü verin."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1469,6 +1631,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "履歴"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmiş"
           }
         },
         "zh-Hans": {
@@ -1524,6 +1692,12 @@
             "value": "カードを長押しでプレビュー"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Önizleme için kartı basılı tutun"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1575,6 +1749,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "画像"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görüntü"
           }
         },
         "zh-Hans": {
@@ -1630,6 +1810,12 @@
             "value": "画像はCopymunk内でのみコピーできます"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Görüntüler yalnızca Copymunk içinde kopyalanabilir"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1681,6 +1867,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "挿入"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekle"
           }
         },
         "zh-Hans": {
@@ -1736,6 +1928,12 @@
             "value": "先週"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçen hafta"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1787,6 +1985,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "文字"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Harfler"
           }
         },
         "zh-Hans": {
@@ -1842,6 +2046,12 @@
             "value": "リンク"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bağlantı"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1893,6 +2103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "読み込み中…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yükleniyor…"
           }
         },
         "zh-Hans": {
@@ -1948,6 +2164,12 @@
             "value": "Macのみ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yalnızca Mac"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1999,6 +2221,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "次のキーボード"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sonraki klavye"
           }
         },
         "zh-Hans": {
@@ -2054,6 +2282,12 @@
             "value": "まだ項目がありません"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Henüz öğe yok"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2105,6 +2339,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "一致する項目なし"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eşleşme yok"
           }
         },
         "zh-Hans": {
@@ -2160,6 +2400,12 @@
             "value": "Pinboardがありません"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard yok"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2211,6 +2457,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "未同期"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eşzamanlanmadı"
           }
         },
         "zh-Hans": {
@@ -2266,6 +2518,12 @@
             "value": "保存するものがありません"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydedilecek bir şey yok"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2317,6 +2575,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "今"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Şimdi"
           }
         },
         "zh-Hans": {
@@ -2372,6 +2636,12 @@
             "value": "数字と記号"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rakamlar ve noktalama"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2423,6 +2693,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "OK"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamam"
           }
         },
         "zh-Hans": {
@@ -2478,6 +2754,12 @@
             "value": "Copymunkを一度開いてから、ここに戻ってください。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk’u bir kez açın, sonra geri dönün."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2529,6 +2811,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunkを開き、いまクリップボードにある内容を保存します。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk’u açar ve panoda o anda ne varsa kaydeder."
           }
         },
         "zh-Hans": {
@@ -2584,6 +2872,12 @@
             "value": "Pinboardにピン留め"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard’a İğnele"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2635,6 +2929,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ピン留め済み"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İğnelenmiş"
           }
         },
         "zh-Hans": {
@@ -2690,6 +2990,12 @@
             "value": "プレビュー"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Önizleme"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2741,6 +3047,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "最近"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En Son"
           }
         },
         "zh-Hans": {
@@ -2796,6 +3108,12 @@
             "value": "最近の項目"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Son Öğeler"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2847,6 +3165,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "リッチ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biçimli"
           }
         },
         "zh-Hans": {
@@ -2902,6 +3226,12 @@
             "value": "保存"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydet"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2953,6 +3283,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "クリップボードを保存"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panoyu Kaydet"
           }
         },
         "zh-Hans": {
@@ -3008,6 +3344,12 @@
             "value": "コンテンツを保存"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İçeriği Kaydet"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3059,6 +3401,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunkに保存"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk’a Kaydet"
           }
         },
         "zh-Hans": {
@@ -3114,6 +3462,12 @@
             "value": "保存しました"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydedildi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3165,6 +3519,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "アプリを開かずに、テキスト、リンク、画像をCopymunkに保存します。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulamayı açmadan Copymunk’a metin, bağlantı veya görüntü kaydeder."
           }
         },
         "zh-Hans": {
@@ -3220,6 +3580,12 @@
             "value": "クリップボードの内容をCopymunkに保存します。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panodakileri Copymunk’a kaydeder."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3271,6 +3637,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "検索"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ara"
           }
         },
         "zh-Hans": {
@@ -3326,6 +3698,12 @@
             "value": "履歴を検索"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçmişte ara"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3377,6 +3755,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "設定 › 一般 › キーボード › キーボード › Copymunk。Copymunkキーボードがインターネットに接続したり、入力内容を記録したりすることはありません。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar › Genel › Klavye › Klavyeler › Copymunk. Copymunk klavyesi asla internete bağlanmaz ve yazdıklarınızı asla kaydetmez."
           }
         },
         "zh-Hans": {
@@ -3432,6 +3816,12 @@
             "value": "shift"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shift"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3483,6 +3873,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "同期済み"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eşzamanlandı"
           }
         },
         "zh-Hans": {
@@ -3538,6 +3934,12 @@
             "value": "同期中…"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eşzamanlanıyor…"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3589,6 +3991,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "タップしてコピー"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopyalamak için dokunun"
           }
         },
         "zh-Hans": {
@@ -3644,6 +4052,12 @@
             "value": "タップして挿入"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eklemek için dokunun"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3695,6 +4109,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "テキスト"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metin"
           }
         },
         "zh-Hans": {
@@ -3750,6 +4170,12 @@
             "value": "最近コピーした項目です。タップすると、もう一度コピーできます。"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En son kopyaladığınız öğeler. Yeniden kopyalamak için birine dokunun."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3801,6 +4227,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ここには保存できるものがありません。"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Burada kaydedilecek bir şey yok."
           }
         },
         "zh-Hans": {
@@ -3856,6 +4288,12 @@
             "value": "このデバイス"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu Aygıt"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3904,6 +4342,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL"
+          }
+        },
+        "tr": {
           "stringUnit": {
             "state": "translated",
             "value": "URL"
@@ -3962,6 +4406,12 @@
             "value": "クリップ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "öğe"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4013,6 +4463,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "クリップボード"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pano"
           }
         },
         "zh-Hans": {
@@ -4068,6 +4524,12 @@
             "value": "今"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "şimdi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4119,6 +4581,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ペースト"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "yapıştır"
           }
         },
         "zh-Hans": {
@@ -4174,6 +4642,12 @@
             "value": "改行"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "return"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4227,6 +4701,12 @@
             "value": "保存"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "kaydet"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4278,6 +4758,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "空白"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "boşluk"
           }
         },
         "zh-Hans": {
