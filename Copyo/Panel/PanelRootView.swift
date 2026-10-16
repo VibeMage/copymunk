@@ -582,9 +582,8 @@ struct PanelRootView: View {
             return .handled
         case .return:
             guard let item = items[safe: selectedIndex] else { return .handled }
-            // ⇧↩ 纯文本复制（第 17 条）。⌥↩ 是 1.1 及以前的键位，保留一个版本作隐藏别名，界面上只印 ⇧↩
-            let plain = press.modifiers.contains(.shift) || press.modifiers.contains(.option)
-            actions.copy(item, plain)
+            // ⇧↩ 纯文本复制（第 17 条）。1.1 的 ⌥↩ 在 1.2 留作隐藏别名，1.3 起移除
+            actions.copy(item, press.modifiers.contains(.shift))
             return .handled
         default:
             return .ignored

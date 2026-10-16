@@ -144,7 +144,7 @@ Then rebuild to pick it up.
 | Open / close the panel | `⇧⌘V` (global, customizable in Settings) |
 | Move between cards | `←` `→` |
 | Copy the selection and return to the previous app | `↩` or double-click the card |
-| Copy as plain text | `⇧↩` (the 1.1-era `⌥↩` still works in 1.2 and goes away in the next release) |
+| Copy as plain text | `⇧↩` |
 | Copy the Nth card | `⌘1`–`⌘9` |
 | Cycle filters | `⇥` / `⇧⇥` |
 | Preview the selection | `Space` (when the search field is empty; while typing it inserts a space) or `⌘Y` |

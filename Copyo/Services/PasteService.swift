@@ -10,7 +10,7 @@ final class PasteService {
         self.monitor = monitor
     }
 
-    /// 写回剪贴板。`asPlainText`（⌥↩）或「始终以纯文本复制」开启时去掉格式。
+    /// 写回剪贴板。`asPlainText`（⇧↩）或「始终以纯文本复制」开启时去掉格式。
     func copyToPasteboard(_ item: ClipItem, asPlainText: Bool = false) {
         let plain = asPlainText || UserDefaults.standard.bool(forKey: "plainTextPaste")
         let pb = NSPasteboard.general
