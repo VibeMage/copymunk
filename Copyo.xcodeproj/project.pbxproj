@@ -416,6 +416,7 @@
 				de,
 				es,
 				fr,
+				it,
 				ja,
 				tr,
 				"zh-Hans",

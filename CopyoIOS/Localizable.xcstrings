@@ -34,6 +34,12 @@
             "value": "%lld"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -91,6 +97,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld caractères"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld caratteri"
           }
         },
         "ja": {
@@ -152,6 +164,12 @@
             "value": "%lld caractères · Texte brut"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld caratteri · Solo testo"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -209,6 +227,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld caractères · Texte enrichi"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld caratteri · RTF"
           }
         },
         "ja": {
@@ -270,6 +294,12 @@
             "value": "%lld fichiers"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld file"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -327,6 +357,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld éléments"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld elementi"
           }
         },
         "ja": {
@@ -388,6 +424,12 @@
             "value": "%lld résultat"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld risultato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -445,6 +487,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld résultats"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld risultati"
           }
         },
         "ja": {
@@ -506,6 +554,12 @@
             "value": "%lld j"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld g"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -560,6 +614,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld h"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "%lld h"
@@ -624,6 +684,12 @@
             "value": "%lld min"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld min"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -681,6 +747,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 caractère"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 carattere"
           }
         },
         "ja": {
@@ -742,6 +814,12 @@
             "value": "1 caractère · Texte brut"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 carattere · Solo testo"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -799,6 +877,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 caractère · Texte enrichi"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 carattere · RTF"
           }
         },
         "ja": {
@@ -860,6 +944,12 @@
             "value": "1 fichier"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 file"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -917,6 +1007,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 élément"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 elemento"
           }
         },
         "ja": {
@@ -979,6 +1075,12 @@
             "value": "1 sem."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 sett."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1036,6 +1138,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "331 Caoxi North Rd, tour B, 12e étage, Xuhui, Shanghai"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caoxi North Road 331, Torre B, 12° piano, Xuhui, Shanghai"
           }
         },
         "ja": {
@@ -1097,6 +1205,12 @@
             "value": "À propos"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Info"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1154,6 +1268,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bouton Action"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasto Azione"
           }
         },
         "ja": {
@@ -1215,6 +1335,12 @@
             "value": "Bouton Action, Toucher le dos ou Centre de contrôle"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasto Azione, Tocco posteriore o Centro di Controllo"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1272,6 +1398,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ajoutez l’action « Enregistrer le presse-papiers » de Copymunk"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi l’azione “Salva appunti” di Copymunk"
           }
         },
         "ja": {
@@ -1333,6 +1465,12 @@
             "value": "Ajouter le raccourci « Enregistrer le presse-papiers »"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi il comando rapido “Salva appunti”"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1390,6 +1528,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ajouter « Enregistrer le presse-papiers »"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi “Salva appunti”"
           }
         },
         "ja": {
@@ -1451,6 +1595,12 @@
             "value": "Ajout à la recherche système"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiunta degli elementi alla ricerca di sistema"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1508,6 +1658,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Après avoir copié, appuyez sur le bouton Action, touchez deux fois le dos de votre iPhone ou touchez le bouton du Centre de contrôle. Copymunk s’ouvre et affiche « Enregistré »."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dopo aver copiato, premi il tasto Azione, tocca due volte il retro dell’iPhone o tocca il pulsante in Centro di Controllo. Copymunk si apre e mostra “Salvato”."
           }
         },
         "ja": {
@@ -1569,6 +1725,12 @@
             "value": "Après avoir copié, touchez le bouton « Enregistrer le presse-papiers » du Centre de contrôle. Copymunk s’ouvre et affiche « Enregistré »."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dopo aver copiato, tocca il pulsante “Salva appunti” in Centro di Controllo. Copymunk si apre e mostra “Salvato”."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1626,6 +1788,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutti"
           }
         },
         "ja": {
@@ -1687,6 +1855,12 @@
             "value": "Autoriser"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Consenti"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1744,6 +1918,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "« Coller depuis d’autres apps »"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incolla da altre app"
           }
         },
         "ja": {
@@ -1805,6 +1985,12 @@
             "value": "Déjà enregistré"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Già salvato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1862,6 +2048,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Un gestionnaire de presse-papiers open source. Mac, iPhone et iPad partagent un même historique via votre propre compte iCloud."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un gestore di appunti open source. Mac, iPhone e iPad condividono un’unica cronologia tramite il tuo account iCloud."
           }
         },
         "ja": {
@@ -1923,6 +2115,12 @@
             "value": "Tout ce que vous copiez sur votre Mac arrive ici via iCloud, sans aucune action de votre part."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ciò che copi sul Mac non richiede alcuna azione: arriva qui tramite iCloud."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1980,6 +2178,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout ce que vous copiez sur votre Mac apparaît ici via iCloud. Pour conserver quelque chose depuis cet iPad, utilisez « Partager » ou « Enregistrement rapide »."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutto ciò che copi sul Mac compare qui tramite iCloud. Per conservare qualcosa da questo iPad, usa “Condividi” o “Salvataggio rapido”."
           }
         },
         "ja": {
@@ -2041,6 +2245,12 @@
             "value": "Tout ce que vous copiez sur votre Mac apparaît ici via iCloud. Pour conserver quelque chose depuis cet iPhone, utilisez « Partager » ou « Enregistrement rapide »."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutto ciò che copi sul Mac compare qui tramite iCloud. Per conservare qualcosa da questo iPhone, usa “Condividi” o “Salvataggio rapido”."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2098,6 +2308,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Demander"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiedi"
           }
         },
         "ja": {
@@ -2159,6 +2375,12 @@
             "value": "Toucher le dos"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tocco posteriore"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2216,6 +2438,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le toucher du dos ne peut lancer qu’un raccourci : il lui en faut un qui exécute « Enregistrer le presse-papiers »."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Tocco posteriore” può eseguire solo un comando rapido, quindi ne serve uno che esegua “Salva appunti”."
           }
         },
         "ja": {
@@ -2277,6 +2505,12 @@
             "value": "Le toucher du dos ne peut lancer qu’un raccourci : c’est pourquoi cette méthode a besoin du raccourci ci-dessus."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Tocco posteriore” può eseguire solo un comando rapido, per questo serve il comando rapido qui sopra."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2334,6 +2568,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Par date de création"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per data di creazione"
           }
         },
         "ja": {
@@ -2395,6 +2635,12 @@
             "value": "Par nombre d’éléments"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per numero di elementi"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2452,6 +2698,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Par nom"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per nome"
           }
         },
         "ja": {
@@ -2513,6 +2765,12 @@
             "value": "Par date d’épinglage"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per data di fissaggio"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2570,6 +2828,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Par source"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per origine"
           }
         },
         "ja": {
@@ -2631,6 +2895,12 @@
             "value": "Par date"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per data"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2688,6 +2958,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Par type"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per tipo"
           }
         },
         "ja": {
@@ -2749,6 +3025,12 @@
             "value": "Annuler"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annulla"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2806,6 +3088,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Caractères"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caratteri"
           }
         },
         "ja": {
@@ -2867,6 +3155,12 @@
             "value": "Choisissez « Autoriser »"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli “Consenti”"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2924,6 +3218,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Effacer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancella"
           }
         },
         "ja": {
@@ -2985,6 +3285,12 @@
             "value": "Effacer l’historique"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancella cronologia"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3042,6 +3348,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Effacer l’historique ?"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancellare la cronologia?"
           }
         },
         "ja": {
@@ -3103,6 +3415,12 @@
             "value": "Effacer la recherche"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancella ricerca"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3160,6 +3478,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Élément"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elemento"
           }
         },
         "ja": {
@@ -3221,6 +3545,12 @@
             "value": "Presse-papiers"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appunti"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3278,6 +3608,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Couleur"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colore"
           }
         },
         "ja": {
@@ -3339,6 +3675,12 @@
             "value": "Couleurs"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colori"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3396,6 +3738,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Continuer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continua"
           }
         },
         "ja": {
@@ -3457,6 +3805,12 @@
             "value": "Centre de contrôle"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Centro di Controllo"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3514,6 +3868,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copié"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiato"
           }
         },
         "ja": {
@@ -3575,6 +3935,12 @@
             "value": "Copié en texte brut"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiato come solo testo"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3632,6 +3998,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copier"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia"
           }
         },
         "ja": {
@@ -3693,6 +4065,12 @@
             "value": "Tout copier en texte brut"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia tutto come solo testo"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3750,6 +4128,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copier l’élément"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia elemento"
           }
         },
         "ja": {
@@ -3811,6 +4195,12 @@
             "value": "Copier en texte brut"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia come solo testo"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3868,6 +4258,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Clavier Copymunk"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tastiera Copymunk"
           }
         },
         "ja": {
@@ -3929,6 +4325,12 @@
             "value": "Copymunk ne peut pas ouvrir sa bibliothèque pour le moment."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk non riesce ad aprire la sua libreria in questo momento."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3986,6 +4388,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk ne peut pas lire la valeur actuelle de ce réglage"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk non può leggere il valore attuale di questa impostazione"
           }
         },
         "ja": {
@@ -4047,6 +4455,12 @@
             "value": "Copymunk n’a pas pu lire cette image."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk non è riuscito a leggere l’immagine."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4104,6 +4518,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk n’a pas pu lire ce que vous avez partagé."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk non è riuscito a leggere ciò che hai condiviso."
           }
         },
         "ja": {
@@ -4165,6 +4585,12 @@
             "value": "Échec de l’enregistrement"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile salvare"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4222,6 +4648,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Créer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crea"
           }
         },
         "ja": {
@@ -4283,6 +4715,12 @@
             "value": "Pinboard par défaut"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard predefinito"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4340,6 +4778,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina"
           }
         },
         "ja": {
@@ -4401,6 +4845,12 @@
             "value": "Supprimer le Pinboard"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina Pinboard"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4458,6 +4908,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer cet élément ?"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminare questo elemento?"
           }
         },
         "ja": {
@@ -4519,6 +4975,12 @@
             "value": "Supprimer « %@ » ?"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminare “%@”?"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4576,6 +5038,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimé"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminato"
           }
         },
         "ja": {
@@ -4637,6 +5105,12 @@
             "value": "Refuser"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rifiuta"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4694,6 +5168,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dimensions"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dimensioni"
           }
         },
         "ja": {
@@ -4755,6 +5235,12 @@
             "value": "Fermer"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiudi"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4812,6 +5298,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ne pas épingler"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non fissare"
           }
         },
         "ja": {
@@ -4873,6 +5365,12 @@
             "value": "Terminé"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fine"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4930,6 +5428,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chaque fois que vous ouvrez Copymunk ou y revenez, il lit le presse-papiers et l’enregistre dans votre historique. « Coller depuis d’autres apps » doit être réglé sur « Autoriser »."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ogni volta che apri Copymunk o ci torni, legge gli appunti attuali e li salva nella cronologia. “Incolla da altre app” deve essere impostato su “Consenti”."
           }
         },
         "ja": {
@@ -4991,6 +5495,12 @@
             "value": "Tout ce que vous copiez sur votre Mac arrive ici via iCloud. Recherchez à tout moment, touchez pour copier."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutto ciò che copi sul Mac arriva qui tramite iCloud. Cerca quando vuoi, tocca per copiare."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5048,6 +5558,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fichier"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File"
           }
         },
         "ja": {
@@ -5109,6 +5625,12 @@
             "value": "Le contenu des fichiers reste sur votre Mac. Copymunk en conserve le nom pour que vous puissiez le retrouver."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il contenuto dei file resta sul Mac. Copymunk ne conserva il nome, così puoi ritrovarli lì."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5166,6 +5688,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fichiers"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File"
           }
         },
         "ja": {
@@ -5227,6 +5755,12 @@
             "value": "Commencer"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inizia"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5284,6 +5818,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "« Enregistrer le contenu » a besoin d’un texte, d’un lien ou d’une image."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fornisci a “Salva contenuto” un testo, un link o un’immagine."
           }
         },
         "ja": {
@@ -5345,6 +5885,12 @@
             "value": "Ouvrir les Réglages"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vai a Impostazioni"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5402,6 +5948,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Historique"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cronologia"
           }
         },
         "ja": {
@@ -5463,6 +6015,12 @@
             "value": "Limite de l’historique"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limite cronologia"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5520,6 +6078,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Historique effacé"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cronologia cancellata"
           }
         },
         "ja": {
@@ -5581,6 +6145,12 @@
             "value": "Comment Copymunk enregistre les éléments"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Come Copymunk salva gli elementi"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5638,6 +6208,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Icône"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Icona"
           }
         },
         "ja": {
@@ -5699,6 +6275,12 @@
             "value": "Image"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Immagine"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5756,6 +6338,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Images"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Immagini"
           }
         },
         "ja": {
@@ -5817,6 +6405,12 @@
             "value": "Dans Réglages › Apps › Copymunk, réglez « Coller depuis d’autres apps » sur « Autoriser ». Copymunk enregistrera alors sans demander."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In Impostazioni › App › Copymunk, imposta “Incolla da altre app” su “Consenti”. Così Copymunk salva i nuovi elementi senza chiedere."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5874,6 +6468,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réglages iOS"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazioni iOS"
           }
         },
         "ja": {
@@ -5935,6 +6535,12 @@
             "value": "Il se synchronise avec l’onglet Pinboard de votre Mac."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Viene sincronizzato con il pannello Pinboard del Mac."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5992,6 +6598,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Il se synchronise avec les tags Pinboard de votre Mac."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Viene sincronizzato con le etichette Pinboard del Mac."
           }
         },
         "ja": {
@@ -6053,6 +6665,12 @@
             "value": "Il sera supprimé de Copymunk sur tous vos appareils."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verrà rimosso da Copymunk su tutti i tuoi dispositivi."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6110,6 +6728,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ses éléments retournent dans l’historique et ne sont pas supprimés."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I suoi elementi tornano nella cronologia e non vengono eliminati."
           }
         },
         "ja": {
@@ -6171,6 +6795,12 @@
             "value": "À l’instant"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proprio ora"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6228,6 +6858,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Semaine dernière"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sett. scorsa"
           }
         },
         "ja": {
@@ -6289,6 +6925,12 @@
             "value": "Lien"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Link"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6346,6 +6988,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Liens"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Link"
           }
         },
         "ja": {
@@ -6407,6 +7055,12 @@
             "value": "Chargement…"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caricamento…"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6464,6 +7118,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mac uniquement"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo su Mac"
           }
         },
         "ja": {
@@ -6525,6 +7185,12 @@
             "value": "Plus tard"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Più tardi"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6582,6 +7248,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Plus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Altro"
           }
         },
         "ja": {
@@ -6643,6 +7315,12 @@
             "value": "Nom"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nome"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6700,6 +7378,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nouveau Pinboard"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuovo Pinboard"
           }
         },
         "ja": {
@@ -6761,6 +7445,12 @@
             "value": "Nouveau Pinboard…"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuovo Pinboard…"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6818,6 +7508,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nouveau contenu dans le presse-papiers"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuovo contenuto negli appunti"
           }
         },
         "ja": {
@@ -6879,6 +7575,12 @@
             "value": "Aucun élément pour l’instant"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancora nessun elemento"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6936,6 +7638,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucun Pinboard"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun Pinboard"
           }
         },
         "ja": {
@@ -6997,6 +7705,12 @@
             "value": "Aucun résultat"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun risultato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7054,6 +7768,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Non épinglé"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non fissato"
           }
         },
         "ja": {
@@ -7115,6 +7835,12 @@
             "value": "Non synchronisé"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non sincronizzato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7172,6 +7898,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Option absente ? Copiez quelque chose dans une autre app, revenez une fois dans Copymunk, puis regardez à nouveau."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non c’è ancora? Copia qualcosa in un’altra app, torna una volta su Copymunk e poi guarda di nuovo."
           }
         },
         "ja": {
@@ -7233,6 +7965,12 @@
             "value": "Rien d’épinglé pour l’instant"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancora niente di fissato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7290,6 +8028,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rien à enregistrer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niente da salvare"
           }
         },
         "ja": {
@@ -7351,6 +8095,12 @@
             "value": "À l’instant"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ora"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7405,6 +8155,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "OK"
@@ -7469,6 +8225,12 @@
             "value": "Désactivée"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disattivato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7526,6 +8288,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Désactivé par défaut. Une fois activé, vos éléments deviennent accessibles depuis la recherche de l’écran d’accueil, l’écran verrouillé et les suggestions Siri — y compris les codes de validation, les mots de passe et les messages privés qui atterrissent dans un historique de presse-papiers. Le désactiver supprime tout ce que Copymunk a placé dans l’index."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disattivato di default. Se lo attivi, i tuoi elementi diventano ricercabili dalla schermata Home, dalla schermata di blocco e dai Suggerimenti di Siri, compresi i codici di verifica, le password e i messaggi privati che finiscono nella cronologia degli appunti. Se lo disattivi, viene eliminato tutto ciò che Copymunk ha aggiunto all’indice."
           }
         },
         "ja": {
@@ -7587,6 +8355,12 @@
             "value": "Activé · en attente de la première synchronisation"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attivo · in attesa della prima sincronizzazione"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7644,6 +8418,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Une seule pression enregistre le contenu actuel du presse-papiers. Copymunk s’ouvre et affiche « Enregistré »."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con una sola pressione salvi ciò che c’è negli appunti in quel momento. Copymunk si apre e mostra “Salvato”."
           }
         },
         "ja": {
@@ -7705,6 +8485,12 @@
             "value": "À faire une seule fois"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serve una volta sola"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7762,6 +8548,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrez le Centre de contrôle et maintenez le doigt sur une zone vide"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Centro di Controllo e tieni premuto su uno spazio vuoto"
           }
         },
         "ja": {
@@ -7823,6 +8615,12 @@
             "value": "Ouvrir les réglages de Copymunk"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Copymunk in Impostazioni"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7880,6 +8678,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrir les détails"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri dettagli"
           }
         },
         "ja": {
@@ -7941,6 +8745,12 @@
             "value": "Ouvrez l’historique et touchez Coller pour l’enregistrer"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri la cronologia e tocca “Incolla” per salvarlo"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7998,6 +8808,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrir Réglages"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Impostazioni"
           }
         },
         "ja": {
@@ -8059,6 +8875,12 @@
             "value": "Réglages › Accessibilité › Toucher › Toucher le dos de l’appareil"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Impostazioni › Accessibilità › Tocco › Tocco posteriore"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8116,6 +8938,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réglages › Bouton Action"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Impostazioni › Tasto Azione"
           }
         },
         "ja": {
@@ -8177,6 +9005,12 @@
             "value": "Réglages › Apps › Copymunk"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Impostazioni › App › Copymunk"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8234,6 +9068,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrir Raccourcis"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Comandi Rapidi"
           }
         },
         "ja": {
@@ -8295,6 +9135,12 @@
             "value": "Code source · GitHub"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open source · GitHub"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8352,6 +9198,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrir dans Safari"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri in Safari"
           }
         },
         "ja": {
@@ -8413,6 +9265,12 @@
             "value": "Ouvre Copymunk et enregistre le contenu actuel du presse-papiers."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apre Copymunk e salva ciò che c’è negli appunti in quel momento."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8470,6 +9328,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Collez pour l’enregistrer dans votre historique"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incolla per salvarlo nella cronologia"
           }
         },
         "ja": {
@@ -8531,6 +9395,12 @@
             "value": "Choisissez « Enregistrer le presse-papiers » sous Copymunk"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli “Salva appunti” sotto Copymunk"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8588,6 +9458,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Épingler"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fissa"
           }
         },
         "ja": {
@@ -8649,6 +9525,12 @@
             "value": "Épinglez un élément pour l’exclure de la limite de l’historique."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fissa un elemento per escluderlo dal limite della cronologia."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8706,6 +9588,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Épingler à un Pinboard"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fissa in Pinboard"
           }
         },
         "ja": {
@@ -8767,6 +9655,12 @@
             "value": "Épingler à…"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fissa in…"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8821,6 +9715,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard"
@@ -8885,6 +9785,12 @@
             "value": "Pinboard créé"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard creato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8942,6 +9848,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard supprimé"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard eliminato"
           }
         },
         "ja": {
@@ -9003,6 +9915,12 @@
             "value": "Les Pinboards sont partagés avec votre Mac. Balayez une carte vers la droite pour l’épingler au premier Pinboard ; appui long pour en choisir un autre."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I Pinboard sono condivisi con il Mac. Se scorri una scheda verso destra, viene fissata nel primo Pinboard; tieni premuto per sceglierne un altro."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9060,6 +9978,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Épinglé"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fissato"
           }
         },
         "ja": {
@@ -9121,6 +10045,12 @@
             "value": "Texte brut"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo testo"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9178,6 +10108,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Maintenez le bouton Action pour enregistrer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tieni premuto il tasto Azione per salvare"
           }
         },
         "ja": {
@@ -9239,6 +10175,12 @@
             "value": "Aperçu"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anteprima"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9296,6 +10238,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Confidentialité"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy"
           }
         },
         "ja": {
@@ -9357,6 +10305,12 @@
             "value": "Enregistrement rapide"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salvataggio rapido"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9414,6 +10368,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lire le presse-papiers automatiquement"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leggi automaticamente gli appunti"
           }
         },
         "ja": {
@@ -9475,6 +10435,12 @@
             "value": "Lit le presse-papiers actuel"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legge gli appunti attuali"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9532,6 +10498,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Distribué sous licence GNU GPLv3."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distribuito con licenza GNU GPLv3."
           }
         },
         "ja": {
@@ -9593,6 +10565,12 @@
             "value": "Retirer du Pinboard"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rimuovi dal Pinboard"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9650,6 +10628,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Retiré de la recherche système"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rimosso dalla ricerca di sistema"
           }
         },
         "ja": {
@@ -9711,6 +10695,12 @@
             "value": "Renommer"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rinomina"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9768,6 +10758,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Renommer le Pinboard"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rinomina Pinboard"
           }
         },
         "ja": {
@@ -9829,6 +10825,12 @@
             "value": "Renommé"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rinominato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9886,6 +10888,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enrichi"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RTF"
           }
         },
         "ja": {
@@ -9947,6 +10955,12 @@
             "value": "Fonctionne en mode local uniquement"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In esecuzione in modalità solo locale"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10004,6 +11018,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistrer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva"
           }
         },
         "ja": {
@@ -10088,6 +11108,12 @@
             "state": "translated",
             "value": "${text} içeriğini Copymunk’a kaydet"
           }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva ${text} in Copymunk"
+          }
         }
       }
     },
@@ -10122,6 +11148,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistrer le presse-papiers"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva appunti"
           }
         },
         "ja": {
@@ -10183,6 +11215,12 @@
             "value": "Enregistrer le contenu"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva contenuto"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10240,6 +11278,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistrer dans Copymunk"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva in Copymunk"
           }
         },
         "ja": {
@@ -10301,6 +11345,12 @@
             "value": "Enregistré"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salvato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10358,6 +11408,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistre un texte, un lien ou une image dans Copymunk sans ouvrir l’app."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva testo, un link o un’immagine in Copymunk senza aprire l’app."
           }
         },
         "ja": {
@@ -10419,6 +11475,12 @@
             "value": "Enregistre dans Copymunk le contenu actuel du presse-papiers."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva in Copymunk ciò che c’è negli appunti."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10476,6 +11538,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rechercher"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerca"
           }
         },
         "ja": {
@@ -10537,6 +11605,12 @@
             "value": "Recherchez Copymunk dans la liste des actions"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerca Copymunk nell’elenco delle azioni"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10594,6 +11668,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rechercher dans l’historique"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerca nella cronologia"
           }
         },
         "ja": {
@@ -10655,6 +11735,12 @@
             "value": "Sélectionnez du texte ou une image dans n’importe quelle app, touchez « Partager », puis « Copymunk ». Vous pouvez choisir un Pinboard au passage."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seleziona del testo o un’immagine in qualsiasi app, tocca “Condividi”, poi tocca “Copymunk”. Puoi anche scegliere subito un Pinboard."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10712,6 +11798,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Configurer l’enregistrement rapide"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configura Salvataggio rapido"
           }
         },
         "ja": {
@@ -10773,6 +11865,12 @@
             "value": "Définir par défaut"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imposta come predefinito"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10830,6 +11928,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réglez-le sur « Autoriser » et Copymunk lit le presse-papiers dès son ouverture, sans aucune demande. C’est un réglage de confidentialité iOS : il ne peut être modifié que dans les Réglages."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostalo su “Consenti” e Copymunk leggerà gli appunti appena si apre, senza chiedere. È un’impostazione di privacy di iOS, quindi si può modificare solo in Impostazioni."
           }
         },
         "ja": {
@@ -10891,6 +11995,12 @@
             "value": "Réglages"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazioni"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10948,6 +12058,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réglages › Général › Clavier › Claviers"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazioni › Generali › Tastiera › Tastiere"
           }
         },
         "ja": {
@@ -11009,6 +12125,12 @@
             "value": "Partager"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condividi"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11066,6 +12188,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Un seul historique avec votre Mac"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un’unica cronologia con il Mac"
           }
         },
         "ja": {
@@ -11127,6 +12255,12 @@
             "value": "Feuille de partage"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menu Condividi"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11184,6 +12318,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afficher les éléments dans la recherche système"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostra elementi nella ricerca di sistema"
           }
         },
         "ja": {
@@ -11245,6 +12385,12 @@
             "value": "Afficher l’historique"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostra cronologia"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11302,6 +12448,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afficher les Pinboards"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostra Pinboard"
           }
         },
         "ja": {
@@ -11363,6 +12515,12 @@
             "value": "Afficher les réglages"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostra impostazioni"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11420,6 +12578,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Connectez-vous à iCloud pour synchroniser avec votre Mac"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accedi a iCloud per sincronizzare con il Mac"
           }
         },
         "ja": {
@@ -11481,6 +12645,12 @@
             "value": "Connectez-vous au même compte Apple sur votre Mac et votre iPad. Vos éléments passent uniquement par iCloud, jamais par un serveur tiers."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accedi con lo stesso Apple Account su Mac e iPad. I tuoi elementi passano solo da iCloud, mai da server di terze parti."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11538,6 +12708,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Connectez-vous au même compte Apple sur votre Mac et votre iPhone. Vos éléments passent uniquement par iCloud, jamais par un serveur tiers."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accedi con lo stesso Apple Account su Mac e iPhone. I tuoi elementi passano solo da iCloud, mai da server di terze parti."
           }
         },
         "ja": {
@@ -11599,6 +12775,12 @@
             "value": "Ignorer"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salta"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11656,6 +12838,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trier"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordina"
           }
         },
         "ja": {
@@ -11717,6 +12905,12 @@
             "value": "Trier par"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordina per"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11774,6 +12968,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Source"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Origine"
           }
         },
         "ja": {
@@ -11835,6 +13035,12 @@
             "value": "Espace"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spazio"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11892,6 +13098,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "État"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stato"
           }
         },
         "ja": {
@@ -11953,6 +13165,12 @@
             "value": "Balayez une carte vers la droite dans l’historique, ou appuyez longuement dessus pour choisir ce Pinboard."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scorri una scheda verso destra nella cronologia, oppure tienila premuta e scegli questo Pinboard."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -12010,6 +13228,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Allez à « Commandes », puis touchez « Choisir une commande »"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scorri fino a “Controlli”, poi tocca “Scegli un controllo”"
           }
         },
         "ja": {
@@ -12071,6 +13295,12 @@
             "value": "Dans n’importe quel champ de saisie, passez au clavier Copymunk et touchez une carte pour l’insérer, sans changer d’app."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Passa alla tastiera Copymunk in qualsiasi campo di testo e tocca una scheda per inserirla, senza saltare da un’app all’altra."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -12128,6 +13358,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synchronisation"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizzazione"
           }
         },
         "ja": {
@@ -12189,6 +13425,12 @@
             "value": "Synchronisé"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizzato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -12248,6 +13490,12 @@
             "value": "Synchronisé · %@"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizzato · %@"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -12305,6 +13553,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synchronisation"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizzazione"
           }
         },
         "ja": {
@@ -12367,6 +13621,12 @@
             "value": "Recherche système"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricerca di sistema"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -12424,6 +13684,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Prend effet après la relance de Copymunk"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ha effetto dopo aver riaperto Copymunk"
           }
         },
         "ja": {
@@ -12485,6 +13751,12 @@
             "value": "Touchez deux fois le dos de votre iPhone pour enregistrer"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tocca due volte il retro dell’iPhone per salvare"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -12542,6 +13814,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Touchez le bouton ci-dessus et créez un nouveau raccourci"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tocca il pulsante qui sopra e crea un nuovo comando rapido"
           }
         },
         "ja": {
@@ -12603,6 +13881,12 @@
             "value": "Touchez le bouton ci-dessus pour ajouter le raccourci"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tocca il pulsante qui sopra per aggiungere il comando rapido"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -12660,6 +13944,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Touchez « Ajouter un clavier… », puis choisissez Copymunk"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tocca “Aggiungi nuova tastiera…” e scegli Copymunk"
           }
         },
         "ja": {
@@ -12721,6 +14011,12 @@
             "value": "Touchez « Ajouter une commande » et recherchez Copymunk"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tocca “Aggiungi un controllo” e cerca Copymunk"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -12778,6 +14074,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Touchez « Toucher deux fois » et choisissez le raccourci"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tocca “Tocco doppio” e scegli il comando rapido"
           }
         },
         "ja": {
@@ -12839,6 +14141,12 @@
             "value": "Touchez « Coller depuis d’autres apps »"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tocca “Incolla da altre app”"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -12896,6 +14204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Texte"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Testo"
           }
         },
         "ja": {
@@ -12957,6 +14271,12 @@
             "value": "Cet élément n’est plus dans Copymunk."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo elemento non è più in Copymunk."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -13014,6 +14334,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Les boutons de l’écran verrouillé fonctionnent de la même façon"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I pulsanti della schermata di blocco funzionano allo stesso modo"
           }
         },
         "ja": {
@@ -13075,6 +14401,12 @@
             "value": "La commande est fournie avec Copymunk : il n’y a rien à ajouter au préalable."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il controllo è incluso in Copymunk, quindi non c’è niente da aggiungere prima."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -13132,6 +14464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "L’extension de clavier en a besoin pour lire votre historique. Le clavier Copymunk ne se connecte jamais à Internet et n’enregistre jamais ce que vous tapez."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’estensione tastiera ne ha bisogno per leggere la cronologia. La tastiera Copymunk non si connette mai a internet e non registra mai ciò che scrivi."
           }
         },
         "ja": {
@@ -13193,6 +14531,12 @@
             "value": "Il n’y a rien à enregistrer ici."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qui non c’è niente da salvare."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -13250,6 +14594,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cette version n’est pas signée pour la synchronisation iCloud"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questa build non è firmata per la sincronizzazione iCloud"
           }
         },
         "ja": {
@@ -13311,6 +14661,12 @@
             "value": "Cela supprime tous les éléments qui ne sont pas épinglés à un Pinboard. Cette action est irréversible."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verranno eliminati tutti gli elementi non fissati in un Pinboard. L’azione non può essere annullata."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -13368,6 +14724,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cet appareil"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo dispositivo"
           }
         },
         "ja": {
@@ -13429,6 +14791,12 @@
             "value": "Trois façons d’enregistrer depuis cet iPad"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tre modi per salvare da questo iPad"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -13486,6 +14854,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trois façons d’enregistrer depuis cet iPhone"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tre modi per salvare da questo iPhone"
           }
         },
         "ja": {
@@ -13547,6 +14921,12 @@
             "value": "Date"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -13604,6 +14984,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Marre de toucher « Autoriser le collage » ?"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non vuoi più toccare “Consenti” ogni volta?"
           }
         },
         "ja": {
@@ -13665,6 +15051,12 @@
             "value": "Afficher ou masquer la barre latérale"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostra/nascondi barra laterale"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -13722,6 +15114,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Essayez un autre mot-clé ou un autre filtre."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prova con un’altra parola chiave o un altro filtro."
           }
         },
         "ja": {
@@ -13783,6 +15181,12 @@
             "value": "Activer la synchronisation iCloud"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attiva la sincronizzazione iCloud"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -13840,6 +15244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Activez « Accès complet »"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attiva “Consenti accesso completo”"
           }
         },
         "ja": {
@@ -13901,6 +15311,12 @@
             "value": "Deux dernières choses"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ultime due cose"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -13955,6 +15371,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "URL"
@@ -14019,6 +15441,12 @@
             "value": "Illimité"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Illimitati"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -14076,6 +15504,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ne plus épingler"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rimuovi dal Pinboard"
           }
         },
         "ja": {
@@ -14137,6 +15571,12 @@
             "value": "Épingle retirée"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rimosso dal Pinboard"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -14194,6 +15634,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tant que vous ne l’autorisez pas, une bannière « Nouveau contenu dans le presse-papiers » apparaît en haut de l’historique : utilisez son bouton de collage système pour enregistrer à la main."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finché non lo consenti, in cima alla cronologia compare il banner “Nuovo contenuto negli appunti”: usa il pulsante Incolla di sistema che trovi lì per salvare manualmente."
           }
         },
         "ja": {
@@ -14255,6 +15701,12 @@
             "value": "Version %@"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versione %@"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -14312,6 +15764,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "À l’ouverture de Copymunk"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando apri Copymunk"
           }
         },
         "ja": {
@@ -14373,6 +15831,12 @@
             "value": "Si ce réglage est désactivé, Copymunk ne lit pas le presse-papiers à son ouverture : utilisez la bannière en haut de l’historique pour coller et enregistrer à la main."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se è disattivato, Copymunk non legge gli appunti quando si apre: usa il banner in cima alla cronologia per incollare e salvare manualmente."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -14430,6 +15894,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vous pourrez modifier les deux plus tard dans les réglages."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puoi modificare entrambe le cose più tardi in Impostazioni."
           }
         },
         "ja": {
@@ -14491,6 +15961,12 @@
             "value": "Le presse-papiers de votre Mac, dans votre poche"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gli appunti del Mac, in tasca"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -14548,6 +16024,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Votre code de vérification est 482913. Il expire dans 5 minutes."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il tuo codice di verifica è 482913. Scade tra 5 minuti."
           }
         },
         "ja": {
@@ -14609,6 +16091,12 @@
             "value": "élément"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "elemento"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -14666,6 +16154,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "presse-papiers"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "appunti"
           }
         },
         "ja": {
@@ -14727,6 +16221,12 @@
             "value": "Synchronisation iCloud"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizzazione iCloud"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -14784,6 +16284,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud est restreint sur cet appareil"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud è limitato su questo dispositivo"
           }
         },
         "ja": {
@@ -14845,6 +16351,12 @@
             "value": "iCloud est temporairement indisponible. Copymunk réessaiera."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud non è temporaneamente disponibile. Copymunk riproverà."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -14902,6 +16414,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Échec de la synchronisation iCloud"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizzazione iCloud non riuscita"
           }
         },
         "ja": {
@@ -14963,6 +16481,12 @@
             "value": "Synchronisation iCloud désactivée"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La sincronizzazione iCloud è disattivata"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -15020,6 +16544,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOS demande à chaque fois"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS chiede ogni volta"
           }
         },
         "ja": {
@@ -15081,6 +16611,12 @@
             "value": "iOS vous le demande la première fois que Copymunk lit le presse-papiers. Touchez « Autoriser le collage » ; vous pourrez ensuite choisir « Autoriser » dans Réglages."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS te lo chiede la prima volta che Copymunk legge gli appunti. Tocca “Consenti”; più avanti puoi scegliere “Consenti” in Impostazioni, così non te lo chiederà più."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -15138,6 +16674,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOS n’autorise pas les apps à lire le presse-papiers en arrière-plan : Copymunk n’enregistre donc qu’à ces trois moments."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS non consente alle app di leggere gli appunti in background, quindi Copymunk salva solo in questi tre momenti."
           }
         },
         "ja": {
@@ -15199,6 +16741,12 @@
             "value": "iOS n’autorise pas les apps à lire le presse-papiers en arrière-plan. Copymunk n’enregistre qu’à ces trois moments."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS non consente alle app di leggere gli appunti in background. Copymunk salva solo in questi tre momenti."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -15256,6 +16804,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iPhone 15 Pro et modèles ultérieurs"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone 15 Pro e modelli successivi"
           }
         },
         "ja": {
@@ -15317,6 +16871,12 @@
             "value": "< 1 min"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ora"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -15374,6 +16934,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "coller"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "incolla"
           }
         },
         "ja": {
@@ -15435,6 +17001,12 @@
             "value": "enregistrer"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "salva"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -15494,6 +17066,12 @@
             "value": "« %@ » est désormais par défaut"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” è ora il predefinito"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -15551,6 +17129,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Partager › Copymunk dans n’importe quelle app"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Condividi › Copymunk in qualsiasi app"
           }
         },
         "ja": {

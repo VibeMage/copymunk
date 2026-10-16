@@ -73,6 +73,15 @@
               "${applicationName} ile panomu kaydet"
             ]
           }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Salva i miei appunti in ${applicationName}",
+              "Salva gli appunti in ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -139,6 +148,14 @@
             "state": "translated",
             "values": [
               "${applicationName} ile panoyu kaydet"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Salva gli appunti con ${applicationName}"
             ]
           }
         }
@@ -209,6 +226,14 @@
               "Bu öğeyi ${applicationName} uygulamasına kaydet"
             ]
           }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Salva questo elemento in ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -275,6 +300,14 @@
             "state": "translated",
             "values": [
               "${applicationName} panoyu kaydet"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} salva appunti"
             ]
           }
         }

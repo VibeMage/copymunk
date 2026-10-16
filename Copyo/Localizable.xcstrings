@@ -28,6 +28,12 @@
             "value": "%@ est aussi utilisé par une autre app : appuyer dessus déclenche cette app, et Copymunk risque de ne pas réagir. Choisissez une autre combinaison."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La combinazione %@ è usata anche da un’altra app: se la premi si attiva quell’app e Copymunk potrebbe non rispondere. Scegli un’altra combinazione."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -81,6 +87,12 @@
             "value": "%@ ne fonctionne pas, car une autre app l’utilise. Choisissez une autre combinaison."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La combinazione %@ non funziona perché è usata da un’altra app. Scegli un’altra combinazione."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -132,6 +144,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ ne fonctionne pas, car macOS l’utilise comme raccourci clavier. Choisissez une autre combinaison ou désactivez ce raccourci dans Réglages Système."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La combinazione %@ non funziona perché macOS la usa come abbreviazione da tastiera. Scegli un’altra combinazione o disattiva quell’abbreviazione in Impostazioni di Sistema."
           }
         },
         "ja": {
@@ -326,6 +344,40 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "%arg caractères"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "many": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg caratteri"
+                    }
+                  },
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg carattere"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg caratteri"
                     }
                   }
                 }
@@ -586,6 +638,40 @@
             }
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "many": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg file"
+                    }
+                  },
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg file"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -697,6 +783,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@, depuis %2$@, %3$@, %4$@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, da %2$@, %3$@, %4$@"
           }
         },
         "ja": {
@@ -843,6 +935,30 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "%lld caractères"
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "variations": {
+            "plural": {
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld caratteri"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld carattere"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld caratteri"
                 }
               }
             }
@@ -1021,6 +1137,30 @@
             }
           }
         },
+        "it": {
+          "variations": {
+            "plural": {
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld file"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld file"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld file"
+                }
+              }
+            }
+          }
+        },
         "ja": {
           "variations": {
             "plural": {
@@ -1189,6 +1329,30 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "%lld autres fichiers"
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "variations": {
+            "plural": {
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "altri %lld file"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "1 altro file"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "altri %lld file"
                 }
               }
             }
@@ -1367,6 +1531,30 @@
             }
           }
         },
+        "it": {
+          "variations": {
+            "plural": {
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld risultati"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld risultato"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld risultati"
+                }
+              }
+            }
+          }
+        },
         "ja": {
           "variations": {
             "plural": {
@@ -1444,6 +1632,12 @@
             "value": "%lld j"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld g"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1492,6 +1686,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld h"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "%lld h"
@@ -1550,6 +1750,12 @@
             "value": "%lld min"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld min"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1601,6 +1807,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "100 éléments"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "100 elementi"
           }
         },
         "ja": {
@@ -1656,6 +1868,12 @@
             "value": "1 000 éléments"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1000 elementi"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1707,6 +1925,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "300 éléments"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "300 elementi"
           }
         },
         "ja": {
@@ -1762,6 +1986,12 @@
             "value": "500 éléments"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "500 elementi"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1813,6 +2043,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "À propos"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Info"
           }
         },
         "ja": {
@@ -1868,6 +2104,12 @@
             "value": "Ajouter"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -1919,6 +2161,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ajouter une app"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi app"
           }
         },
         "ja": {
@@ -1974,6 +2222,12 @@
             "value": "Après la copie, Copymunk remet l’élément dans le presse-papiers du système et rend la main à l’app d’où vous venez. C’est vous qui appuyez sur ⌘V — Copymunk ne colle jamais à votre place."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dopo la copia, Copymunk rimette l’elemento negli appunti di sistema e ridà il focus all’app di partenza. Poi premi tu ⌘V: Copymunk non incolla mai al posto tuo."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2025,6 +2279,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutti"
           }
         },
         "ja": {
@@ -2080,6 +2340,12 @@
             "value": "Toujours copier en texte brut"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia sempre come solo testo"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2131,6 +2397,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Toujours activé"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sempre attivo"
           }
         },
         "ja": {
@@ -2186,6 +2458,12 @@
             "value": "N’importe quel dossier partagé par tous vos appareils convient — par exemple un dossier dans iCloud Drive ou un disque d’entreprise. Copymunk place ses fichiers dans son propre sous-dossier et n’a accès qu’au dossier que vous choisissez ici."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Va bene qualsiasi cartella condivisa da tutti i tuoi dispositivi, ad esempio una cartella in iCloud Drive o un disco aziendale. Copymunk tiene i suoi file in una sottocartella dedicata e può accedere solo alla cartella che scegli qui."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2237,6 +2515,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout ce que vous copiez apparaît ici. Copymunk l’enregistre en arrière-plan, vous n’avez rien à faire."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutto ciò che copi compare qui. Copymunk lo registra in background: non devi fare nulla."
           }
         },
         "ja": {
@@ -2292,6 +2576,12 @@
             "value": "S’applique quand vous appuyez sur ↩. ⇧↩ copie toujours en texte brut."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Si applica quando premi ↩. ⇧↩ copia sempre come solo testo."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2343,6 +2633,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Disponible"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disponibile"
           }
         },
         "ja": {
@@ -2398,6 +2694,12 @@
             "value": "Après la copie, revenez dans votre app et collez avec ⌘V"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dopo la copia, torna alla tua app e premi ⌘V per incollare"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2449,6 +2751,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Annuler"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annulla"
           }
         },
         "ja": {
@@ -2504,6 +2812,12 @@
             "value": "Impossible d’accéder à ce dossier"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile accedere alla cartella"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2555,6 +2869,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Capture"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registrazione"
           }
         },
         "ja": {
@@ -2610,6 +2930,12 @@
             "value": "Vérification…"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verifica in corso…"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2661,6 +2987,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisir"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli"
           }
         },
         "ja": {
@@ -2716,6 +3048,12 @@
             "value": "Choisir à nouveau…"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli di nuovo…"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2767,6 +3105,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisir un dossier…"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli cartella…"
           }
         },
         "ja": {
@@ -2822,6 +3166,12 @@
             "value": "Choisissez un dossier auquel tous vos Mac ont accès en lecture et en écriture."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli una cartella in cui tutti i tuoi Mac possano leggere e scrivere."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2873,6 +3223,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisissez un dossier de synchronisation ci-dessous pour activer la synchronisation."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli una cartella di sincronizzazione qui sotto per attivare la sincronizzazione."
           }
         },
         "ja": {
@@ -2928,6 +3284,12 @@
             "value": "Choisissez à nouveau le dossier de synchronisation"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli di nuovo la cartella di sincronizzazione"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -2979,6 +3341,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Effacer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancella"
           }
         },
         "ja": {
@@ -3034,6 +3402,12 @@
             "value": "Effacer l’historique ?"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancellare la cronologia?"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3085,6 +3459,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Effacer l’historique…"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancella cronologia…"
           }
         },
         "ja": {
@@ -3140,6 +3520,12 @@
             "value": "Cliquez pour modifier"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fai clic per modificare"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3191,6 +3577,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Presse-papiers"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appunti"
           }
         },
         "ja": {
@@ -3246,6 +3638,12 @@
             "value": "Fermer"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiudi"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3297,6 +3695,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fermer le panneau"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiudi pannello"
           }
         },
         "ja": {
@@ -3352,6 +3756,12 @@
             "value": "Couleur"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colore"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3403,6 +3813,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le contenu provenant de 1Password et du trousseau n’est jamais enregistré"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I contenuti di 1Password e Portachiavi non vengono mai registrati"
           }
         },
         "ja": {
@@ -3458,6 +3874,12 @@
             "value": "Copié · appuyez sur ⌘V pour coller"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiato · premi ⌘V per incollare"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3509,6 +3931,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copié, appuyez sur ⌘V pour coller"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiato, premi ⌘V per incollare"
           }
         },
         "ja": {
@@ -3564,6 +3992,12 @@
             "value": "Copier"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3615,6 +4049,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copier directement la carte N"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia direttamente la scheda N"
           }
         },
         "ja": {
@@ -3670,6 +4110,12 @@
             "value": "Copier l’élément sélectionné"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia elemento selezionato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3721,6 +4167,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copier en texte brut"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia come solo testo"
           }
         },
         "ja": {
@@ -3776,6 +4228,12 @@
             "value": "Copier en texte brut"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia come solo testo"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3827,6 +4285,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk n’a pas pu supprimer votre historique du presse-papiers."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk non ha potuto eliminare la cronologia degli appunti."
           }
         },
         "ja": {
@@ -3882,6 +4346,12 @@
             "value": "Copymunk n’a pas pu accéder à votre dossier de synchronisation : la copie qui s’y trouve n’a pas été supprimée. Resélectionnez ce dossier dans les Réglages, ou supprimez-le vous-même."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk non ha potuto raggiungere la cartella di sincronizzazione, quindi la copia che si trova lì non è stata eliminata. Scegli di nuovo la cartella in Impostazioni oppure eliminala manualmente."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -3933,6 +4403,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk n’a pas pu se relancer."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk non ha potuto riavviarsi."
           }
         },
         "ja": {
@@ -3988,6 +4464,12 @@
             "value": "Copymunk supprime les instantanés et les images qu’il a placés dans votre dossier de synchronisation, et désactive la synchronisation par dossier : celle-ci n’a aucun moyen de demander à vos autres Mac de supprimer quoi que ce soit, donc la laisser active y recopierait aussitôt leur historique. Ce que ces Mac ont placé dans le dossier y reste jusqu’à ce que vous le supprimiez vous-même."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk elimina le istantanee e le immagini che ha salvato nella cartella di sincronizzazione e disattiva la sincronizzazione tramite “Cartella condivisa”: la sincronizzazione via cartella non ha modo di dire agli altri Mac di eliminare qualcosa, quindi, se restasse attiva, la loro cronologia verrebbe subito ricopiata. Ciò che quei Mac hanno messo nella cartella resta lì finché non lo elimini manualmente."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4039,6 +4521,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk a effacé ce Mac alors que la synchronisation iCloud était désactivée : la copie iCloud n’a jamais été supprimée. Réactiver la synchronisation iCloud peut faire revenir ces éléments."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk ha cancellato i dati di questo Mac mentre la sincronizzazione iCloud era disattivata, quindi la copia su iCloud non è mai stata rimossa. Se attivi la sincronizzazione iCloud, quegli elementi potrebbero tornare."
           }
         },
         "ja": {
@@ -4094,6 +4582,12 @@
             "value": "Copymunk envoie cette suppression vers votre base de données privée iCloud. Laissez Copymunk ouvert et restez connecté à iCloud. Copymunk ne peut pas vous dire quand l’envoi est terminé."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk sta inviando l’eliminazione al tuo database privato iCloud. Tieni Copymunk aperto e con l’accesso a iCloud attivo. Copymunk non può avvisarti quando l’operazione è terminata."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4145,6 +4639,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk utilise uniquement la base de données locale : rien n’a été perdu. Corrigez le problème ci-dessus, puis relancez Copymunk."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk sta usando solo il database locale, quindi non è andato perso nulla. Risolvi il problema indicato sopra e riavvia Copymunk."
           }
         },
         "ja": {
@@ -4200,6 +4700,12 @@
             "value": "Copymunk réside dans la barre des menus (l’icône de tamia en haut à droite).\n\n• Cliquez sur l’icône de la barre des menus à tout moment pour faire apparaître le panneau\n• Tout ce que vous copiez est enregistré automatiquement — saisissez pour rechercher\n• Choisissez un élément et appuyez sur Retour pour le replacer dans le presse-papiers, puis collez-le vous-même avec ⌘V. ⇧Retour le copie en texte brut\n• Ouvrez les réglages depuis la roue dentée du panneau ou en cliquant avec le bouton droit sur l’icône de la barre des menus"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk vive nella barra dei menu (l’icona dello scoiattolo in alto a destra).\n\n• Fai clic sull’icona nella barra dei menu quando vuoi per aprire il pannello degli appunti\n• Tutto ciò che copi viene salvato automaticamente: digita per cercare\n• Scegli un elemento e premi ↩ per rimetterlo negli appunti, poi incollalo tu con ⌘V. ⇧↩ lo copia come solo testo\n• Apri le impostazioni dall’ingranaggio nel pannello o facendo clic con il tasto destro sull’icona nella barra dei menu"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4251,6 +4757,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk réside dans la barre des menus (l’icône de tamia en haut à droite).\n\n• Appuyez sur %@ à tout moment pour faire apparaître le panneau\n• Tout ce que vous copiez est enregistré automatiquement — saisissez pour rechercher\n• Choisissez un élément et appuyez sur Retour pour le replacer dans le presse-papiers, puis collez-le vous-même avec ⌘V. ⇧Retour le copie en texte brut\n• Ouvrez les réglages depuis la roue dentée du panneau ou en cliquant avec le bouton droit sur l’icône de la barre des menus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk vive nella barra dei menu (l’icona dello scoiattolo in alto a destra).\n\n• Premi %@ quando vuoi per aprire il pannello degli appunti\n• Tutto ciò che copi viene salvato automaticamente: digita per cercare\n• Scegli un elemento e premi ↩ per rimetterlo negli appunti, poi incollalo tu con ⌘V. ⇧↩ lo copia come solo testo\n• Apri le impostazioni dall’ingranaggio nel pannello o facendo clic con il tasto destro sull’icona nella barra dei menu"
           }
         },
         "ja": {
@@ -4306,6 +4818,12 @@
             "value": "Copymunk enregistre en arrière-plan, sans aucune autorisation"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk registra in background e non richiede alcuna autorizzazione"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4357,6 +4875,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk se relance et efface le fichier de base de données : les éléments supprimés ne pourront plus être récupérés depuis ce Mac. Ce que la suppression n’a pas atteint dans votre base de données privée iCloud y reste et reviendra sur ce Mac."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk si riavvia e cancella il file del database, così gli elementi eliminati non potranno più essere recuperati da questo Mac. Ciò che l’eliminazione non ha ancora raggiunto nel tuo database privato iCloud resta lì e tornerà su questo Mac."
           }
         },
         "ja": {
@@ -4412,6 +4936,12 @@
             "value": "Copymunk se relancera tout seul pour terminer l’effacement du fichier de base de données."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk si riavvierà per finire di cancellare il file del database."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4463,6 +4993,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Créer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crea"
           }
         },
         "ja": {
@@ -4518,6 +5054,12 @@
             "value": "Créer et épingler"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crea e fissa"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4569,6 +5111,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Couper"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taglia"
           }
         },
         "ja": {
@@ -4624,6 +5172,12 @@
             "value": "Passer d’un filtre à l’autre"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scorri i filtri"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4675,6 +5229,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina"
           }
         },
         "ja": {
@@ -4730,6 +5290,12 @@
             "value": "Tout supprimer"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina tutto"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4781,6 +5347,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer toutes les données ?"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminare tutti i dati?"
           }
         },
         "ja": {
@@ -4836,6 +5408,12 @@
             "value": "Supprimer toutes les données…"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina tutti i dati…"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4887,6 +5465,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer le Pinboard"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina Pinboard"
           }
         },
         "ja": {
@@ -4942,6 +5526,12 @@
             "value": "Supprimer le Pinboard « %@ »"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina Pinboard “%@”"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -4993,6 +5583,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ne pas enregistrer ces apps"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non registrare queste app"
           }
         },
         "ja": {
@@ -5048,6 +5644,12 @@
             "value": "Édition"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifica"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5099,6 +5701,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Échap efface la recherche · appuyez à nouveau pour fermer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc cancella la ricerca · premi di nuovo per chiudere"
           }
         },
         "ja": {
@@ -5154,6 +5762,12 @@
             "value": "Échap pour fermer"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc per chiudere"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5205,6 +5819,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Toutes les données de ce Mac ont été supprimées."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutti i dati su questo Mac sono stati eliminati."
           }
         },
         "ja": {
@@ -5260,6 +5880,12 @@
             "value": "Tout ce que vous avez copié est ici."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutto ciò che hai copiato è qui."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5311,6 +5937,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout ce que vous avez copié est ici. Appuyez sur %@ pour le retrouver à tout moment."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutto ciò che hai copiato è qui. Premi %@ per ritrovarlo quando vuoi."
           }
         },
         "ja": {
@@ -5366,6 +5998,12 @@
             "value": "Fichier"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5417,6 +6055,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Terminer l’effacement de ce Mac"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Completa la cancellazione"
           }
         },
         "ja": {
@@ -5472,6 +6116,12 @@
             "value": "Terminer l’effacement de ce Mac ?"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Completare la cancellazione dei dati su questo Mac?"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5523,6 +6173,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aller à la recherche"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vai alla ricerca"
           }
         },
         "ja": {
@@ -5578,6 +6234,12 @@
             "value": "Général"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generali"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5629,6 +6291,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Raccourci global"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbreviazione globale"
           }
         },
         "ja": {
@@ -5684,6 +6352,12 @@
             "value": "J’ai compris"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5735,6 +6409,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aide"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aiuto"
           }
         },
         "ja": {
@@ -5790,6 +6470,12 @@
             "value": "Historique"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cronologia"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5841,6 +6527,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ignorer les gestionnaires de mots de passe"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ignora i gestori di password"
           }
         },
         "ja": {
@@ -5896,6 +6588,12 @@
             "value": "Image"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Immagine"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -5947,6 +6645,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dans le panneau"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nel pannello"
           }
         },
         "ja": {
@@ -6002,6 +6706,12 @@
             "value": "Y compris tous les Pinboards et tout ce qui y est épinglé"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Include tutti i Pinboard e tutto ciò che vi è fissato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6053,6 +6763,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Conserver jusqu’à"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conserva fino a"
           }
         },
         "ja": {
@@ -6108,6 +6824,12 @@
             "value": "Touche %lld"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasto %lld"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6159,6 +6881,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Semaine dernière"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sett. scorsa"
           }
         },
         "ja": {
@@ -6214,6 +6942,12 @@
             "value": "Ouvrir Copymunk à l’ouverture de session"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Copymunk al login"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6265,6 +6999,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lien"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Link"
           }
         },
         "ja": {
@@ -6320,6 +7060,12 @@
             "value": "Copie votre historique directement dans votre iCloud. Supprimer un élément le supprime sur tous vos appareils."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replica la cronologia direttamente nel tuo iCloud. Se elimini un elemento, viene rimosso su tutti i dispositivi."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6371,6 +7117,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nom"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nome"
           }
         },
         "ja": {
@@ -6426,6 +7178,12 @@
             "value": "Nouveau Pinboard"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuovo Pinboard"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6477,6 +7235,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nom du nouveau Pinboard"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nome del nuovo Pinboard"
           }
         },
         "ja": {
@@ -6532,6 +7296,12 @@
             "value": "Nouveau Pinboard…"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuovo Pinboard…"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6583,6 +7353,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucune app ajoutée"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna app aggiunta"
           }
         },
         "ja": {
@@ -6638,6 +7414,12 @@
             "value": "Aucun dossier sélectionné"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna cartella selezionata"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6689,6 +7471,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucun dossier de synchronisation sélectionné"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna cartella di sincronizzazione"
           }
         },
         "ja": {
@@ -6744,6 +7532,12 @@
             "value": "Plus tard"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non ora"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6795,6 +7589,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Non connecté"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accesso non effettuato"
           }
         },
         "ja": {
@@ -6850,6 +7650,12 @@
             "value": "Pas encore synchronisé"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non ancora sincronizzato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -6901,6 +7707,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rien pour l’instant"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancora niente qui"
           }
         },
         "ja": {
@@ -6956,6 +7768,12 @@
             "value": "Aucun résultat pour « %@ »"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun risultato per “%@”"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7007,6 +7825,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rien de ce type pour l’instant"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancora niente di questo tipo"
           }
         },
         "ja": {
@@ -7062,6 +7886,12 @@
             "value": "Rien n’a été supprimé. Réessayez ; si l’échec persiste, quittez Copymunk depuis l’icône de la barre des menus puis relancez-le."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non è stato eliminato nulla. Riprova e, se il problema persiste, esci da Copymunk dall’icona nella barra dei menu e riaprilo."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7113,6 +7943,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rien de ce que vous y copiez n’entre dans l’historique"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ciò che copi in queste app non finisce nella cronologia"
           }
         },
         "ja": {
@@ -7168,6 +8004,12 @@
             "value": "Désactivée"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disattivata"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7219,6 +8061,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprime uniquement les éléments qui ne sont pas épinglés dans un Pinboard"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rimuove solo gli elementi non fissati in un Pinboard"
           }
         },
         "ja": {
@@ -7274,6 +8122,12 @@
             "value": "Ouvrir Copymunk"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Copymunk"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7325,6 +8179,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrir Réglages Système"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Impostazioni di Sistema"
           }
         },
         "ja": {
@@ -7380,6 +8240,12 @@
             "value": "Autre appareil"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Altro dispositivo"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7431,6 +8297,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Coller"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incolla"
           }
         },
         "ja": {
@@ -7486,6 +8358,12 @@
             "value": "Épingler"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fissa"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7537,6 +8415,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Épingler à"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fissa in"
           }
         },
         "ja": {
@@ -7592,6 +8476,12 @@
             "value": "Épingler à un Pinboard"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fissa in Pinboard"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7640,6 +8530,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard"
+          }
+        },
+        "it": {
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard"
@@ -7698,6 +8594,12 @@
             "value": "Épinglé"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fissato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7749,6 +8651,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Appuyez sur %@ à tout moment pour afficher ce panneau"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premi %@ quando vuoi per aprire questo pannello"
           }
         },
         "ja": {
@@ -7804,6 +8712,12 @@
             "value": "Appuyez sur la nouvelle combinaison…"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premi la nuova combinazione…"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7855,6 +8769,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aperçu"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anteprima"
           }
         },
         "ja": {
@@ -7910,6 +8830,12 @@
             "value": "Les notifications push ne sont pas disponibles sur ce Mac : les modifications faites sur vos autres appareils n’arrivent donc qu’au lancement de Copymunk."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le notifiche push non sono disponibili su questo Mac, quindi le modifiche fatte sugli altri dispositivi arrivano solo all’avvio di Copymunk."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -7961,6 +8887,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quitter Copymunk"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esci da Copymunk"
           }
         },
         "ja": {
@@ -8016,6 +8948,12 @@
             "value": "Quittez Copymunk depuis l’icône de la barre des menus puis relancez-le — il terminera l’effacement du fichier de base de données au prochain démarrage."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esci da Copymunk dall’icona nella barra dei menu e riaprilo: finirà di cancellare il file del database al prossimo avvio."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8067,6 +9005,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quittez Copymunk depuis l’icône de la barre des menus puis relancez-le. Votre nouvelle méthode de synchronisation est déjà enregistrée."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esci da Copymunk dall’icona nella barra dei menu e riaprilo. La nuova impostazione di sincronizzazione è già salvata."
           }
         },
         "ja": {
@@ -8122,6 +9066,12 @@
             "value": "Enregistrer le presse-papiers automatiquement"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registra automaticamente gli appunti"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8173,6 +9123,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rétablir"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristina"
           }
         },
         "ja": {
@@ -8228,6 +9184,12 @@
             "value": "Retirer l’app sélectionnée"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rimuovi app selezionata"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8279,6 +9241,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réinitialiser"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reimposta"
           }
         },
         "ja": {
@@ -8334,6 +9302,12 @@
             "value": "Relancer Copymunk"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riavvia Copymunk"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8385,6 +9359,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Relancer Copymunk pour arrêter la synchronisation iCloud ?"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riavviare Copymunk per interrompere la sincronizzazione iCloud?"
           }
         },
         "ja": {
@@ -8440,6 +9420,12 @@
             "value": "Rétablir l’emplacement par défaut"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristina posizione predefinita"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8491,6 +9477,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Restreint"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limitato"
           }
         },
         "ja": {
@@ -8546,6 +9538,12 @@
             "value": "Enrichi"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RTF"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8597,6 +9595,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Texte enrichi"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RTF"
           }
         },
         "ja": {
@@ -8652,6 +9656,12 @@
             "value": "Cliquez avec le bouton droit sur une carte et choisissez Épingler à un Pinboard pour garder ici ce que vous utilisez le plus."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fai clic con il tasto destro su una scheda e scegli “Fissa in Pinboard” per tenere qui gli elementi che usi di più."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8703,6 +9713,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistre votre historique sous forme d’instantanés dans un dossier — iCloud Drive ou n’importe quel dossier partagé. Les suppressions ne sont pas synchronisées avec vos autres appareils."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva la cronologia come istantanee in una cartella: va bene iCloud Drive o qualsiasi cartella condivisa. Le eliminazioni non vengono sincronizzate con gli altri dispositivi."
           }
         },
         "ja": {
@@ -8758,6 +9774,12 @@
             "value": "Rechercher"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerca"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8809,6 +9831,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rechercher dans l’historique"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerca nella cronologia"
           }
         },
         "ja": {
@@ -8864,6 +9892,12 @@
             "value": "Tout sélectionner"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seleziona tutto"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -8915,6 +9949,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réglages"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazioni"
           }
         },
         "ja": {
@@ -8970,6 +10010,12 @@
             "value": "Réglages…"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazioni…"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9021,6 +10067,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dossier partagé"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cartella condivisa"
           }
         },
         "ja": {
@@ -9076,6 +10128,12 @@
             "value": "Le dossier partagé est synchronisé"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cartella condivisa sincronizzata"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9127,6 +10185,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Raccourcis"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbreviazioni"
           }
         },
         "ja": {
@@ -9182,6 +10246,12 @@
             "value": "Afficher tout l’historique"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostra tutta la cronologia"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9233,6 +10303,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afficher le panneau"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostra pannello"
           }
         },
         "ja": {
@@ -9288,6 +10364,12 @@
             "value": "Afficher l’icône dans la barre des menus"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostra icona nella barra dei menu"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9339,6 +10421,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Espace"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spazio"
           }
         },
         "ja": {
@@ -9394,6 +10482,12 @@
             "value": "Démarrage"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvio"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9445,6 +10539,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "État"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stato"
           }
         },
         "ja": {
@@ -9500,6 +10600,12 @@
             "value": "Synchronisation"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizzazione"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9551,6 +10657,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dossier de synchronisation"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cartella di sincronizzazione"
           }
         },
         "ja": {
@@ -9606,6 +10718,12 @@
             "value": "Méthode de synchronisation"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metodo di sincronizzazione"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9657,6 +10775,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synchroniser"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizza ora"
           }
         },
         "ja": {
@@ -9712,6 +10836,12 @@
             "value": "Méthode de synchronisation modifiée — redémarrez pour l’appliquer"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metodo di sincronizzazione modificato: riavvia per applicarlo"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9763,6 +10893,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synchronisé"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizzato"
           }
         },
         "ja": {
@@ -9818,6 +10954,12 @@
             "value": "Temporairement indisponible"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temporaneamente non disponibile"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9869,6 +11011,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Texte"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Testo"
           }
         },
         "ja": {
@@ -9924,6 +11072,12 @@
             "value": "La combinaison doit contenir au moins ⌘, ⌥ ou ⌃. Appuyez sur Esc pour annuler."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La combinazione deve includere almeno uno tra ⌘, ⌥ e ⌃. Premi Esc per annullare."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -9975,6 +11129,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La copie présente dans votre base de données privée iCloud n’a pas été touchée, car la synchronisation iCloud est désactivée. Réglez « Synchronisation » sur iCloud, relancez Copymunk et supprimez à nouveau pour l’effacer aussi."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La copia nel tuo database privato iCloud non è stata toccata, perché la sincronizzazione iCloud è disattivata. Imposta “Sincronizzazione” su iCloud, riapri Copymunk ed elimina di nuovo per rimuovere anche quella."
           }
         },
         "ja": {
@@ -10030,6 +11190,12 @@
             "value": "La carte actuelle y sera épinglée une fois créé"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La scheda attuale verrà fissata nel nuovo Pinboard"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10081,6 +11247,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le dossier a été déplacé ou renommé, ou Copymunk n’y a plus accès."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La cartella è stata spostata o rinominata, oppure Copymunk ha perso l’autorizzazione ad accedervi."
           }
         },
         "ja": {
@@ -10136,6 +11308,12 @@
             "value": "La même suppression est mise en file d’attente pour votre base de données privée iCloud et vos autres Mac. Laissez Copymunk ouvert et restez connecté à iCloud jusqu’à la fin — Copymunk ne peut pas vous dire quand ce sera fait."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La stessa eliminazione è in coda per il tuo database privato iCloud e per gli altri Mac. Tieni Copymunk aperto e con l’accesso a iCloud attivo finché non è terminata: Copymunk non può dirti quando succederà."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10187,6 +11365,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ce Mac a déjà été synchronisé avec iCloud. Copymunk ne peut pas toucher à la copie iCloud tant que la synchronisation est désactivée — réglez « Synchronisation » sur iCloud, relancez Copymunk et supprimez à nouveau pour effacer cette copie aussi."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo Mac è già stato sincronizzato con iCloud in passato. Copymunk non può toccare la copia su iCloud mentre la sincronizzazione è disattivata: imposta “Sincronizzazione” su iCloud, riapri Copymunk ed elimina di nuovo per rimuovere anche quella copia."
           }
         },
         "ja": {
@@ -10242,6 +11426,12 @@
             "value": "Ce Pinboard est vide"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questo Pinboard è vuoto"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10293,6 +11483,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cette combinaison est déjà utilisée par un raccourci clavier de macOS. Rétablie sur %@."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questa combinazione è già usata da un’abbreviazione da tastiera di macOS. Ripristinata a %@."
           }
         },
         "ja": {
@@ -10348,6 +11544,12 @@
             "value": "Cette combinaison est déjà utilisée par une autre app. Rétablie sur %@."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questa combinazione è già usata da un’altra app. Ripristinata a %@."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10399,6 +11601,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cette copie de Copymunk n’est pas signée pour la synchronisation iCloud."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questa versione di Copymunk non è firmata per la sincronizzazione iCloud."
           }
         },
         "ja": {
@@ -10454,6 +11662,12 @@
             "value": "Tous les éléments du presse-papiers et tous les Pinboards seront supprimés, y compris ce qui y est épinglé. Cette action est irréversible."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verranno eliminati tutti gli elementi degli appunti e tutti i Pinboard, compreso tutto ciò che vi è fissato. Questa azione non può essere annullata."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10505,6 +11719,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tous les éléments du presse-papiers non épinglés à un Pinboard seront supprimés. Les éléments épinglés et les Pinboards sont conservés — utilisez « Supprimer toutes les données » pour les supprimer aussi. Cette action est irréversible."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verranno eliminati tutti gli elementi degli appunti non fissati in un Pinboard. Gli elementi fissati e i Pinboard vengono mantenuti: usa “Elimina tutti i dati” per rimuovere anche quelli. Questa azione non può essere annullata."
           }
         },
         "ja": {
@@ -10560,6 +11780,12 @@
             "value": "Essayer"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prova subito"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10611,6 +11837,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Annuler"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annulla"
           }
         },
         "ja": {
@@ -10666,6 +11898,12 @@
             "value": "Inconnu"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sconosciuto"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10717,6 +11955,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Illimité"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Illimitati"
           }
         },
         "ja": {
@@ -10772,6 +12016,12 @@
             "value": "Ne plus épingler"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rimuovi dal Pinboard"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10823,6 +12073,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tant que Copymunk n’a pas redémarré, ce Mac continue d’envoyer votre historique du presse-papiers vers votre base de données privée iCloud. Copymunk est aussi encore en train d’envoyer les éléments que vous avez supprimés ; ce qui n’aura pas été envoyé au moment du redémarrage restera dans iCloud."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finché Copymunk non si riavvia, questo Mac continua a inviare la cronologia degli appunti al tuo database privato iCloud. Copymunk sta anche ancora inviando gli elementi che hai eliminato: ciò che non sarà stato inviato al riavvio di Copymunk resterà su iCloud."
           }
         },
         "ja": {
@@ -10878,6 +12134,12 @@
             "value": "Tant que Copymunk n’a pas redémarré, ce Mac continue d’envoyer votre historique du presse-papiers vers votre base de données privée iCloud. Si vous ne redémarrez pas maintenant, Copymunk continuera d’utiliser la synchronisation iCloud pendant tout le reste de cette session."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finché Copymunk non si riavvia, questo Mac continua a inviare la cronologia degli appunti al tuo database privato iCloud. Se non riavvii ora, Copymunk continuerà a usare la sincronizzazione iCloud per il resto della sessione."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -10929,6 +12191,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Version"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versione"
           }
         },
         "ja": {
@@ -10984,6 +12252,12 @@
             "value": "Bienvenue dans Copymunk"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ti diamo il benvenuto in Copymunk"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11035,6 +12309,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Au-delà de la limite, les éléments non épinglés les plus anciens sont supprimés automatiquement. Les éléments épinglés à un Pinboard ne sont pas concernés."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando il limite viene superato, gli elementi non fissati più vecchi vengono rimossi automaticamente. Ciò che è fissato in un Pinboard non viene toccato."
           }
         },
         "ja": {
@@ -11090,6 +12370,12 @@
             "value": "Si cette option est désactivée, rouvrez Copymunk dans le Finder pour retrouver les réglages"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se disattivi questa opzione, riapri Copymunk dal Finder per tornare alle impostazioni"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11141,6 +12427,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Si cette option est désactivée, appuyez sur %@ ou rouvrez Copymunk dans le Finder pour retrouver les réglages"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se disattivi questa opzione, premi %@ o riapri Copymunk dal Finder per tornare alle impostazioni"
           }
         },
         "ja": {
@@ -11196,6 +12488,12 @@
             "value": "Votre historique du presse-papiers reste uniquement sur ce Mac."
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La cronologia degli appunti resta solo su questo Mac."
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11247,6 +12545,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Votre historique reste uniquement sur ce Mac et à l’emplacement de synchronisation que vous choisissez. Copymunk ne collecte aucune donnée."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La cronologia si trova solo su questo Mac e nella posizione di sincronizzazione che scegli. Copymunk non raccoglie alcun dato."
           }
         },
         "ja": {
@@ -11302,6 +12606,12 @@
             "value": "Compte iCloud"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Account iCloud"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11353,6 +12663,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud Drive est désactivé sur ce Mac. Activez-le dans Réglages Système ou choisissez un autre dossier."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud Drive è disattivato su questo Mac. Attivalo in Impostazioni di Sistema o scegli un’altra cartella."
           }
         },
         "ja": {
@@ -11408,6 +12724,12 @@
             "value": "iCloud est synchronisé"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud sincronizzato"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11459,6 +12781,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impossible de démarrer la synchronisation iCloud : %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile avviare la sincronizzazione iCloud: %@"
           }
         },
         "ja": {
@@ -11514,6 +12842,12 @@
             "value": "La synchronisation iCloud requiert votre attention"
           }
         },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La sincronizzazione iCloud richiede attenzione"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
@@ -11565,6 +12899,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "< 1 min"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ora"
           }
         },
         "ja": {
