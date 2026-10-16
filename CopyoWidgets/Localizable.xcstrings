@@ -58,6 +58,12 @@
             "value": "%1$@, 출처: %2$@, %3$@"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, uit %2$@, %3$@"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -151,6 +157,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld자 · 일반 텍스트"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld tekens · Platte tekst"
           }
         },
         "ru": {
@@ -248,6 +260,12 @@
             "value": "%lld자 · 리치 텍스트"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld tekens · RTF-tekst"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -341,6 +359,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld일"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld d"
           }
         },
         "ru": {
@@ -438,6 +462,12 @@
             "value": "%lld시간"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld u"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -531,6 +561,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld분"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld min"
           }
         },
         "ru": {
@@ -628,6 +664,12 @@
             "value": "1자 · 일반 텍스트"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 teken · Platte tekst"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -721,6 +763,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1자 · 리치 텍스트"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 teken · RTF-tekst"
           }
         },
         "ru": {
@@ -818,6 +866,12 @@
             "value": "취소"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuleer"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -911,6 +965,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "항목"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Item"
           }
         },
         "ru": {
@@ -1008,6 +1068,12 @@
             "value": "클립보드"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klembord"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -1101,6 +1167,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "색상"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kleur"
           }
         },
         "ru": {
@@ -1198,6 +1270,12 @@
             "value": "항목 복사"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopieer item"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -1291,6 +1369,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 지금 보관함을 열 수 없습니다."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk kan zijn bibliotheek nu niet openen."
           }
         },
         "ru": {
@@ -1388,6 +1472,12 @@
             "value": "Copymunk가 해당 이미지를 읽을 수 없습니다."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk kon die afbeelding niet lezen."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -1481,6 +1571,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 공유한 콘텐츠를 읽을 수 없습니다."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk kon niet lezen wat je hebt gedeeld."
           }
         },
         "ru": {
@@ -1578,6 +1674,12 @@
             "value": "저장할 수 없음"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaren mislukt"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -1671,6 +1773,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "고정 안 함"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niet vastmaken"
           }
         },
         "ru": {
@@ -1768,6 +1876,12 @@
             "value": "파일"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bestand"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -1861,6 +1975,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "‘콘텐츠 저장’에 텍스트, 링크 또는 이미지를 지정하십시오."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geef ‘Bewaar inhoud’ wat tekst, een link of een afbeelding."
           }
         },
         "ru": {
@@ -1958,6 +2078,12 @@
             "value": "이미지"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afbeelding"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -2051,6 +2177,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "지난주"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorige week"
           }
         },
         "ru": {
@@ -2148,6 +2280,12 @@
             "value": "링크"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Link"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -2241,6 +2379,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "로드 중…"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Laden…"
           }
         },
         "ru": {
@@ -2338,6 +2482,12 @@
             "value": "아직 항목 없음"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nog geen items"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -2431,6 +2581,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard 없음"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geen Pinboards"
           }
         },
         "ru": {
@@ -2528,6 +2684,12 @@
             "value": "동기화되지 않음"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niet gesynchroniseerd"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -2621,6 +2783,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "저장할 항목 없음"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niets om te bewaren"
           }
         },
         "ru": {
@@ -2718,6 +2886,12 @@
             "value": "지금"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nu"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -2811,6 +2985,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "확인"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
           }
         },
         "ru": {
@@ -2908,6 +3088,12 @@
             "value": "Copymunk를 열고 지금 클립보드에 있는 내용을 저장합니다."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opent Copymunk en bewaart wat er op dit moment op het klembord staat."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -3001,6 +3187,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard에 고정"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maak vast op Pinboard"
           }
         },
         "ru": {
@@ -3098,6 +3290,12 @@
             "value": "최근 항목"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recent"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -3191,6 +3389,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "최근 항목"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recente items"
           }
         },
         "ru": {
@@ -3288,6 +3492,12 @@
             "value": "리치"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RTF"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -3381,6 +3591,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "저장"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaar"
           }
         },
         "ru": {
@@ -3513,6 +3729,12 @@
             "state": "translated",
             "value": "Simpan ${text} ke Copymunk"
           }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaar ${text} in Copymunk"
+          }
         }
       }
     },
@@ -3571,6 +3793,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "클립보드 저장"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaar klembord"
           }
         },
         "ru": {
@@ -3668,6 +3896,12 @@
             "value": "콘텐츠 저장"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaar inhoud"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -3761,6 +3995,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk에 저장"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaar in Copymunk"
           }
         },
         "ru": {
@@ -3858,6 +4098,12 @@
             "value": "저장됨"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaard"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -3951,6 +4197,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "앱을 열지 않고 텍스트, 링크 또는 이미지를 Copymunk에 저장합니다."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaart tekst, een link of een afbeelding in Copymunk zonder de app te openen."
           }
         },
         "ru": {
@@ -4048,6 +4300,12 @@
             "value": "클립보드에 있는 내용을 Copymunk에 저장합니다."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaart wat er op het klembord staat in Copymunk."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -4141,6 +4399,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "동기화됨"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesynchroniseerd"
           }
         },
         "ru": {
@@ -4238,6 +4502,12 @@
             "value": "동기화 중"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchroniseren"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -4331,6 +4601,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "탭하여 복사"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tik om te kopiëren"
           }
         },
         "ru": {
@@ -4428,6 +4704,12 @@
             "value": "텍스트"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekst"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -4521,6 +4803,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "가장 최근에 복사한 항목입니다. 항목을 탭하면 다시 복사됩니다."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De items die je het laatst hebt gekopieerd. Tik op een item om het opnieuw te kopiëren."
           }
         },
         "ru": {
@@ -4618,6 +4906,12 @@
             "value": "여기에는 저장할 항목이 없습니다."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er is hier niets om te bewaren."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -4713,6 +5007,12 @@
             "value": "이 기기"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dit apparaat"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -4803,6 +5103,12 @@
           }
         },
         "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL"
+          }
+        },
+        "nl": {
           "stringUnit": {
             "state": "translated",
             "value": "URL"
@@ -4903,6 +5209,12 @@
             "value": "클립"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "item"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -4996,6 +5308,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "클립보드"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "klembord"
           }
         },
         "ru": {
@@ -5093,6 +5411,12 @@
             "value": "지금"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nu"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -5188,6 +5512,12 @@
             "value": "붙여넣기"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "plakken"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -5281,6 +5611,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "저장"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "bewaren"
           }
         },
         "ru": {

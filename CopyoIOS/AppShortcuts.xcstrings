@@ -127,6 +127,15 @@
               "Simpan papan klip ke ${applicationName}"
             ]
           }
+        },
+        "nl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Bewaar mijn klembord in ${applicationName}",
+              "Zet mijn klembord in ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -242,6 +251,14 @@
             "state": "translated",
             "values": [
               "Simpan papan klip dengan ${applicationName}"
+            ]
+          }
+        },
+        "nl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Bewaar klembord met ${applicationName}"
             ]
           }
         }
@@ -360,6 +377,14 @@
               "Simpan item ini ke ${applicationName}"
             ]
           }
+        },
+        "nl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Bewaar dit item in ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -474,6 +499,14 @@
             "state": "translated",
             "values": [
               "${applicationName} simpan papan klip"
+            ]
+          }
+        },
+        "nl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} bewaar klembord"
             ]
           }
         }
