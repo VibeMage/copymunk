@@ -4,6 +4,12 @@
     "%@ is also used by another app: pressing it triggers that app, and Copymunk may not respond. Choose a different combination.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ wird auch von einer anderen App verwendet: Beim Drücken reagiert diese App, und Copymunk reagiert möglicherweise nicht. Wähle eine andere Kombination."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -21,6 +27,12 @@
     "%@ isn’t working because another app is using it. Choose a different combination.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ funktioniert nicht, weil eine andere App die Kombination verwendet. Wähle eine andere Kombination."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -38,6 +50,12 @@
     "%@ isn’t working because macOS uses it as a keyboard shortcut. Choose a different combination, or turn that shortcut off in System Settings.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ funktioniert nicht, weil macOS die Kombination als Tastaturkurzbefehl verwendet. Wähle eine andere Kombination oder deaktiviere diesen Kurzbefehl in den Systemeinstellungen."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -55,6 +73,34 @@
     "%@ · %lld characters": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg Zeichen"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg Zeichen"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -122,6 +168,34 @@
     "%@ · %lld files": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg Datei"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg Dateien"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -189,6 +263,12 @@
     "%@, %@, %@, %@": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, aus %2$@, %3$@, %4$@"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -212,6 +292,24 @@
     "%lld characters": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Zeichen"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Zeichen"
+                }
+              }
+            }
+          }
+        },
         "en": {
           "variations": {
             "plural": {
@@ -259,6 +357,24 @@
     "%lld files": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Datei"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Dateien"
+                }
+              }
+            }
+          }
+        },
         "en": {
           "variations": {
             "plural": {
@@ -306,6 +422,24 @@
     "%lld more files": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "1 weitere Datei"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld weitere Dateien"
+                }
+              }
+            }
+          }
+        },
         "en": {
           "variations": {
             "plural": {
@@ -353,6 +487,24 @@
     "%lld results": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Ergebnis"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Ergebnisse"
+                }
+              }
+            }
+          }
+        },
         "en": {
           "variations": {
             "plural": {
@@ -400,6 +552,12 @@
     "%lldd": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld T."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -417,6 +575,12 @@
     "%lldh": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Std."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -434,6 +598,12 @@
     "%lldm": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Min."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -451,6 +621,12 @@
     "100 items": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "100 Einträge"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -468,6 +644,12 @@
     "1000 items": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1.000 Einträge"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -485,6 +667,12 @@
     "300 items": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "300 Einträge"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -502,6 +690,12 @@
     "500 items": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "500 Einträge"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -519,6 +713,12 @@
     "About": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Über"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -536,6 +736,12 @@
     "Add": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hinzufügen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -553,6 +759,12 @@
     "Add App": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App hinzufügen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -570,6 +782,12 @@
     "After you copy, Copymunk writes the item back to the system clipboard and hands focus back to the app you came from. You press ⌘V yourself — Copymunk never pastes for you.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nach dem Kopieren legt Copymunk den Eintrag zurück in die Systemzwischenablage und gibt den Fokus an die App zurück, aus der du gekommen bist. Einsetzen musst du selbst mit ⌘V – Copymunk setzt nie für dich ein."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -587,6 +805,12 @@
     "All": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -604,6 +828,12 @@
     "Always copy as plain text": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Immer als reinen Text kopieren"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -621,6 +851,12 @@
     "Always on": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Immer an"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -638,6 +874,12 @@
     "Any folder all of your devices share works — for example a folder inside iCloud Drive, or a company drive. Copymunk keeps its files in its own subfolder and can only reach the folder you pick here.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jeder Ordner, den alle deine Geräte gemeinsam nutzen, funktioniert – zum Beispiel ein Ordner in iCloud Drive oder ein Firmenlaufwerk. Copymunk legt seine Dateien in einem eigenen Unterordner ab und kann nur auf den Ordner zugreifen, den du hier auswählst."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -655,6 +897,12 @@
     "Anything you copy shows up here. Copymunk records it in the background — there is nothing you need to do.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles, was du kopierst, erscheint hier. Copymunk erfasst es im Hintergrund – du musst nichts tun."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -672,6 +920,12 @@
     "Applies when you press ↩. ⇧↩ always copies as plain text.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gilt, wenn du ↩ drückst. ⇧↩ kopiert immer als reinen Text."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -689,6 +943,12 @@
     "Available": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verfügbar"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -706,6 +966,12 @@
     "Back in your app after copying, press ⌘V to paste": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nach dem Kopieren in deiner App mit ⌘V einsetzen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -723,6 +989,12 @@
     "Cancel": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -740,6 +1012,12 @@
     "Can’t access this folder": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kein Zugriff auf diesen Ordner"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -757,6 +1035,12 @@
     "Capture": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erfassen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -774,6 +1058,12 @@
     "Checking…": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wird geprüft …"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -791,6 +1081,12 @@
     "Choose": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auswählen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -808,6 +1104,12 @@
     "Choose Again…": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erneut auswählen …"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -825,6 +1127,12 @@
     "Choose Folder…": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordner auswählen …"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -842,6 +1150,12 @@
     "Choose a folder that all of your Macs can read and write.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wähle einen Ordner, den alle deine Macs lesen und beschreiben können."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -859,6 +1173,12 @@
     "Choose a sync folder below to turn on syncing.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wähle unten einen Sync-Ordner, um die Synchronisierung zu aktivieren."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -876,6 +1196,12 @@
     "Choose the sync folder again": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync-Ordner erneut auswählen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -893,6 +1219,12 @@
     "Clear": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Löschen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -910,6 +1242,12 @@
     "Clear History?": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verlauf löschen?"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -927,6 +1265,12 @@
     "Clear History…": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verlauf löschen …"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -944,6 +1288,12 @@
     "Click to change": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zum Ändern klicken"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -961,6 +1311,12 @@
     "Clipboard": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zwischenablage"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -978,6 +1334,12 @@
     "Close": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schließen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -995,6 +1357,12 @@
     "Close Panel": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panel schließen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1012,6 +1380,12 @@
     "Color": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farbe"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1029,6 +1403,12 @@
     "Content from 1Password and Keychain is never recorded": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inhalte aus 1Password und dem Schlüsselbund werden nie erfasst"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1046,6 +1426,12 @@
     "Copied · press ⌘V to paste": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiert · mit ⌘V einsetzen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1063,6 +1449,12 @@
     "Copied, press ⌘V to paste": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiert, mit ⌘V einsetzen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1080,6 +1472,12 @@
     "Copy": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopieren"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1097,6 +1495,12 @@
     "Copy Card N Directly": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Karte N direkt kopieren"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1114,6 +1518,12 @@
     "Copy Selected Item": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausgewählten Eintrag kopieren"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1131,6 +1541,12 @@
     "Copy Selected as Plain Text": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auswahl als reinen Text kopieren"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1148,6 +1564,12 @@
     "Copy as Plain Text": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Als reinen Text kopieren"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1165,6 +1587,12 @@
     "Copymunk could not delete your clipboard history.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk konnte deinen Zwischenablageverlauf nicht löschen."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1182,6 +1610,12 @@
     "Copymunk could not reach your sync folder, so the copy there was not deleted. Choose the folder again in Settings, or delete it yourself.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk konnte deinen Sync-Ordner nicht erreichen, daher wurde die Kopie dort nicht gelöscht. Wähle den Ordner in den Einstellungen erneut aus oder lösche sie selbst."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1199,6 +1633,12 @@
     "Copymunk could not restart itself.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk konnte sich nicht selbst neu starten."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1216,6 +1656,12 @@
     "Copymunk deletes the snapshots and images it put in your sync folder, and turns Shared Folder sync off: folder sync has no way to tell your other Macs to delete anything, so leaving it on would copy their history straight back. What those Macs put in the folder stays until you delete it yourself.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk löscht die Schnappschüsse und Bilder, die es in deinem Sync-Ordner abgelegt hat, und schaltet die Synchronisierung über „Geteilter Ordner“ aus: Die Ordner-Synchronisierung kann deinen anderen Macs nicht mitteilen, etwas zu löschen. Bliebe sie an, würde deren Verlauf sofort wieder zurückkopiert. Was diese Macs im Ordner abgelegt haben, bleibt dort, bis du es selbst löschst."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1233,6 +1679,12 @@
     "Copymunk erased this Mac while iCloud sync was off, so the iCloud copy was never removed. Turning iCloud sync on can bring those entries back.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk hat diesen Mac gelöscht, während iCloud-Sync aus war, daher wurde die iCloud-Kopie nie entfernt. Wenn du iCloud-Sync einschaltest, können diese Einträge zurückkommen."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1250,6 +1702,12 @@
     "Copymunk is sending the deletion to your iCloud private database. Keep Copymunk open and signed in to iCloud. Copymunk cannot tell you when this has finished.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk sendet die Löschung an deine private iCloud-Datenbank. Lass Copymunk geöffnet und bleib bei iCloud angemeldet. Copymunk kann dir nicht sagen, wann der Vorgang abgeschlossen ist."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1267,6 +1725,12 @@
     "Copymunk is using the local database only, so nothing was lost. Fix the problem above and restart Copymunk.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk verwendet nur die lokale Datenbank, es ist also nichts verloren gegangen. Behebe das Problem oben und starte Copymunk neu."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1284,6 +1748,12 @@
     "Copymunk lives in the menu bar (the chipmunk icon in the top-right corner).\n\n• Click the menu bar icon anytime to bring up the clipboard panel\n• Everything you copy is saved automatically — type to search\n• Pick an item and press Return to put it back on the clipboard, then paste it yourself with ⌘V. ⇧Return copies it as plain text\n• Open Settings from the gear in the panel, or by right-clicking the menu bar icon": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk sitzt in der Menüleiste (das Streifenhörnchen-Symbol oben rechts).\n\n• Klicke jederzeit auf das Menüleistensymbol, um das Zwischenablage-Panel einzublenden\n• Alles, was du kopierst, wird automatisch gesichert – einfach lostippen, um zu suchen\n• Wähle einen Eintrag und drücke ↩, um ihn zurück in die Zwischenablage zu legen, und setze ihn dann selbst mit ⌘V ein. ⇧↩ kopiert ihn als reinen Text\n• Öffne die Einstellungen über das Zahnrad im Panel oder per Rechtsklick auf das Menüleistensymbol"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1301,6 +1771,12 @@
     "Copymunk lives in the menu bar (the chipmunk icon in the top-right corner).\n\n• Press %@ anytime to bring up the clipboard panel\n• Everything you copy is saved automatically — type to search\n• Pick an item and press Return to put it back on the clipboard, then paste it yourself with ⌘V. ⇧Return copies it as plain text\n• Open Settings from the gear in the panel, or by right-clicking the menu bar icon": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk sitzt in der Menüleiste (das Streifenhörnchen-Symbol oben rechts).\n\n• Drücke jederzeit %@, um das Zwischenablage-Panel einzublenden\n• Alles, was du kopierst, wird automatisch gesichert – einfach lostippen, um zu suchen\n• Wähle einen Eintrag und drücke ↩, um ihn zurück in die Zwischenablage zu legen, und setze ihn dann selbst mit ⌘V ein. ⇧↩ kopiert ihn als reinen Text\n• Öffne die Einstellungen über das Zahnrad im Panel oder per Rechtsklick auf das Menüleistensymbol"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1318,6 +1794,12 @@
     "Copymunk records in the background and needs no permissions": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk erfasst im Hintergrund und braucht keine Berechtigungen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1335,6 +1817,12 @@
     "Copymunk restarts and clears the database file, so the entries you deleted cannot be recovered from this Mac. Anything the deletion has not reached in your iCloud private database stays there and will come back to this Mac.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk startet neu und leert die Datenbankdatei, damit sich die gelöschten Einträge auf diesem Mac nicht wiederherstellen lassen. Was die Löschung in deiner privaten iCloud-Datenbank noch nicht erreicht hat, bleibt dort und kommt auf diesen Mac zurück."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1352,6 +1840,12 @@
     "Copymunk will restart itself to finish clearing the database file.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk startet sich selbst neu, um das Leeren der Datenbankdatei abzuschließen."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1369,6 +1863,12 @@
     "Create": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erstellen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1386,6 +1886,12 @@
     "Create and Pin": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erstellen und anheften"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1403,6 +1909,12 @@
     "Cut": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausschneiden"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1420,6 +1932,12 @@
     "Cycle Through Filters": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter durchlaufen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1437,6 +1955,12 @@
     "Delete": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Löschen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1454,6 +1978,12 @@
     "Delete All": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle löschen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1471,6 +2001,12 @@
     "Delete All Data?": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle Daten löschen?"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1488,6 +2024,12 @@
     "Delete All Data…": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle Daten löschen …"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1505,6 +2047,12 @@
     "Delete Pinboard": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard löschen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1522,6 +2070,12 @@
     "Delete Pinboard “%@”": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard „%@“ löschen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1539,6 +2093,12 @@
     "Don’t Record These Apps": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese Apps nicht erfassen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1556,6 +2116,12 @@
     "Edit": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bearbeiten"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1573,6 +2139,12 @@
     "Esc clears the search · press again to close": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc leert die Suche · erneut drücken zum Schließen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1590,6 +2162,12 @@
     "Esc to close": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc zum Schließen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1607,6 +2185,12 @@
     "Everything on this Mac was deleted.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle Daten auf diesem Mac wurden gelöscht."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1624,6 +2208,12 @@
     "Everything you’ve copied is here.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles, was du kopiert hast, ist hier."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1641,6 +2231,12 @@
     "Everything you’ve copied is here. Press %@ to get it back anytime.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles, was du kopiert hast, ist hier. Drücke %@, um es jederzeit zurückzuholen."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1658,6 +2254,12 @@
     "File": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datei"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1675,6 +2277,12 @@
     "Finish Erasing This Mac": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Löschen dieses Mac abschließen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1692,6 +2300,12 @@
     "Finish erasing this Mac?": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Löschen dieses Mac abschließen?"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1709,6 +2323,12 @@
     "Focus Search": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suchfeld aktivieren"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1726,6 +2346,12 @@
     "General": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allgemein"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1743,6 +2369,12 @@
     "Global Shortcut": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Globaler Kurzbefehl"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1760,6 +2392,12 @@
     "Got It": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verstanden"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1777,6 +2415,12 @@
     "Help": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hilfe"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1794,6 +2438,12 @@
     "History": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verlauf"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1811,6 +2461,12 @@
     "Ignore password managers": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Passwortmanager ignorieren"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1828,6 +2484,12 @@
     "Image": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bild"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1845,6 +2507,12 @@
     "In the Panel": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Im Panel"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1862,6 +2530,12 @@
     "Includes every Pinboard and everything pinned to it": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inklusive aller Pinboards und ihrer angehefteten Einträge"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1879,6 +2553,12 @@
     "Keep up to": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maximal behalten"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1896,6 +2576,12 @@
     "Key %lld": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taste %lld"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1913,6 +2599,12 @@
     "Last week": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Letzte Woche"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1930,6 +2622,12 @@
     "Launch Copymunk at login": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk bei der Anmeldung öffnen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1947,6 +2645,12 @@
     "Link": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Link"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1964,6 +2668,12 @@
     "Mirrors your history straight to your iCloud. Deleting an entry removes it on every device.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spiegelt deinen Verlauf direkt in deine iCloud. Löschst du einen Eintrag, verschwindet er auf allen Geräten."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1981,6 +2691,12 @@
     "Name": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1998,6 +2714,12 @@
     "New Pinboard": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neues Pinboard"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2015,6 +2737,12 @@
     "New Pinboard Name": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name des neuen Pinboards"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2032,6 +2760,12 @@
     "New Pinboard…": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neues Pinboard …"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2049,6 +2783,12 @@
     "No apps added": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Apps hinzugefügt"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2066,6 +2806,12 @@
     "No folder selected": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kein Ordner ausgewählt"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2083,6 +2829,12 @@
     "No sync folder selected": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kein Sync-Ordner ausgewählt"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2100,6 +2852,12 @@
     "Not Now": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jetzt nicht"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2117,6 +2875,12 @@
     "Not Signed In": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht angemeldet"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2134,6 +2898,12 @@
     "Not synced yet": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch nicht synchronisiert"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2151,6 +2921,12 @@
     "Nothing here yet": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch nichts da"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2168,6 +2944,12 @@
     "Nothing matches “%@”": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Treffer für „%@“"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2185,6 +2967,12 @@
     "Nothing of this kind yet": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch nichts von diesem Typ"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2202,6 +2990,12 @@
     "Nothing was deleted. Try again, and if it keeps failing, quit Copymunk from the menu bar icon and open it again.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Es wurde nichts gelöscht. Versuche es erneut. Wenn es weiterhin fehlschlägt, beende Copymunk über das Menüleistensymbol und öffne es erneut."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2219,6 +3013,12 @@
     "Nothing you copy in them goes into your history": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was du dort kopierst, landet nicht im Verlauf"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2236,6 +3036,12 @@
     "Off": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aus"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2253,6 +3059,12 @@
     "Only removes entries that aren’t pinned to a Pinboard": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entfernt nur Einträge, die nicht an ein Pinboard angeheftet sind"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2270,6 +3082,12 @@
     "Open Copymunk": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk öffnen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2287,6 +3105,12 @@
     "Open System Settings": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systemeinstellungen öffnen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2304,6 +3128,12 @@
     "Other Device": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anderes Gerät"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2321,6 +3151,12 @@
     "Paste": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einsetzen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2338,6 +3174,12 @@
     "Pin": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anheften"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2355,6 +3197,12 @@
     "Pin to": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anheften an"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2372,6 +3220,12 @@
     "Pin to Pinboard": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An Pinboard anheften"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2389,6 +3243,12 @@
     "Pinboard": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2406,6 +3266,12 @@
     "Pinned": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Angeheftet"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2423,6 +3289,12 @@
     "Press %@ anytime to bring up this panel": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drücke jederzeit %@, um dieses Panel einzublenden"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2440,6 +3312,12 @@
     "Press the new shortcut…": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neuen Kurzbefehl drücken …"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2457,6 +3335,12 @@
     "Preview": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorschau"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2474,6 +3358,12 @@
     "Push notifications are unavailable on this Mac, so changes made on your other devices only arrive when Copymunk starts.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Push-Mitteilungen sind auf diesem Mac nicht verfügbar. Änderungen von deinen anderen Geräten kommen daher erst beim Start von Copymunk an."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2491,6 +3381,12 @@
     "Quit Copymunk": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk beenden"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2508,6 +3404,12 @@
     "Quit Copymunk from the menu bar icon and open it again — it finishes clearing the database file on the next launch.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beende Copymunk über das Menüleistensymbol und öffne es erneut – beim nächsten Start wird das Leeren der Datenbankdatei abgeschlossen."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2525,6 +3427,12 @@
     "Quit Copymunk from the menu bar icon and open it again. Your new sync setting is already saved.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beende Copymunk über das Menüleistensymbol und öffne es erneut. Deine neue Sync-Einstellung ist bereits gesichert."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2542,6 +3450,12 @@
     "Record clipboard automatically": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zwischenablage automatisch erfassen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2559,6 +3473,12 @@
     "Redo": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wiederholen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2576,6 +3496,12 @@
     "Remove Selected App": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausgewählte App entfernen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2593,6 +3519,12 @@
     "Reset": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zurücksetzen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2610,6 +3542,12 @@
     "Restart Copymunk": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk neu starten"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2627,6 +3565,12 @@
     "Restart Copymunk to stop iCloud sync?": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk neu starten, um iCloud-Sync zu beenden?"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2644,6 +3588,12 @@
     "Restore Default Location": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standardort wiederherstellen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2661,6 +3611,12 @@
     "Restricted": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eingeschränkt"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2678,6 +3634,12 @@
     "Rich": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Formatiert"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2695,6 +3657,12 @@
     "Rich Text": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Formatierter Text"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2712,6 +3680,12 @@
     "Right-click a card and choose Pin to Pinboard to keep the clips you use most here.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klicke mit der rechten Maustaste auf eine Karte und wähle „An Pinboard anheften“, um deine meistgenutzten Einträge hier griffbereit zu haben."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2729,6 +3703,12 @@
     "Saves your history as snapshots in a folder — iCloud Drive or any shared folder works. Deletions don’t sync to your other devices.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sichert deinen Verlauf als Schnappschüsse in einem Ordner – iCloud Drive oder ein beliebiger geteilter Ordner. Löschungen werden nicht mit deinen anderen Geräten synchronisiert."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2746,6 +3726,12 @@
     "Search": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suchen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2763,6 +3749,12 @@
     "Search History": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verlauf durchsuchen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2780,6 +3772,12 @@
     "Select All": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles auswählen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2797,6 +3795,12 @@
     "Settings": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2814,6 +3818,12 @@
     "Settings…": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen …"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2831,6 +3841,12 @@
     "Shared Folder": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geteilter Ordner"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2848,6 +3864,12 @@
     "Shared folder is in sync": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geteilter Ordner ist synchronisiert"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2865,6 +3887,12 @@
     "Shortcuts": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kurzbefehle"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2882,6 +3910,12 @@
     "Show All History": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesamten Verlauf anzeigen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2899,6 +3933,12 @@
     "Show Panel": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Panel anzeigen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2916,6 +3956,12 @@
     "Show icon in menu bar": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symbol in der Menüleiste anzeigen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2933,6 +3979,12 @@
     "Space": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leertaste"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2950,6 +4002,12 @@
     "Startup": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2967,6 +4025,12 @@
     "Status": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2984,6 +4048,12 @@
     "Sync": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3001,6 +4071,12 @@
     "Sync Folder": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync-Ordner"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3018,6 +4094,12 @@
     "Sync Method": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync-Methode"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3035,6 +4117,12 @@
     "Sync Now": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jetzt synchronisieren"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3052,6 +4140,12 @@
     "Sync method changed — restart to apply": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync-Methode geändert – zum Übernehmen neu starten"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3069,6 +4163,12 @@
     "Synced": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchronisiert"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3086,6 +4186,12 @@
     "Temporarily Unavailable": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorübergehend nicht verfügbar"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3103,6 +4209,12 @@
     "Text": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3120,6 +4232,12 @@
     "The combination must include at least one of ⌘, ⌥ or ⌃. Press Esc to cancel.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Kombination muss mindestens ⌘, ⌥ oder ⌃ enthalten. Drücke Esc zum Abbrechen."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3137,6 +4255,12 @@
     "The copy in your iCloud private database was not touched, because iCloud sync is off. Set Sync to iCloud, reopen Copymunk and delete again to remove it too.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Kopie in deiner privaten iCloud-Datenbank wurde nicht angetastet, weil iCloud-Sync aus ist. Stelle „Sync“ auf iCloud, öffne Copymunk erneut und lösche noch einmal, um auch sie zu entfernen."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3154,6 +4278,12 @@
     "The current card is pinned to it once it’s created": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die aktuelle Karte wird nach dem Erstellen daran angeheftet"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3171,6 +4301,12 @@
     "The folder was moved or renamed, or Copymunk lost permission to it.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Ordner wurde bewegt oder umbenannt, oder Copymunk hat keinen Zugriff mehr darauf."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3188,6 +4324,12 @@
     "The same deletion is queued for your iCloud private database and your other Macs. Keep Copymunk open and signed in to iCloud until it finishes — Copymunk cannot tell you when that is.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dieselbe Löschung ist für deine private iCloud-Datenbank und deine anderen Macs vorgemerkt. Lass Copymunk geöffnet und bleib bei iCloud angemeldet, bis sie abgeschlossen ist – Copymunk kann dir nicht sagen, wann das ist."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3205,6 +4347,12 @@
     "This Mac has synced with iCloud before. Copymunk cannot touch the iCloud copy while sync is off — set Sync to iCloud, reopen Copymunk and delete again to remove that copy too.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dieser Mac wurde schon einmal mit iCloud synchronisiert. Solange die Synchronisierung aus ist, kann Copymunk die iCloud-Kopie nicht antasten – stelle „Sync“ auf iCloud, öffne Copymunk erneut und lösche noch einmal, um auch diese Kopie zu entfernen."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3222,6 +4370,12 @@
     "This Pinboard is empty": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dieses Pinboard ist leer"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3239,6 +4393,12 @@
     "This combination is already used by a macOS keyboard shortcut. Restored to %@.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese Kombination wird bereits von einem macOS-Tastaturkurzbefehl verwendet. Zurückgesetzt auf %@."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3256,6 +4416,12 @@
     "This combination is already used by another app. Restored to %@.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese Kombination wird bereits von einer anderen App verwendet. Zurückgesetzt auf %@."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3273,6 +4439,12 @@
     "This copy of Copymunk is not signed for iCloud sync.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese Copymunk-Version ist nicht für iCloud-Sync signiert."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3290,6 +4462,12 @@
     "This deletes every clipboard entry and every Pinboard, including everything pinned to them. This action cannot be undone.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dadurch werden alle Einträge der Zwischenablage und alle Pinboards gelöscht, einschließlich allem, was daran angeheftet ist. Diese Aktion kann nicht widerrufen werden."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3307,6 +4485,12 @@
     "This deletes every clipboard entry that isn’t pinned to a Pinboard. Pinned entries and Pinboards are kept — use Delete All Data to remove those too. This action cannot be undone.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dadurch werden alle Einträge gelöscht, die nicht an ein Pinboard angeheftet sind. Angeheftete Einträge und Pinboards bleiben erhalten – verwende „Alle Daten löschen“, um auch diese zu entfernen. Diese Aktion kann nicht widerrufen werden."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3324,6 +4508,12 @@
     "Try It Now": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jetzt ausprobieren"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3341,6 +4531,12 @@
     "Undo": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widerrufen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3358,6 +4554,12 @@
     "Unknown": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unbekannt"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3375,6 +4577,12 @@
     "Unlimited": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unbegrenzt"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3392,6 +4600,12 @@
     "Unpin": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lösen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3409,6 +4623,12 @@
     "Until Copymunk restarts, this Mac keeps sending your clipboard history to your iCloud private database. Copymunk is also still sending the entries you deleted; whatever has not been sent when Copymunk restarts stays in iCloud.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bis Copymunk neu startet, sendet dieser Mac deinen Zwischenablageverlauf weiter an deine private iCloud-Datenbank. Außerdem sendet Copymunk noch die Einträge, die du gelöscht hast; was beim Neustart noch nicht gesendet wurde, bleibt in iCloud."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3426,6 +4646,12 @@
     "Until Copymunk restarts, this Mac keeps sending your clipboard history to your iCloud private database. If you don’t restart now, Copymunk keeps using iCloud sync for the rest of this session.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bis Copymunk neu startet, sendet dieser Mac deinen Zwischenablageverlauf weiter an deine private iCloud-Datenbank. Wenn du jetzt nicht neu startest, verwendet Copymunk für den Rest dieser Sitzung weiterhin iCloud-Sync."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3443,6 +4669,12 @@
     "Version": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3460,6 +4692,12 @@
     "Welcome to Copymunk": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Willkommen bei Copymunk"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3477,6 +4715,12 @@
     "When the limit is exceeded, the oldest unpinned entries are removed automatically. Anything pinned to a Pinboard is unaffected.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wird das Limit überschritten, werden die ältesten nicht angehefteten Einträge automatisch entfernt. An ein Pinboard angeheftete Einträge sind nicht betroffen."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3494,6 +4738,12 @@
     "When this is off, open Copymunk again in Finder to get back to Settings": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wenn das aus ist, öffne Copymunk erneut im Finder, um zu den Einstellungen zu gelangen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3511,6 +4761,12 @@
     "When this is off, press %@ or open Copymunk again in Finder to get back to Settings": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wenn das aus ist, drücke %@ oder öffne Copymunk erneut im Finder, um zu den Einstellungen zu gelangen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3528,6 +4784,12 @@
     "Your clipboard history stays on this Mac only.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein Zwischenablageverlauf bleibt nur auf diesem Mac."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3545,6 +4807,12 @@
     "Your history lives only on this Mac and in the sync location you choose. Copymunk collects no data.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein Verlauf liegt nur auf diesem Mac und am Sync-Ort deiner Wahl. Copymunk sammelt keine Daten."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3562,6 +4830,12 @@
     "iCloud Account": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud-Account"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3579,6 +4853,12 @@
     "iCloud Drive is turned off on this Mac. Turn it on in System Settings, or choose another folder.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud Drive ist auf diesem Mac deaktiviert. Aktiviere es in den Systemeinstellungen oder wähle einen anderen Ordner."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3596,6 +4876,12 @@
     "iCloud is in sync": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud ist synchronisiert"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3613,6 +4899,12 @@
     "iCloud sync could not start: %@": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud-Sync konnte nicht starten: %@"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3630,6 +4922,12 @@
     "iCloud sync needs attention": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud-Sync braucht deine Aufmerksamkeit"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3647,6 +4945,12 @@
     "now": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jetzt"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",

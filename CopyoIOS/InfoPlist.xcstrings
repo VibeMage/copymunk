@@ -5,6 +5,12 @@
       "comment" : "Privacy - Photo Library Additions Usage Description",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copymunk sichert das ausgewählte Bild in deiner Fotomediathek."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",

@@ -174,11 +174,8 @@ public struct ShareView: View {
     private var header: some View {
         HStack(spacing: 0) {
             Button(action: onCancel) {
-                Text(String(localized: "Cancel"))
-                    .font(.body)
+                cancelLabel
                     .foregroundStyle(CopyoTheme.accent)
-                    // 辅助功能字号下「取消」自己就要 180pt 宽，再锁 60 的定宽会把它截成「取…」
-                    .frame(width: usesCenteredHeader ? headerSideWidth : nil, alignment: .leading)
             }
             .disabled(isSaving)
 
@@ -197,13 +194,24 @@ public struct ShareView: View {
             // 辅助功能字号下这块占位会和左边一起吃掉将近 400pt，中间连一个字都排不下，
             // 那时候宁可不居中：两侧的 Spacer 会把标题摆在「取消」右边的剩余空间正中，读得完更要紧
             if usesCenteredHeader {
-                Color.clear.frame(width: headerSideWidth, height: 1)
+                cancelLabel.hidden()
             }
         }
     }
 
+    /// 两侧槽位至少 60，按钮文字更长时（德语 Abbrechen）按文字撑宽、不折行；
+    /// 右边那块占位就是同一段文字隐藏起来，两侧永远等宽，标题照样居中。
+    /// 辅助功能字号下「取消」自己就要 180pt 宽，不锁宽度，交给下面的 Spacer 排
+    private var cancelLabel: some View {
+        Text(String(localized: "Cancel"))
+            .font(.body)
+            .lineLimit(usesCenteredHeader ? 1 : nil)
+            .fixedSize(horizontal: usesCenteredHeader, vertical: false)
+            .frame(minWidth: usesCenteredHeader ? headerSideWidth : nil, alignment: .leading)
+    }
+
     /// 标题还按设计 3.10 居中排（非辅助功能字号）。
-    /// 抽成一个判断而不是散在三处，是为了让「左边定宽」「右边占位」「中间下限」永远同进同退——
+    /// 抽成一个判断而不是散在三处，是为了让「左边槽位」「右边占位」「中间下限」永远同进同退——
     /// 只改其中一处，标题就会偏出去半个「取消」的宽度。
     private var usesCenteredHeader: Bool { !dynamicTypeSize.isAccessibilitySize }
 

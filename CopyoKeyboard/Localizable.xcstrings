@@ -4,6 +4,12 @@
     "%lld characters · Plain text": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Zeichen · Reiner Text"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -27,6 +33,12 @@
     "%lld characters · Rich text": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Zeichen · Formatierter Text"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -50,6 +62,12 @@
     "%lld matches": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Treffer"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -73,6 +91,12 @@
     "%lldd": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld T."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -96,6 +120,12 @@
     "%lldh": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Std."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -119,6 +149,12 @@
     "%lldm": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Min."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -142,6 +178,12 @@
     "1 character · Plain text": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 Zeichen · Reiner Text"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -165,6 +207,12 @@
     "1 character · Rich text": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 Zeichen · Formatierter Text"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -188,6 +236,12 @@
     "1 match": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 Treffer"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -211,6 +265,12 @@
     "Can't read your clips right now": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einträge können gerade nicht gelesen werden"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -234,6 +294,12 @@
     "Cancel": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -257,6 +323,12 @@
     "Clear Search": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suche löschen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -280,6 +352,12 @@
     "Clip": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eintrag"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -303,6 +381,12 @@
     "Clipboard": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zwischenablage"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -326,6 +410,12 @@
     "Close": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schließen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -349,6 +439,12 @@
     "Color": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farbe"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -372,6 +468,12 @@
     "Copy Clip": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eintrag kopieren"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -395,6 +497,12 @@
     "Copymunk can't open its library right now.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk kann seine Bibliothek gerade nicht öffnen."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -418,6 +526,12 @@
     "Copymunk couldn't read that image.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk konnte dieses Bild nicht lesen."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -441,6 +555,12 @@
     "Copymunk couldn't read what you shared.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk konnte nicht lesen, was du geteilt hast."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -464,6 +584,12 @@
     "Couldn't save": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sichern fehlgeschlagen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -487,6 +613,12 @@
     "Delete": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Löschen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -510,6 +642,12 @@
     "Don't pin": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht anheften"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -533,6 +671,12 @@
     "File": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datei"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -556,6 +700,12 @@
     "Files stay on your Mac": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dateien bleiben auf deinem Mac"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -579,6 +729,12 @@
     "Full Access is required to show your history": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Für den Verlauf ist voller Zugriff erforderlich"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -602,6 +758,12 @@
     "Give Save Content some text, a link, or an image.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gib „Inhalt sichern“ einen Text, einen Link oder ein Bild."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -625,6 +787,12 @@
     "History": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verlauf"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -648,6 +816,12 @@
     "Hold a card to preview": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Karte halten für Vorschau"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -671,6 +845,12 @@
     "Image": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bild"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -694,6 +874,12 @@
     "Images can only be copied inside Copymunk": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bilder lassen sich nur in Copymunk kopieren"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -717,6 +903,12 @@
     "Insert": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einfügen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -740,6 +932,12 @@
     "Last week": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Letzte Woche"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -763,6 +961,12 @@
     "Letters": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buchstaben"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -786,6 +990,12 @@
     "Link": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Link"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -809,6 +1019,12 @@
     "Loading…": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wird geladen …"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -832,6 +1048,12 @@
     "Mac only": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nur Mac"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -855,6 +1077,12 @@
     "Next keyboard": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nächste Tastatur"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -878,6 +1106,12 @@
     "No clips yet": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch keine Einträge"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -901,6 +1135,12 @@
     "No matches": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Treffer"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -924,6 +1164,12 @@
     "No pinboards": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Pinboards"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -947,6 +1193,12 @@
     "Not synced": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht synchronisiert"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -970,6 +1222,12 @@
     "Nothing to save": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nichts zu sichern"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -993,6 +1251,12 @@
     "Now": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jetzt"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1016,6 +1280,12 @@
     "Numbers and punctuation": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zahlen und Satzzeichen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1039,6 +1309,12 @@
     "OK": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1062,6 +1338,12 @@
     "Open Copymunk once, then come back.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öffne Copymunk einmal und komm dann zurück."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1085,6 +1367,12 @@
     "Opens Copymunk and saves whatever is on the clipboard right now.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öffnet Copymunk und sichert, was gerade in der Zwischenablage ist."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1108,6 +1396,12 @@
     "Pin to Pinboard": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "An Pinboard anheften"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1131,6 +1425,12 @@
     "Pinned": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Angeheftet"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1154,6 +1454,12 @@
     "Preview": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorschau"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1177,6 +1483,12 @@
     "Recent": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neueste"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1200,6 +1512,12 @@
     "Recent Clips": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neueste Einträge"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1223,6 +1541,12 @@
     "Rich": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Formatiert"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1246,6 +1570,12 @@
     "Save": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sichern"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1269,6 +1599,12 @@
     "Save Clipboard": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zwischenablage sichern"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1292,6 +1628,12 @@
     "Save Content": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inhalt sichern"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1315,6 +1657,12 @@
     "Save to Copymunk": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In Copymunk sichern"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1338,6 +1686,12 @@
     "Saved": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesichert"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1361,6 +1715,12 @@
     "Saves text, a link, or an image to Copymunk without opening the app.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sichert Text, einen Link oder ein Bild in Copymunk, ohne die App zu öffnen."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1384,6 +1744,12 @@
     "Saves what's on the clipboard to Copymunk.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sichert den Inhalt der Zwischenablage in Copymunk."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1407,6 +1773,12 @@
     "Search": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suchen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1430,6 +1802,12 @@
     "Search history": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verlauf durchsuchen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1453,6 +1831,12 @@
     "Settings › General › Keyboard › Keyboards › Copymunk. The Copymunk keyboard never goes online, and never records what you type.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen › Allgemein › Tastatur › Tastaturen › Copymunk. Die Copymunk-Tastatur geht nie online und zeichnet nie auf, was du tippst."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1476,6 +1860,12 @@
     "Shift": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Umschalttaste"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1499,6 +1889,12 @@
     "Synced": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchronisiert"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1522,6 +1918,12 @@
     "Syncing…": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync läuft …"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1545,6 +1947,12 @@
     "Tap to copy": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zum Kopieren tippen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1568,6 +1976,12 @@
     "Tap to insert": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zum Einfügen tippen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1591,6 +2005,12 @@
     "Text": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1614,6 +2034,12 @@
     "The clips you copied most recently. Tap one to copy it again.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die zuletzt kopierten Einträge. Tippe auf einen, um ihn erneut zu kopieren."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1637,6 +2063,12 @@
     "There's nothing to save here.": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hier gibt es nichts zu sichern."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1660,6 +2092,12 @@
     "This iPhone": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dieses Gerät"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1683,6 +2121,12 @@
     "URL": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1706,6 +2150,12 @@
     "clip": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eintrag"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1729,6 +2179,12 @@
     "clipboard": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zwischenablage"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1752,6 +2208,12 @@
     "now": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jetzt"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1775,6 +2237,12 @@
     "paste": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "einsetzen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1798,6 +2266,12 @@
     "return": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Return"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1821,6 +2295,12 @@
     "save": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sichern"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1844,6 +2324,12 @@
     "space": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leerzeichen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",

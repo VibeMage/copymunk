@@ -19,6 +19,15 @@
               "Enregistrer mon presse-papiers dans ${applicationName}"
             ]
           }
+        },
+        "de": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Meine Zwischenablage in ${applicationName} sichern",
+              "Zwischenablage in ${applicationName} sichern"
+            ]
+          }
         }
       }
     },
@@ -37,6 +46,14 @@
             "state": "translated",
             "values": [
               "Enregistrer le presse-papiers avec ${applicationName}"
+            ]
+          }
+        },
+        "de": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Zwischenablage mit ${applicationName} sichern"
             ]
           }
         }
@@ -59,6 +76,14 @@
               "Enregistrer cet élément dans ${applicationName}"
             ]
           }
+        },
+        "de": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Diesen Eintrag in ${applicationName} sichern"
+            ]
+          }
         }
       }
     },
@@ -77,6 +102,14 @@
             "state": "translated",
             "values": [
               "${applicationName} enregistrer le presse-papiers"
+            ]
+          }
+        },
+        "de": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} Zwischenablage sichern"
             ]
           }
         }
