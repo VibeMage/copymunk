@@ -2,10 +2,14 @@
 
 [English](README.en.md)
 
-Copymunk 是一款开源的 macOS 剪贴板管理工具：菜单栏常驻，`⇧⌘V` 唤出悬浮卡片面板，历史即输即搜。
-数据保存在本机（`~/Library/Application Support/Copyo/`），同步默认关闭；不含任何第三方 SDK、统计或崩溃上报，适合不允许安装第三方闭源工具的办公环境。
+Copymunk 是一款开源的剪贴板管理工具，支持 Mac、iPhone 和 iPad。Mac 上菜单栏常驻，`⇧⌘V` 唤出悬浮卡片面板，历史即输即搜；
+iPhone 和 iPad 上通过你自己的 iCloud 查看、搜索 Mac 上复制过的内容，也能随手存下新的。官网：[copymunk.com](https://copymunk.com)
+
+Mac 版数据默认只保存在本机（`~/Library/Application Support/Copyo/`），同步默认关闭；不含任何第三方 SDK、统计或崩溃上报，适合不允许安装第三方闭源工具的办公环境。
 
 ## 功能
+
+### Mac
 
 - **剪贴板历史**：后台自动记录复制过的内容——纯文本、富文本、链接、颜色（`#RRGGBB`）、图片、文件
 - **悬浮面板**：按 `⇧⌘V` 在屏幕底部、Dock 上方浮出一块玻璃面板，横向卡片流展示历史；卡片整卡淡染来源应用的颜色
@@ -24,11 +28,22 @@ Copymunk 是一款开源的 macOS 剪贴板管理工具：菜单栏常驻，`⇧
 - **开机自启**、隐藏菜单栏图标、暂停记录、纯文本模式等设置
 - **多语言界面**：跟随系统语言（简体中文 / 繁體中文 / English / Français / Deutsch / Español / 日本語 / العربية，阿拉伯语按从右到左排版），基于 String Catalog
 
+### iPhone 与 iPad
+
+iOS 不允许 App 在后台读取剪贴板，所以 iPhone 和 iPad 版在你选定的时机保存：
+
+- **与 Mac 同步**：iCloud 同步默认开启，Mac 上选「iCloud」同步后，复制的内容会自己出现在手机上
+- **打开时保存**：每次打开或回到 Copymunk 都会读取剪贴板并保存新内容（可关闭，改用系统「粘贴」按钮手动保存）
+- **分享面板**：在任意 App 里选中文本、链接或图片，分享到 Copymunk，可顺手固定到 Pinboard
+- **一键保存**：按住操作按钮、点控制中心或锁屏上的控件，或者用「轻点背面」
+- **小组件与快捷指令**：主屏幕「最近的内容」小组件，快捷指令和 Siri 里的「保存剪贴板」
+- **卡片操作**：轻点复制，右滑固定，左滑删除，长按更多
+- **iPad**：侧栏加卡片网格，可把卡片拖到其他 App，支持硬件键盘快捷键
+
 ## 安装
 
-Mac 版已在 [Mac App Store](https://apps.apple.com/app/id6813955206) 上架。
-
-也可以从 [Releases](https://github.com/VibeMage/copymunk/releases) 下载 DMG，打开后把 Copymunk
+- **Mac、iPhone、iPad**：[App Store](https://apps.apple.com/app/id6813955206)，免费，三端通用（同一条 App Store 记录）。Mac 需 macOS 14+，iPhone 和 iPad 需 iOS / iPadOS 18+
+- **Mac 直接下载版**：[下载 DMG](https://github.com/VibeMage/copymunk/releases/latest/download/Copymunk.dmg)（各版本见 [Releases](https://github.com/VibeMage/copymunk/releases)），打开后把 Copymunk
 拖进 Applications 即可。官方发布均已使用 Developer ID 签名并通过 Apple 公证——双击即可打开，
 仅首次有一次「从互联网下载的 App」标准确认弹窗。
 
@@ -80,22 +95,20 @@ xcodebuild -project Copyo.xcodeproj -scheme Copyo -configuration Release \
 ## 打包分发（维护者）
 
 ```bash
-NOTARY_PROFILE=copyo-notary ./scripts/build-release.sh
-# 归档 → 以 Developer ID 导出（签名、entitlements、描述文件由 Xcode 处理）
-# → Apple 公证 → staple → 产出 dist/Copyo-<版本>.dmg + .zip
+EXPORT_PROFILE="Copymunk Developer ID" NOTARIZE=1 ./scripts/build-release.sh
+# 归档 → 用本机的 Developer ID 证书和描述文件导出
+# → Apple 公证 → staple → 产出 dist/Copymunk-<版本>.dmg + .zip
 ```
 
-首次需要一次性配置公证凭据（App 专用密码在 account.apple.com 生成）：
-
-```bash
-xcrun notarytool store-credentials copyo-notary \
-  --apple-id <AppleID邮箱> --team-id <TEAMID> --password <App专用密码>
-```
+登录和公证都用 App Store Connect API 密钥（与 `scripts/asc.rb` 共用，放在 `~/.appstoreconnect/`，不进仓库），
+不需要在 Xcode 里登录 Apple ID，也不需要 App 专用密码；用法和描述文件的说明见脚本开头的注释。
+上传到 Releases 时，除了带版本号的 DMG / ZIP 和 `SHA256SUMS.txt`，再传一份同内容的 `Copymunk.dmg`：
+官网的下载按钮固定指向 `releases/latest/download/Copymunk.dmg`。
 
 - 脚本需要一份 Developer ID 证书与对应的描述文件（含 iCloud 容器与推送能力）。
   **没有开发者证书时**（比如自行从源码构建）：直接用上一节的 `CODE_SIGNING_ALLOWED=NO`
   构建即可，产物只适合本机使用；拿到其他机器会提示「已损坏，无法打开」（Gatekeeper 对
-  无开发者身份应用的固定提示），需执行一次 `xattr -cr /Applications/Copyo.app`。
+  无开发者身份应用的固定提示），需执行一次 `xattr -cr /Applications/Copymunk.app`。
 - 企业环境若有 MDM（Jamf 等），也可以白名单分发。
 
 ### 自动构建（GitHub Actions）
@@ -147,7 +160,7 @@ python3 art/app-icon-exploration/2026-10-15-copymunk-final/render.py   # 从 sou
 `render.py` 需要 Pillow 和 resvg-py（`python3 -m pip install --user Pillow resvg-py`）；
 `make-icon.sh` 只做复制，不缩放，所以小尺寸和 iOS 变体不会被按比例缩糊。
 
-再重新构建即可生效。当前仓库内置一个程序化绘制的占位图标。
+再重新构建即可生效。
 
 ## 快捷键
 
@@ -166,6 +179,10 @@ python3 art/app-icon-exploration/2026-10-15-copymunk-final/render.py   # 从 sou
 | 关闭预览 / 清除搜索 / 关闭面板 | `Esc` |
 
 ## 架构
+
+工程里的几个 target：`Copyo/` 是 Mac 应用，`CopyoIOS/` 是 iPhone / iPad 应用，`CopyoShareExtension/` 是分享扩展，
+`CopyoWidgets/` 是小组件和控制中心控件，`CopyoShared/` 是 iOS 各 target 共用的代码，`CopyoCore/` 是两端共用的
+Swift Package（数据模型与存储）。下面是 Mac 应用的结构：
 
 ```
 Copyo/

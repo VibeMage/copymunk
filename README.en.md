@@ -2,10 +2,14 @@
 
 [简体中文](README.md)
 
-Copymunk is an open-source clipboard manager for macOS: it lives in the menu bar, `⇧⌘V` brings up a floating card panel, and you search your history as you type.
-Data lives on this Mac (`~/Library/Application Support/Copyo/`) and syncing is off by default; there are no third-party SDKs, no analytics and no crash reporting, which makes it a fit for workplaces that do not allow third-party closed-source tools.
+Copymunk is an open-source clipboard manager for Mac, iPhone and iPad. On the Mac it lives in the menu bar, `⇧⌘V` brings up a floating card panel, and you search your history as you type.
+On iPhone and iPad you browse and search what you copied on your Mac through your own iCloud, and save new clips as you go. Website: [copymunk.com](https://copymunk.com)
+
+On the Mac, data stays on this Mac by default (`~/Library/Application Support/Copyo/`) and syncing is off by default; there are no third-party SDKs, no analytics and no crash reporting, which makes it a fit for workplaces that do not allow third-party closed-source tools.
 
 ## Features
+
+### Mac
 
 - **Clipboard history**: records what you copy in the background — plain text, rich text, links, colors (`#RRGGBB`), images, files
 - **Floating panel**: press `⇧⌘V` and a glass panel floats up above the Dock, showing your history as a horizontal flow of cards, each tinted with its source app’s color
@@ -24,11 +28,22 @@ Data lives on this Mac (`~/Library/Application Support/Copyo/`) and syncing is o
 - **Launch at login**, hiding the menu bar icon, pausing capture, plain-text mode and other settings
 - **Eight languages**: English, Simplified and Traditional Chinese, French, German, Spanish, Japanese and Arabic (laid out right to left), following the system language, built on a String Catalog
 
+### iPhone and iPad
+
+iOS doesn't let apps read the clipboard in the background, so on iPhone and iPad Copymunk saves at moments you choose:
+
+- **Synced with your Mac**: iCloud Sync is on by default; choose iCloud in the Mac's sync settings and what you copy there shows up on your phone
+- **Saves when you open it**: every time you open or return to Copymunk it reads the clipboard and saves anything new (you can turn this off and use the system Paste button instead)
+- **Share sheet**: select text, a link or an image in any app and share it to Copymunk, optionally straight into a Pinboard
+- **Quick Save**: press and hold the Action Button, tap the Control Center or Lock Screen control, or use Back Tap
+- **Widgets and Shortcuts**: a Recent Clips widget for the Home Screen, and "Save Clipboard" in Shortcuts and Siri
+- **Cards**: tap to copy, swipe right to pin, swipe left to delete, touch and hold for more
+- **iPad**: sidebar and card grid, drag cards into other apps, and hardware keyboard shortcuts
+
 ## Installation
 
-Copymunk is available on the [Mac App Store](https://apps.apple.com/app/id6813955206).
-
-You can also grab the DMG from [Releases](https://github.com/VibeMage/copymunk/releases), open it and drag Copymunk
+- **Mac, iPhone and iPad**: the [App Store](https://apps.apple.com/app/id6813955206), free, one listing for all three. The Mac needs macOS 14 or later, iPhone and iPad need iOS / iPadOS 18 or later
+- **Mac direct download**: [download the DMG](https://github.com/VibeMage/copymunk/releases/latest/download/Copymunk.dmg) (every version is on [Releases](https://github.com/VibeMage/copymunk/releases)), open it and drag Copymunk
 into Applications. Official releases are signed with a Developer ID and notarized by Apple, so a double-click is all it takes —
 you only get the standard "app downloaded from the Internet" confirmation dialog the first time.
 
@@ -83,22 +98,20 @@ Everything else works as usual.
 ## Packaging for distribution (maintainers)
 
 ```bash
-NOTARY_PROFILE=copyo-notary ./scripts/build-release.sh
-# archive → export with Developer ID (signing, entitlements and the profile are all handled by Xcode)
-# → Apple notarization → staple → produces dist/Copyo-<version>.dmg + .zip
+EXPORT_PROFILE="Copymunk Developer ID" NOTARIZE=1 ./scripts/build-release.sh
+# archive → export with this Mac's Developer ID certificate and provisioning profile
+# → Apple notarization → staple → produces dist/Copymunk-<version>.dmg + .zip
 ```
 
-The notarization credentials need a one-time setup (generate the app-specific password at account.apple.com):
-
-```bash
-xcrun notarytool store-credentials copyo-notary \
-  --apple-id <apple-id-email> --team-id <TEAMID> --password <app-specific-password>
-```
+Sign-in and notarization both use the App Store Connect API key (shared with `scripts/asc.rb`, kept in `~/.appstoreconnect/`, never in the repository),
+so you don't need an Apple ID signed in to Xcode or an app-specific password; the comments at the top of the script cover the options and the profile.
+When uploading to Releases, add a copy of the DMG named `Copymunk.dmg` next to the versioned DMG / ZIP and `SHA256SUMS.txt`:
+the website's download button always points at `releases/latest/download/Copymunk.dmg`.
 
 - The script needs a Developer ID certificate and the matching provisioning profile (including the iCloud container and the push capability).
   **Without a developer certificate** (when building from source yourself, say): just build with `CODE_SIGNING_ALLOWED=NO` as described
   above. The result is only good for your own machine; on any other machine macOS says the app "is damaged and can't be opened"
-  (Gatekeeper's boilerplate for apps with no developer identity), which one run of `xattr -cr /Applications/Copyo.app` clears.
+  (Gatekeeper's boilerplate for apps with no developer identity), which one run of `xattr -cr /Applications/Copymunk.app` clears.
 - In a corporate environment with MDM (Jamf and friends), you can distribute it through an allowlist instead.
 
 ### Updating
@@ -122,7 +135,7 @@ python3 art/app-icon-exploration/2026-10-15-copymunk-final/render.py   # re-rend
 `render.py` needs Pillow and resvg-py (`python3 -m pip install --user Pillow resvg-py`);
 `make-icon.sh` only copies and never rescales, so small sizes and iOS variants are never blurred by downscaling.
 
-Then rebuild to pick it up. The repository currently ships a programmatically drawn placeholder icon.
+Then rebuild to pick it up.
 
 ## Keyboard shortcuts
 
@@ -140,6 +153,10 @@ Then rebuild to pick it up. The repository currently ships a programmatically dr
 | Close the preview / clear the search / close the panel | `Esc` |
 
 ## Architecture
+
+The project's targets: `Copyo/` is the Mac app, `CopyoIOS/` the iPhone / iPad app, `CopyoShareExtension/` the share extension,
+`CopyoWidgets/` the widgets and Control Center control, `CopyoShared/` code shared by the iOS targets, and `CopyoCore/` the Swift
+Package both platforms share (data model and storage). The Mac app is laid out like this:
 
 ```
 Copyo/
