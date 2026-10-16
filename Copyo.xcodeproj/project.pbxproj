@@ -419,6 +419,7 @@
 				it,
 				ja,
 				tr,
+				vi,
 				"zh-Hans",
 				"zh-Hant",
 			);

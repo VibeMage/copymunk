@@ -52,6 +52,12 @@
             "value": "%lld"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -115,6 +121,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld karakter"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ký tự"
           }
         },
         "zh-Hans": {
@@ -182,6 +194,12 @@
             "value": "%lld karakter · Düz metin"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ký tự · Văn bản thuần túy"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -245,6 +263,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld karakter · Biçimli metin"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ký tự · Văn bản đa dạng thức"
           }
         },
         "zh-Hans": {
@@ -312,6 +336,12 @@
             "value": "%lld dosya"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld tệp"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -375,6 +405,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld öğe"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld mục"
           }
         },
         "zh-Hans": {
@@ -442,6 +478,12 @@
             "value": "%lld sonuç"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld kết quả"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -505,6 +547,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld sonuç"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld kết quả"
           }
         },
         "zh-Hans": {
@@ -572,6 +620,12 @@
             "value": "%lld g."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ngày"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -635,6 +689,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld sa."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld giờ"
           }
         },
         "zh-Hans": {
@@ -702,6 +762,12 @@
             "value": "%lld dk."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld phút"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -765,6 +831,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 karakter"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 ký tự"
           }
         },
         "zh-Hans": {
@@ -832,6 +904,12 @@
             "value": "1 karakter · Düz metin"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 ký tự · Văn bản thuần túy"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -895,6 +973,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 karakter · Biçimli metin"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 ký tự · Văn bản đa dạng thức"
           }
         },
         "zh-Hans": {
@@ -962,6 +1046,12 @@
             "value": "1 dosya"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 tệp"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1025,6 +1115,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 öğe"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 mục"
           }
         },
         "zh-Hans": {
@@ -1093,6 +1189,12 @@
             "value": "1 hf."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 tuần"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1156,6 +1258,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bağdat Caddesi No: 331, B Blok, Kat 12, Kadıköy, İstanbul"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "331 Lê Lợi, Tòa B, Tầng 12, Quận 1, TP. Hồ Chí Minh"
           }
         },
         "zh-Hans": {
@@ -1223,6 +1331,12 @@
             "value": "Hakkında"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giới thiệu"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1286,6 +1400,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Eylem Düğmesi"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nút Tác vụ"
           }
         },
         "zh-Hans": {
@@ -1353,6 +1473,12 @@
             "value": "Eylem Düğmesi, Arkaya Dokun veya Denetim Merkezi"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nút Tác vụ, Chạm vào mặt sau hoặc Trung tâm điều khiển"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1416,6 +1542,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk’un “Panoyu Kaydet” eylemini ekleyin"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm tác vụ “Lưu bảng nhớ tạm” của Copymunk"
           }
         },
         "zh-Hans": {
@@ -1483,6 +1615,12 @@
             "value": "“Panoyu Kaydet” Kestirmesini Ekle"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm phím tắt “Lưu bảng nhớ tạm”"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1546,6 +1684,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“Panoyu Kaydet” denetimini ekleyin"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm “Lưu bảng nhớ tạm”"
           }
         },
         "zh-Hans": {
@@ -1613,6 +1757,12 @@
             "value": "Öğeler sistem aramasına ekleniyor"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang thêm các mục vào tìm kiếm hệ thống"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1676,6 +1826,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kopyaladıktan sonra Eylem düğmesine basın, iPhone’unuzun arkasına iki kez dokunun veya Denetim Merkezi’ndeki düğmeye dokunun. Copymunk açılır ve “Kaydedildi” mesajını gösterir."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sau khi sao chép, hãy nhấn Nút Tác vụ, chạm hai lần vào mặt sau iPhone hoặc chạm vào nút trong Trung tâm điều khiển. Copymunk sẽ mở và hiển thị “Đã lưu”."
           }
         },
         "zh-Hans": {
@@ -1743,6 +1899,12 @@
             "value": "Kopyaladıktan sonra Denetim Merkezi’ndeki “Panoyu Kaydet” düğmesine dokunun. Copymunk açılır ve “Kaydedildi” mesajını gösterir."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sau khi sao chép, hãy chạm vào nút “Lưu bảng nhớ tạm” trong Trung tâm điều khiển. Copymunk sẽ mở và hiển thị “Đã lưu”."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1806,6 +1968,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tümü"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tất cả"
           }
         },
         "zh-Hans": {
@@ -1873,6 +2041,12 @@
             "value": "İzin Ver"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cho phép"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1936,6 +2110,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Diğer Uygulamalardan Yapıştır"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dán từ các ứng dụng khác"
           }
         },
         "zh-Hans": {
@@ -2003,6 +2183,12 @@
             "value": "Zaten kaydedilmiş"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã lưu từ trước"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2066,6 +2252,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Açık kaynaklı bir pano yöneticisi. Mac, iPhone ve iPad kendi iCloud hesabınız üzerinden tek bir geçmişi paylaşır."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trình quản lý bảng nhớ tạm mã nguồn mở. Mac, iPhone và iPad dùng chung một lịch sử qua tài khoản iCloud của chính bạn."
           }
         },
         "zh-Hans": {
@@ -2133,6 +2325,12 @@
             "value": "Mac’inizde kopyaladığınız her şey için hiçbir şey yapmanız gerekmez — iCloud aracılığıyla buraya gelir."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Những gì bạn sao chép trên Mac không cần thao tác gì — chúng tự đến đây qua iCloud."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2196,6 +2394,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mac’inizde kopyaladığınız her şey iCloud aracılığıyla burada görünür. Bu iPad’den bir şey saklamak için “Paylaş” veya “Hızlı Kaydet” özelliğini kullanın."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Những gì bạn sao chép trên Mac sẽ xuất hiện ở đây qua iCloud. Để giữ lại nội dung từ iPad này, hãy dùng “Chia sẻ” hoặc “Lưu nhanh”."
           }
         },
         "zh-Hans": {
@@ -2263,6 +2467,12 @@
             "value": "Mac’inizde kopyaladığınız her şey iCloud aracılığıyla burada görünür. Bu iPhone’dan bir şey saklamak için “Paylaş” veya “Hızlı Kaydet” özelliğini kullanın."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Những gì bạn sao chép trên Mac sẽ xuất hiện ở đây qua iCloud. Để giữ lại nội dung từ iPhone này, hãy dùng “Chia sẻ” hoặc “Lưu nhanh”."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2326,6 +2536,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sor"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hỏi"
           }
         },
         "zh-Hans": {
@@ -2393,6 +2609,12 @@
             "value": "Arkaya Dokun"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạm vào mặt sau"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2456,6 +2678,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Arkaya Dokun yalnızca bir kestirme çalıştırabilir; bu yüzden “Panoyu Kaydet” eylemini çalıştıran bir kestirme gerekir."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạm vào mặt sau chỉ có thể chạy phím tắt, vì vậy cần một phím tắt chạy “Lưu bảng nhớ tạm”."
           }
         },
         "zh-Hans": {
@@ -2523,6 +2751,12 @@
             "value": "Arkaya Dokun yalnızca bir kestirme çalıştırabilir; bu yöntemin yukarıdaki kestirmeye ihtiyaç duymasının nedeni budur."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạm vào mặt sau chỉ có thể chạy phím tắt, đó là lý do cách này cần phím tắt ở trên."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2586,6 +2820,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Oluşturma Tarihine Göre"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theo ngày tạo"
           }
         },
         "zh-Hans": {
@@ -2653,6 +2893,12 @@
             "value": "Öğe Sayısına Göre"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theo số mục"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2716,6 +2962,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ada Göre"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theo tên"
           }
         },
         "zh-Hans": {
@@ -2783,6 +3035,12 @@
             "value": "İğneleme Zamanına Göre"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theo thời gian ghim"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2846,6 +3104,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kaynağa Göre"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theo nguồn"
           }
         },
         "zh-Hans": {
@@ -2913,6 +3177,12 @@
             "value": "Zamana Göre"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theo thời gian"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2976,6 +3246,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Türe Göre"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theo loại"
           }
         },
         "zh-Hans": {
@@ -3043,6 +3319,12 @@
             "value": "Vazgeç"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hủy"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3106,6 +3388,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Karakter"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ký tự"
           }
         },
         "zh-Hans": {
@@ -3173,6 +3461,12 @@
             "value": "“İzin Ver”i seçin"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn “Cho phép”"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3236,6 +3530,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Temizle"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa"
           }
         },
         "zh-Hans": {
@@ -3303,6 +3603,12 @@
             "value": "Geçmişi Temizle"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa lịch sử"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3366,6 +3672,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geçmiş Temizlensin mi?"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa lịch sử?"
           }
         },
         "zh-Hans": {
@@ -3433,6 +3745,12 @@
             "value": "Aramayı Temizle"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa tìm kiếm"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3496,6 +3814,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Öğe"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mục"
           }
         },
         "zh-Hans": {
@@ -3563,6 +3887,12 @@
             "value": "Pano"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bảng nhớ tạm"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3626,6 +3956,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Renk"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Màu"
           }
         },
         "zh-Hans": {
@@ -3693,6 +4029,12 @@
             "value": "Renkler"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Màu"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3756,6 +4098,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sürdür"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiếp tục"
           }
         },
         "zh-Hans": {
@@ -3823,6 +4171,12 @@
             "value": "Denetim Merkezi"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trung tâm điều khiển"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3886,6 +4240,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kopyalandı"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã sao chép"
           }
         },
         "zh-Hans": {
@@ -3953,6 +4313,12 @@
             "value": "Düz metin olarak kopyalandı"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã sao chép dạng văn bản thuần túy"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4016,6 +4382,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kopyala"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sao chép"
           }
         },
         "zh-Hans": {
@@ -4083,6 +4455,12 @@
             "value": "Tümünü Düz Metin Olarak Kopyala"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sao chép tất cả dạng văn bản thuần túy"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4146,6 +4524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Öğeyi Kopyala"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sao chép mục"
           }
         },
         "zh-Hans": {
@@ -4213,6 +4597,12 @@
             "value": "Düz Metin Olarak Kopyala"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sao chép dạng văn bản thuần túy"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4276,6 +4666,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk Klavyesi"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bàn phím Copymunk"
           }
         },
         "zh-Hans": {
@@ -4343,6 +4739,12 @@
             "value": "Copymunk şu anda kendi arşivini açamıyor."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk hiện không thể mở thư viện của mình."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4406,6 +4808,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk bu ayarın geçerli değerini okuyamıyor"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk không thể đọc giá trị hiện tại của cài đặt này"
           }
         },
         "zh-Hans": {
@@ -4473,6 +4881,12 @@
             "value": "Copymunk bu görüntüyü okuyamadı."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk không thể đọc hình ảnh đó."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4536,6 +4950,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk paylaştığınız içeriği okuyamadı."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk không thể đọc nội dung bạn đã chia sẻ."
           }
         },
         "zh-Hans": {
@@ -4603,6 +5023,12 @@
             "value": "Kaydedilemedi"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không thể lưu"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4666,6 +5092,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Oluştur"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tạo"
           }
         },
         "zh-Hans": {
@@ -4733,6 +5165,12 @@
             "value": "Varsayılan Pinboard"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard mặc định"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4796,6 +5234,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sil"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa"
           }
         },
         "zh-Hans": {
@@ -4863,6 +5307,12 @@
             "value": "Pinboard’u Sil"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa Pinboard"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4926,6 +5376,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bu öğe silinsin mi?"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa mục này?"
           }
         },
         "zh-Hans": {
@@ -4993,6 +5449,12 @@
             "value": "“%@” silinsin mi?"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa “%@”?"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5056,6 +5518,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Silindi"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã xóa"
           }
         },
         "zh-Hans": {
@@ -5123,6 +5591,12 @@
             "value": "Reddet"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Từ chối"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5186,6 +5660,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Boyutlar"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kích thước"
           }
         },
         "zh-Hans": {
@@ -5253,6 +5733,12 @@
             "value": "Kapat"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bỏ qua"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5316,6 +5802,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "İğneleme"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không ghim"
           }
         },
         "zh-Hans": {
@@ -5383,6 +5875,12 @@
             "value": "Bitti"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xong"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5446,6 +5944,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk’u her açtığınızda veya ona her döndüğünüzde Copymunk geçerli panoyu okur ve geçmişinize kaydeder. “Diğer Uygulamalardan Yapıştır” ayarının “İzin Ver” olması gerekir."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mỗi khi bạn mở hoặc quay lại Copymunk, ứng dụng sẽ đọc bảng nhớ tạm hiện tại và lưu vào lịch sử. Cần đặt “Dán từ các ứng dụng khác” thành “Cho phép”."
           }
         },
         "zh-Hans": {
@@ -5513,6 +6017,12 @@
             "value": "Mac’inizde kopyaladığınız her şey iCloud aracılığıyla buraya gelir. İstediğiniz zaman arayın, kopyalamak için dokunun."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mọi thứ bạn sao chép trên Mac sẽ đến đây qua iCloud. Tìm kiếm bất cứ lúc nào, chạm để sao chép."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5576,6 +6086,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dosya"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tệp"
           }
         },
         "zh-Hans": {
@@ -5643,6 +6159,12 @@
             "value": "Dosya içeriği Mac’inizde kalır. Orada bulabilmeniz için Copymunk dosyanın adını saklar."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nội dung tệp vẫn ở trên Mac của bạn. Copymunk giữ lại tên tệp để bạn có thể tìm thấy tệp ở đó."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5706,6 +6228,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dosyalar"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tệp"
           }
         },
         "zh-Hans": {
@@ -5773,6 +6301,12 @@
             "value": "Başla"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bắt đầu"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5836,6 +6370,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“İçeriği Kaydet” eylemine bir metin, bağlantı veya görüntü verin."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Lưu nội dung” cần có văn bản, liên kết hoặc hình ảnh."
           }
         },
         "zh-Hans": {
@@ -5903,6 +6443,12 @@
             "value": "Ayarlar’a Git"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đi tới Cài đặt"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5966,6 +6512,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geçmiş"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lịch sử"
           }
         },
         "zh-Hans": {
@@ -6033,6 +6585,12 @@
             "value": "Geçmiş Sınırı"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giới hạn lịch sử"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6096,6 +6654,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geçmiş temizlendi"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã xóa lịch sử"
           }
         },
         "zh-Hans": {
@@ -6163,6 +6727,12 @@
             "value": "Copymunk Öğeleri Nasıl Kaydeder"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cách Copymunk lưu mục"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6226,6 +6796,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Simge"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biểu tượng"
           }
         },
         "zh-Hans": {
@@ -6293,6 +6869,12 @@
             "value": "Görüntü"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hình ảnh"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6356,6 +6938,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Görüntüler"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hình ảnh"
           }
         },
         "zh-Hans": {
@@ -6423,6 +7011,12 @@
             "value": "Ayarlar › Uygulamalar › Copymunk bölümünde “Diğer Uygulamalardan Yapıştır” ayarını “İzin Ver” olarak belirleyin. Copymunk bundan sonra yeni öğeleri sormadan kaydeder."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trong Cài đặt › Ứng dụng › Copymunk, hãy đặt “Dán từ các ứng dụng khác” thành “Cho phép”. Sau đó Copymunk sẽ lưu các mục mới mà không hỏi."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6486,6 +7080,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOS Ayarları"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cài đặt iOS"
           }
         },
         "zh-Hans": {
@@ -6553,6 +7153,12 @@
             "value": "Mac’inizdeki Pinboard sekmesiyle eşzamanlanır."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard sẽ được đồng bộ hóa với tab Pinboard trên Mac của bạn."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6616,6 +7222,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mac’inizdeki Pinboard etiketleriyle eşzamanlanır."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard sẽ được đồng bộ hóa với các nhãn Pinboard trên Mac của bạn."
           }
         },
         "zh-Hans": {
@@ -6683,6 +7295,12 @@
             "value": "Tüm aygıtlarınızdaki Copymunk’tan kaldırılacak."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mục này sẽ bị xóa khỏi Copymunk trên tất cả thiết bị của bạn."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6746,6 +7364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "İçindeki öğeler Geçmiş’e döner ve silinmez."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Các mục trong đó sẽ quay về Lịch sử và không bị xóa."
           }
         },
         "zh-Hans": {
@@ -6813,6 +7437,12 @@
             "value": "Az önce"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vừa xong"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6876,6 +7506,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geçen hafta"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuần trước"
           }
         },
         "zh-Hans": {
@@ -6943,6 +7579,12 @@
             "value": "Bağlantı"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liên kết"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7006,6 +7648,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bağlantılar"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liên kết"
           }
         },
         "zh-Hans": {
@@ -7073,6 +7721,12 @@
             "value": "Yükleniyor…"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang tải…"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7136,6 +7790,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Yalnızca Mac"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ trên Mac"
           }
         },
         "zh-Hans": {
@@ -7203,6 +7863,12 @@
             "value": "Daha Sonra"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Để sau"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7266,6 +7932,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Daha Fazla"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm"
           }
         },
         "zh-Hans": {
@@ -7333,6 +8005,12 @@
             "value": "Ad"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tên"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7396,6 +8074,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Yeni Pinboard"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard mới"
           }
         },
         "zh-Hans": {
@@ -7463,6 +8147,12 @@
             "value": "Yeni Pinboard…"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard mới…"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7526,6 +8216,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Panoda yeni içerik var"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nội dung mới trong bảng nhớ tạm"
           }
         },
         "zh-Hans": {
@@ -7593,6 +8289,12 @@
             "value": "Henüz öğe yok"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có mục nào"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7656,6 +8358,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard yok"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có Pinboard"
           }
         },
         "zh-Hans": {
@@ -7723,6 +8431,12 @@
             "value": "Sonuç yok"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có kết quả"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7786,6 +8500,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "İğnelenmemiş"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa ghim"
           }
         },
         "zh-Hans": {
@@ -7853,6 +8573,12 @@
             "value": "Eşzamanlanmadı"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa đồng bộ hóa"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7916,6 +8642,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Henüz görünmüyor mu? Başka bir uygulamada bir şey kopyalayın, bir kez Copymunk’a dönün ve yeniden bakın."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa thấy tùy chọn này? Hãy sao chép nội dung nào đó trong ứng dụng khác, quay lại Copymunk một lần, rồi xem lại."
           }
         },
         "zh-Hans": {
@@ -7983,6 +8715,12 @@
             "value": "Henüz iğnelenmiş bir şey yok"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa ghim mục nào"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8046,6 +8784,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kaydedilecek bir şey yok"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có gì để lưu"
           }
         },
         "zh-Hans": {
@@ -8113,6 +8857,12 @@
             "value": "Şimdi"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bây giờ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8176,6 +8926,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tamam"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
           }
         },
         "zh-Hans": {
@@ -8243,6 +8999,12 @@
             "value": "Kapalı"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tắt"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8306,6 +9068,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Varsayılan olarak kapalıdır. Açtığınızda öğeleriniz Ana Ekran’dan, Kilitli Ekran’dan ve Siri Önerileri’nden aranabilir hâle gelir — pano geçmişine düşen doğrulama kodları, parolalar ve özel mesajlar da dahil. Kapattığınızda Copymunk’un dizine eklediği her şey silinir."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mặc định tắt. Khi bật, các mục của bạn có thể được tìm thấy từ Màn hình chính, Màn hình khóa và Gợi ý của Siri — bao gồm cả mã xác minh, mật khẩu và tin nhắn riêng tư nằm trong lịch sử bảng nhớ tạm. Tắt tùy chọn này sẽ xóa mọi thứ Copymunk đã đưa vào chỉ mục."
           }
         },
         "zh-Hans": {
@@ -8373,6 +9141,12 @@
             "value": "Açık · ilk eşzamanlama bekleniyor"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã bật · đang chờ đồng bộ hóa lần đầu"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8436,6 +9210,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tek basışla panoda o anda ne varsa kaydedilir. Copymunk açılır ve “Kaydedildi” mesajını gösterir."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ một lần nhấn là lưu mọi thứ đang có trong bảng nhớ tạm. Copymunk sẽ mở và hiển thị “Đã lưu”."
           }
         },
         "zh-Hans": {
@@ -8503,6 +9283,12 @@
             "value": "Yalnızca bir kez gerekir"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ cần làm một lần"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8566,6 +9352,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Denetim Merkezi’ni açın ve boş bir alanı basılı tutun"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở Trung tâm điều khiển, rồi chạm và giữ vào một khoảng trống"
           }
         },
         "zh-Hans": {
@@ -8633,6 +9425,12 @@
             "value": "Ayarlar’da Copymunk’u Aç"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở Cài đặt của Copymunk"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8696,6 +9494,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ayrıntıları Aç"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở chi tiết"
           }
         },
         "zh-Hans": {
@@ -8763,6 +9567,12 @@
             "value": "Kaydetmek için Geçmiş’i açın ve Yapıştır’a dokunun"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở Lịch sử và chạm vào Dán để lưu"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8826,6 +9636,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ayarlar’ı Aç"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở Cài đặt"
           }
         },
         "zh-Hans": {
@@ -8893,6 +9709,12 @@
             "value": "Ayarlar › Erişilebilirlik › Dokunma › Arkaya Dokun"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở Cài đặt › Trợ năng › Cảm ứng › Chạm vào mặt sau"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8956,6 +9778,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ayarlar › Eylem Düğmesi"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở Cài đặt › Nút Tác vụ"
           }
         },
         "zh-Hans": {
@@ -9023,6 +9851,12 @@
             "value": "Ayarlar › Uygulamalar › Copymunk"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở Cài đặt › Ứng dụng › Copymunk"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9086,6 +9920,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kestirmeler’i Aç"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở Phím tắt"
           }
         },
         "zh-Hans": {
@@ -9153,6 +9993,12 @@
             "value": "Açık Kaynak · GitHub"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mã nguồn mở · GitHub"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9216,6 +10062,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Safari’de Aç"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở trong Safari"
           }
         },
         "zh-Hans": {
@@ -9283,6 +10135,12 @@
             "value": "Copymunk’u açar ve panoda o anda ne varsa kaydeder."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở Copymunk và lưu mọi thứ đang có trong bảng nhớ tạm."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9346,6 +10204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geçmişinize kaydetmek için yapıştırın"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dán để lưu vào lịch sử"
           }
         },
         "zh-Hans": {
@@ -9413,6 +10277,12 @@
             "value": "Copymunk altında “Panoyu Kaydet”i seçin"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn “Lưu bảng nhớ tạm” bên dưới Copymunk"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9476,6 +10346,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "İğnele"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ghim"
           }
         },
         "zh-Hans": {
@@ -9543,6 +10419,12 @@
             "value": "Bir öğeyi geçmiş sınırının dışında tutmak için iğneleyin."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ghim một mục để mục đó không bị tính vào giới hạn lịch sử."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9606,6 +10488,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard’a İğnele"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ghim vào Pinboard"
           }
         },
         "zh-Hans": {
@@ -9673,6 +10561,12 @@
             "value": "Şuraya İğnele…"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ghim vào…"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9733,6 +10627,12 @@
           }
         },
         "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard"
+          }
+        },
+        "vi": {
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard"
@@ -9803,6 +10703,12 @@
             "value": "Pinboard oluşturuldu"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã tạo Pinboard"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9866,6 +10772,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard silindi"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã xóa Pinboard"
           }
         },
         "zh-Hans": {
@@ -9933,6 +10845,12 @@
             "value": "Pinboard’lar Mac’inizle paylaşılır. Bir kartı sağa kaydırdığınızda kart ilk Pinboard’a iğnelenir; başka birini seçmek için kartı basılı tutun."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard được dùng chung với Mac của bạn. Vuốt sang phải trên một thẻ để ghim vào Pinboard đầu tiên; chạm và giữ để chọn Pinboard khác."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9996,6 +10914,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "İğnelendi"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã ghim"
           }
         },
         "zh-Hans": {
@@ -10063,6 +10987,12 @@
             "value": "Düz Metin"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Văn bản thuần túy"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10126,6 +11056,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kaydetmek için Eylem düğmesini basılı tutun"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhấn và giữ Nút Tác vụ để lưu"
           }
         },
         "zh-Hans": {
@@ -10193,6 +11129,12 @@
             "value": "Önizleme"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xem trước"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10256,6 +11198,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gizlilik"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quyền riêng tư"
           }
         },
         "zh-Hans": {
@@ -10323,6 +11271,12 @@
             "value": "Hızlı Kaydet"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu nhanh"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10386,6 +11340,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Panoyu Otomatik Olarak Oku"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tự động đọc bảng nhớ tạm"
           }
         },
         "zh-Hans": {
@@ -10453,6 +11413,12 @@
             "value": "Geçerli panoyu okur"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đọc bảng nhớ tạm hiện tại"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10516,6 +11482,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "GNU GPLv3 lisansıyla yayımlanmıştır."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Được phát hành theo giấy phép GNU GPLv3."
           }
         },
         "zh-Hans": {
@@ -10583,6 +11555,12 @@
             "value": "Pinboard’dan Kaldır"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa khỏi Pinboard"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10646,6 +11624,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sistem aramasından kaldırıldı"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã xóa khỏi tìm kiếm hệ thống"
           }
         },
         "zh-Hans": {
@@ -10713,6 +11697,12 @@
             "value": "Adını Değiştir"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đổi tên"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10776,6 +11766,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard’un Adını Değiştir"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đổi tên Pinboard"
           }
         },
         "zh-Hans": {
@@ -10843,6 +11839,12 @@
             "value": "Adı değiştirildi"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã đổi tên"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10906,6 +11908,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Biçimli"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Định dạng"
           }
         },
         "zh-Hans": {
@@ -10973,6 +11981,12 @@
             "value": "Yalnızca yerel modda çalışıyor"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang chạy ở chế độ chỉ cục bộ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11036,6 +12050,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kaydet"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu"
           }
         },
         "zh-Hans": {
@@ -11114,6 +12134,12 @@
             "state": "translated",
             "value": "Salva ${text} in Copymunk"
           }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu ${text} vào Copymunk"
+          }
         }
       }
     },
@@ -11166,6 +12192,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Panoyu Kaydet"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu bảng nhớ tạm"
           }
         },
         "zh-Hans": {
@@ -11233,6 +12265,12 @@
             "value": "İçeriği Kaydet"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu nội dung"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11296,6 +12334,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk’a Kaydet"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu vào Copymunk"
           }
         },
         "zh-Hans": {
@@ -11363,6 +12407,12 @@
             "value": "Kaydedildi"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã lưu"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11426,6 +12476,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Uygulamayı açmadan Copymunk’a metin, bağlantı veya görüntü kaydeder."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu văn bản, liên kết hoặc hình ảnh vào Copymunk mà không cần mở ứng dụng."
           }
         },
         "zh-Hans": {
@@ -11493,6 +12549,12 @@
             "value": "Panodakileri Copymunk’a kaydeder."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu nội dung trong bảng nhớ tạm vào Copymunk."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11556,6 +12618,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ara"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tìm kiếm"
           }
         },
         "zh-Hans": {
@@ -11623,6 +12691,12 @@
             "value": "Eylem listesinde Copymunk’u arayın"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tìm Copymunk trong danh sách tác vụ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11686,6 +12760,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geçmişte ara"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tìm kiếm lịch sử"
           }
         },
         "zh-Hans": {
@@ -11753,6 +12833,12 @@
             "value": "Herhangi bir uygulamada metin veya görüntü seçin, “Paylaş”a, ardından “Copymunk”a dokunun. Kaydederken bir Pinboard da seçebilirsiniz."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn văn bản hoặc hình ảnh trong bất kỳ ứng dụng nào, chạm vào “Chia sẻ”, rồi chạm vào “Copymunk”. Bạn có thể chọn Pinboard ngay lúc lưu."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11816,6 +12902,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hızlı Kaydet’i Ayarla"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thiết lập Lưu nhanh"
           }
         },
         "zh-Hans": {
@@ -11883,6 +12975,12 @@
             "value": "Varsayılan Yap"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đặt làm mặc định"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -11946,6 +13044,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“İzin Ver” olarak ayarlarsanız Copymunk açıldığı anda panoyu sormadan okur. Bu bir iOS gizlilik ayarı olduğundan yalnızca Ayarlar’dan değiştirilebilir."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đặt thành “Cho phép” và Copymunk sẽ đọc bảng nhớ tạm ngay khi mở mà không hỏi. Đây là cài đặt quyền riêng tư của iOS nên chỉ có thể thay đổi trong Cài đặt."
           }
         },
         "zh-Hans": {
@@ -12013,6 +13117,12 @@
             "value": "Ayarlar"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cài đặt"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12076,6 +13186,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ayarlar › Genel › Klavye › Klavyeler"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cài đặt › Cài đặt chung › Bàn phím › Bàn phím"
           }
         },
         "zh-Hans": {
@@ -12143,6 +13259,12 @@
             "value": "Paylaş"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chia sẻ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12206,6 +13328,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mac’inizle tek bir geçmiş paylaşın"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dùng chung một lịch sử với Mac"
           }
         },
         "zh-Hans": {
@@ -12273,6 +13401,12 @@
             "value": "Paylaşma Sayfası"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bảng chia sẻ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12336,6 +13470,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Öğeleri Sistem Aramasında Göster"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiển thị mục trong tìm kiếm hệ thống"
           }
         },
         "zh-Hans": {
@@ -12403,6 +13543,12 @@
             "value": "Geçmişi Göster"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiển thị lịch sử"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12466,6 +13612,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard’ları Göster"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiển thị Pinboard"
           }
         },
         "zh-Hans": {
@@ -12533,6 +13685,12 @@
             "value": "Ayarları Göster"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiển thị Cài đặt"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12596,6 +13754,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mac’inizle eşzamanlamak için iCloud’da oturum açın"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đăng nhập iCloud để đồng bộ hóa với Mac"
           }
         },
         "zh-Hans": {
@@ -12663,6 +13827,12 @@
             "value": "Mac’inizde ve iPad’inizde aynı Apple Hesabı ile oturum açın. Öğeleriniz yalnızca iCloud üzerinden aktarılır, asla üçüncü taraf bir sunucudan geçmez."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đăng nhập cùng một Tài khoản Apple trên Mac và iPad. Các mục của bạn chỉ đi qua iCloud, không bao giờ qua máy chủ bên thứ ba."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12726,6 +13896,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mac’inizde ve iPhone’unuzda aynı Apple Hesabı ile oturum açın. Öğeleriniz yalnızca iCloud üzerinden aktarılır, asla üçüncü taraf bir sunucudan geçmez."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đăng nhập cùng một Tài khoản Apple trên Mac và iPhone. Các mục của bạn chỉ đi qua iCloud, không bao giờ qua máy chủ bên thứ ba."
           }
         },
         "zh-Hans": {
@@ -12793,6 +13969,12 @@
             "value": "Atla"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bỏ qua"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12856,6 +14038,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sırala"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sắp xếp"
           }
         },
         "zh-Hans": {
@@ -12923,6 +14111,12 @@
             "value": "Şuna Göre Sırala"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sắp xếp theo"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -12986,6 +14180,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kaynak"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nguồn"
           }
         },
         "zh-Hans": {
@@ -13053,6 +14253,12 @@
             "value": "Boşluk"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dấu cách"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13116,6 +14322,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Durum"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trạng thái"
           }
         },
         "zh-Hans": {
@@ -13183,6 +14395,12 @@
             "value": "Geçmiş’te bir kartı sağa kaydırın veya kartı basılı tutup bu Pinboard’u seçin."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vuốt sang phải trên một thẻ trong Lịch sử, hoặc chạm và giữ thẻ rồi chọn Pinboard này."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13246,6 +14464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“Denetimler”e kaydırın, ardından “Bir Denetim Seçin”e dokunun"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vuốt đến “Điều khiển”, rồi chạm vào “Chọn một điều khiển…”"
           }
         },
         "zh-Hans": {
@@ -13313,6 +14537,12 @@
             "value": "Herhangi bir metin alanında Copymunk klavyesine geçin ve yazmak için bir karta dokunun — uygulamalar arasında gidip gelmenize gerek yok."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chuyển sang bàn phím Copymunk trong bất kỳ trường văn bản nào và chạm vào một thẻ để nhập nội dung đó — không cần chuyển qua lại giữa các ứng dụng."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13376,6 +14606,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Eşzamanlama"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đồng bộ hóa"
           }
         },
         "zh-Hans": {
@@ -13443,6 +14679,12 @@
             "value": "Eşzamanlandı"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã đồng bộ hóa"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13508,6 +14750,12 @@
             "value": "Eşzamanlandı · %@"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã đồng bộ hóa · %@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13571,6 +14819,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Eşzamanlanıyor"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang đồng bộ hóa"
           }
         },
         "zh-Hans": {
@@ -13639,6 +14893,12 @@
             "value": "Sistem Araması"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tìm kiếm hệ thống"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13702,6 +14962,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk’u yeniden açtıktan sonra geçerli olur"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Có hiệu lực sau khi bạn mở lại Copymunk"
           }
         },
         "zh-Hans": {
@@ -13769,6 +15035,12 @@
             "value": "Kaydetmek için iPhone’unuzun arkasına iki kez dokunun"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạm hai lần vào mặt sau iPhone để lưu"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13832,6 +15104,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Yukarıdaki düğmeye dokunun ve yeni bir kestirme oluşturun"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạm vào nút ở trên và tạo phím tắt mới"
           }
         },
         "zh-Hans": {
@@ -13899,6 +15177,12 @@
             "value": "Kestirmeyi eklemek için yukarıdaki düğmeye dokunun"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạm vào nút ở trên để thêm phím tắt"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -13962,6 +15246,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“Yeni Klavye Ekle…” seçeneğine dokunun ve Copymunk’u seçin"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạm vào “Thêm bàn phím mới” và chọn Copymunk"
           }
         },
         "zh-Hans": {
@@ -14029,6 +15319,12 @@
             "value": "“Denetim Ekle”ye dokunun ve Copymunk’u arayın"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạm vào “Thêm một điều khiển” và tìm Copymunk"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -14092,6 +15388,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“Çift Dokunma”ya dokunun ve kestirmeyi seçin"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạm vào “Chạm hai lần” và chọn phím tắt"
           }
         },
         "zh-Hans": {
@@ -14159,6 +15461,12 @@
             "value": "“Diğer Uygulamalardan Yapıştır”a dokunun"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạm vào “Dán từ các ứng dụng khác”"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -14222,6 +15530,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Metin"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Văn bản"
           }
         },
         "zh-Hans": {
@@ -14289,6 +15603,12 @@
             "value": "Bu öğe artık Copymunk’ta yok."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mục đó không còn trong Copymunk."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -14352,6 +15672,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kilitli Ekran’daki düğmeler de aynı şekilde çalışır"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Các nút trên Màn hình khóa cũng hoạt động tương tự"
           }
         },
         "zh-Hans": {
@@ -14419,6 +15745,12 @@
             "value": "Bu denetim Copymunk ile birlikte gelir; önce bir şey eklemeniz gerekmez."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Điều khiển này đi kèm với Copymunk nên bạn không cần thêm gì trước."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -14482,6 +15814,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Klavye uzantısının geçmişinizi okuyabilmesi için bu gereklidir. Copymunk klavyesi asla internete bağlanmaz ve yazdıklarınızı asla kaydetmez."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phần mở rộng bàn phím cần quyền này để đọc lịch sử của bạn. Bàn phím Copymunk không bao giờ kết nối mạng và không bao giờ ghi lại những gì bạn nhập."
           }
         },
         "zh-Hans": {
@@ -14549,6 +15887,12 @@
             "value": "Burada kaydedilecek bir şey yok."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có gì để lưu ở đây."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -14612,6 +15956,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bu derleme iCloud eşzamanlaması için imzalanmamış"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bản dựng này không được ký để dùng đồng bộ hóa iCloud"
           }
         },
         "zh-Hans": {
@@ -14679,6 +16029,12 @@
             "value": "Bu işlem, bir Pinboard’a iğnelenmemiş tüm öğeleri siler. Geri alınamaz."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thao tác này sẽ xóa mọi mục chưa được ghim vào Pinboard. Không thể hoàn tác thao tác này."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -14742,6 +16098,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bu Aygıt"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thiết bị này"
           }
         },
         "zh-Hans": {
@@ -14809,6 +16171,12 @@
             "value": "Bu iPad’den kaydetmenin üç yolu"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ba cách lưu từ iPad này"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -14872,6 +16240,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bu iPhone’dan kaydetmenin üç yolu"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ba cách lưu từ iPhone này"
           }
         },
         "zh-Hans": {
@@ -14939,6 +16313,12 @@
             "value": "Zaman"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thời gian"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -15002,6 +16382,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sürekli “Yapıştırmaya İzin Ver”e dokunmaktan sıkıldınız mı?"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không muốn lần nào cũng phải chạm vào “Cho phép dán”?"
           }
         },
         "zh-Hans": {
@@ -15069,6 +16455,12 @@
             "value": "Kenar çubuğunu göster veya gizle"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bật/Tắt thanh bên"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -15132,6 +16524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Başka bir anahtar sözcük veya filtre deneyin."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hãy thử từ khóa hoặc bộ lọc khác."
           }
         },
         "zh-Hans": {
@@ -15199,6 +16597,12 @@
             "value": "iCloud Eşzamanlamasını Aç"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bật đồng bộ hóa iCloud"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -15262,6 +16666,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "“Tam Erişime İzin Ver”i açın"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bật “Cho phép truy cập đầy đủ”"
           }
         },
         "zh-Hans": {
@@ -15329,6 +16739,12 @@
             "value": "Son iki şey"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hai điều cuối cùng"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -15389,6 +16805,12 @@
           }
         },
         "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL"
+          }
+        },
+        "vi": {
           "stringUnit": {
             "state": "translated",
             "value": "URL"
@@ -15459,6 +16881,12 @@
             "value": "Sınırsız"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không giới hạn"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -15522,6 +16950,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "İğneyi Kaldır"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bỏ ghim"
           }
         },
         "zh-Hans": {
@@ -15589,6 +17023,12 @@
             "value": "İğne kaldırıldı"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã bỏ ghim"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -15652,6 +17092,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "İzin verene kadar Geçmiş’in üst kısmında “Panoda yeni içerik var” afişi görünür — elle kaydetmek için oradaki sistem yapıştırma düğmesini kullanın."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cho đến khi bạn cho phép, Lịch sử sẽ hiển thị biểu ngữ “Nội dung mới trong bảng nhớ tạm” ở trên cùng — hãy dùng nút dán của hệ thống ở đó để lưu thủ công."
           }
         },
         "zh-Hans": {
@@ -15719,6 +17165,12 @@
             "value": "Sürüm %@"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phiên bản %@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -15782,6 +17234,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk’u açtığınızda"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khi bạn mở Copymunk"
           }
         },
         "zh-Hans": {
@@ -15849,6 +17307,12 @@
             "value": "Bu kapalıyken Copymunk açıldığında panoyu okumaz — elle yapıştırıp kaydetmek için Geçmiş’in üst kısmındaki afişi kullanın."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khi tắt tùy chọn này, Copymunk sẽ không đọc bảng nhớ tạm khi mở — hãy dùng biểu ngữ ở đầu Lịch sử để dán và lưu thủ công."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -15912,6 +17376,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "İkisini de daha sonra Ayarlar’dan değiştirebilirsiniz."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bạn có thể thay đổi cả hai sau trong Cài đặt."
           }
         },
         "zh-Hans": {
@@ -15979,6 +17449,12 @@
             "value": "Mac panonuz artık cebinizde"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bảng nhớ tạm của Mac, ngay trong túi bạn"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -16042,6 +17518,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Doğrulama kodunuz: 482913. Kodun süresi 5 dakika içinde dolacak."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mã xác minh của bạn là 482913. Mã sẽ hết hạn sau 5 phút."
           }
         },
         "zh-Hans": {
@@ -16109,6 +17591,12 @@
             "value": "öğe"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mục"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -16172,6 +17660,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "pano"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "bảng nhớ tạm"
           }
         },
         "zh-Hans": {
@@ -16239,6 +17733,12 @@
             "value": "iCloud Eşzamanlama"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đồng bộ hóa iCloud"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -16302,6 +17802,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud bu aygıtta sınırlandırılmış"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud bị hạn chế trên thiết bị này"
           }
         },
         "zh-Hans": {
@@ -16369,6 +17875,12 @@
             "value": "iCloud geçici olarak kullanılamıyor. Copymunk yeniden deneyecek."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud tạm thời không khả dụng. Copymunk sẽ thử lại."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -16432,6 +17944,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud eşzamanlaması başarısız oldu"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đồng bộ hóa iCloud không thành công"
           }
         },
         "zh-Hans": {
@@ -16499,6 +18017,12 @@
             "value": "iCloud eşzamanlaması kapalı"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đồng bộ hóa iCloud đã tắt"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -16562,6 +18086,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOS her seferinde sorar"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS hỏi mỗi lần"
           }
         },
         "zh-Hans": {
@@ -16629,6 +18159,12 @@
             "value": "Copymunk panoyu ilk kez okuduğunda iOS size sorar. “Yapıştırmaya İzin Ver”e dokunun; daha sonra Ayarlar’da bunu “İzin Ver” olarak değiştirebilirsiniz."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS sẽ hỏi vào lần đầu tiên Copymunk đọc bảng nhớ tạm. Hãy chạm vào “Cho phép dán”; sau này bạn có thể đặt thành “Cho phép” trong Cài đặt."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -16692,6 +18228,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOS, uygulamaların panoyu arka planda okumasına izin vermez; bu yüzden Copymunk yalnızca şu üç durumda kaydeder."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS không cho phép ứng dụng đọc bảng nhớ tạm trong nền, vì vậy Copymunk chỉ lưu vào ba thời điểm này."
           }
         },
         "zh-Hans": {
@@ -16759,6 +18301,12 @@
             "value": "iOS, uygulamaların panoyu arka planda okumasına izin vermez. Copymunk yalnızca şu üç durumda kaydeder."
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS không cho phép ứng dụng đọc bảng nhớ tạm trong nền. Copymunk chỉ lưu vào ba thời điểm này."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -16822,6 +18370,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iPhone 15 Pro ve sonraki modeller"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone 15 Pro trở lên"
           }
         },
         "zh-Hans": {
@@ -16889,6 +18443,12 @@
             "value": "şimdi"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "bây giờ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -16952,6 +18512,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "yapıştır"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dán"
           }
         },
         "zh-Hans": {
@@ -17019,6 +18585,12 @@
             "value": "kaydet"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "lưu"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -17084,6 +18656,12 @@
             "value": "“%@” artık varsayılan"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã đặt “%@” làm mặc định"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -17147,6 +18725,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Herhangi bir uygulamada Paylaş › Copymunk"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chia sẻ › Copymunk trong bất kỳ ứng dụng nào"
           }
         },
         "zh-Hans": {

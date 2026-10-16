@@ -82,6 +82,15 @@
               "Salva gli appunti in ${applicationName}"
             ]
           }
+        },
+        "vi": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Lưu bảng nhớ tạm vào ${applicationName}",
+              "Dùng ${applicationName} lưu bảng nhớ tạm"
+            ]
+          }
         }
       }
     },
@@ -156,6 +165,14 @@
             "state": "translated",
             "values": [
               "Salva gli appunti con ${applicationName}"
+            ]
+          }
+        },
+        "vi": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Lưu bảng nhớ tạm bằng ${applicationName}"
             ]
           }
         }
@@ -234,6 +251,14 @@
               "Salva questo elemento in ${applicationName}"
             ]
           }
+        },
+        "vi": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Lưu mục này vào ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -308,6 +333,14 @@
             "state": "translated",
             "values": [
               "${applicationName} salva appunti"
+            ]
+          }
+        },
+        "vi": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} lưu bảng nhớ tạm"
             ]
           }
         }

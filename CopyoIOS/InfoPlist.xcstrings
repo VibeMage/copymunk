@@ -53,6 +53,12 @@
             "value" : "Copymunk seçtiğiniz görüntüyü fotoğraf arşivinize kaydeder."
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copymunk lưu hình ảnh bạn chọn vào thư viện ảnh của bạn."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
