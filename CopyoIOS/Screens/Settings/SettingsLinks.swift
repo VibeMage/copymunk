@@ -3,11 +3,10 @@ import UIKit
 
 /// 设置页里的外链与版本号。
 enum SettingsLinks {
-    static let repository = URL(string: "https://github.com/VibeMage/copyo")!
+    static let repository = URL(string: "https://github.com/VibeMage/copymunk")!
 
-    /// 仓库私有期间用公开 Gist，与 docs/appstore-submission.md 里提交给 App Store 的隐私政策 URL 保持一致。
-    /// 换成仓库内 PRIVACY.md 时两处要同时改。
-    static let privacyPolicy = URL(string: "https://gist.github.com/VibeMage/d39d7165d762ecfd0f16f72ad1fc553e")!
+    /// 与 App Store Connect 里填的隐私政策网址保持一致；页面由 scripts/make-privacy-page.py 从 PRIVACY.md 生成。
+    static let privacyPolicy = URL(string: "https://copymunk.com/privacy/")!
 
     /// 系统「设置」里本 App 的页面。iOS 只开放这一个深链，
     /// 「操作按钮」「轻点背面」这些系统页面都跳不过去（App-prefs: 是私有 URL，用了会被拒审）。

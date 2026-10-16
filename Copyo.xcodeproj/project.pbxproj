@@ -693,7 +693,7 @@
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_LSUIElement = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copymunk Contributors. GNU GPLv3.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -722,8 +722,8 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Copyo saves the image you choose to your photo library.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copymunk Contributors. GNU GPLv3.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Copymunk saves the image you choose to your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -760,8 +760,8 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Copyo saves the image you choose to your photo library.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copymunk Contributors. GNU GPLv3.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Copymunk saves the image you choose to your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -798,8 +798,8 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Copyo saves the image you choose to your photo library.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copymunk Contributors. GNU GPLv3.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Copymunk saves the image you choose to your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -835,7 +835,7 @@
 				INFOPLIST_FILE = CopyoShareExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copymunk Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -867,7 +867,7 @@
 				INFOPLIST_FILE = CopyoShareExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copymunk Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -899,7 +899,7 @@
 				INFOPLIST_FILE = CopyoShareExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copymunk Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -932,7 +932,7 @@
 				INFOPLIST_FILE = CopyoWidgets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copymunk Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -964,7 +964,7 @@
 				INFOPLIST_FILE = CopyoWidgets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copymunk Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -996,7 +996,7 @@
 				INFOPLIST_FILE = CopyoWidgets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copymunk Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1029,7 +1029,7 @@
 				INFOPLIST_FILE = CopyoKeyboard/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copymunk Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1061,7 +1061,7 @@
 				INFOPLIST_FILE = CopyoKeyboard/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copymunk Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1093,7 +1093,7 @@
 				INFOPLIST_FILE = CopyoKeyboard/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Copymunk;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copyo Contributors. GNU GPLv3.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Copymunk Contributors. GNU GPLv3.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
