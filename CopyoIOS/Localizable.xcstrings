@@ -52,6 +52,12 @@
             "value": "%lld"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -133,6 +139,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld자"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld симв."
           }
         },
         "th": {
@@ -218,6 +230,12 @@
             "value": "%lld자 · 일반 텍스트"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld симв. · Простой текст"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -299,6 +317,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld자 · 리치 텍스트"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld симв. · Форматированный текст"
           }
         },
         "th": {
@@ -384,6 +408,12 @@
             "value": "파일 %lld개"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Файлов: %lld"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -465,6 +495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "항목 %lld개"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Элементов: %lld"
           }
         },
         "th": {
@@ -550,6 +586,12 @@
             "value": "결과 %lld개"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld результат"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -631,6 +673,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "결과 %lld개"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Результатов: %lld"
           }
         },
         "th": {
@@ -716,6 +764,12 @@
             "value": "%lld일"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld дн."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -797,6 +851,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld시간"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ч"
           }
         },
         "th": {
@@ -882,6 +942,12 @@
             "value": "%lld분"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld мин"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -963,6 +1029,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1자"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 символ"
           }
         },
         "th": {
@@ -1048,6 +1120,12 @@
             "value": "1자 · 일반 텍스트"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 символ · Простой текст"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -1129,6 +1207,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1자 · 리치 텍스트"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 символ · Форматированный текст"
           }
         },
         "th": {
@@ -1214,6 +1298,12 @@
             "value": "파일 1개"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 файл"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -1295,6 +1385,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "항목 1개"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 элемент"
           }
         },
         "th": {
@@ -1381,6 +1477,12 @@
             "value": "1주"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 нед."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -1462,6 +1564,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "서울특별시 강남구 테헤란로 123, B타워 12층"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ул. Примерная, д. 12, корп. 2, эт. 3, Москва"
           }
         },
         "th": {
@@ -1547,6 +1655,12 @@
             "value": "정보"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "О приложении"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -1628,6 +1742,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "동작 버튼"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кнопка действия"
           }
         },
         "th": {
@@ -1713,6 +1833,12 @@
             "value": "동작 버튼, 뒷면 탭 또는 제어 센터"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кнопка действия, «Касание задней панели» или Пункт управления"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -1794,6 +1920,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk의 ‘클립보드 저장’ 동작 추가"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавьте действие Copymunk «Сохранить буфер обмена»"
           }
         },
         "th": {
@@ -1879,6 +2011,12 @@
             "value": "‘클립보드 저장’ 단축어 추가"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавить быструю команду «Сохранить буфер обмена»"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -1960,6 +2098,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "‘클립보드 저장’ 추가"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавьте «Сохранить буфер обмена»"
           }
         },
         "th": {
@@ -2045,6 +2189,12 @@
             "value": "시스템 검색에 항목 추가 중"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Элементы добавляются в системный поиск"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2126,6 +2276,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "복사한 후 동작 버튼을 누르거나, iPhone 뒷면을 두 번 탭하거나, 제어 센터의 버튼을 탭하십시오. Copymunk가 열리고 ‘저장됨’이 표시됩니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировав, нажмите кнопку действия, дважды коснитесь задней панели iPhone или коснитесь кнопки в Пункте управления. Copymunk откроется и покажет «Сохранено»."
           }
         },
         "th": {
@@ -2211,6 +2367,12 @@
             "value": "복사한 후 제어 센터에서 ‘클립보드 저장’ 버튼을 탭하십시오. Copymunk가 열리고 ‘저장됨’이 표시됩니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировав, коснитесь кнопки «Сохранить буфер обмена» в Пункте управления. Copymunk откроется и покажет «Сохранено»."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2292,6 +2454,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "전체"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Все"
           }
         },
         "th": {
@@ -2377,6 +2545,12 @@
             "value": "허용"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешать"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2458,6 +2632,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다른 앱에서 붙여넣기 허용"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вставка из других приложений"
           }
         },
         "th": {
@@ -2543,6 +2723,12 @@
             "value": "이미 저장됨"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Уже сохранено"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2624,6 +2810,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "오픈 소스 클립보드 관리자입니다. Mac, iPhone 및 iPad가 사용자 본인의 iCloud 계정을 통해 하나의 기록을 공유합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Менеджер буфера обмена с открытым исходным кодом. Mac, iPhone и iPad используют одну историю через Ваш собственный аккаунт iCloud."
           }
         },
         "th": {
@@ -2709,6 +2901,12 @@
             "value": "Mac에서 복사한 항목은 따로 할 일 없이 iCloud를 통해 여기로 전달됩니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Для того, что Вы копируете на Mac, ничего делать не нужно — оно приходит сюда через iCloud."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2790,6 +2988,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mac에서 복사한 항목은 iCloud를 통해 여기에 표시됩니다. 이 iPad의 항목을 보관하려면 공유 또는 빠른 저장을 사용하십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Все, что Вы копируете на Mac, появляется здесь через iCloud. Чтобы сохранить что-то с этого iPad, используйте «Поделиться» или «Быстрое сохранение»."
           }
         },
         "th": {
@@ -2875,6 +3079,12 @@
             "value": "Mac에서 복사한 항목은 iCloud를 통해 여기에 표시됩니다. 이 iPhone의 항목을 보관하려면 공유 또는 빠른 저장을 사용하십시오."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Все, что Вы копируете на Mac, появляется здесь через iCloud. Чтобы сохранить что-то с этого iPhone, используйте «Поделиться» или «Быстрое сохранение»."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2956,6 +3166,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "묻기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Спрашивать"
           }
         },
         "th": {
@@ -3041,6 +3257,12 @@
             "value": "뒷면 탭"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Касание задней панели"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3122,6 +3344,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "뒷면 탭은 단축어만 실행할 수 있으므로 ‘클립보드 저장’을 실행하는 단축어가 필요합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«Касание задней панели» умеет запускать только быструю команду, поэтому нужна команда, которая выполняет «Сохранить буфер обмена»."
           }
         },
         "th": {
@@ -3207,6 +3435,12 @@
             "value": "뒷면 탭은 단축어만 실행할 수 있으므로 이 방법에는 위의 단축어가 필요합니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«Касание задней панели» умеет запускать только быструю команду, поэтому этому способу нужна быстрая команда выше."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3288,6 +3522,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "생성일순"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По дате создания"
           }
         },
         "th": {
@@ -3373,6 +3613,12 @@
             "value": "항목 개수순"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По числу элементов"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3454,6 +3700,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이름순"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По названию"
           }
         },
         "th": {
@@ -3539,6 +3791,12 @@
             "value": "고정한 시간순"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По времени закрепления"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3620,6 +3878,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "출처순"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По источнику"
           }
         },
         "th": {
@@ -3705,6 +3969,12 @@
             "value": "시간순"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По времени"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3786,6 +4056,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "유형순"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По типу"
           }
         },
         "th": {
@@ -3871,6 +4147,12 @@
             "value": "취소"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отменить"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3952,6 +4234,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "글자 수"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Символы"
           }
         },
         "th": {
@@ -4037,6 +4325,12 @@
             "value": "‘허용’ 선택"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите «Разрешать»"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4118,6 +4412,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "지우기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистить"
           }
         },
         "th": {
@@ -4203,6 +4503,12 @@
             "value": "기록 지우기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистить историю"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4284,6 +4590,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "기록을 지우겠습니까?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистить историю?"
           }
         },
         "th": {
@@ -4369,6 +4681,12 @@
             "value": "검색어 지우기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистить поиск"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4450,6 +4768,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "항목"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Элемент"
           }
         },
         "th": {
@@ -4535,6 +4859,12 @@
             "value": "클립보드"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Буфер обмена"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4616,6 +4946,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "색상"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Цвет"
           }
         },
         "th": {
@@ -4701,6 +5037,12 @@
             "value": "색상"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Цвета"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4782,6 +5124,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "계속"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продолжить"
           }
         },
         "th": {
@@ -4867,6 +5215,12 @@
             "value": "제어 센터"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пункт управления"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4948,6 +5302,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "복사됨"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировано"
           }
         },
         "th": {
@@ -5033,6 +5393,12 @@
             "value": "일반 텍스트로 복사됨"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировано как простой текст"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -5114,6 +5480,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "복사하기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировать"
           }
         },
         "th": {
@@ -5199,6 +5571,12 @@
             "value": "모두 일반 텍스트로 복사"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировать все как простой текст"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -5280,6 +5658,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "항목 복사"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировать элемент"
           }
         },
         "th": {
@@ -5365,6 +5749,12 @@
             "value": "일반 텍스트로 복사"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировать как простой текст"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -5446,6 +5836,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk 키보드"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Клавиатура Copymunk"
           }
         },
         "th": {
@@ -5531,6 +5927,12 @@
             "value": "Copymunk가 지금 보관함을 열 수 없습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk сейчас не может открыть свою библиотеку."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -5612,6 +6014,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 이 설정의 현재 값을 읽을 수 없음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk не может прочитать текущее значение этого параметра"
           }
         },
         "th": {
@@ -5697,6 +6105,12 @@
             "value": "Copymunk가 해당 이미지를 읽을 수 없습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk не удалось прочитать это изображение."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -5778,6 +6192,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 공유한 콘텐츠를 읽을 수 없습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk не удалось прочитать то, чем Вы поделились."
           }
         },
         "th": {
@@ -5863,6 +6283,12 @@
             "value": "저장할 수 없음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось сохранить"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -5944,6 +6370,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "생성"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Создать"
           }
         },
         "th": {
@@ -6029,6 +6461,12 @@
             "value": "기본 Pinboard"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard по умолчанию"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6110,6 +6548,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "삭제"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить"
           }
         },
         "th": {
@@ -6195,6 +6639,12 @@
             "value": "Pinboard 삭제"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить Pinboard"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6276,6 +6726,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 항목을 삭제하겠습니까?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить этот элемент?"
           }
         },
         "th": {
@@ -6361,6 +6817,12 @@
             "value": "‘%@’을(를) 삭제하겠습니까?"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить «%@»?"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6442,6 +6904,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "삭제됨"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалено"
           }
         },
         "th": {
@@ -6527,6 +6995,12 @@
             "value": "거부"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отклонять"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6608,6 +7082,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "크기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Размеры"
           }
         },
         "th": {
@@ -6693,6 +7173,12 @@
             "value": "닫기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрыть"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6774,6 +7260,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "고정 안 함"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не закреплять"
           }
         },
         "th": {
@@ -6859,6 +7351,12 @@
             "value": "완료"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Готово"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6940,6 +7438,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk를 열거나 다시 돌아올 때마다 현재 클립보드를 읽어 기록에 저장합니다. ‘다른 앱에서 붙여넣기’가 ‘허용’으로 설정되어 있어야 합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Каждый раз, когда Вы открываете Copymunk или возвращаетесь в него, он читает текущий буфер обмена и сохраняет его в историю. Для параметра «Вставка из других приложений» должно быть выбрано «Разрешать»."
           }
         },
         "th": {
@@ -7025,6 +7529,12 @@
             "value": "Mac에서 복사한 모든 항목이 iCloud를 통해 여기로 전달됩니다. 언제든지 검색하고, 탭하여 복사하십시오."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Все, что Вы копируете на Mac, приходит сюда через iCloud. Ищите в любой момент и копируйте одним касанием."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -7106,6 +7616,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "파일"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Файл"
           }
         },
         "th": {
@@ -7191,6 +7707,12 @@
             "value": "파일 내용은 Mac에만 있습니다. Mac에서 찾을 수 있도록 Copymunk가 파일 이름을 보관합니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Содержимое файлов остается на Mac. Copymunk сохраняет имя, чтобы Вы могли найти файл там."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -7272,6 +7794,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "파일"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Файлы"
           }
         },
         "th": {
@@ -7357,6 +7885,12 @@
             "value": "시작하기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Приступить"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -7438,6 +7972,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "‘콘텐츠 저장’에 텍스트, 링크 또는 이미지를 지정하십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Передайте действию «Сохранить содержимое» текст, ссылку или изображение."
           }
         },
         "th": {
@@ -7523,6 +8063,12 @@
             "value": "설정으로 이동"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть Настройки"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -7604,6 +8150,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "기록"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "История"
           }
         },
         "th": {
@@ -7689,6 +8241,12 @@
             "value": "기록 한도"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лимит истории"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -7770,6 +8328,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "기록 지워짐"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "История очищена"
           }
         },
         "th": {
@@ -7855,6 +8419,12 @@
             "value": "Copymunk가 항목을 저장하는 방법"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Как Copymunk сохраняет элементы"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -7936,6 +8506,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "아이콘"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Значок"
           }
         },
         "th": {
@@ -8021,6 +8597,12 @@
             "value": "이미지"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изображение"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8102,6 +8684,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이미지"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изображения"
           }
         },
         "th": {
@@ -8187,6 +8775,12 @@
             "value": "설정 › 앱 › Copymunk에서 ‘다른 앱에서 붙여넣기’를 ‘허용’으로 설정하십시오. 그러면 Copymunk가 묻지 않고 새로운 항목을 저장합니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В меню «Настройки» › «Приложения» › Copymunk выберите «Разрешать» для параметра «Вставка из других приложений». Тогда Copymunk будет сохранять новые элементы без запроса."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8268,6 +8862,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOS 설정"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки iOS"
           }
         },
         "th": {
@@ -8353,6 +8953,12 @@
             "value": "Mac의 Pinboard 탭에 동기화됩니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Он синхронизируется с вкладкой Pinboard на Mac."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8434,6 +9040,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mac의 Pinboard 태그에 동기화됩니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Он синхронизируется с метками Pinboard на Mac."
           }
         },
         "th": {
@@ -8519,6 +9131,12 @@
             "value": "모든 기기의 Copymunk에서 제거됩니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Он будет удален из Copymunk на всех Ваших устройствах."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8600,6 +9218,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "포함된 항목은 기록으로 돌아가며 삭제되지 않습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Его элементы вернутся в историю и не будут удалены."
           }
         },
         "th": {
@@ -8685,6 +9309,12 @@
             "value": "방금"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Только что"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8766,6 +9396,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "지난주"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неделю назад"
           }
         },
         "th": {
@@ -8851,6 +9487,12 @@
             "value": "링크"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ссылка"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8932,6 +9574,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "링크"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ссылки"
           }
         },
         "th": {
@@ -9017,6 +9665,12 @@
             "value": "로드 중…"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузка…"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9098,6 +9752,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mac 전용"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Только на Mac"
           }
         },
         "th": {
@@ -9183,6 +9843,12 @@
             "value": "나중에"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Позже"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9264,6 +9930,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "더 보기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Еще"
           }
         },
         "th": {
@@ -9349,6 +10021,12 @@
             "value": "이름"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Название"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9430,6 +10108,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "새로운 Pinboard"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новый Pinboard"
           }
         },
         "th": {
@@ -9515,6 +10199,12 @@
             "value": "새로운 Pinboard…"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новый Pinboard…"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9596,6 +10286,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "새로운 클립보드 콘텐츠"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новое в буфере обмена"
           }
         },
         "th": {
@@ -9681,6 +10377,12 @@
             "value": "아직 항목 없음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Элементов пока нет"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9762,6 +10464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard 없음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет Pinboard"
           }
         },
         "th": {
@@ -9847,6 +10555,12 @@
             "value": "결과 없음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет результатов"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9928,6 +10642,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "고정되지 않음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не закреплено"
           }
         },
         "th": {
@@ -10013,6 +10733,12 @@
             "value": "동기화되지 않음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Без синхронизации"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10094,6 +10820,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "항목이 아직 보이지 않으면 다른 앱에서 무언가를 복사하고 Copymunk로 한 번 돌아온 다음 다시 확인하십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пункта нет? Скопируйте что-нибудь в другом приложении, один раз вернитесь в Copymunk и посмотрите снова."
           }
         },
         "th": {
@@ -10179,6 +10911,12 @@
             "value": "아직 고정된 항목 없음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пока ничего не закреплено"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10260,6 +10998,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "저장할 항목 없음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нечего сохранять"
           }
         },
         "th": {
@@ -10345,6 +11089,12 @@
             "value": "지금"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сейчас"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10426,6 +11176,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "확인"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ОК"
           }
         },
         "th": {
@@ -10511,6 +11267,12 @@
             "value": "끔"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выкл."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10592,6 +11354,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "기본적으로 꺼져 있습니다. 켜면 홈 화면, 잠금 화면 및 Siri 제안에서 항목을 검색할 수 있게 되며, 여기에는 클립보드 기록에 남은 인증 코드, 암호, 개인 메시지도 포함됩니다. 끄면 Copymunk가 색인에 추가한 모든 항목이 삭제됩니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По умолчанию выключено. Если включить, Ваши элементы можно будет найти с экрана «Домой», экрана блокировки и в Предложениях Siri — включая коды подтверждения, пароли и личные сообщения, которые попадают в историю буфера обмена. При выключении все, что Copymunk добавил в индекс, удаляется."
           }
         },
         "th": {
@@ -10677,6 +11445,12 @@
             "value": "켬 · 첫 동기화 대기 중"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вкл. · ожидание первой синхронизации"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10758,6 +11532,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "한 번 누르면 지금 클립보드에 있는 내용이 저장됩니다. Copymunk가 열리고 ‘저장됨’이 표시됩니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Одно нажатие сохраняет текущее содержимое буфера обмена. Copymunk откроется и покажет «Сохранено»."
           }
         },
         "th": {
@@ -10843,6 +11623,12 @@
             "value": "한 번만 하면 됨"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нужно всего один раз"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10924,6 +11710,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "제어 센터를 열고 빈 곳을 길게 누르기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откройте Пункт управления, коснитесь пустого места и удерживайте"
           }
         },
         "th": {
@@ -11009,6 +11801,12 @@
             "value": "Copymunk 설정 열기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть настройки Copymunk"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11090,6 +11888,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "세부사항 열기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подробнее"
           }
         },
         "th": {
@@ -11175,6 +11979,12 @@
             "value": "기록을 열고 붙여넣기를 탭하여 저장하십시오"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откройте историю и коснитесь «Вставить», чтобы сохранить"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11256,6 +12066,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "설정 열기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть Настройки"
           }
         },
         "th": {
@@ -11341,6 +12157,12 @@
             "value": "설정 › 손쉬운 사용 › 터치 › 뒷면 탭 열기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откройте Настройки › Универсальный доступ › Касание › Касание задней панели"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11422,6 +12244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "설정 › 동작 버튼 열기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откройте Настройки › Кнопка действия"
           }
         },
         "th": {
@@ -11507,6 +12335,12 @@
             "value": "설정 › 앱 › Copymunk 열기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откройте Настройки › Приложения › Copymunk"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11588,6 +12422,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "단축어 열기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть «Быстрые команды»"
           }
         },
         "th": {
@@ -11673,6 +12513,12 @@
             "value": "오픈 소스 · GitHub"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открытый код · GitHub"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11754,6 +12600,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Safari에서 열기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть в Safari"
           }
         },
         "th": {
@@ -11839,6 +12691,12 @@
             "value": "Copymunk를 열고 지금 클립보드에 있는 내용을 저장합니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открывает Copymunk и сохраняет текущее содержимое буфера обмена."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11920,6 +12778,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "붙여넣어 기록에 저장"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вставьте, чтобы сохранить в историю"
           }
         },
         "th": {
@@ -12005,6 +12869,12 @@
             "value": "Copymunk 아래에서 ‘클립보드 저장’ 선택"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите «Сохранить буфер обмена» в разделе Copymunk"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12086,6 +12956,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "고정"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрепить"
           }
         },
         "th": {
@@ -12171,6 +13047,12 @@
             "value": "항목을 고정하면 기록 한도의 영향을 받지 않습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрепите элемент, чтобы на него не распространялся лимит истории."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12252,6 +13134,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard에 고정"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрепить в Pinboard"
           }
         },
         "th": {
@@ -12337,6 +13225,12 @@
             "value": "고정 위치…"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрепить в…"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12415,6 +13309,12 @@
           }
         },
         "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard"
+          }
+        },
+        "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard"
@@ -12503,6 +13403,12 @@
             "value": "Pinboard 생성됨"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard создан"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12584,6 +13490,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard 삭제됨"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard удален"
           }
         },
         "th": {
@@ -12669,6 +13581,12 @@
             "value": "Pinboard는 Mac과 공유됩니다. 카드를 오른쪽으로 쓸어넘기면 첫 번째 Pinboard에 고정되며, 길게 눌러 다른 Pinboard를 선택할 수 있습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard общие с Вашим Mac. Смахните карточку вправо, чтобы закрепить ее в первом Pinboard; коснитесь и удерживайте, чтобы выбрать другой."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12750,6 +13668,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "고정됨"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закреплено"
           }
         },
         "th": {
@@ -12835,6 +13759,12 @@
             "value": "일반 텍스트"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Простой текст"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12916,6 +13846,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "동작 버튼을 길게 눌러 저장"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите и удерживайте кнопку действия, чтобы сохранить"
           }
         },
         "th": {
@@ -13001,6 +13937,12 @@
             "value": "미리보기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Просмотр"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13082,6 +14024,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "개인정보 보호"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Конфиденциальность"
           }
         },
         "th": {
@@ -13167,6 +14115,12 @@
             "value": "빠른 저장"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Быстрое сохранение"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13248,6 +14202,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "클립보드 자동으로 읽기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Автоматически читать буфер обмена"
           }
         },
         "th": {
@@ -13333,6 +14293,12 @@
             "value": "현재 클립보드 읽기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Читает текущий буфер обмена"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13414,6 +14380,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "GNU GPLv3에 따라 배포됩니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Распространяется по лицензии GNU GPLv3."
           }
         },
         "th": {
@@ -13499,6 +14471,12 @@
             "value": "Pinboard에서 제거"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Убрать из Pinboard"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13580,6 +14558,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "시스템 검색에서 제거됨"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалено из системного поиска"
           }
         },
         "th": {
@@ -13665,6 +14649,12 @@
             "value": "이름 변경"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переименовать"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13746,6 +14736,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard 이름 변경"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переименовать Pinboard"
           }
         },
         "th": {
@@ -13831,6 +14827,12 @@
             "value": "이름 변경됨"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переименовано"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13912,6 +14914,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "리치"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Формат"
           }
         },
         "th": {
@@ -13997,6 +15005,12 @@
             "value": "로컬 전용 모드로 실행 중"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Работа только в локальном режиме"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14078,6 +15092,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "저장"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить"
           }
         },
         "th": {
@@ -14192,6 +15212,12 @@
             "state": "translated",
             "value": "บันทึก ${text} ไปยัง Copymunk"
           }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить ${text} в Copymunk"
+          }
         }
       }
     },
@@ -14244,6 +15270,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "클립보드 저장"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить буфер обмена"
           }
         },
         "th": {
@@ -14329,6 +15361,12 @@
             "value": "콘텐츠 저장"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить содержимое"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14410,6 +15448,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk에 저장"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить в Copymunk"
           }
         },
         "th": {
@@ -14495,6 +15539,12 @@
             "value": "저장됨"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранено"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14576,6 +15626,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "앱을 열지 않고 텍스트, 링크 또는 이미지를 Copymunk에 저장합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохраняет текст, ссылку или изображение в Copymunk, не открывая приложение."
           }
         },
         "th": {
@@ -14661,6 +15717,12 @@
             "value": "클립보드에 있는 내용을 Copymunk에 저장합니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохраняет содержимое буфера обмена в Copymunk."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14742,6 +15804,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "검색"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поиск"
           }
         },
         "th": {
@@ -14827,6 +15895,12 @@
             "value": "동작 목록에서 Copymunk 검색"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Найдите Copymunk в списке действий"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14908,6 +15982,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "기록 검색"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поиск в истории"
           }
         },
         "th": {
@@ -14993,6 +16073,12 @@
             "value": "아무 앱에서나 텍스트나 이미지를 선택하고 공유를 탭한 다음 ‘Copymunk’를 탭하십시오. 저장하면서 Pinboard를 선택할 수도 있습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выделите текст или изображение в любом приложении, коснитесь «Поделиться», затем «Copymunk». Попутно можно выбрать Pinboard."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15074,6 +16160,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "빠른 저장 설정"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настроить быстрое сохранение"
           }
         },
         "th": {
@@ -15159,6 +16251,12 @@
             "value": "기본으로 설정"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Назначить по умолчанию"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15240,6 +16338,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "‘허용’으로 설정하면 Copymunk가 열리는 즉시 묻지 않고 클립보드를 읽습니다. iOS 개인정보 보호 설정이므로 설정 앱에서만 변경할 수 있습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите «Разрешать», и Copymunk будет читать буфер обмена сразу при открытии, без запроса. Это параметр конфиденциальности iOS, поэтому изменить его можно только в Настройках."
           }
         },
         "th": {
@@ -15325,6 +16429,12 @@
             "value": "설정"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15406,6 +16516,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "설정 › 일반 › 키보드 › 키보드"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки › Основные › Клавиатура › Клавиатуры"
           }
         },
         "th": {
@@ -15491,6 +16607,12 @@
             "value": "공유"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поделиться"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15572,6 +16694,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mac과 하나의 기록 공유"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Одна история с Вашим Mac"
           }
         },
         "th": {
@@ -15657,6 +16785,12 @@
             "value": "공유 시트"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Меню «Поделиться»"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15738,6 +16872,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "시스템 검색에 항목 표시"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показывать элементы в системном поиске"
           }
         },
         "th": {
@@ -15823,6 +16963,12 @@
             "value": "기록 보기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать историю"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15904,6 +17050,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard 보기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать Pinboard"
           }
         },
         "th": {
@@ -15989,6 +17141,12 @@
             "value": "설정 보기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать настройки"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16070,6 +17228,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mac과 동기화하려면 iCloud에 로그인하십시오"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Войдите в iCloud для синхронизации с Mac"
           }
         },
         "th": {
@@ -16155,6 +17319,12 @@
             "value": "Mac과 iPad에서 같은 Apple 계정으로 로그인하십시오. 항목은 타사 서버를 거치지 않고 iCloud를 통해서만 전달됩니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Войдите в один и тот же Аккаунт Apple на Mac и iPad. Ваши элементы передаются только через iCloud и никогда — через сторонние серверы."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16236,6 +17406,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mac과 iPhone에서 같은 Apple 계정으로 로그인하십시오. 항목은 타사 서버를 거치지 않고 iCloud를 통해서만 전달됩니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Войдите в один и тот же Аккаунт Apple на Mac и iPhone. Ваши элементы передаются только через iCloud и никогда — через сторонние серверы."
           }
         },
         "th": {
@@ -16321,6 +17497,12 @@
             "value": "건너뛰기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пропустить"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16402,6 +17584,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "정렬"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сортировка"
           }
         },
         "th": {
@@ -16487,6 +17675,12 @@
             "value": "정렬 기준"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сортировка"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16568,6 +17762,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "출처"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Источник"
           }
         },
         "th": {
@@ -16653,6 +17853,12 @@
             "value": "스페이스"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пробел"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16734,6 +17940,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "상태"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Статус"
           }
         },
         "th": {
@@ -16819,6 +18031,12 @@
             "value": "기록에서 카드를 오른쪽으로 쓸어넘기거나, 길게 누른 다음 이 Pinboard를 선택하십시오."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Смахните карточку вправо в истории или коснитесь ее и удерживайте, затем выберите этот Pinboard."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16900,6 +18118,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "‘제어 항목’으로 쓸어넘긴 다음 ‘제어 항목 선택…’ 탭"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пролистайте до раздела «Элементы управления» и коснитесь «Выбрать элемент управления»"
           }
         },
         "th": {
@@ -16985,6 +18209,12 @@
             "value": "아무 텍스트 필드에서나 Copymunk 키보드로 전환한 다음 카드를 탭하면 바로 입력됩니다. 앱을 오갈 필요가 없습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переключитесь на клавиатуру Copymunk в любом текстовом поле и коснитесь карточки, чтобы ввести ее содержимое, — без переходов между приложениями."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -17066,6 +18296,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "동기화"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Синхронизация"
           }
         },
         "th": {
@@ -17151,6 +18387,12 @@
             "value": "동기화됨"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Синхронизировано"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -17234,6 +18476,12 @@
             "value": "동기화됨 · %@"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Синхронизировано · %@"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -17315,6 +18563,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "동기화 중"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Синхронизация"
           }
         },
         "th": {
@@ -17401,6 +18655,12 @@
             "value": "시스템 검색"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Системный поиск"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -17482,6 +18742,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk를 다시 열면 적용됨"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вступит в силу после повторного открытия Copymunk"
           }
         },
         "th": {
@@ -17567,6 +18833,12 @@
             "value": "iPhone 뒷면을 두 번 탭하여 저장"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дважды коснитесь задней панели iPhone, чтобы сохранить"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -17648,6 +18920,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "위의 버튼을 탭하고 새로운 단축어 생성"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Коснитесь кнопки выше и создайте новую быструю команду"
           }
         },
         "th": {
@@ -17733,6 +19011,12 @@
             "value": "위의 버튼을 탭하여 단축어 추가"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Коснитесь кнопки выше, чтобы добавить быструю команду"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -17814,6 +19098,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "‘새로운 키보드 추가’를 탭하고 Copymunk 선택"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Коснитесь «Новая клавиатура…» и выберите Copymunk"
           }
         },
         "th": {
@@ -17899,6 +19189,12 @@
             "value": "‘제어 항목 추가’를 탭하고 Copymunk 검색"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Коснитесь «Добавить элемент управления» и найдите Copymunk"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -17980,6 +19276,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "‘두 번 탭’을 탭하고 단축어 선택"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Коснитесь «Двойное касание» и выберите быструю команду"
           }
         },
         "th": {
@@ -18065,6 +19367,12 @@
             "value": "‘다른 앱에서 붙여넣기’ 탭"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Коснитесь «Вставка из других приложений»"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -18146,6 +19454,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "텍스트"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Текст"
           }
         },
         "th": {
@@ -18231,6 +19545,12 @@
             "value": "해당 항목이 더 이상 Copymunk에 없습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Этого элемента больше нет в Copymunk."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -18312,6 +19632,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "잠금 화면의 버튼도 같은 방법으로 사용할 수 있음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кнопки на экране блокировки работают так же"
           }
         },
         "th": {
@@ -18397,6 +19723,12 @@
             "value": "이 제어 항목은 Copymunk에 포함되어 있으므로 먼저 추가할 것이 없습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Элемент управления входит в Copymunk, поэтому заранее ничего добавлять не нужно."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -18478,6 +19810,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "키보드 확장 프로그램이 기록을 읽으려면 이 권한이 필요합니다. Copymunk 키보드는 인터넷에 연결하지 않으며 입력한 내용을 기록하지 않습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Он нужен расширению клавиатуры, чтобы читать историю. Клавиатура Copymunk никогда не выходит в интернет и не записывает то, что Вы вводите."
           }
         },
         "th": {
@@ -18563,6 +19901,12 @@
             "value": "여기에는 저장할 항목이 없습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Здесь нечего сохранять."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -18644,6 +19988,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 빌드는 iCloud 동기화를 위한 서명이 되어 있지 않음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Эта сборка не подписана для синхронизации iCloud"
           }
         },
         "th": {
@@ -18729,6 +20079,12 @@
             "value": "Pinboard에 고정되지 않은 모든 항목이 삭제됩니다. 이 동작은 실행 취소할 수 없습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Будут удалены все элементы, не закрепленные в Pinboard. Это действие нельзя отменить."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -18810,6 +20166,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 기기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Это устройство"
           }
         },
         "th": {
@@ -18895,6 +20257,12 @@
             "value": "이 iPad에서 저장하는 세 가지 방법"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Три способа сохранять с этого iPad"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -18976,6 +20344,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 iPhone에서 저장하는 세 가지 방법"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Три способа сохранять с этого iPhone"
           }
         },
         "th": {
@@ -19061,6 +20435,12 @@
             "value": "시간"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Время"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -19142,6 +20522,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "‘붙여넣기 허용’을 매번 탭하기 번거롭다면"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Надоело касаться «Разрешить вставку»?"
           }
         },
         "th": {
@@ -19227,6 +20613,12 @@
             "value": "사이드바 토글"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать или скрыть боковое меню"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -19308,6 +20700,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다른 키워드나 필터로 시도해 보십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Попробуйте другое ключевое слово или фильтр."
           }
         },
         "th": {
@@ -19393,6 +20791,12 @@
             "value": "iCloud 동기화 켜기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включить синхронизацию iCloud"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -19474,6 +20878,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "‘전체 접근 허용’ 켜기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включите «Разрешить полный доступ»"
           }
         },
         "th": {
@@ -19559,6 +20969,12 @@
             "value": "마지막 두 가지"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "И последние два шага"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -19637,6 +21053,12 @@
           }
         },
         "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL"
+          }
+        },
+        "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "URL"
@@ -19725,6 +21147,12 @@
             "value": "무제한"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Без ограничений"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -19806,6 +21234,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "고정 해제"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открепить"
           }
         },
         "th": {
@@ -19891,6 +21325,12 @@
             "value": "고정 해제됨"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откреплено"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -19972,6 +21412,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "허용하기 전까지는 기록 상단에 ‘새로운 클립보드 콘텐츠’ 배너가 표시됩니다. 배너의 시스템 붙여넣기 버튼을 사용하여 직접 저장하십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пока доступ не разрешен, вверху истории показывается баннер «Новое в буфере обмена» — сохраняйте вручную системной кнопкой вставки на нем."
           }
         },
         "th": {
@@ -20057,6 +21503,12 @@
             "value": "버전 %@"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Версия %@"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -20138,6 +21590,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk를 열 때"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "При открытии Copymunk"
           }
         },
         "th": {
@@ -20223,6 +21681,12 @@
             "value": "이 옵션을 끄면 Copymunk가 열릴 때 클립보드를 읽지 않습니다. 기록 상단의 배너를 사용하여 직접 붙여넣어 저장하십시오."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Если параметр выключен, Copymunk не читает буфер обмена при открытии — вставляйте и сохраняйте вручную через баннер вверху истории."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -20304,6 +21768,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "두 가지 모두 나중에 설정에서 변경할 수 있습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оба параметра можно изменить позже в настройках."
           }
         },
         "th": {
@@ -20389,6 +21859,12 @@
             "value": "주머니 속 Mac 클립보드"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Буфер обмена Mac — у Вас в кармане"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -20470,6 +21946,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "인증번호는 482913입니다. 5분 후 만료됩니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш код подтверждения: 482913. Он действует 5 минут."
           }
         },
         "th": {
@@ -20555,6 +22037,12 @@
             "value": "클립"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "элемент"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -20636,6 +22124,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "클립보드"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "буфер обмена"
           }
         },
         "th": {
@@ -20721,6 +22215,12 @@
             "value": "iCloud 동기화"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Синхронизация iCloud"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -20802,6 +22302,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 기기에서 iCloud 사용이 제한되어 있음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud на этом устройстве ограничен"
           }
         },
         "th": {
@@ -20887,6 +22393,12 @@
             "value": "iCloud를 일시적으로 사용할 수 없습니다. Copymunk가 다시 시도합니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud временно недоступен. Copymunk повторит попытку."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -20968,6 +22480,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud 동기화 실패"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ошибка синхронизации iCloud"
           }
         },
         "th": {
@@ -21053,6 +22571,12 @@
             "value": "iCloud 동기화가 꺼져 있음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Синхронизация iCloud выключена"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -21134,6 +22658,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOS가 매번 물어봄"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS спрашивает каждый раз"
           }
         },
         "th": {
@@ -21219,6 +22749,12 @@
             "value": "Copymunk가 처음 클립보드를 읽을 때 iOS가 묻습니다. ‘붙여넣기 허용’을 탭하십시오. 나중에 설정에서 ‘허용’으로 변경할 수 있습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS спросит, когда Copymunk впервые прочитает буфер обмена. Коснитесь «Разрешить вставку»; позже в Настройках можно выбрать «Разрешать»."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -21300,6 +22836,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iOS에서는 앱이 백그라운드에서 클립보드를 읽을 수 없으므로 Copymunk는 다음 세 가지 경우에만 저장합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS не позволяет приложениям читать буфер обмена в фоновом режиме, поэтому Copymunk сохраняет только в этих трех случаях."
           }
         },
         "th": {
@@ -21385,6 +22927,12 @@
             "value": "iOS에서는 앱이 백그라운드에서 클립보드를 읽을 수 없습니다. Copymunk는 다음 세 가지 경우에만 저장합니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS не позволяет приложениям читать буфер обмена в фоновом режиме. Copymunk сохраняет только в этих трех случаях."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -21466,6 +23014,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iPhone 15 Pro 및 이후 모델"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone 15 Pro и новее"
           }
         },
         "th": {
@@ -21551,6 +23105,12 @@
             "value": "지금"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "сейчас"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -21632,6 +23192,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "붙여넣기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "вставить"
           }
         },
         "th": {
@@ -21717,6 +23283,12 @@
             "value": "저장"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "сохранить"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -21800,6 +23372,12 @@
             "value": "‘%@’이(가) 기본으로 설정됨"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard «%@» назначен по умолчанию"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -21881,6 +23459,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "모든 앱에서 공유 › Copymunk"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«Поделиться» › Copymunk в любом приложении"
           }
         },
         "th": {

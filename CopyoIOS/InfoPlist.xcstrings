@@ -53,6 +53,12 @@
             "value" : "Copymunk가 선택한 이미지를 사진 보관함에 저장합니다."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copymunk сохраняет выбранное Вами изображение в медиатеку."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",

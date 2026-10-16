@@ -419,6 +419,7 @@
 				it,
 				ja,
 				ko,
+				ru,
 				th,
 				tr,
 				vi,

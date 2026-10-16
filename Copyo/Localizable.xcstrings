@@ -46,6 +46,12 @@
             "value": "%@ 키는 다른 앱에서도 사용 중입니다. 누르면 해당 앱이 실행되어 Copymunk가 반응하지 않을 수 있습니다. 다른 조합을 선택하십시오."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сочетание %@ также использует другое приложение: при нажатии сработает оно, а Copymunk может не отреагировать. Выберите другое сочетание."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -123,6 +129,12 @@
             "value": "%@ 키는 다른 앱에서 사용 중이므로 작동하지 않습니다. 다른 조합을 선택하십시오."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сочетание %@ не работает, так как его использует другое приложение. Выберите другое сочетание."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -198,6 +210,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ 키는 macOS의 키보드 단축키로 사용 중이므로 작동하지 않습니다. 다른 조합을 선택하거나 시스템 설정에서 해당 단축키를 끄십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сочетание %@ не работает, так как macOS использует его как сочетание клавиш. Выберите другое сочетание или выключите это сочетание клавиш в Системных настройках."
           }
         },
         "th": {
@@ -476,6 +494,46 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "%arg자"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "few": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg символа"
+                    }
+                  },
+                  "many": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg символов"
+                    }
+                  },
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg символ"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg символа"
                     }
                   }
                 }
@@ -836,6 +894,46 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "few": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg файла"
+                    }
+                  },
+                  "many": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg файлов"
+                    }
+                  },
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg файл"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg файла"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -987,6 +1085,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@, 출처: %2$@, %3$@, %4$@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, из %2$@, %3$@, %4$@"
           }
         },
         "th": {
@@ -1187,6 +1291,36 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "%lld자"
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld символа"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld символов"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld символ"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld символа"
                 }
               }
             }
@@ -1425,6 +1559,36 @@
             }
           }
         },
+        "ru": {
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld файла"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld файлов"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld файл"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld файла"
+                }
+              }
+            }
+          }
+        },
         "th": {
           "variations": {
             "plural": {
@@ -1653,6 +1817,36 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "외 파일 %lld개"
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Еще %lld файла"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Еще %lld файлов"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Еще %lld файл"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Еще %lld файла"
                 }
               }
             }
@@ -1891,6 +2085,36 @@
             }
           }
         },
+        "ru": {
+          "variations": {
+            "plural": {
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld результата"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld результатов"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld результат"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld результата"
+                }
+              }
+            }
+          }
+        },
         "th": {
           "variations": {
             "plural": {
@@ -1998,6 +2222,12 @@
             "value": "%lld일"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld дн."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2073,6 +2303,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld시간"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ч"
           }
         },
         "th": {
@@ -2152,6 +2388,12 @@
             "value": "%lld분"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld мин"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2227,6 +2469,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "100개"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "100 элементов"
           }
         },
         "th": {
@@ -2306,6 +2554,12 @@
             "value": "1,000개"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 000 элементов"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2381,6 +2635,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "300개"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "300 элементов"
           }
         },
         "th": {
@@ -2460,6 +2720,12 @@
             "value": "500개"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "500 элементов"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2535,6 +2801,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "정보"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "О программе"
           }
         },
         "th": {
@@ -2614,6 +2886,12 @@
             "value": "추가"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавить"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2689,6 +2967,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "앱 추가"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавить приложение"
           }
         },
         "th": {
@@ -2768,6 +3052,12 @@
             "value": "복사하면 Copymunk가 항목을 시스템 클립보드에 다시 넣고 원래 사용하던 앱으로 포커스를 돌려줍니다. 붙여넣기는 직접 ⌘V를 눌러야 하며, Copymunk가 대신 붙여넣는 일은 없습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "После копирования Copymunk помещает элемент обратно в системный буфер обмена и возвращает фокус приложению, из которого Вы пришли. ⌘V Вы нажимаете сами — Copymunk никогда не вставляет за Вас."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2843,6 +3133,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "전체"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Все"
           }
         },
         "th": {
@@ -2922,6 +3218,12 @@
             "value": "항상 일반 텍스트로 복사"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всегда копировать как простой текст"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2997,6 +3299,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "항상 켬"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всегда включено"
           }
         },
         "th": {
@@ -3076,6 +3384,12 @@
             "value": "모든 기기가 공유하는 폴더라면 어디든 사용할 수 있습니다. 예를 들어 iCloud Drive 안의 폴더나 회사 드라이브도 됩니다. Copymunk는 자체 하위 폴더에 파일을 보관하며, 여기에서 선택한 폴더에만 접근할 수 있습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подойдет любая папка, общая для всех Ваших устройств, — например, папка в iCloud Drive или корпоративный диск. Copymunk хранит свои файлы в отдельной вложенной папке и имеет доступ только к папке, выбранной здесь."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3151,6 +3465,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "복사한 모든 항목이 여기에 표시됩니다. Copymunk가 백그라운드에서 기록하므로 따로 할 일은 없습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Здесь появляется все, что Вы копируете. Copymunk записывает это в фоновом режиме — от Вас ничего не требуется."
           }
         },
         "th": {
@@ -3230,6 +3550,12 @@
             "value": "↩ 키를 누를 때 적용됩니다. ⇧↩ 키는 항상 일반 텍스트로 복사합니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Действует при нажатии ↩. ⇧↩ всегда копирует как простой текст."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3305,6 +3631,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "사용 가능"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Доступен"
           }
         },
         "th": {
@@ -3384,6 +3716,12 @@
             "value": "복사한 후 원래 앱으로 돌아가 ⌘V를 눌러 붙여넣으십시오"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировав, вернитесь в приложение и нажмите ⌘V"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3459,6 +3797,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "취소"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отменить"
           }
         },
         "th": {
@@ -3538,6 +3882,12 @@
             "value": "이 폴더에 접근할 수 없음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет доступа к этой папке"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3613,6 +3963,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "클립보드"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Запись"
           }
         },
         "th": {
@@ -3692,6 +4048,12 @@
             "value": "확인 중…"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проверка…"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3767,6 +4129,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "선택"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выбрать"
           }
         },
         "th": {
@@ -3846,6 +4214,12 @@
             "value": "다시 선택…"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выбрать снова…"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3921,6 +4295,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "폴더 선택…"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выбрать папку…"
           }
         },
         "th": {
@@ -4000,6 +4380,12 @@
             "value": "모든 Mac에서 읽고 쓸 수 있는 폴더를 선택하십시오."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите папку, доступную для чтения и записи на всех Ваших компьютерах Mac."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4075,6 +4461,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "동기화를 켜려면 아래에서 동기화 폴더를 선택하십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите ниже папку синхронизации, чтобы включить синхронизацию."
           }
         },
         "th": {
@@ -4154,6 +4546,12 @@
             "value": "동기화 폴더를 다시 선택하십시오"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите папку синхронизации заново"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4229,6 +4627,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "지우기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистить"
           }
         },
         "th": {
@@ -4308,6 +4712,12 @@
             "value": "기록을 지우겠습니까?"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистить историю?"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4383,6 +4793,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "기록 지우기…"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистить историю…"
           }
         },
         "th": {
@@ -4462,6 +4878,12 @@
             "value": "클릭하여 변경"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите, чтобы изменить"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4537,6 +4959,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "클립보드"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Буфер обмена"
           }
         },
         "th": {
@@ -4616,6 +5044,12 @@
             "value": "닫기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрыть"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4691,6 +5125,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "패널 닫기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрыть панель"
           }
         },
         "th": {
@@ -4770,6 +5210,12 @@
             "value": "색상"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Цвет"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4845,6 +5291,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1Password 및 키체인의 콘텐츠는 기록하지 않음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Содержимое из 1Password и Связки ключей никогда не записывается"
           }
         },
         "th": {
@@ -4924,6 +5376,12 @@
             "value": "복사됨 · ⌘V를 눌러 붙여넣기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировано · вставьте через ⌘V"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4999,6 +5457,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "복사되었습니다. ⌘V를 눌러 붙여넣으십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировано. Нажмите ⌘V, чтобы вставить"
           }
         },
         "th": {
@@ -5078,6 +5542,12 @@
             "value": "복사하기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировать"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -5153,6 +5623,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "N번째 카드 바로 복사"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сразу скопировать карточку N"
           }
         },
         "th": {
@@ -5232,6 +5708,12 @@
             "value": "선택한 항목 복사"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировать выбранный элемент"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -5307,6 +5789,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "일반 텍스트로 복사"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировать выбранное как простой текст"
           }
         },
         "th": {
@@ -5386,6 +5874,12 @@
             "value": "일반 텍스트로 복사"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировать как простой текст"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -5461,6 +5955,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 클립보드 기록을 삭제할 수 없습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk не удалось удалить историю буфера обмена."
           }
         },
         "th": {
@@ -5540,6 +6040,12 @@
             "value": "Copymunk가 동기화 폴더에 접근할 수 없어 해당 폴더의 사본은 삭제되지 않았습니다. 설정에서 폴더를 다시 선택하거나 직접 삭제하십시오."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk не удалось получить доступ к папке синхронизации, поэтому копия в ней не удалена. Выберите папку заново в настройках или удалите копию самостоятельно."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -5615,6 +6121,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 스스로 다시 시작할 수 없습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk не удалось перезапуститься."
           }
         },
         "th": {
@@ -5694,6 +6206,12 @@
             "value": "Copymunk가 동기화 폴더에 저장한 스냅샷과 이미지를 삭제하고 공유 폴더 동기화를 끕니다. 폴더 동기화로는 다른 Mac에 삭제를 알릴 방법이 없으므로, 켜 두면 그 Mac들의 기록이 그대로 다시 복사됩니다. 다른 Mac이 폴더에 넣은 항목은 직접 삭제할 때까지 남아 있습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk удалит снимки и изображения, которые он поместил в папку синхронизации, и выключит синхронизацию через общую папку: такая синхронизация не может сообщить другим Вашим компьютерам Mac, что нужно что-то удалить, поэтому, если оставить ее включенной, их история сразу скопируется обратно. То, что эти компьютеры Mac поместили в папку, останется там, пока Вы не удалите это сами."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -5769,6 +6287,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud 동기화가 꺼진 상태에서 Copymunk가 이 Mac을 지웠으므로 iCloud의 사본은 제거되지 않았습니다. iCloud 동기화를 켜면 해당 항목이 다시 돌아올 수 있습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk стер данные на этом Mac, когда синхронизация iCloud была выключена, поэтому копия в iCloud не удалена. Если включить синхронизацию iCloud, эти элементы могут вернуться."
           }
         },
         "th": {
@@ -5848,6 +6372,12 @@
             "value": "Copymunk가 iCloud 개인 데이터베이스로 삭제 요청을 보내는 중입니다. Copymunk를 열어 두고 iCloud에 로그인된 상태를 유지하십시오. Copymunk는 이 작업이 언제 완료되는지 알려 줄 수 없습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk отправляет удаление в Вашу частную базу данных iCloud. Не закрывайте Copymunk и не выходите из iCloud. Copymunk не может сообщить, когда отправка завершится."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -5923,6 +6453,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 로컬 데이터베이스만 사용 중이므로 손실된 데이터는 없습니다. 위의 문제를 해결한 다음 Copymunk를 다시 시작하십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk использует только локальную базу данных, поэтому ничего не потеряно. Устраните проблему выше и перезапустите Copymunk."
           }
         },
         "th": {
@@ -6002,6 +6538,12 @@
             "value": "Copymunk는 메뉴 막대(오른쪽 상단의 다람쥐 아이콘)에서 실행됩니다.\n\n• 언제든지 메뉴 막대 아이콘을 클릭하면 클립보드 패널이 열립니다\n• 복사한 모든 항목은 자동으로 저장되며, 입력하면 바로 검색됩니다\n• 항목을 선택하고 Return 키를 누르면 클립보드로 돌아가며, 붙여넣기는 직접 ⌘V로 합니다. ⇧Return 키를 누르면 일반 텍스트로 복사됩니다\n• 설정은 패널의 톱니바퀴 버튼을 클릭하거나 메뉴 막대 아이콘을 오른쪽 클릭하여 열 수 있습니다"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk находится в строке меню (значок бурундука в правом верхнем углу).\n\n• Нажмите значок в строке меню в любой момент, чтобы открыть панель буфера обмена\n• Все, что Вы копируете, сохраняется автоматически — для поиска просто начните вводить текст\n• Выберите элемент и нажмите ↩, чтобы вернуть его в буфер обмена, а затем вставьте его сами с помощью ⌘V. ⇧↩ копирует как простой текст\n• Настройки открываются шестеренкой на панели или нажатием правой кнопкой мыши на значок в строке меню"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6077,6 +6619,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk는 메뉴 막대(오른쪽 상단의 다람쥐 아이콘)에서 실행됩니다.\n\n• 언제든지 %@ 키를 누르면 클립보드 패널이 열립니다\n• 복사한 모든 항목은 자동으로 저장되며, 입력하면 바로 검색됩니다\n• 항목을 선택하고 Return 키를 누르면 클립보드로 돌아가며, 붙여넣기는 직접 ⌘V로 합니다. ⇧Return 키를 누르면 일반 텍스트로 복사됩니다\n• 설정은 패널의 톱니바퀴 버튼을 클릭하거나 메뉴 막대 아이콘을 오른쪽 클릭하여 열 수 있습니다"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk находится в строке меню (значок бурундука в правом верхнем углу).\n\n• Нажмите %@ в любой момент, чтобы открыть панель буфера обмена\n• Все, что Вы копируете, сохраняется автоматически — для поиска просто начните вводить текст\n• Выберите элемент и нажмите ↩, чтобы вернуть его в буфер обмена, а затем вставьте его сами с помощью ⌘V. ⇧↩ копирует как простой текст\n• Настройки открываются шестеренкой на панели или нажатием правой кнопкой мыши на значок в строке меню"
           }
         },
         "th": {
@@ -6156,6 +6704,12 @@
             "value": "Copymunk는 백그라운드에서 기록하며 별도의 권한이 필요하지 않음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk записывает в фоновом режиме и не требует разрешений"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6231,6 +6785,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 다시 시작되면서 데이터베이스 파일을 지우므로, 삭제한 항목을 이 Mac에서 복구할 수 없게 됩니다. iCloud 개인 데이터베이스에서 아직 삭제가 반영되지 않은 항목은 그대로 남아 있다가 이 Mac으로 다시 돌아옵니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk перезапустится и очистит файл базы данных, чтобы удаленные элементы нельзя было восстановить с этого Mac. То, до чего удаление еще не дошло в Вашей частной базе данных iCloud, останется там и вернется на этот Mac."
           }
         },
         "th": {
@@ -6310,6 +6870,12 @@
             "value": "데이터베이스 파일 지우기를 완료하기 위해 Copymunk가 다시 시작됩니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk перезапустится, чтобы завершить очистку файла базы данных."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6385,6 +6951,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "생성"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Создать"
           }
         },
         "th": {
@@ -6464,6 +7036,12 @@
             "value": "생성 후 고정"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Создать и закрепить"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6539,6 +7117,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "오려두기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вырезать"
           }
         },
         "th": {
@@ -6618,6 +7202,12 @@
             "value": "필터 순환"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переключать фильтры"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6693,6 +7283,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "삭제"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить"
           }
         },
         "th": {
@@ -6772,6 +7368,12 @@
             "value": "모두 삭제"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить все"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6847,6 +7449,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "모든 데이터를 삭제하겠습니까?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить все данные?"
           }
         },
         "th": {
@@ -6926,6 +7534,12 @@
             "value": "모든 데이터 삭제…"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить все данные…"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -7001,6 +7615,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard 삭제"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить Pinboard"
           }
         },
         "th": {
@@ -7080,6 +7700,12 @@
             "value": "‘%@’ Pinboard 삭제"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить Pinboard «%@»"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -7155,6 +7781,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다음 앱은 기록 안 함"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не записывать из этих приложений"
           }
         },
         "th": {
@@ -7234,6 +7866,12 @@
             "value": "편집"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Правка"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -7309,6 +7947,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Esc 키를 누르면 검색어 지우기 · 한 번 더 누르면 닫기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc очищает поиск · нажмите еще раз, чтобы закрыть"
           }
         },
         "th": {
@@ -7388,6 +8032,12 @@
             "value": "Esc 키를 눌러 닫기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc — закрыть"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -7463,6 +8113,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 Mac의 모든 데이터가 삭제되었습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Все данные на этом Mac удалены."
           }
         },
         "th": {
@@ -7542,6 +8198,12 @@
             "value": "복사한 모든 항목이 여기에 있습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Здесь все, что Вы скопировали."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -7617,6 +8279,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "복사한 모든 항목이 여기에 있습니다. 언제든지 %@ 키를 눌러 다시 꺼내 쓰십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Здесь все, что Вы скопировали. Нажмите %@, чтобы открыть это в любой момент."
           }
         },
         "th": {
@@ -7696,6 +8364,12 @@
             "value": "파일"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Файл"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -7771,6 +8445,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 Mac 지우기 완료"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завершить стирание этого Mac"
           }
         },
         "th": {
@@ -7850,6 +8530,12 @@
             "value": "이 Mac 지우기를 완료하겠습니까?"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завершить стирание этого Mac?"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -7925,6 +8611,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "검색으로 이동"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перейти к поиску"
           }
         },
         "th": {
@@ -8004,6 +8696,12 @@
             "value": "일반"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Основные"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8079,6 +8777,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "전역 단축키"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Глобальное сочетание клавиш"
           }
         },
         "th": {
@@ -8158,6 +8862,12 @@
             "value": "확인"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Понятно"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8233,6 +8943,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "도움말"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Справка"
           }
         },
         "th": {
@@ -8312,6 +9028,12 @@
             "value": "기록"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "История"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8387,6 +9109,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "암호 관리자 무시"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Игнорировать менеджеры паролей"
           }
         },
         "th": {
@@ -8466,6 +9194,12 @@
             "value": "이미지"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изображение"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8541,6 +9275,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "패널 안에서"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "На панели"
           }
         },
         "th": {
@@ -8620,6 +9360,12 @@
             "value": "모든 Pinboard 및 Pinboard에 고정된 모든 항목 포함"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включая все Pinboard и все, что в них закреплено"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8695,6 +9441,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "최대 보관 개수"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Хранить до"
           }
         },
         "th": {
@@ -8774,6 +9526,12 @@
             "value": "키 %lld"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Клавиша %lld"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8849,6 +9607,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "지난주"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неделю назад"
           }
         },
         "th": {
@@ -8928,6 +9692,12 @@
             "value": "로그인 시 Copymunk 실행"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открывать Copymunk при входе"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9003,6 +9773,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "링크"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ссылка"
           }
         },
         "th": {
@@ -9082,6 +9858,12 @@
             "value": "기록을 iCloud에 그대로 미러링합니다. 항목을 삭제하면 모든 기기에서 제거됩니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Зеркалирует историю прямо в Ваш iCloud. Удаленный элемент исчезает на всех устройствах."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9157,6 +9939,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이름"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Название"
           }
         },
         "th": {
@@ -9236,6 +10024,12 @@
             "value": "새로운 Pinboard"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новый Pinboard"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9311,6 +10105,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "새로운 Pinboard 이름"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Название нового Pinboard"
           }
         },
         "th": {
@@ -9390,6 +10190,12 @@
             "value": "새로운 Pinboard…"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новый Pinboard…"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9465,6 +10271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "추가된 앱 없음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Приложения не добавлены"
           }
         },
         "th": {
@@ -9544,6 +10356,12 @@
             "value": "선택된 폴더 없음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Папка не выбрана"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9619,6 +10437,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "선택된 동기화 폴더 없음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Папка синхронизации не выбрана"
           }
         },
         "th": {
@@ -9698,6 +10522,12 @@
             "value": "지금 안 함"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не сейчас"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9773,6 +10603,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "로그인되지 않음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вход не выполнен"
           }
         },
         "th": {
@@ -9852,6 +10688,12 @@
             "value": "아직 동기화되지 않음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Еще не синхронизировано"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9927,6 +10769,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "아직 항목 없음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Здесь пока ничего нет"
           }
         },
         "th": {
@@ -10006,6 +10854,12 @@
             "value": "‘%@’와(과) 일치하는 항목 없음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По запросу «%@» ничего не найдено"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10081,6 +10935,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 유형의 항목 없음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Элементов этого типа пока нет"
           }
         },
         "th": {
@@ -10160,6 +11020,12 @@
             "value": "아무것도 삭제되지 않았습니다. 다시 시도하고, 계속 실패하면 메뉴 막대 아이콘에서 Copymunk를 종료한 다음 다시 여십시오."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ничего не удалено. Повторите попытку; если ошибка не исчезнет, завершите Copymunk через значок в строке меню и откройте его снова."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10235,6 +11101,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 앱에서 복사한 항목은 기록에 남지 않음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопированное в них не попадает в историю"
           }
         },
         "th": {
@@ -10314,6 +11186,12 @@
             "value": "끔"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выкл."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10389,6 +11267,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard에 고정되지 않은 항목만 제거"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удаляет только элементы, не закрепленные в Pinboard"
           }
         },
         "th": {
@@ -10468,6 +11352,12 @@
             "value": "Copymunk 열기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть Copymunk"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10543,6 +11433,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "시스템 설정 열기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть Системные настройки"
           }
         },
         "th": {
@@ -10622,6 +11518,12 @@
             "value": "다른 기기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Другое устройство"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10697,6 +11599,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "붙여넣기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вставить"
           }
         },
         "th": {
@@ -10776,6 +11684,12 @@
             "value": "고정"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрепить"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10851,6 +11765,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "고정 위치"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрепить в"
           }
         },
         "th": {
@@ -10930,6 +11850,12 @@
             "value": "Pinboard에 고정"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрепить в Pinboard"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11002,6 +11928,12 @@
           }
         },
         "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard"
+          }
+        },
+        "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard"
@@ -11084,6 +12016,12 @@
             "value": "고정됨"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закреплено"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11159,6 +12097,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "언제든지 %@ 키를 눌러 이 패널을 열 수 있습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите %@ в любой момент, чтобы открыть эту панель"
           }
         },
         "th": {
@@ -11238,6 +12182,12 @@
             "value": "새로운 단축키를 누르십시오…"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите новое сочетание…"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11313,6 +12263,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "미리보기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Просмотр"
           }
         },
         "th": {
@@ -11392,6 +12348,12 @@
             "value": "이 Mac에서는 푸시 알림을 사용할 수 없으므로, 다른 기기에서 변경한 내용은 Copymunk가 시작될 때만 반영됩니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Push-уведомления на этом Mac недоступны, поэтому изменения с других Ваших устройств приходят только при запуске Copymunk."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11467,6 +12429,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk 종료"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завершить Copymunk"
           }
         },
         "th": {
@@ -11546,6 +12514,12 @@
             "value": "메뉴 막대 아이콘에서 Copymunk를 종료한 다음 다시 여십시오. 다음 실행 시 데이터베이스 파일 지우기가 완료됩니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завершите Copymunk через значок в строке меню и откройте его снова — очистка файла базы данных завершится при следующем запуске."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11621,6 +12595,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "메뉴 막대 아이콘에서 Copymunk를 종료한 다음 다시 여십시오. 새로운 동기화 설정은 이미 저장되었습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завершите Copymunk через значок в строке меню и откройте его снова. Новый способ синхронизации уже сохранен."
           }
         },
         "th": {
@@ -11700,6 +12680,12 @@
             "value": "클립보드 자동 기록"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Автоматически записывать буфер обмена"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11775,6 +12761,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "실행 복귀"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повторить"
           }
         },
         "th": {
@@ -11854,6 +12846,12 @@
             "value": "선택한 앱 제거"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить выбранное приложение"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11929,6 +12927,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "재설정"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сбросить"
           }
         },
         "th": {
@@ -12008,6 +13012,12 @@
             "value": "Copymunk 다시 시작"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перезапустить Copymunk"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12083,6 +13093,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud 동기화를 중단하기 위해 Copymunk를 다시 시작하겠습니까?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перезапустить Copymunk, чтобы остановить синхронизацию iCloud?"
           }
         },
         "th": {
@@ -12162,6 +13178,12 @@
             "value": "기본 위치로 복원"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вернуть исходное расположение"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12237,6 +13259,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "제한됨"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ограничен"
           }
         },
         "th": {
@@ -12316,6 +13344,12 @@
             "value": "리치"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Формат"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12391,6 +13425,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "리치 텍스트"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Форматированный текст"
           }
         },
         "th": {
@@ -12470,6 +13510,12 @@
             "value": "카드를 오른쪽 클릭하고 ‘Pinboard에 고정’을 선택하면 자주 사용하는 항목을 여기에 보관할 수 있습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите карточку правой кнопкой мыши и выберите «Закрепить в Pinboard», чтобы держать здесь то, чем Вы пользуетесь чаще всего."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12545,6 +13591,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "기록을 스냅샷으로 폴더에 저장합니다. iCloud Drive나 어떤 공유 폴더든 사용할 수 있습니다. 삭제한 내용은 다른 기기에 동기화되지 않습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохраняет историю в виде снимков в папке — подойдет iCloud Drive или любая общая папка. Удаления не синхронизируются с другими устройствами."
           }
         },
         "th": {
@@ -12624,6 +13676,12 @@
             "value": "검색"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поиск"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12699,6 +13757,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "기록 검색"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поиск в истории"
           }
         },
         "th": {
@@ -12778,6 +13842,12 @@
             "value": "전체 선택"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выбрать все"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12853,6 +13923,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "설정"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки"
           }
         },
         "th": {
@@ -12932,6 +14008,12 @@
             "value": "설정…"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки…"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13007,6 +14089,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "공유 폴더"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Общая папка"
           }
         },
         "th": {
@@ -13086,6 +14174,12 @@
             "value": "공유 폴더 동기화됨"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Общая папка синхронизирована"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13161,6 +14255,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "단축키"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Клавиши"
           }
         },
         "th": {
@@ -13240,6 +14340,12 @@
             "value": "모든 기록 보기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать всю историю"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13315,6 +14421,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "패널 보기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать панель"
           }
         },
         "th": {
@@ -13394,6 +14506,12 @@
             "value": "메뉴 막대에 아이콘 보기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показывать значок в строке меню"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13469,6 +14587,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "스페이스"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пробел"
           }
         },
         "th": {
@@ -13548,6 +14672,12 @@
             "value": "시작"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Запуск"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13623,6 +14753,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "상태"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Статус"
           }
         },
         "th": {
@@ -13702,6 +14838,12 @@
             "value": "동기화"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Синхронизация"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13777,6 +14919,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "동기화 폴더"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Папка синхронизации"
           }
         },
         "th": {
@@ -13856,6 +15004,12 @@
             "value": "동기화 방법"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Способ синхронизации"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13931,6 +15085,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "지금 동기화"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Синхронизировать"
           }
         },
         "th": {
@@ -14010,6 +15170,12 @@
             "value": "동기화 방법이 변경됨 — 다시 시작하면 적용"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Способ синхронизации изменен — перезапустите, чтобы применить"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14085,6 +15251,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "동기화됨"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Синхронизировано"
           }
         },
         "th": {
@@ -14164,6 +15336,12 @@
             "value": "일시적으로 사용할 수 없음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Временно недоступен"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14239,6 +15417,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "텍스트"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Текст"
           }
         },
         "th": {
@@ -14318,6 +15502,12 @@
             "value": "조합에 ⌘, ⌥ 또는 ⌃ 중 하나 이상이 포함되어야 합니다. 취소하려면 Esc 키를 누르십시오."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сочетание должно включать хотя бы одну из клавиш ⌘, ⌥ или ⌃. Нажмите Esc для отмены."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14393,6 +15583,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud 동기화가 꺼져 있으므로 iCloud 개인 데이터베이스의 사본은 그대로 남아 있습니다. 해당 사본도 제거하려면 동기화를 iCloud로 설정하고 Copymunk를 다시 연 다음 한 번 더 삭제하십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Копия в Вашей частной базе данных iCloud не затронута, так как синхронизация iCloud выключена. Выберите iCloud в разделе «Синхронизация», снова откройте Copymunk и повторите удаление, чтобы удалить и ее."
           }
         },
         "th": {
@@ -14472,6 +15668,12 @@
             "value": "생성되면 현재 카드가 고정됨"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Текущая карточка будет закреплена в нем после создания"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14547,6 +15749,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "폴더가 이동되었거나 이름이 변경되었거나, Copymunk의 폴더 접근 권한이 사라졌습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Папка была перемещена или переименована, либо Copymunk потерял к ней доступ."
           }
         },
         "th": {
@@ -14626,6 +15834,12 @@
             "value": "같은 삭제 요청이 iCloud 개인 데이터베이스와 다른 Mac으로 전송되도록 대기 중입니다. 완료될 때까지 Copymunk를 열어 두고 iCloud에 로그인된 상태를 유지하십시오. Copymunk는 완료 시점을 알려 줄 수 없습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Такое же удаление поставлено в очередь для Вашей частной базы данных iCloud и других Ваших компьютеров Mac. Не закрывайте Copymunk и не выходите из iCloud, пока оно не завершится, — Copymunk не может сообщить, когда это произойдет."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14701,6 +15915,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 Mac은 이전에 iCloud와 동기화한 적이 있습니다. 동기화가 꺼져 있는 동안에는 Copymunk가 iCloud의 사본에 접근할 수 없습니다. 해당 사본도 제거하려면 동기화를 iCloud로 설정하고 Copymunk를 다시 연 다음 한 번 더 삭제하십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Этот Mac раньше синхронизировался с iCloud. Пока синхронизация выключена, Copymunk не может изменить копию в iCloud — выберите iCloud в разделе «Синхронизация», снова откройте Copymunk и повторите удаление, чтобы удалить и эту копию."
           }
         },
         "th": {
@@ -14780,6 +16000,12 @@
             "value": "이 Pinboard는 비어 있음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Этот Pinboard пуст"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14855,6 +16081,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 조합은 이미 macOS 키보드 단축키로 사용 중입니다. %@(으)로 복원되었습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Это сочетание уже занято сочетанием клавиш macOS. Восстановлено: %@."
           }
         },
         "th": {
@@ -14934,6 +16166,12 @@
             "value": "이 조합은 이미 다른 앱에서 사용 중입니다. %@(으)로 복원되었습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Это сочетание уже использует другое приложение. Восстановлено: %@."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15009,6 +16247,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 Copymunk 사본은 iCloud 동기화를 위한 서명이 되어 있지 않습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Эта сборка Copymunk не подписана для синхронизации iCloud."
           }
         },
         "th": {
@@ -15088,6 +16332,12 @@
             "value": "모든 클립보드 항목과 모든 Pinboard가 Pinboard에 고정된 항목을 포함하여 삭제됩니다. 이 동작은 실행 취소할 수 없습니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Будут удалены все элементы буфера обмена и все Pinboard вместе со всем, что в них закреплено. Это действие нельзя отменить."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15163,6 +16413,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard에 고정되지 않은 모든 클립보드 항목이 삭제됩니다. 고정된 항목과 Pinboard는 유지됩니다. 이들까지 제거하려면 ‘모든 데이터 삭제’를 사용하십시오. 이 동작은 실행 취소할 수 없습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Будут удалены все элементы буфера обмена, не закрепленные в Pinboard. Закрепленные элементы и Pinboard сохранятся — чтобы удалить и их, используйте «Удалить все данные». Это действие нельзя отменить."
           }
         },
         "th": {
@@ -15242,6 +16498,12 @@
             "value": "지금 사용해 보기"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Попробовать"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15317,6 +16579,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "실행 취소"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отменить"
           }
         },
         "th": {
@@ -15396,6 +16664,12 @@
             "value": "알 수 없음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неизвестно"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15471,6 +16745,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "무제한"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Без ограничений"
           }
         },
         "th": {
@@ -15550,6 +16830,12 @@
             "value": "고정 해제"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открепить"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15625,6 +16911,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 다시 시작될 때까지 이 Mac은 클립보드 기록을 계속 iCloud 개인 데이터베이스로 보냅니다. 삭제한 항목도 아직 전송 중이며, Copymunk가 다시 시작될 때까지 전송되지 않은 항목은 iCloud에 남습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пока Copymunk не перезапустится, этот Mac продолжит отправлять историю буфера обмена в Вашу частную базу данных iCloud. Кроме того, Copymunk все еще отправляет удаление элементов; то, что не будет отправлено к моменту перезапуска, останется в iCloud."
           }
         },
         "th": {
@@ -15704,6 +16996,12 @@
             "value": "Copymunk가 다시 시작될 때까지 이 Mac은 클립보드 기록을 계속 iCloud 개인 데이터베이스로 보냅니다. 지금 다시 시작하지 않으면 이번 세션이 끝날 때까지 Copymunk가 iCloud 동기화를 계속 사용합니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пока Copymunk не перезапустится, этот Mac продолжит отправлять историю буфера обмена в Вашу частную базу данных iCloud. Если не перезапустить сейчас, Copymunk будет использовать синхронизацию iCloud до конца этого сеанса."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15779,6 +17077,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "버전"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Версия"
           }
         },
         "th": {
@@ -15858,6 +17162,12 @@
             "value": "Copymunk에 오신 것을 환영합니다"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добро пожаловать в Copymunk"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15933,6 +17243,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "한도를 초과하면 고정되지 않은 가장 오래된 항목부터 자동으로 제거됩니다. Pinboard에 고정된 항목은 영향을 받지 않습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "При превышении лимита самые старые незакрепленные элементы удаляются автоматически. Все, что закреплено в Pinboard, не затрагивается."
           }
         },
         "th": {
@@ -16012,6 +17328,12 @@
             "value": "이 옵션을 끄면 Finder에서 Copymunk를 다시 열어 설정으로 돌아올 수 있음"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Когда параметр выключен, настройки можно открыть, снова запустив Copymunk из Finder"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16087,6 +17409,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 옵션을 끄면 %@ 키를 누르거나 Finder에서 Copymunk를 다시 열어 설정으로 돌아올 수 있음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Когда параметр выключен, настройки можно открыть сочетанием %@ или снова запустив Copymunk из Finder"
           }
         },
         "th": {
@@ -16166,6 +17494,12 @@
             "value": "클립보드 기록이 이 Mac에만 보관됩니다."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "История буфера обмена хранится только на этом Mac."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16241,6 +17575,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "기록은 이 Mac과 사용자가 선택한 동기화 위치에만 저장됩니다. Copymunk는 어떠한 데이터도 수집하지 않습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваша история хранится только на этом Mac и в выбранном Вами месте синхронизации. Copymunk не собирает никаких данных."
           }
         },
         "th": {
@@ -16320,6 +17660,12 @@
             "value": "iCloud 계정"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Аккаунт iCloud"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16395,6 +17741,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 Mac에서 iCloud Drive가 꺼져 있습니다. 시스템 설정에서 켜거나 다른 폴더를 선택하십시오."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud Drive на этом Mac выключен. Включите его в Системных настройках или выберите другую папку."
           }
         },
         "th": {
@@ -16474,6 +17826,12 @@
             "value": "iCloud 동기화됨"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud синхронизирован"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16549,6 +17907,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud 동기화를 시작할 수 없음: %@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось запустить синхронизацию iCloud: %@"
           }
         },
         "th": {
@@ -16628,6 +17992,12 @@
             "value": "iCloud 동기화 확인 필요"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Синхронизация iCloud требует внимания"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16703,6 +18073,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "지금"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "сейчас"
           }
         },
         "th": {

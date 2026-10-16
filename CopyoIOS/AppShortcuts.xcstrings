@@ -109,6 +109,15 @@
               "บันทึกคลิปบอร์ดของฉันไปที่ ${applicationName}"
             ]
           }
+        },
+        "ru": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Сохрани мой буфер обмена в ${applicationName}",
+              "Сохранить буфер обмена в ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -208,6 +217,14 @@
             "values": [
               "บันทึกคลิปบอร์ดด้วย ${applicationName}",
               "ใช้ ${applicationName} บันทึกคลิปบอร์ด"
+            ]
+          }
+        },
+        "ru": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Сохрани буфер обмена через ${applicationName}"
             ]
           }
         }
@@ -310,6 +327,14 @@
               "บันทึกรายการนี้ไปที่ ${applicationName}"
             ]
           }
+        },
+        "ru": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Сохрани это в ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -408,6 +433,14 @@
             "state": "translated",
             "values": [
               "${applicationName} บันทึกคลิปบอร์ด"
+            ]
+          }
+        },
+        "ru": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}, сохрани буфер обмена"
             ]
           }
         }
