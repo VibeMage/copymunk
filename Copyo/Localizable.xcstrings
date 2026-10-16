@@ -22,6 +22,12 @@
             "value": "%@ est aussi utilisé par une autre app : appuyer dessus déclenche cette app, et Copymunk risque de ne pas réagir. Choisissez une autre combinaison."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@はほかのアプリでも使われています。押すとそのアプリが反応し、Copymunkが応答しない場合があります。別の組み合わせを選んでください。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -51,6 +57,12 @@
             "value": "%@ ne fonctionne pas, car une autre app l’utilise. Choisissez une autre combinaison."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@はほかのアプリが使用しているため機能していません。別の組み合わせを選んでください。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -78,6 +90,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ ne fonctionne pas, car macOS l’utilise comme raccourci clavier. Choisissez une autre combinaison ou désactivez ce raccourci dans Réglages Système."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@はmacOSのキーボードショートカットとして使われているため機能していません。別の組み合わせを選ぶか、システム設定でそのショートカットをオフにしてください。"
           }
         },
         "zh-Hans": {
@@ -202,6 +220,28 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "%arg caractères"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg文字"
                     }
                   }
                 }
@@ -338,6 +378,28 @@
             }
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg個のファイル"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -371,6 +433,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@, depuis %2$@, %3$@, %4$@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@、%2$@から、%3$@、%4$@"
           }
         },
         "zh-Hans": {
@@ -457,6 +525,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "%lld caractères"
+                }
+              }
+            }
+          }
+        },
+        "ja": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld文字"
                 }
               }
             }
@@ -551,6 +631,18 @@
             }
           }
         },
+        "ja": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld個のファイル"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -635,6 +727,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "%lld autres fichiers"
+                }
+              }
+            }
+          }
+        },
+        "ja": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "ほか%lld個のファイル"
                 }
               }
             }
@@ -729,6 +833,18 @@
             }
           }
         },
+        "ja": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld件の結果"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -756,6 +872,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld j"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld日"
           }
         },
         "zh-Hans": {
@@ -787,6 +909,12 @@
             "value": "%lld h"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld時間"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -814,6 +942,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld min"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld分"
           }
         },
         "zh-Hans": {
@@ -845,6 +979,12 @@
             "value": "100 éléments"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "100件"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -872,6 +1012,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 000 éléments"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1,000件"
           }
         },
         "zh-Hans": {
@@ -903,6 +1049,12 @@
             "value": "300 éléments"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "300件"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -930,6 +1082,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "500 éléments"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "500件"
           }
         },
         "zh-Hans": {
@@ -961,6 +1119,12 @@
             "value": "À propos"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "情報"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -988,6 +1152,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ajouter"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追加"
           }
         },
         "zh-Hans": {
@@ -1019,6 +1189,12 @@
             "value": "Ajouter une app"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリを追加"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1046,6 +1222,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Après la copie, Copymunk remet l’élément dans le presse-papiers du système et rend la main à l’app d’où vous venez. C’est vous qui appuyez sur ⌘V — Copymunk ne colle jamais à votre place."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コピーすると、Copymunkは項目をシステムのクリップボードに戻し、元のアプリにフォーカスを返します。⌘Vはご自身で押してください。Copymunkが代わりにペーストすることはありません。"
           }
         },
         "zh-Hans": {
@@ -1077,6 +1259,12 @@
             "value": "Tout"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべて"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1104,6 +1292,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Toujours copier en texte brut"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "常にプレーンテキストでコピー"
           }
         },
         "zh-Hans": {
@@ -1135,6 +1329,12 @@
             "value": "Toujours activé"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "常にオン"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1162,6 +1362,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "N’importe quel dossier partagé par tous vos appareils convient — par exemple un dossier dans iCloud Drive ou un disque d’entreprise. Copymunk place ses fichiers dans son propre sous-dossier et n’a accès qu’au dossier que vous choisissez ici."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべてのデバイスで共有しているフォルダであれば使えます。たとえばiCloud Drive内のフォルダや会社の共有ドライブなどです。Copymunkは専用のサブフォルダにファイルを保存し、ここで選んだフォルダにのみアクセスします。"
           }
         },
         "zh-Hans": {
@@ -1193,6 +1399,12 @@
             "value": "Tout ce que vous copiez apparaît ici. Copymunk l’enregistre en arrière-plan, vous n’avez rien à faire."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コピーしたものはすべてここに表示されます。Copymunkがバックグラウンドで記録するので、操作は何も必要ありません。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1220,6 +1432,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "S’applique quand vous appuyez sur ↩. ⇧↩ copie toujours en texte brut."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "↩を押したときに適用されます。⇧↩では常にプレーンテキストでコピーします。"
           }
         },
         "zh-Hans": {
@@ -1251,6 +1469,12 @@
             "value": "Disponible"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "利用可能"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1278,6 +1502,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Après la copie, revenez dans votre app et collez avec ⌘V"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コピー後、元のアプリに戻って⌘Vでペースト"
           }
         },
         "zh-Hans": {
@@ -1309,6 +1539,12 @@
             "value": "Annuler"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャンセル"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1336,6 +1572,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impossible d’accéder à ce dossier"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このフォルダにアクセスできません"
           }
         },
         "zh-Hans": {
@@ -1367,6 +1609,12 @@
             "value": "Capture"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "記録"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1394,6 +1642,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vérification…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "確認中…"
           }
         },
         "zh-Hans": {
@@ -1425,6 +1679,12 @@
             "value": "Choisir"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選択"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1452,6 +1712,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisir à nouveau…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "もう一度選択…"
           }
         },
         "zh-Hans": {
@@ -1483,6 +1749,12 @@
             "value": "Choisir un dossier…"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォルダを選択…"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1510,6 +1782,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisissez un dossier auquel tous vos Mac ont accès en lecture et en écriture."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべてのMacで読み書きできるフォルダを選択してください。"
           }
         },
         "zh-Hans": {
@@ -1541,6 +1819,12 @@
             "value": "Choisissez un dossier de synchronisation ci-dessous pour activer la synchronisation."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "下で同期フォルダを選択すると、同期がオンになります。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1568,6 +1852,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisissez à nouveau le dossier de synchronisation"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同期フォルダを選び直してください"
           }
         },
         "zh-Hans": {
@@ -1599,6 +1889,12 @@
             "value": "Effacer"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "消去"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1626,6 +1922,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Effacer l’historique ?"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "履歴を消去しますか？"
           }
         },
         "zh-Hans": {
@@ -1657,6 +1959,12 @@
             "value": "Effacer l’historique…"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "履歴を消去…"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1684,6 +1992,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cliquez pour modifier"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クリックして変更"
           }
         },
         "zh-Hans": {
@@ -1715,6 +2029,12 @@
             "value": "Presse-papiers"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クリップボード"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1742,6 +2062,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fermer"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "閉じる"
           }
         },
         "zh-Hans": {
@@ -1773,6 +2099,12 @@
             "value": "Fermer le panneau"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パネルを閉じる"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1800,6 +2132,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Couleur"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カラー"
           }
         },
         "zh-Hans": {
@@ -1831,6 +2169,12 @@
             "value": "Le contenu provenant de 1Password et du trousseau n’est jamais enregistré"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1Passwordとキーチェーンの内容は記録されません"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1858,6 +2202,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copié · appuyez sur ⌘V pour coller"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コピーしました · ⌘Vでペースト"
           }
         },
         "zh-Hans": {
@@ -1889,6 +2239,12 @@
             "value": "Copié, appuyez sur ⌘V pour coller"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コピーしました。⌘Vでペーストできます"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1916,6 +2272,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copier"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コピー"
           }
         },
         "zh-Hans": {
@@ -1947,6 +2309,12 @@
             "value": "Copier directement la carte N"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "N番目のカードを直接コピー"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1974,6 +2342,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copier l’élément sélectionné"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選択した項目をコピー"
           }
         },
         "zh-Hans": {
@@ -2005,6 +2379,12 @@
             "value": "Copier en texte brut"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プレーンテキストでコピー"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2032,6 +2412,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copier en texte brut"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プレーンテキストでコピー"
           }
         },
         "zh-Hans": {
@@ -2063,6 +2449,12 @@
             "value": "Copymunk n’a pas pu supprimer votre historique du presse-papiers."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkはクリップボード履歴を削除できませんでした。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2090,6 +2482,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk n’a pas pu accéder à votre dossier de synchronisation : la copie qui s’y trouve n’a pas été supprimée. Resélectionnez ce dossier dans les Réglages, ou supprimez-le vous-même."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkが同期フォルダにアクセスできなかったため、そこにあるコピーは削除されていません。設定でフォルダを選び直すか、ご自身で削除してください。"
           }
         },
         "zh-Hans": {
@@ -2121,6 +2519,12 @@
             "value": "Copymunk n’a pas pu se relancer."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkを自動で再起動できませんでした。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2148,6 +2552,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk supprime les instantanés et les images qu’il a placés dans votre dossier de synchronisation, et désactive la synchronisation par dossier : celle-ci n’a aucun moyen de demander à vos autres Mac de supprimer quoi que ce soit, donc la laisser active y recopierait aussitôt leur historique. Ce que ces Mac ont placé dans le dossier y reste jusqu’à ce que vous le supprimiez vous-même."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkは同期フォルダに書き込んだスナップショットと画像を削除し、「共有フォルダ」同期をオフにします。フォルダ同期にはほかのMacに削除を伝える手段がないため、オンのままだとそれらのMacの履歴がすぐにコピーし直されてしまいます。ほかのMacがフォルダに置いたものは、ご自身で削除するまで残ります。"
           }
         },
         "zh-Hans": {
@@ -2179,6 +2589,12 @@
             "value": "Copymunk a effacé ce Mac alors que la synchronisation iCloud était désactivée : la copie iCloud n’a jamais été supprimée. Réactiver la synchronisation iCloud peut faire revenir ces éléments."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CopymunkはiCloud同期がオフの状態でこのMacを消去したため、iCloud上のコピーは削除されていません。iCloud同期をオンにすると、それらの項目が戻ってくる場合があります。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2206,6 +2622,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk envoie cette suppression vers votre base de données privée iCloud. Laissez Copymunk ouvert et restez connecté à iCloud. Copymunk ne peut pas vous dire quand l’envoi est terminé."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkは削除をiCloudのプライベートデータベースに送信しています。Copymunkを開いたまま、iCloudにサインインした状態にしておいてください。送信がいつ完了するかをCopymunkからお知らせすることはできません。"
           }
         },
         "zh-Hans": {
@@ -2237,6 +2659,12 @@
             "value": "Copymunk utilise uniquement la base de données locale : rien n’a été perdu. Corrigez le problème ci-dessus, puis relancez Copymunk."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkはローカルデータベースのみを使用しているため、データは失われていません。上記の問題を解決してから、Copymunkを再起動してください。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2264,6 +2692,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk réside dans la barre des menus (l’icône de tamia en haut à droite).\n\n• Cliquez sur l’icône de la barre des menus à tout moment pour faire apparaître le panneau\n• Tout ce que vous copiez est enregistré automatiquement — saisissez pour rechercher\n• Choisissez un élément et appuyez sur Retour pour le replacer dans le presse-papiers, puis collez-le vous-même avec ⌘V. ⇧Retour le copie en texte brut\n• Ouvrez les réglages depuis la roue dentée du panneau ou en cliquant avec le bouton droit sur l’icône de la barre des menus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkはメニューバーに常駐しています（右上のシマリスのアイコン）。\n\n• メニューバーのアイコンをクリックすると、いつでもクリップボードパネルを表示できます\n• コピーしたものはすべて自動で保存されます。入力するだけで検索できます\n• 項目を選んでreturnキーを押すとクリップボードに戻ります。その後、ご自身で⌘Vを押してペーストしてください。⇧returnではプレーンテキストとしてコピーします\n• 設定は、パネルの歯車アイコンをクリックするか、メニューバーのアイコンを右クリックして開けます"
           }
         },
         "zh-Hans": {
@@ -2295,6 +2729,12 @@
             "value": "Copymunk réside dans la barre des menus (l’icône de tamia en haut à droite).\n\n• Appuyez sur %@ à tout moment pour faire apparaître le panneau\n• Tout ce que vous copiez est enregistré automatiquement — saisissez pour rechercher\n• Choisissez un élément et appuyez sur Retour pour le replacer dans le presse-papiers, puis collez-le vous-même avec ⌘V. ⇧Retour le copie en texte brut\n• Ouvrez les réglages depuis la roue dentée du panneau ou en cliquant avec le bouton droit sur l’icône de la barre des menus"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkはメニューバーに常駐しています（右上のシマリスのアイコン）。\n\n• %@を押すと、いつでもクリップボードパネルを表示できます\n• コピーしたものはすべて自動で保存されます。入力するだけで検索できます\n• 項目を選んでreturnキーを押すとクリップボードに戻ります。その後、ご自身で⌘Vを押してペーストしてください。⇧returnではプレーンテキストとしてコピーします\n• 設定は、パネルの歯車アイコンをクリックするか、メニューバーのアイコンを右クリックして開けます"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2322,6 +2762,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk enregistre en arrière-plan, sans aucune autorisation"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkはバックグラウンドで記録し、アクセス権は必要ありません"
           }
         },
         "zh-Hans": {
@@ -2353,6 +2799,12 @@
             "value": "Copymunk se relance et efface le fichier de base de données : les éléments supprimés ne pourront plus être récupérés depuis ce Mac. Ce que la suppression n’a pas atteint dans votre base de données privée iCloud y reste et reviendra sur ce Mac."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkは再起動してデータベースファイルを消去するため、削除した項目はこのMacから復元できなくなります。iCloudのプライベートデータベースのうち、まだ削除が届いていない分はそこに残り、このMacに戻ってきます。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2380,6 +2832,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk se relancera tout seul pour terminer l’effacement du fichier de base de données."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "データベースファイルの消去を完了するため、Copymunkが自動で再起動します。"
           }
         },
         "zh-Hans": {
@@ -2411,6 +2869,12 @@
             "value": "Créer"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "作成"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2438,6 +2902,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Créer et épingler"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "作成してピン留め"
           }
         },
         "zh-Hans": {
@@ -2469,6 +2939,12 @@
             "value": "Couper"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カット"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2496,6 +2972,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Passer d’un filtre à l’autre"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フィルタを切り替え"
           }
         },
         "zh-Hans": {
@@ -2527,6 +3009,12 @@
             "value": "Supprimer"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "削除"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2554,6 +3042,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout supprimer"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべて削除"
           }
         },
         "zh-Hans": {
@@ -2585,6 +3079,12 @@
             "value": "Supprimer toutes les données ?"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべてのデータを削除しますか？"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2612,6 +3112,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer toutes les données…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべてのデータを削除…"
           }
         },
         "zh-Hans": {
@@ -2643,6 +3149,12 @@
             "value": "Supprimer le Pinboard"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboardを削除"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2670,6 +3182,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer le Pinboard « %@ »"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard「%@」を削除"
           }
         },
         "zh-Hans": {
@@ -2701,6 +3219,12 @@
             "value": "Ne pas enregistrer ces apps"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "これらのアプリは記録しない"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2728,6 +3252,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Édition"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "編集"
           }
         },
         "zh-Hans": {
@@ -2759,6 +3289,12 @@
             "value": "Échap efface la recherche · appuyez à nouveau pour fermer"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escで検索をクリア · もう一度押すと閉じます"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2786,6 +3322,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Échap pour fermer"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escで閉じる"
           }
         },
         "zh-Hans": {
@@ -2817,6 +3359,12 @@
             "value": "Toutes les données de ce Mac ont été supprimées."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このMac上のデータをすべて削除しました。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2844,6 +3392,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout ce que vous avez copié est ici."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コピーしたものはすべてここにあります。"
           }
         },
         "zh-Hans": {
@@ -2875,6 +3429,12 @@
             "value": "Tout ce que vous avez copié est ici. Appuyez sur %@ pour le retrouver à tout moment."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コピーしたものはすべてここにあります。%@を押せば、いつでも呼び出せます。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2902,6 +3462,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fichier"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイル"
           }
         },
         "zh-Hans": {
@@ -2933,6 +3499,12 @@
             "value": "Terminer l’effacement de ce Mac"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このMacの消去を完了"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2960,6 +3532,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Terminer l’effacement de ce Mac ?"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このMacの消去を完了しますか？"
           }
         },
         "zh-Hans": {
@@ -2991,6 +3569,12 @@
             "value": "Aller à la recherche"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "検索に移動"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3018,6 +3602,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Général"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一般"
           }
         },
         "zh-Hans": {
@@ -3049,6 +3639,12 @@
             "value": "Raccourci global"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "グローバルショートカット"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3076,6 +3672,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "J’ai compris"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "了解"
           }
         },
         "zh-Hans": {
@@ -3107,6 +3709,12 @@
             "value": "Aide"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ヘルプ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3134,6 +3742,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Historique"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "履歴"
           }
         },
         "zh-Hans": {
@@ -3165,6 +3779,12 @@
             "value": "Ignorer les gestionnaires de mots de passe"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パスワードマネージャを無視"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3192,6 +3812,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Image"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画像"
           }
         },
         "zh-Hans": {
@@ -3223,6 +3849,12 @@
             "value": "Dans le panneau"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パネル内"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3250,6 +3882,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Y compris tous les Pinboards et tout ce qui y est épinglé"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべてのPinboardとピン留めした項目を含みます"
           }
         },
         "zh-Hans": {
@@ -3281,6 +3919,12 @@
             "value": "Conserver jusqu’à"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最大保存件数"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3308,6 +3952,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Touche %lld"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キー%lld"
           }
         },
         "zh-Hans": {
@@ -3339,6 +3989,12 @@
             "value": "Semaine dernière"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "先週"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3366,6 +4022,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrir Copymunk à l’ouverture de session"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ログイン時にCopymunkを開く"
           }
         },
         "zh-Hans": {
@@ -3397,6 +4059,12 @@
             "value": "Lien"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リンク"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3424,6 +4092,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copie votre historique directement dans votre iCloud. Supprimer un élément le supprime sur tous vos appareils."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "履歴をiCloudにそのままミラーリングします。項目を削除すると、すべてのデバイスから削除されます。"
           }
         },
         "zh-Hans": {
@@ -3455,6 +4129,12 @@
             "value": "Nom"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "名前"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3482,6 +4162,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nouveau Pinboard"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新規Pinboard"
           }
         },
         "zh-Hans": {
@@ -3513,6 +4199,12 @@
             "value": "Nom du nouveau Pinboard"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新規Pinboardの名前"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3540,6 +4232,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nouveau Pinboard…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新規Pinboard…"
           }
         },
         "zh-Hans": {
@@ -3571,6 +4269,12 @@
             "value": "Aucune app ajoutée"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリが追加されていません"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3598,6 +4302,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucun dossier sélectionné"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォルダが選択されていません"
           }
         },
         "zh-Hans": {
@@ -3629,6 +4339,12 @@
             "value": "Aucun dossier de synchronisation sélectionné"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同期フォルダが選択されていません"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3656,6 +4372,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Plus tard"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今はしない"
           }
         },
         "zh-Hans": {
@@ -3687,6 +4409,12 @@
             "value": "Non connecté"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サインインしていません"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3714,6 +4442,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pas encore synchronisé"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未同期"
           }
         },
         "zh-Hans": {
@@ -3745,6 +4479,12 @@
             "value": "Rien pour l’instant"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "まだ何もありません"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3772,6 +4512,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucun résultat pour « %@ »"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "「%@」に一致する項目はありません"
           }
         },
         "zh-Hans": {
@@ -3803,6 +4549,12 @@
             "value": "Rien de ce type pour l’instant"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "この種類の項目はまだありません"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3830,6 +4582,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rien n’a été supprimé. Réessayez ; si l’échec persiste, quittez Copymunk depuis l’icône de la barre des menus puis relancez-le."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "何も削除されませんでした。もう一度お試しください。それでも失敗する場合は、メニューバーのアイコンからCopymunkを終了して、もう一度開いてください。"
           }
         },
         "zh-Hans": {
@@ -3861,6 +4619,12 @@
             "value": "Rien de ce que vous y copiez n’entre dans l’historique"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "これらのアプリでコピーした内容は履歴に残りません"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3888,6 +4652,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Désactivée"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "オフ"
           }
         },
         "zh-Hans": {
@@ -3919,6 +4689,12 @@
             "value": "Supprime uniquement les éléments qui ne sont pas épinglés dans un Pinboard"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboardにピン留めされていない項目のみを削除します"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3946,6 +4722,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrir Copymunk"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkを開く"
           }
         },
         "zh-Hans": {
@@ -3977,6 +4759,12 @@
             "value": "Ouvrir Réglages Système"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "システム設定を開く"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4004,6 +4792,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Autre appareil"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ほかのデバイス"
           }
         },
         "zh-Hans": {
@@ -4035,6 +4829,12 @@
             "value": "Coller"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペースト"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4062,6 +4862,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Épingler"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ピン留め"
           }
         },
         "zh-Hans": {
@@ -4093,6 +4899,12 @@
             "value": "Épingler à"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ピン留め先"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4122,6 +4934,12 @@
             "value": "Épingler à un Pinboard"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboardにピン留め"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4146,6 +4964,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard"
+          }
+        },
+        "ja": {
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard"
@@ -4180,6 +5004,12 @@
             "value": "Épinglé"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ピン留め済み"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4207,6 +5037,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Appuyez sur %@ à tout moment pour afficher ce panneau"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@を押せば、いつでもこのパネルを表示できます"
           }
         },
         "zh-Hans": {
@@ -4238,6 +5074,12 @@
             "value": "Appuyez sur la nouvelle combinaison…"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新しいショートカットを押してください…"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4265,6 +5107,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aperçu"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プレビュー"
           }
         },
         "zh-Hans": {
@@ -4296,6 +5144,12 @@
             "value": "Les notifications push ne sont pas disponibles sur ce Mac : les modifications faites sur vos autres appareils n’arrivent donc qu’au lancement de Copymunk."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このMacではプッシュ通知を利用できないため、ほかのデバイスでの変更はCopymunkの起動時にのみ反映されます。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4323,6 +5177,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quitter Copymunk"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkを終了"
           }
         },
         "zh-Hans": {
@@ -4354,6 +5214,12 @@
             "value": "Quittez Copymunk depuis l’icône de la barre des menus puis relancez-le — il terminera l’effacement du fichier de base de données au prochain démarrage."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "メニューバーのアイコンからCopymunkを終了して、もう一度開いてください。次回の起動時にデータベースファイルの消去が完了します。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4381,6 +5247,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quittez Copymunk depuis l’icône de la barre des menus puis relancez-le. Votre nouvelle méthode de synchronisation est déjà enregistrée."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "メニューバーのアイコンからCopymunkを終了して、もう一度開いてください。新しい同期設定はすでに保存されています。"
           }
         },
         "zh-Hans": {
@@ -4412,6 +5284,12 @@
             "value": "Enregistrer le presse-papiers automatiquement"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クリップボードを自動で記録"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4439,6 +5317,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rétablir"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "やり直す"
           }
         },
         "zh-Hans": {
@@ -4470,6 +5354,12 @@
             "value": "Retirer l’app sélectionnée"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選択したアプリを削除"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4497,6 +5387,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réinitialiser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リセット"
           }
         },
         "zh-Hans": {
@@ -4528,6 +5424,12 @@
             "value": "Relancer Copymunk"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkを再起動"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4555,6 +5457,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Relancer Copymunk pour arrêter la synchronisation iCloud ?"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkを再起動してiCloud同期を停止しますか？"
           }
         },
         "zh-Hans": {
@@ -4586,6 +5494,12 @@
             "value": "Rétablir l’emplacement par défaut"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デフォルトの場所に戻す"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4613,6 +5527,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Restreint"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "制限あり"
           }
         },
         "zh-Hans": {
@@ -4644,6 +5564,12 @@
             "value": "Enrichi"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リッチ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4671,6 +5597,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Texte enrichi"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リッチテキスト"
           }
         },
         "zh-Hans": {
@@ -4702,6 +5634,12 @@
             "value": "Cliquez avec le bouton droit sur une carte et choisissez Épingler à un Pinboard pour garder ici ce que vous utilisez le plus."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カードを右クリックして「Pinboardにピン留め」を選ぶと、よく使う項目をここに置いておけます。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4729,6 +5667,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistre votre historique sous forme d’instantanés dans un dossier — iCloud Drive ou n’importe quel dossier partagé. Les suppressions ne sont pas synchronisées avec vos autres appareils."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "履歴をスナップショットとしてフォルダに保存します。iCloud Driveや任意の共有フォルダを使えます。削除はほかのデバイスに同期されません。"
           }
         },
         "zh-Hans": {
@@ -4760,6 +5704,12 @@
             "value": "Rechercher"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "検索"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4787,6 +5737,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rechercher dans l’historique"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "履歴を検索"
           }
         },
         "zh-Hans": {
@@ -4818,6 +5774,12 @@
             "value": "Tout sélectionner"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべてを選択"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4845,6 +5807,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réglages"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定"
           }
         },
         "zh-Hans": {
@@ -4876,6 +5844,12 @@
             "value": "Réglages…"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定…"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4903,6 +5877,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dossier partagé"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "共有フォルダ"
           }
         },
         "zh-Hans": {
@@ -4934,6 +5914,12 @@
             "value": "Le dossier partagé est synchronisé"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "共有フォルダは同期済みです"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4961,6 +5947,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Raccourcis"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ショートカット"
           }
         },
         "zh-Hans": {
@@ -4992,6 +5984,12 @@
             "value": "Afficher tout l’historique"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべての履歴を表示"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5019,6 +6017,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afficher le panneau"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パネルを表示"
           }
         },
         "zh-Hans": {
@@ -5050,6 +6054,12 @@
             "value": "Afficher l’icône dans la barre des menus"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "メニューバーにアイコンを表示"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5077,6 +6087,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Espace"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スペース"
           }
         },
         "zh-Hans": {
@@ -5108,6 +6124,12 @@
             "value": "Démarrage"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "起動"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5135,6 +6157,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "État"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "状態"
           }
         },
         "zh-Hans": {
@@ -5166,6 +6194,12 @@
             "value": "Synchronisation"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同期"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5193,6 +6227,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dossier de synchronisation"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同期フォルダ"
           }
         },
         "zh-Hans": {
@@ -5224,6 +6264,12 @@
             "value": "Méthode de synchronisation"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同期方法"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5251,6 +6297,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synchroniser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今すぐ同期"
           }
         },
         "zh-Hans": {
@@ -5282,6 +6334,12 @@
             "value": "Méthode de synchronisation modifiée — redémarrez pour l’appliquer"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同期方法を変更しました。再起動すると適用されます"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5309,6 +6367,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synchronisé"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同期済み"
           }
         },
         "zh-Hans": {
@@ -5340,6 +6404,12 @@
             "value": "Temporairement indisponible"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一時的に利用できません"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5367,6 +6437,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Texte"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "テキスト"
           }
         },
         "zh-Hans": {
@@ -5398,6 +6474,12 @@
             "value": "La combinaison doit contenir au moins ⌘, ⌥ ou ⌃. Appuyez sur Esc pour annuler."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "組み合わせには⌘、⌥、⌃のいずれかを含める必要があります。Escを押すとキャンセルします。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5425,6 +6507,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La copie présente dans votre base de données privée iCloud n’a pas été touchée, car la synchronisation iCloud est désactivée. Réglez « Synchronisation » sur iCloud, relancez Copymunk et supprimez à nouveau pour l’effacer aussi."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud同期がオフのため、iCloudのプライベートデータベース内のコピーには変更を加えていません。それも削除するには、「同期」をiCloudに設定し、Copymunkを開き直してから、もう一度削除してください。"
           }
         },
         "zh-Hans": {
@@ -5456,6 +6544,12 @@
             "value": "La carte actuelle y sera épinglée une fois créé"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "作成後、現在のカードがピン留めされます"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5483,6 +6577,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le dossier a été déplacé ou renommé, ou Copymunk n’y a plus accès."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォルダが移動されたか名前が変更されたか、Copymunkのアクセス権が失われました。"
           }
         },
         "zh-Hans": {
@@ -5514,6 +6614,12 @@
             "value": "La même suppression est mise en file d’attente pour votre base de données privée iCloud et vos autres Mac. Laissez Copymunk ouvert et restez connecté à iCloud jusqu’à la fin — Copymunk ne peut pas vous dire quand ce sera fait."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同じ削除が、iCloudのプライベートデータベースとほかのMac向けにキューに追加されました。完了するまでCopymunkを開いたまま、iCloudにサインインした状態にしておいてください。いつ完了するかをCopymunkからお知らせすることはできません。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5541,6 +6647,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ce Mac a déjà été synchronisé avec iCloud. Copymunk ne peut pas toucher à la copie iCloud tant que la synchronisation est désactivée — réglez « Synchronisation » sur iCloud, relancez Copymunk et supprimez à nouveau pour effacer cette copie aussi."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このMacは以前iCloudと同期したことがあります。同期がオフの間、CopymunkはiCloud上のコピーを操作できません。そのコピーも削除するには、「同期」をiCloudに設定し、Copymunkを開き直してから、もう一度削除してください。"
           }
         },
         "zh-Hans": {
@@ -5572,6 +6684,12 @@
             "value": "Ce Pinboard est vide"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このPinboardは空です"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5599,6 +6717,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cette combinaison est déjà utilisée par un raccourci clavier de macOS. Rétablie sur %@."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "この組み合わせはmacOSのキーボードショートカットですでに使われています。%@に戻しました。"
           }
         },
         "zh-Hans": {
@@ -5630,6 +6754,12 @@
             "value": "Cette combinaison est déjà utilisée par une autre app. Rétablie sur %@."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "この組み合わせはほかのアプリですでに使われています。%@に戻しました。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5657,6 +6787,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cette copie de Copymunk n’est pas signée pour la synchronisation iCloud."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このCopymunkはiCloud同期用に署名されていません。"
           }
         },
         "zh-Hans": {
@@ -5688,6 +6824,12 @@
             "value": "Tous les éléments du presse-papiers et tous les Pinboards seront supprimés, y compris ce qui y est épinglé. Cette action est irréversible."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべてのクリップボード項目とすべてのPinboard（ピン留めした項目を含む）が削除されます。この操作は取り消せません。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5715,6 +6857,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tous les éléments du presse-papiers non épinglés à un Pinboard seront supprimés. Les éléments épinglés et les Pinboards sont conservés — utilisez « Supprimer toutes les données » pour les supprimer aussi. Cette action est irréversible."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboardにピン留めされていないクリップボード項目がすべて削除されます。ピン留めした項目とPinboardは残ります。これらも削除するには「すべてのデータを削除」を使用してください。この操作は取り消せません。"
           }
         },
         "zh-Hans": {
@@ -5746,6 +6894,12 @@
             "value": "Essayer"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今すぐ試す"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5773,6 +6927,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Annuler"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取り消す"
           }
         },
         "zh-Hans": {
@@ -5804,6 +6964,12 @@
             "value": "Inconnu"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不明"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5831,6 +6997,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Illimité"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無制限"
           }
         },
         "zh-Hans": {
@@ -5862,6 +7034,12 @@
             "value": "Ne plus épingler"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ピン留めを解除"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5889,6 +7067,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tant que Copymunk n’a pas redémarré, ce Mac continue d’envoyer votre historique du presse-papiers vers votre base de données privée iCloud. Copymunk est aussi encore en train d’envoyer les éléments que vous avez supprimés ; ce qui n’aura pas été envoyé au moment du redémarrage restera dans iCloud."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkを再起動するまで、このMacはクリップボード履歴をiCloudのプライベートデータベースに送信し続けます。また、Copymunkは削除した項目もまだ送信中です。再起動の時点で送信されていない分はiCloudに残ります。"
           }
         },
         "zh-Hans": {
@@ -5920,6 +7104,12 @@
             "value": "Tant que Copymunk n’a pas redémarré, ce Mac continue d’envoyer votre historique du presse-papiers vers votre base de données privée iCloud. Si vous ne redémarrez pas maintenant, Copymunk continuera d’utiliser la synchronisation iCloud pendant tout le reste de cette session."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkを再起動するまで、このMacはクリップボード履歴をiCloudのプライベートデータベースに送信し続けます。今すぐ再起動しない場合、このセッションが終わるまでCopymunkはiCloud同期を使い続けます。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5947,6 +7137,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Version"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バージョン"
           }
         },
         "zh-Hans": {
@@ -5978,6 +7174,12 @@
             "value": "Bienvenue dans Copymunk"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkへようこそ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6005,6 +7207,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Au-delà de la limite, les éléments non épinglés les plus anciens sont supprimés automatiquement. Les éléments épinglés à un Pinboard ne sont pas concernés."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上限を超えると、ピン留めされていない古い項目から自動的に削除されます。Pinboardにピン留めした項目には影響しません。"
           }
         },
         "zh-Hans": {
@@ -6036,6 +7244,12 @@
             "value": "Si cette option est désactivée, rouvrez Copymunk dans le Finder pour retrouver les réglages"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "オフにした場合は、FinderでCopymunkをもう一度開くと設定に戻れます"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6063,6 +7277,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Si cette option est désactivée, appuyez sur %@ ou rouvrez Copymunk dans le Finder pour retrouver les réglages"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "オフにした場合は、%@を押すか、FinderでCopymunkをもう一度開くと設定に戻れます"
           }
         },
         "zh-Hans": {
@@ -6094,6 +7314,12 @@
             "value": "Votre historique du presse-papiers reste uniquement sur ce Mac."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クリップボード履歴はこのMacにのみ保存されます。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6121,6 +7347,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Votre historique reste uniquement sur ce Mac et à l’emplacement de synchronisation que vous choisissez. Copymunk ne collecte aucune donnée."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "履歴はこのMacと、選択した同期先にのみ保存されます。Copymunkはデータを一切収集しません。"
           }
         },
         "zh-Hans": {
@@ -6152,6 +7384,12 @@
             "value": "Compte iCloud"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloudアカウント"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6179,6 +7417,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud Drive est désactivé sur ce Mac. Activez-le dans Réglages Système ou choisissez un autre dossier."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このMacではiCloud Driveがオフになっています。システム設定でオンにするか、別のフォルダを選択してください。"
           }
         },
         "zh-Hans": {
@@ -6210,6 +7454,12 @@
             "value": "iCloud est synchronisé"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloudは同期済みです"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6237,6 +7487,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impossible de démarrer la synchronisation iCloud : %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud同期を開始できませんでした：%@"
           }
         },
         "zh-Hans": {
@@ -6268,6 +7524,12 @@
             "value": "La synchronisation iCloud requiert votre attention"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud同期を確認してください"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6295,6 +7557,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "< 1 min"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今"
           }
         },
         "zh-Hans": {

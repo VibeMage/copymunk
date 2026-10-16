@@ -28,6 +28,12 @@
             "value": "%lld caractères · Texte brut"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld文字 · プレーンテキスト"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -61,6 +67,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld caractères · Texte enrichi"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld文字 · リッチテキスト"
           }
         },
         "zh-Hans": {
@@ -98,6 +110,12 @@
             "value": "%lld résultats"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld件"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -131,6 +149,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld j"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld日"
           }
         },
         "zh-Hans": {
@@ -168,6 +192,12 @@
             "value": "%lld h"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld時間"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -201,6 +231,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld min"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld分"
           }
         },
         "zh-Hans": {
@@ -238,6 +274,12 @@
             "value": "1 caractère · Texte brut"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1文字 · プレーンテキスト"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -271,6 +313,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 caractère · Texte enrichi"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1文字 · リッチテキスト"
           }
         },
         "zh-Hans": {
@@ -308,6 +356,12 @@
             "value": "1 résultat"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1件"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -341,6 +395,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impossible de lire vos éléments pour l’instant"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "現在、項目を読み取れません"
           }
         },
         "zh-Hans": {
@@ -378,6 +438,12 @@
             "value": "Annuler"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャンセル"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -411,6 +477,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Effacer la recherche"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "検索をクリア"
           }
         },
         "zh-Hans": {
@@ -448,6 +520,12 @@
             "value": "Élément"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "項目"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -481,6 +559,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Presse-papiers"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クリップボード"
           }
         },
         "zh-Hans": {
@@ -518,6 +602,12 @@
             "value": "Fermer"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "閉じる"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -551,6 +641,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Couleur"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カラー"
           }
         },
         "zh-Hans": {
@@ -588,6 +684,12 @@
             "value": "Copier l’élément"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "項目をコピー"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -621,6 +723,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk ne peut pas ouvrir sa bibliothèque pour le moment."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkは現在ライブラリを開けません。"
           }
         },
         "zh-Hans": {
@@ -658,6 +766,12 @@
             "value": "Copymunk n’a pas pu lire cette image."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkはその画像を読み取れませんでした。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -691,6 +805,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk n’a pas pu lire ce que vous avez partagé."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkは共有された内容を読み取れませんでした。"
           }
         },
         "zh-Hans": {
@@ -728,6 +848,12 @@
             "value": "Échec de l’enregistrement"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存できませんでした"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -761,6 +887,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "削除"
           }
         },
         "zh-Hans": {
@@ -798,6 +930,12 @@
             "value": "Ne pas épingler"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ピン留めしない"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -831,6 +969,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fichier"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイル"
           }
         },
         "zh-Hans": {
@@ -868,6 +1012,12 @@
             "value": "Les fichiers restent sur votre Mac"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイルはMacにのみあります"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -901,6 +1051,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "L’accès complet est requis pour afficher l’historique"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "履歴を表示するにはフルアクセスが必要です"
           }
         },
         "zh-Hans": {
@@ -938,6 +1094,12 @@
             "value": "« Enregistrer le contenu » a besoin d’un texte, d’un lien ou d’une image."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "「コンテンツを保存」には、テキスト、リンク、画像のいずれかを指定してください。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -971,6 +1133,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Historique"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "履歴"
           }
         },
         "zh-Hans": {
@@ -1008,6 +1176,12 @@
             "value": "Appui long : aperçu"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カードを長押しでプレビュー"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1041,6 +1215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Image"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画像"
           }
         },
         "zh-Hans": {
@@ -1078,6 +1258,12 @@
             "value": "Les images se copient uniquement dans Copymunk"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画像はCopymunk内でのみコピーできます"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1111,6 +1297,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Insérer"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "挿入"
           }
         },
         "zh-Hans": {
@@ -1148,6 +1340,12 @@
             "value": "Semaine dernière"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "先週"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1181,6 +1379,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lettres"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文字"
           }
         },
         "zh-Hans": {
@@ -1218,6 +1422,12 @@
             "value": "Lien"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リンク"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1251,6 +1461,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chargement…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "読み込み中…"
           }
         },
         "zh-Hans": {
@@ -1288,6 +1504,12 @@
             "value": "Mac uniquement"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Macのみ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1321,6 +1543,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Clavier suivant"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次のキーボード"
           }
         },
         "zh-Hans": {
@@ -1358,6 +1586,12 @@
             "value": "Aucun élément pour l’instant"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "まだ項目がありません"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1391,6 +1625,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucun résultat"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一致する項目なし"
           }
         },
         "zh-Hans": {
@@ -1428,6 +1668,12 @@
             "value": "Aucun Pinboard"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboardがありません"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1461,6 +1707,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Non synchronisé"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未同期"
           }
         },
         "zh-Hans": {
@@ -1498,6 +1750,12 @@
             "value": "Rien à enregistrer"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存するものがありません"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1531,6 +1789,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "À l’instant"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今"
           }
         },
         "zh-Hans": {
@@ -1568,6 +1832,12 @@
             "value": "Chiffres et ponctuation"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "数字と記号"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1598,6 +1868,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "ja": {
           "stringUnit": {
             "state": "translated",
             "value": "OK"
@@ -1638,6 +1914,12 @@
             "value": "Ouvrez Copymunk une fois, puis revenez."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkを一度開いてから、ここに戻ってください。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1671,6 +1953,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvre Copymunk et enregistre le contenu actuel du presse-papiers."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkを開き、いまクリップボードにある内容を保存します。"
           }
         },
         "zh-Hans": {
@@ -1708,6 +1996,12 @@
             "value": "Épingler à un Pinboard"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboardにピン留め"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1741,6 +2035,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Épinglé"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ピン留め済み"
           }
         },
         "zh-Hans": {
@@ -1778,6 +2078,12 @@
             "value": "Aperçu"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プレビュー"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1811,6 +2117,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Récents"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最近"
           }
         },
         "zh-Hans": {
@@ -1848,6 +2160,12 @@
             "value": "Éléments récents"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最近の項目"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1881,6 +2199,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enrichi"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リッチ"
           }
         },
         "zh-Hans": {
@@ -1918,6 +2242,12 @@
             "value": "Enregistrer"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1951,6 +2281,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistrer le presse-papiers"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クリップボードを保存"
           }
         },
         "zh-Hans": {
@@ -1988,6 +2324,12 @@
             "value": "Enregistrer le contenu"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コンテンツを保存"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2021,6 +2363,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistrer dans Copymunk"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunkに保存"
           }
         },
         "zh-Hans": {
@@ -2058,6 +2406,12 @@
             "value": "Enregistré"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存しました"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2091,6 +2445,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistre un texte, un lien ou une image dans Copymunk sans ouvrir l’app."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリを開かずに、テキスト、リンク、画像をCopymunkに保存します。"
           }
         },
         "zh-Hans": {
@@ -2128,6 +2488,12 @@
             "value": "Enregistre dans Copymunk le contenu actuel du presse-papiers."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クリップボードの内容をCopymunkに保存します。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2161,6 +2527,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rechercher"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "検索"
           }
         },
         "zh-Hans": {
@@ -2198,6 +2570,12 @@
             "value": "Rechercher dans l’historique"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "履歴を検索"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2231,6 +2609,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réglages › Général › Clavier › Claviers › Copymunk. Le clavier Copymunk ne se connecte jamais à Internet et n’enregistre jamais ce que vous tapez."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定 › 一般 › キーボード › キーボード › Copymunk。Copymunkキーボードがインターネットに接続したり、入力内容を記録したりすることはありません。"
           }
         },
         "zh-Hans": {
@@ -2268,6 +2652,12 @@
             "value": "Majuscule"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "shift"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2301,6 +2691,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synchronisé"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同期済み"
           }
         },
         "zh-Hans": {
@@ -2338,6 +2734,12 @@
             "value": "Synchronisation…"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同期中…"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2371,6 +2773,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Touchez pour copier"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タップしてコピー"
           }
         },
         "zh-Hans": {
@@ -2408,6 +2816,12 @@
             "value": "Touchez pour insérer"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タップして挿入"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2441,6 +2855,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Texte"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "テキスト"
           }
         },
         "zh-Hans": {
@@ -2478,6 +2898,12 @@
             "value": "Les éléments que vous avez copiés récemment. Touchez-en un pour le copier à nouveau."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最近コピーした項目です。タップすると、もう一度コピーできます。"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2511,6 +2937,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Il n’y a rien à enregistrer ici."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ここには保存できるものがありません。"
           }
         },
         "zh-Hans": {
@@ -2548,6 +2980,12 @@
             "value": "Cet appareil"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このデバイス"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2578,6 +3016,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL"
+          }
+        },
+        "ja": {
           "stringUnit": {
             "state": "translated",
             "value": "URL"
@@ -2618,6 +3062,12 @@
             "value": "élément"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クリップ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2651,6 +3101,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "presse-papiers"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クリップボード"
           }
         },
         "zh-Hans": {
@@ -2688,6 +3144,12 @@
             "value": "< 1 min"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2721,6 +3183,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "coller"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペースト"
           }
         },
         "zh-Hans": {
@@ -2758,6 +3226,12 @@
             "value": "retour"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "改行"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2793,6 +3267,12 @@
             "value": "enregistrer"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2826,6 +3306,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "espace"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "空白"
           }
         },
         "zh-Hans": {

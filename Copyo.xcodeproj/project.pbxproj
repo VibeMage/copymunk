@@ -415,6 +415,7 @@
 				de,
 				es,
 				fr,
+				ja,
 				"zh-Hans",
 			);
 			mainGroup = AB0000000000000000000003;

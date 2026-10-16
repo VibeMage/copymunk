@@ -29,6 +29,12 @@
             "value" : "Copymunk enregistre l’image choisie dans votre photothèque."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copymunkは選択した画像を写真ライブラリに保存します。"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",

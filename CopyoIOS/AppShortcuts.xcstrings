@@ -37,6 +37,15 @@
               "Guarda mi portapapeles en ${applicationName}"
             ]
           }
+        },
+        "ja": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "クリップボードを${applicationName}に保存",
+              "${applicationName}でクリップボードを保存"
+            ]
+          }
         }
       }
     },
@@ -71,6 +80,14 @@
             "state": "translated",
             "values": [
               "Guardar el portapapeles con ${applicationName}"
+            ]
+          }
+        },
+        "ja": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}でクリップボードを保存して"
             ]
           }
         }
@@ -109,6 +126,14 @@
               "Guardar este elemento en ${applicationName}"
             ]
           }
+        },
+        "ja": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "この項目を${applicationName}に保存"
+            ]
+          }
         }
       }
     },
@@ -143,6 +168,14 @@
             "state": "translated",
             "values": [
               "${applicationName} guardar portapapeles"
+            ]
+          }
+        },
+        "ja": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}、クリップボードを保存"
             ]
           }
         }
