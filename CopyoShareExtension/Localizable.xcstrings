@@ -34,6 +34,12 @@
             "value": "%lld caractères · Texte brut"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld karakter · Teks biasa"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -121,6 +127,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld caractères · Texte enrichi"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld karakter · Teks kaya"
           }
         },
         "it": {
@@ -212,6 +224,12 @@
             "value": "%lld j"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lldh"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -299,6 +317,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld h"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lldj"
           }
         },
         "it": {
@@ -390,6 +414,12 @@
             "value": "%lld min"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lldm"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -477,6 +507,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1 caractère · Texte brut"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 karakter · Teks biasa"
           }
         },
         "it": {
@@ -568,6 +604,12 @@
             "value": "1 caractère · Texte enrichi"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 karakter · Teks kaya"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -655,6 +697,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Annuler"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Batalkan"
           }
         },
         "it": {
@@ -746,6 +794,12 @@
             "value": "Élément"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Item"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -833,6 +887,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Presse-papiers"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Papan Klip"
           }
         },
         "it": {
@@ -924,6 +984,12 @@
             "value": "Couleur"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warna"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -1011,6 +1077,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copier l’élément"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salin Item"
           }
         },
         "it": {
@@ -1102,6 +1174,12 @@
             "value": "Copymunk ne peut pas ouvrir sa bibliothèque pour le moment."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk tidak dapat membuka perpustakaannya saat ini."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -1189,6 +1267,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk n’a pas pu lire cette image."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk tidak dapat membaca gambar tersebut."
           }
         },
         "it": {
@@ -1280,6 +1364,12 @@
             "value": "Copymunk n’a pas pu lire ce que vous avez partagé."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk tidak dapat membaca apa yang Anda bagikan."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -1367,6 +1457,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Échec de l’enregistrement"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak Dapat Menyimpan"
           }
         },
         "it": {
@@ -1458,6 +1554,12 @@
             "value": "Ne pas épingler"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jangan Pin"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -1545,6 +1647,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fichier"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File"
           }
         },
         "it": {
@@ -1636,6 +1744,12 @@
             "value": "« Enregistrer le contenu » a besoin d’un texte, d’un lien ou d’une image."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Simpan Konten” memerlukan teks, tautan, atau gambar."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -1723,6 +1837,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Image"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gambar"
           }
         },
         "it": {
@@ -1814,6 +1934,12 @@
             "value": "Semaine dernière"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minggu Lalu"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -1901,6 +2027,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lien"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tautan"
           }
         },
         "it": {
@@ -1992,6 +2124,12 @@
             "value": "Chargement…"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Memuat…"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2079,6 +2217,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucun Pinboard"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Belum ada Pinboard"
           }
         },
         "it": {
@@ -2170,6 +2314,12 @@
             "value": "Rien à enregistrer"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak ada yang dapat disimpan"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2257,6 +2407,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "À l’instant"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sekarang"
           }
         },
         "it": {
@@ -2348,6 +2504,12 @@
             "value": "OK"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OKE"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2435,6 +2597,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvre Copymunk et enregistre le contenu actuel du presse-papiers."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Membuka Copymunk dan menyimpan apa pun yang ada di papan klip saat ini."
           }
         },
         "it": {
@@ -2526,6 +2694,12 @@
             "value": "Épingler à un Pinboard"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pin ke Pinboard"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2615,6 +2789,12 @@
             "value": "Enrichi"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teks Kaya"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2702,6 +2882,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistrer"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simpan"
           }
         },
         "it": {
@@ -2846,6 +3032,12 @@
             "state": "translated",
             "value": "Сохранить ${text} в Copymunk"
           }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simpan ${text} ke Copymunk"
+          }
         }
       }
     },
@@ -2880,6 +3072,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistrer le presse-papiers"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simpan Papan Klip"
           }
         },
         "it": {
@@ -2971,6 +3169,12 @@
             "value": "Enregistrer le contenu"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simpan Konten"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3058,6 +3262,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistrer dans Copymunk"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simpan ke Copymunk"
           }
         },
         "it": {
@@ -3149,6 +3359,12 @@
             "value": "Enregistré"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disimpan"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3236,6 +3452,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistre un texte, un lien ou une image dans Copymunk sans ouvrir l’app."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menyimpan teks, tautan, atau gambar ke Copymunk tanpa membuka app."
           }
         },
         "it": {
@@ -3327,6 +3549,12 @@
             "value": "Enregistre dans Copymunk le contenu actuel du presse-papiers."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menyimpan isi papan klip ke Copymunk."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3414,6 +3642,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Texte"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teks"
           }
         },
         "it": {
@@ -3505,6 +3739,12 @@
             "value": "Il n’y a rien à enregistrer ici."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak ada yang dapat disimpan di sini."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3592,6 +3832,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cet appareil"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perangkat Ini"
           }
         },
         "it": {
@@ -3683,6 +3929,12 @@
             "value": "Délai dépassé lors de la lecture du contenu partagé."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waktu habis saat membaca apa yang Anda bagikan."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3767,6 +4019,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL"
+          }
+        },
+        "id": {
           "stringUnit": {
             "state": "translated",
             "value": "URL"
@@ -3861,6 +4119,12 @@
             "value": "élément"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "klip"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3948,6 +4212,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "presse-papiers"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "papan klip"
           }
         },
         "it": {
@@ -4039,6 +4309,12 @@
             "value": "< 1 min"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sekarang"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4128,6 +4404,12 @@
             "value": "coller"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tempel"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4215,6 +4497,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "enregistrer"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "simpan"
           }
         },
         "it": {

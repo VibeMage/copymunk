@@ -118,6 +118,15 @@
               "Сохранить буфер обмена в ${applicationName}"
             ]
           }
+        },
+        "id": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Simpan papan klip saya ke ${applicationName}",
+              "Simpan papan klip ke ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -225,6 +234,14 @@
             "state": "translated",
             "values": [
               "Сохрани буфер обмена через ${applicationName}"
+            ]
+          }
+        },
+        "id": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Simpan papan klip dengan ${applicationName}"
             ]
           }
         }
@@ -335,6 +352,14 @@
               "Сохрани это в ${applicationName}"
             ]
           }
+        },
+        "id": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Simpan item ini ke ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -441,6 +466,14 @@
             "state": "translated",
             "values": [
               "${applicationName}, сохрани буфер обмена"
+            ]
+          }
+        },
+        "id": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} simpan papan klip"
             ]
           }
         }

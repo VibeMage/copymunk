@@ -28,6 +28,12 @@
             "value": "%@ est aussi utilisé par une autre app : appuyer dessus déclenche cette app, et Copymunk risque de ne pas réagir. Choisissez une autre combinaison."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ juga digunakan oleh app lain: menekannya akan memicu app tersebut, dan Copymunk mungkin tidak merespons. Pilih kombinasi lain."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -111,6 +117,12 @@
             "value": "%@ ne fonctionne pas, car une autre app l’utilise. Choisissez une autre combinaison."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ tidak berfungsi karena sedang digunakan oleh app lain. Pilih kombinasi lain."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -192,6 +204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ ne fonctionne pas, car macOS l’utilise comme raccourci clavier. Choisissez une autre combinaison ou désactivez ce raccourci dans Réglages Système."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ tidak berfungsi karena macOS menggunakannya sebagai pintasan papan ketik. Pilih kombinasi lain, atau matikan pintasan tersebut di Pengaturan Sistem."
           }
         },
         "it": {
@@ -416,6 +434,28 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "%arg caractères"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg karakter"
                     }
                   }
                 }
@@ -816,6 +856,28 @@
             }
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg file"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -1069,6 +1131,12 @@
             "value": "%1$@, depuis %2$@, %3$@, %4$@"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, dari %2$@, %3$@, %4$@"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -1243,6 +1311,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "%lld caractères"
+                }
+              }
+            }
+          }
+        },
+        "id": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld karakter"
                 }
               }
             }
@@ -1511,6 +1591,18 @@
             }
           }
         },
+        "id": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld file"
+                }
+              }
+            }
+          }
+        },
         "it": {
           "variations": {
             "plural": {
@@ -1769,6 +1861,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "%lld autres fichiers"
+                }
+              }
+            }
+          }
+        },
+        "id": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld file lainnya"
                 }
               }
             }
@@ -2037,6 +2141,18 @@
             }
           }
         },
+        "id": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld hasil"
+                }
+              }
+            }
+          }
+        },
         "it": {
           "variations": {
             "plural": {
@@ -2204,6 +2320,12 @@
             "value": "%lld j"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lldh"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2285,6 +2407,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld h"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lldj"
           }
         },
         "it": {
@@ -2370,6 +2498,12 @@
             "value": "%lld min"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lldm"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2451,6 +2585,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "100 éléments"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "100 item"
           }
         },
         "it": {
@@ -2536,6 +2676,12 @@
             "value": "1 000 éléments"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1.000 item"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2617,6 +2763,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "300 éléments"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "300 item"
           }
         },
         "it": {
@@ -2702,6 +2854,12 @@
             "value": "500 éléments"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "500 item"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2783,6 +2941,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "À propos"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mengenai"
           }
         },
         "it": {
@@ -2868,6 +3032,12 @@
             "value": "Ajouter"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tambah"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2949,6 +3119,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ajouter une app"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tambah App"
           }
         },
         "it": {
@@ -3034,6 +3210,12 @@
             "value": "Après la copie, Copymunk remet l’élément dans le presse-papiers du système et rend la main à l’app d’où vous venez. C’est vous qui appuyez sur ⌘V — Copymunk ne colle jamais à votre place."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Setelah Anda menyalin, Copymunk menulis item tersebut kembali ke papan klip sistem dan mengembalikan fokus ke app yang Anda gunakan sebelumnya. Anda sendiri yang menekan ⌘V — Copymunk tidak pernah menempelkan untuk Anda."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3115,6 +3297,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semua"
           }
         },
         "it": {
@@ -3200,6 +3388,12 @@
             "value": "Toujours copier en texte brut"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selalu salin sebagai teks biasa"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3281,6 +3475,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Toujours activé"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selalu Nyala"
           }
         },
         "it": {
@@ -3366,6 +3566,12 @@
             "value": "N’importe quel dossier partagé par tous vos appareils convient — par exemple un dossier dans iCloud Drive ou un disque d’entreprise. Copymunk place ses fichiers dans son propre sous-dossier et n’a accès qu’au dossier que vous choisissez ici."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder apa pun yang dapat diakses bersama oleh semua perangkat Anda bisa digunakan — misalnya folder di dalam iCloud Drive, atau drive perusahaan. Copymunk menyimpan filenya di subfolder tersendiri dan hanya dapat mengakses folder yang Anda pilih di sini."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3447,6 +3653,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout ce que vous copiez apparaît ici. Copymunk l’enregistre en arrière-plan, vous n’avez rien à faire."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apa pun yang Anda salin akan muncul di sini. Copymunk mencatatnya di latar belakang — Anda tidak perlu melakukan apa pun."
           }
         },
         "it": {
@@ -3532,6 +3744,12 @@
             "value": "S’applique quand vous appuyez sur ↩. ⇧↩ copie toujours en texte brut."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Berlaku saat Anda menekan ↩. ⇧↩ selalu menyalin sebagai teks biasa."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3613,6 +3831,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Disponible"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tersedia"
           }
         },
         "it": {
@@ -3698,6 +3922,12 @@
             "value": "Après la copie, revenez dans votre app et collez avec ⌘V"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Setelah menyalin, kembali ke app Anda dan tekan ⌘V untuk menempel"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3779,6 +4009,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Annuler"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Batalkan"
           }
         },
         "it": {
@@ -3864,6 +4100,12 @@
             "value": "Impossible d’accéder à ce dossier"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak dapat mengakses folder ini"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3945,6 +4187,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Capture"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pencatatan"
           }
         },
         "it": {
@@ -4030,6 +4278,12 @@
             "value": "Vérification…"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Memeriksa…"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4111,6 +4365,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisir"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilih"
           }
         },
         "it": {
@@ -4196,6 +4456,12 @@
             "value": "Choisir à nouveau…"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilih Lagi…"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4277,6 +4543,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisir un dossier…"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilih Folder…"
           }
         },
         "it": {
@@ -4362,6 +4634,12 @@
             "value": "Choisissez un dossier auquel tous vos Mac ont accès en lecture et en écriture."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilih folder yang dapat dibaca dan ditulisi oleh semua Mac Anda."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4443,6 +4721,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisissez un dossier de synchronisation ci-dessous pour activer la synchronisation."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilih folder penyelarasan di bawah untuk menyalakan penyelarasan."
           }
         },
         "it": {
@@ -4528,6 +4812,12 @@
             "value": "Choisissez à nouveau le dossier de synchronisation"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilih ulang folder penyelarasan"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4609,6 +4899,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Effacer"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bersihkan"
           }
         },
         "it": {
@@ -4694,6 +4990,12 @@
             "value": "Effacer l’historique ?"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bersihkan Riwayat?"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4775,6 +5077,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Effacer l’historique…"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bersihkan Riwayat…"
           }
         },
         "it": {
@@ -4860,6 +5168,12 @@
             "value": "Cliquez pour modifier"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klik untuk mengubah"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4941,6 +5255,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Presse-papiers"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Papan Klip"
           }
         },
         "it": {
@@ -5026,6 +5346,12 @@
             "value": "Fermer"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutup"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5107,6 +5433,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fermer le panneau"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutup Panel"
           }
         },
         "it": {
@@ -5192,6 +5524,12 @@
             "value": "Couleur"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warna"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5273,6 +5611,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le contenu provenant de 1Password et du trousseau n’est jamais enregistré"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konten dari 1Password dan Rantai Kunci tidak pernah dicatat"
           }
         },
         "it": {
@@ -5358,6 +5702,12 @@
             "value": "Copié · appuyez sur ⌘V pour coller"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disalin · tekan ⌘V untuk menempel"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5439,6 +5789,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copié, appuyez sur ⌘V pour coller"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disalin, tekan ⌘V untuk menempel"
           }
         },
         "it": {
@@ -5524,6 +5880,12 @@
             "value": "Copier"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salin"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5605,6 +5967,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copier directement la carte N"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salin Kartu N Langsung"
           }
         },
         "it": {
@@ -5690,6 +6058,12 @@
             "value": "Copier l’élément sélectionné"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salin Item Terpilih"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5771,6 +6145,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copier en texte brut"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salin Item Terpilih sebagai Teks Biasa"
           }
         },
         "it": {
@@ -5856,6 +6236,12 @@
             "value": "Copier en texte brut"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salin sebagai Teks Biasa"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5937,6 +6323,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk n’a pas pu supprimer votre historique du presse-papiers."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk tidak dapat menghapus riwayat papan klip Anda."
           }
         },
         "it": {
@@ -6022,6 +6414,12 @@
             "value": "Copymunk n’a pas pu accéder à votre dossier de synchronisation : la copie qui s’y trouve n’a pas été supprimée. Resélectionnez ce dossier dans les Réglages, ou supprimez-le vous-même."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk tidak dapat menjangkau folder penyelarasan Anda, sehingga salinan di sana tidak dihapus. Pilih lagi folder tersebut di Pengaturan, atau hapus salinan itu sendiri."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6103,6 +6501,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk n’a pas pu se relancer."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk tidak dapat memulai ulang dirinya sendiri."
           }
         },
         "it": {
@@ -6188,6 +6592,12 @@
             "value": "Copymunk supprime les instantanés et les images qu’il a placés dans votre dossier de synchronisation, et désactive la synchronisation par dossier : celle-ci n’a aucun moyen de demander à vos autres Mac de supprimer quoi que ce soit, donc la laisser active y recopierait aussitôt leur historique. Ce que ces Mac ont placé dans le dossier y reste jusqu’à ce que vous le supprimiez vous-même."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk menghapus snapshot dan gambar yang ditaruhnya di folder penyelarasan Anda, lalu mematikan penyelarasan Folder Bersama: penyelarasan folder tidak dapat memberi tahu Mac Anda yang lain untuk menghapus apa pun, sehingga jika tetap dinyalakan, riwayat dari Mac tersebut akan langsung tersalin kembali. Apa yang ditaruh Mac tersebut di folder akan tetap ada sampai Anda menghapusnya sendiri."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6269,6 +6679,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk a effacé ce Mac alors que la synchronisation iCloud était désactivée : la copie iCloud n’a jamais été supprimée. Réactiver la synchronisation iCloud peut faire revenir ces éléments."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk menghapus data di Mac ini saat penyelarasan iCloud mati, sehingga salinan di iCloud tidak pernah dihapus. Menyalakan penyelarasan iCloud dapat mengembalikan item tersebut."
           }
         },
         "it": {
@@ -6354,6 +6770,12 @@
             "value": "Copymunk envoie cette suppression vers votre base de données privée iCloud. Laissez Copymunk ouvert et restez connecté à iCloud. Copymunk ne peut pas vous dire quand l’envoi est terminé."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk sedang mengirimkan penghapusan ke database pribadi iCloud Anda. Biarkan Copymunk tetap terbuka dan masuk ke iCloud. Copymunk tidak dapat memberi tahu Anda kapan proses ini selesai."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6435,6 +6857,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk utilise uniquement la base de données locale : rien n’a été perdu. Corrigez le problème ci-dessus, puis relancez Copymunk."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk hanya menggunakan database lokal, jadi tidak ada data yang hilang. Perbaiki masalah di atas, lalu mulai ulang Copymunk."
           }
         },
         "it": {
@@ -6520,6 +6948,12 @@
             "value": "Copymunk réside dans la barre des menus (l’icône de tamia en haut à droite).\n\n• Cliquez sur l’icône de la barre des menus à tout moment pour faire apparaître le panneau\n• Tout ce que vous copiez est enregistré automatiquement — saisissez pour rechercher\n• Choisissez un élément et appuyez sur Retour pour le replacer dans le presse-papiers, puis collez-le vous-même avec ⌘V. ⇧Retour le copie en texte brut\n• Ouvrez les réglages depuis la roue dentée du panneau ou en cliquant avec le bouton droit sur l’icône de la barre des menus"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk berada di bar menu (ikon tupai di pojok kanan atas).\n\n• Klik ikon bar menu kapan saja untuk memunculkan panel papan klip\n• Semua yang Anda salin disimpan secara otomatis — ketik untuk mencari\n• Pilih item dan tekan Return untuk mengembalikannya ke papan klip, lalu tempelkan sendiri dengan ⌘V. ⇧Return menyalinnya sebagai teks biasa\n• Buka Pengaturan dari ikon roda gigi di panel, atau dengan mengeklik kanan ikon bar menu"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6601,6 +7035,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk réside dans la barre des menus (l’icône de tamia en haut à droite).\n\n• Appuyez sur %@ à tout moment pour faire apparaître le panneau\n• Tout ce que vous copiez est enregistré automatiquement — saisissez pour rechercher\n• Choisissez un élément et appuyez sur Retour pour le replacer dans le presse-papiers, puis collez-le vous-même avec ⌘V. ⇧Retour le copie en texte brut\n• Ouvrez les réglages depuis la roue dentée du panneau ou en cliquant avec le bouton droit sur l’icône de la barre des menus"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk berada di bar menu (ikon tupai di pojok kanan atas).\n\n• Tekan %@ kapan saja untuk memunculkan panel papan klip\n• Semua yang Anda salin disimpan secara otomatis — ketik untuk mencari\n• Pilih item dan tekan Return untuk mengembalikannya ke papan klip, lalu tempelkan sendiri dengan ⌘V. ⇧Return menyalinnya sebagai teks biasa\n• Buka Pengaturan dari ikon roda gigi di panel, atau dengan mengeklik kanan ikon bar menu"
           }
         },
         "it": {
@@ -6686,6 +7126,12 @@
             "value": "Copymunk enregistre en arrière-plan, sans aucune autorisation"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk mencatat di latar belakang dan tidak memerlukan izin apa pun"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6767,6 +7213,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk se relance et efface le fichier de base de données : les éléments supprimés ne pourront plus être récupérés depuis ce Mac. Ce que la suppression n’a pas atteint dans votre base de données privée iCloud y reste et reviendra sur ce Mac."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk akan memulai ulang dan membersihkan file database, sehingga item yang Anda hapus tidak dapat dipulihkan dari Mac ini. Apa pun di database pribadi iCloud Anda yang belum terjangkau oleh penghapusan akan tetap ada di sana dan akan kembali ke Mac ini."
           }
         },
         "it": {
@@ -6852,6 +7304,12 @@
             "value": "Copymunk se relancera tout seul pour terminer l’effacement du fichier de base de données."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk akan memulai ulang dirinya sendiri untuk menyelesaikan pembersihan file database."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6933,6 +7391,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Créer"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buat"
           }
         },
         "it": {
@@ -7018,6 +7482,12 @@
             "value": "Créer et épingler"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buat dan Pin"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7099,6 +7569,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Couper"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potong"
           }
         },
         "it": {
@@ -7184,6 +7660,12 @@
             "value": "Passer d’un filtre à l’autre"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beralih Antarfilter"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7265,6 +7747,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hapus"
           }
         },
         "it": {
@@ -7350,6 +7838,12 @@
             "value": "Tout supprimer"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hapus Semua"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7431,6 +7925,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer toutes les données ?"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hapus Semua Data?"
           }
         },
         "it": {
@@ -7516,6 +8016,12 @@
             "value": "Supprimer toutes les données…"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hapus Semua Data…"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7597,6 +8103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprimer le Pinboard"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hapus Pinboard"
           }
         },
         "it": {
@@ -7682,6 +8194,12 @@
             "value": "Supprimer le Pinboard « %@ »"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hapus Pinboard “%@”"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7763,6 +8281,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ne pas enregistrer ces apps"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jangan Catat App Ini"
           }
         },
         "it": {
@@ -7848,6 +8372,12 @@
             "value": "Édition"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7929,6 +8459,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Échap efface la recherche · appuyez à nouveau pour fermer"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc membersihkan pencarian · tekan lagi untuk menutup"
           }
         },
         "it": {
@@ -8014,6 +8550,12 @@
             "value": "Échap pour fermer"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc untuk menutup"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -8095,6 +8637,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Toutes les données de ce Mac ont été supprimées."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semua data di Mac ini telah dihapus."
           }
         },
         "it": {
@@ -8180,6 +8728,12 @@
             "value": "Tout ce que vous avez copié est ici."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semua yang pernah Anda salin ada di sini."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -8261,6 +8815,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout ce que vous avez copié est ici. Appuyez sur %@ pour le retrouver à tout moment."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semua yang pernah Anda salin ada di sini. Tekan %@ untuk mengambilnya kembali kapan saja."
           }
         },
         "it": {
@@ -8346,6 +8906,12 @@
             "value": "Fichier"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -8427,6 +8993,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Terminer l’effacement de ce Mac"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selesaikan Penghapusan Mac Ini"
           }
         },
         "it": {
@@ -8512,6 +9084,12 @@
             "value": "Terminer l’effacement de ce Mac ?"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selesaikan penghapusan Mac ini?"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -8593,6 +9171,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aller à la recherche"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fokus ke Pencarian"
           }
         },
         "it": {
@@ -8678,6 +9262,12 @@
             "value": "Général"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Umum"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -8759,6 +9349,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Raccourci global"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pintasan Global"
           }
         },
         "it": {
@@ -8844,6 +9440,12 @@
             "value": "J’ai compris"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mengerti"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -8925,6 +9527,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aide"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bantuan"
           }
         },
         "it": {
@@ -9010,6 +9618,12 @@
             "value": "Historique"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riwayat"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -9091,6 +9705,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ignorer les gestionnaires de mots de passe"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abaikan pengelola kata sandi"
           }
         },
         "it": {
@@ -9176,6 +9796,12 @@
             "value": "Image"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gambar"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -9257,6 +9883,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dans le panneau"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Di Panel"
           }
         },
         "it": {
@@ -9342,6 +9974,12 @@
             "value": "Y compris tous les Pinboards et tout ce qui y est épinglé"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Termasuk setiap Pinboard dan semua yang dipin ke dalamnya"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -9423,6 +10061,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Conserver jusqu’à"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simpan hingga"
           }
         },
         "it": {
@@ -9508,6 +10152,12 @@
             "value": "Touche %lld"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tombol %lld"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -9589,6 +10239,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Semaine dernière"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minggu Lalu"
           }
         },
         "it": {
@@ -9674,6 +10330,12 @@
             "value": "Ouvrir Copymunk à l’ouverture de session"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buka Copymunk saat masuk"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -9755,6 +10417,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lien"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tautan"
           }
         },
         "it": {
@@ -9840,6 +10508,12 @@
             "value": "Copie votre historique directement dans votre iCloud. Supprimer un élément le supprime sur tous vos appareils."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mencerminkan riwayat Anda langsung ke iCloud Anda. Menghapus item akan menghapusnya di semua perangkat."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -9921,6 +10595,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nom"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nama"
           }
         },
         "it": {
@@ -10006,6 +10686,12 @@
             "value": "Nouveau Pinboard"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard Baru"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10087,6 +10773,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nom du nouveau Pinboard"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nama Pinboard Baru"
           }
         },
         "it": {
@@ -10172,6 +10864,12 @@
             "value": "Nouveau Pinboard…"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard Baru…"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10253,6 +10951,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucune app ajoutée"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Belum ada app yang ditambahkan"
           }
         },
         "it": {
@@ -10338,6 +11042,12 @@
             "value": "Aucun dossier sélectionné"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak ada folder yang dipilih"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10419,6 +11129,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucun dossier de synchronisation sélectionné"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Belum ada folder penyelarasan yang dipilih"
           }
         },
         "it": {
@@ -10504,6 +11220,12 @@
             "value": "Plus tard"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nanti"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10585,6 +11307,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Non connecté"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Belum Masuk"
           }
         },
         "it": {
@@ -10670,6 +11398,12 @@
             "value": "Pas encore synchronisé"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Belum diselaraskan"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10751,6 +11485,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rien pour l’instant"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Belum ada apa-apa di sini"
           }
         },
         "it": {
@@ -10836,6 +11576,12 @@
             "value": "Aucun résultat pour « %@ »"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak ada yang cocok dengan “%@”"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10917,6 +11663,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rien de ce type pour l’instant"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Belum ada item jenis ini"
           }
         },
         "it": {
@@ -11002,6 +11754,12 @@
             "value": "Rien n’a été supprimé. Réessayez ; si l’échec persiste, quittez Copymunk depuis l’icône de la barre des menus puis relancez-le."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak ada yang dihapus. Coba lagi, dan jika terus gagal, tutup Copymunk dari ikon bar menu lalu buka lagi."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11083,6 +11841,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rien de ce que vous y copiez n’entre dans l’historique"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apa pun yang Anda salin di app tersebut tidak masuk ke riwayat Anda"
           }
         },
         "it": {
@@ -11168,6 +11932,12 @@
             "value": "Désactivée"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mati"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11249,6 +12019,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Supprime uniquement les éléments qui ne sont pas épinglés dans un Pinboard"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hanya menghapus item yang tidak dipin ke Pinboard"
           }
         },
         "it": {
@@ -11334,6 +12110,12 @@
             "value": "Ouvrir Copymunk"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buka Copymunk"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11415,6 +12197,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrir Réglages Système"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buka Pengaturan Sistem"
           }
         },
         "it": {
@@ -11500,6 +12288,12 @@
             "value": "Autre appareil"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perangkat Lain"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11581,6 +12375,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Coller"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempel"
           }
         },
         "it": {
@@ -11666,6 +12466,12 @@
             "value": "Épingler"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pin"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11747,6 +12553,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Épingler à"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pin ke"
           }
         },
         "it": {
@@ -11832,6 +12644,12 @@
             "value": "Épingler à un Pinboard"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pin ke Pinboard"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11910,6 +12728,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard"
+          }
+        },
+        "id": {
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard"
@@ -11998,6 +12822,12 @@
             "value": "Épinglé"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dipin"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -12079,6 +12909,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Appuyez sur %@ à tout moment pour afficher ce panneau"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekan %@ kapan saja untuk memunculkan panel ini"
           }
         },
         "it": {
@@ -12164,6 +13000,12 @@
             "value": "Appuyez sur la nouvelle combinaison…"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekan pintasan baru…"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -12245,6 +13087,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aperçu"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pratinjau"
           }
         },
         "it": {
@@ -12330,6 +13178,12 @@
             "value": "Les notifications push ne sont pas disponibles sur ce Mac : les modifications faites sur vos autres appareils n’arrivent donc qu’au lancement de Copymunk."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pemberitahuan push tidak tersedia di Mac ini, sehingga perubahan yang dibuat di perangkat Anda yang lain baru tiba saat Copymunk dimulai."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -12411,6 +13265,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quitter Copymunk"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutup Copymunk"
           }
         },
         "it": {
@@ -12496,6 +13356,12 @@
             "value": "Quittez Copymunk depuis l’icône de la barre des menus puis relancez-le — il terminera l’effacement du fichier de base de données au prochain démarrage."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutup Copymunk dari ikon bar menu lalu buka lagi — Copymunk akan menyelesaikan pembersihan file database saat dibuka berikutnya."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -12577,6 +13443,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quittez Copymunk depuis l’icône de la barre des menus puis relancez-le. Votre nouvelle méthode de synchronisation est déjà enregistrée."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutup Copymunk dari ikon bar menu lalu buka lagi. Pengaturan penyelarasan baru Anda sudah disimpan."
           }
         },
         "it": {
@@ -12662,6 +13534,12 @@
             "value": "Enregistrer le presse-papiers automatiquement"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Catat papan klip secara otomatis"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -12743,6 +13621,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rétablir"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ulang"
           }
         },
         "it": {
@@ -12828,6 +13712,12 @@
             "value": "Retirer l’app sélectionnée"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hapus App Terpilih"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -12909,6 +13799,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réinitialiser"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atur Ulang"
           }
         },
         "it": {
@@ -12994,6 +13890,12 @@
             "value": "Relancer Copymunk"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mulai Ulang Copymunk"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13075,6 +13977,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Relancer Copymunk pour arrêter la synchronisation iCloud ?"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mulai ulang Copymunk untuk menghentikan penyelarasan iCloud?"
           }
         },
         "it": {
@@ -13160,6 +14068,12 @@
             "value": "Rétablir l’emplacement par défaut"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kembalikan Lokasi Default"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13241,6 +14155,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Restreint"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dibatasi"
           }
         },
         "it": {
@@ -13326,6 +14246,12 @@
             "value": "Enrichi"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teks Kaya"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13407,6 +14333,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Texte enrichi"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teks Kaya"
           }
         },
         "it": {
@@ -13492,6 +14424,12 @@
             "value": "Cliquez avec le bouton droit sur une carte et choisissez Épingler à un Pinboard pour garder ici ce que vous utilisez le plus."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klik kanan kartu dan pilih Pin ke Pinboard agar item yang paling sering Anda gunakan tetap ada di sini."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13573,6 +14511,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistre votre historique sous forme d’instantanés dans un dossier — iCloud Drive ou n’importe quel dossier partagé. Les suppressions ne sont pas synchronisées avec vos autres appareils."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menyimpan riwayat Anda sebagai snapshot di sebuah folder — iCloud Drive atau folder bersama apa pun bisa digunakan. Penghapusan tidak diselaraskan ke perangkat Anda yang lain."
           }
         },
         "it": {
@@ -13658,6 +14602,12 @@
             "value": "Rechercher"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cari"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13739,6 +14689,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rechercher dans l’historique"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cari Riwayat"
           }
         },
         "it": {
@@ -13824,6 +14780,12 @@
             "value": "Tout sélectionner"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilih Semua"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13905,6 +14867,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réglages"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pengaturan"
           }
         },
         "it": {
@@ -13990,6 +14958,12 @@
             "value": "Réglages…"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pengaturan…"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14071,6 +15045,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dossier partagé"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder Bersama"
           }
         },
         "it": {
@@ -14156,6 +15136,12 @@
             "value": "Le dossier partagé est synchronisé"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder bersama sudah selaras"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14237,6 +15223,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Raccourcis"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pintasan"
           }
         },
         "it": {
@@ -14322,6 +15314,12 @@
             "value": "Afficher tout l’historique"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tampilkan Semua Riwayat"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14403,6 +15401,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afficher le panneau"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tampilkan Panel"
           }
         },
         "it": {
@@ -14488,6 +15492,12 @@
             "value": "Afficher l’icône dans la barre des menus"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tampilkan ikon di bar menu"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14569,6 +15579,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Espace"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spasi"
           }
         },
         "it": {
@@ -14654,6 +15670,12 @@
             "value": "Démarrage"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peluncuran"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14735,6 +15757,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "État"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
           }
         },
         "it": {
@@ -14820,6 +15848,12 @@
             "value": "Synchronisation"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Penyelarasan"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14901,6 +15935,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dossier de synchronisation"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder Penyelarasan"
           }
         },
         "it": {
@@ -14986,6 +16026,12 @@
             "value": "Méthode de synchronisation"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metode Penyelarasan"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -15067,6 +16113,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synchroniser"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selaraskan Sekarang"
           }
         },
         "it": {
@@ -15152,6 +16204,12 @@
             "value": "Méthode de synchronisation modifiée — redémarrez pour l’appliquer"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metode penyelarasan diubah — mulai ulang untuk menerapkan"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -15233,6 +16291,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synchronisé"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diselaraskan"
           }
         },
         "it": {
@@ -15318,6 +16382,12 @@
             "value": "Temporairement indisponible"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak Tersedia Sementara"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -15399,6 +16469,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Texte"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teks"
           }
         },
         "it": {
@@ -15484,6 +16560,12 @@
             "value": "La combinaison doit contenir au moins ⌘, ⌥ ou ⌃. Appuyez sur Esc pour annuler."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kombinasi harus menyertakan setidaknya salah satu dari ⌘, ⌥, atau ⌃. Tekan Esc untuk membatalkan."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -15565,6 +16647,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La copie présente dans votre base de données privée iCloud n’a pas été touchée, car la synchronisation iCloud est désactivée. Réglez « Synchronisation » sur iCloud, relancez Copymunk et supprimez à nouveau pour l’effacer aussi."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salinan di database pribadi iCloud Anda tidak disentuh karena penyelarasan iCloud mati. Atur Penyelarasan ke iCloud, buka ulang Copymunk, lalu hapus lagi untuk menghapus salinan tersebut juga."
           }
         },
         "it": {
@@ -15650,6 +16738,12 @@
             "value": "La carte actuelle y sera épinglée une fois créé"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kartu saat ini akan dipin ke dalamnya setelah dibuat"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -15731,6 +16825,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le dossier a été déplacé ou renommé, ou Copymunk n’y a plus accès."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder telah dipindahkan atau diubah namanya, atau Copymunk kehilangan izin untuk mengaksesnya."
           }
         },
         "it": {
@@ -15816,6 +16916,12 @@
             "value": "La même suppression est mise en file d’attente pour votre base de données privée iCloud et vos autres Mac. Laissez Copymunk ouvert et restez connecté à iCloud jusqu’à la fin — Copymunk ne peut pas vous dire quand ce sera fait."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Penghapusan yang sama sudah diantrekan untuk database pribadi iCloud Anda dan Mac Anda yang lain. Biarkan Copymunk tetap terbuka dan masuk ke iCloud sampai selesai — Copymunk tidak dapat memberi tahu Anda kapan itu terjadi."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -15897,6 +17003,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ce Mac a déjà été synchronisé avec iCloud. Copymunk ne peut pas toucher à la copie iCloud tant que la synchronisation est désactivée — réglez « Synchronisation » sur iCloud, relancez Copymunk et supprimez à nouveau pour effacer cette copie aussi."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac ini pernah diselaraskan dengan iCloud. Copymunk tidak dapat menyentuh salinan di iCloud selama penyelarasan mati — atur Penyelarasan ke iCloud, buka ulang Copymunk, lalu hapus lagi untuk menghapus salinan tersebut juga."
           }
         },
         "it": {
@@ -15982,6 +17094,12 @@
             "value": "Ce Pinboard est vide"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard ini kosong"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -16063,6 +17181,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cette combinaison est déjà utilisée par un raccourci clavier de macOS. Rétablie sur %@."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kombinasi ini sudah digunakan oleh pintasan papan ketik macOS. Dikembalikan ke %@."
           }
         },
         "it": {
@@ -16148,6 +17272,12 @@
             "value": "Cette combinaison est déjà utilisée par une autre app. Rétablie sur %@."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kombinasi ini sudah digunakan oleh app lain. Dikembalikan ke %@."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -16229,6 +17359,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cette copie de Copymunk n’est pas signée pour la synchronisation iCloud."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versi Copymunk ini tidak ditandatangani untuk penyelarasan iCloud."
           }
         },
         "it": {
@@ -16314,6 +17450,12 @@
             "value": "Tous les éléments du presse-papiers et tous les Pinboards seront supprimés, y compris ce qui y est épinglé. Cette action est irréversible."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tindakan ini menghapus setiap item papan klip dan setiap Pinboard, termasuk semua yang dipin ke dalamnya. Tindakan ini tidak dapat diurungkan."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -16395,6 +17537,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tous les éléments du presse-papiers non épinglés à un Pinboard seront supprimés. Les éléments épinglés et les Pinboards sont conservés — utilisez « Supprimer toutes les données » pour les supprimer aussi. Cette action est irréversible."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tindakan ini menghapus setiap item papan klip yang tidak dipin ke Pinboard. Item yang dipin dan Pinboard tetap disimpan — gunakan Hapus Semua Data untuk menghapusnya juga. Tindakan ini tidak dapat diurungkan."
           }
         },
         "it": {
@@ -16480,6 +17628,12 @@
             "value": "Essayer"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coba Sekarang"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -16561,6 +17715,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Annuler"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Urung"
           }
         },
         "it": {
@@ -16646,6 +17806,12 @@
             "value": "Inconnu"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak Diketahui"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -16727,6 +17893,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Illimité"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak Terbatas"
           }
         },
         "it": {
@@ -16812,6 +17984,12 @@
             "value": "Ne plus épingler"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lepas Pin"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -16893,6 +18071,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tant que Copymunk n’a pas redémarré, ce Mac continue d’envoyer votre historique du presse-papiers vers votre base de données privée iCloud. Copymunk est aussi encore en train d’envoyer les éléments que vous avez supprimés ; ce qui n’aura pas été envoyé au moment du redémarrage restera dans iCloud."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hingga Copymunk dimulai ulang, Mac ini terus mengirimkan riwayat papan klip Anda ke database pribadi iCloud Anda. Copymunk juga masih mengirimkan item yang Anda hapus; apa pun yang belum terkirim saat Copymunk dimulai ulang akan tetap ada di iCloud."
           }
         },
         "it": {
@@ -16978,6 +18162,12 @@
             "value": "Tant que Copymunk n’a pas redémarré, ce Mac continue d’envoyer votre historique du presse-papiers vers votre base de données privée iCloud. Si vous ne redémarrez pas maintenant, Copymunk continuera d’utiliser la synchronisation iCloud pendant tout le reste de cette session."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hingga Copymunk dimulai ulang, Mac ini terus mengirimkan riwayat papan klip Anda ke database pribadi iCloud Anda. Jika Anda tidak memulai ulang sekarang, Copymunk akan tetap menggunakan penyelarasan iCloud selama sisa sesi ini."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -17059,6 +18249,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Version"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versi"
           }
         },
         "it": {
@@ -17144,6 +18340,12 @@
             "value": "Bienvenue dans Copymunk"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selamat Datang di Copymunk"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -17225,6 +18427,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Au-delà de la limite, les éléments non épinglés les plus anciens sont supprimés automatiquement. Les éléments épinglés à un Pinboard ne sont pas concernés."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saat batas terlampaui, item terlama yang tidak dipin akan dihapus secara otomatis. Apa pun yang dipin ke Pinboard tidak terpengaruh."
           }
         },
         "it": {
@@ -17310,6 +18518,12 @@
             "value": "Si cette option est désactivée, rouvrez Copymunk dans le Finder pour retrouver les réglages"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jika ini dimatikan, buka lagi Copymunk di Finder untuk kembali ke Pengaturan"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -17391,6 +18605,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Si cette option est désactivée, appuyez sur %@ ou rouvrez Copymunk dans le Finder pour retrouver les réglages"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jika ini dimatikan, tekan %@ atau buka lagi Copymunk di Finder untuk kembali ke Pengaturan"
           }
         },
         "it": {
@@ -17476,6 +18696,12 @@
             "value": "Votre historique du presse-papiers reste uniquement sur ce Mac."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riwayat papan klip Anda hanya tersimpan di Mac ini."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -17557,6 +18783,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Votre historique reste uniquement sur ce Mac et à l’emplacement de synchronisation que vous choisissez. Copymunk ne collecte aucune donnée."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riwayat Anda hanya tersimpan di Mac ini dan di lokasi penyelarasan yang Anda pilih. Copymunk tidak mengumpulkan data apa pun."
           }
         },
         "it": {
@@ -17642,6 +18874,12 @@
             "value": "Compte iCloud"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Akun iCloud"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -17723,6 +18961,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud Drive est désactivé sur ce Mac. Activez-le dans Réglages Système ou choisissez un autre dossier."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud Drive dimatikan di Mac ini. Nyalakan di Pengaturan Sistem, atau pilih folder lain."
           }
         },
         "it": {
@@ -17808,6 +19052,12 @@
             "value": "iCloud est synchronisé"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud sudah selaras"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -17889,6 +19139,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impossible de démarrer la synchronisation iCloud : %@"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Penyelarasan iCloud tidak dapat dimulai: %@"
           }
         },
         "it": {
@@ -17974,6 +19230,12 @@
             "value": "La synchronisation iCloud requiert votre attention"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Penyelarasan iCloud memerlukan perhatian"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -18055,6 +19317,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "< 1 min"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sekarang"
           }
         },
         "it": {
