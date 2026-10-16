@@ -136,6 +136,15 @@
               "Zet mijn klembord in ${applicationName}"
             ]
           }
+        },
+        "pt-BR": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Salvar minha área de transferência no ${applicationName}",
+              "Salve minha área de transferência no ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -259,6 +268,14 @@
             "state": "translated",
             "values": [
               "Bewaar klembord met ${applicationName}"
+            ]
+          }
+        },
+        "pt-BR": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Salvar a área de transferência com o ${applicationName}"
             ]
           }
         }
@@ -385,6 +402,14 @@
               "Bewaar dit item in ${applicationName}"
             ]
           }
+        },
+        "pt-BR": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Salvar este item no ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -507,6 +532,14 @@
             "state": "translated",
             "values": [
               "${applicationName} bewaar klembord"
+            ]
+          }
+        },
+        "pt-BR": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} salvar área de transferência"
             ]
           }
         }

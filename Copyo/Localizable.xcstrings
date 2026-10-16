@@ -58,6 +58,12 @@
             "value": "%@ wordt ook door een andere app gebruikt: als je erop drukt, reageert die app en mogelijk niet Copymunk. Kies een andere combinatie."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ também é usado por outro app: ao pressioná-lo, esse app é acionado e o Copymunk pode não responder. Escolha outra combinação."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -153,6 +159,12 @@
             "value": "%@ werkt niet omdat een andere app deze combinatie gebruikt. Kies een andere combinatie."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ não está funcionando porque outro app o está usando. Escolha outra combinação."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -246,6 +258,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ werkt niet omdat macOS deze combinatie als sneltoets gebruikt. Kies een andere combinatie of schakel die sneltoets uit in Systeeminstellingen."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ não está funcionando porque o macOS o usa como atalho de teclado. Escolha outra combinação ou desative esse atalho nos Ajustes do Sistema."
           }
         },
         "ru": {
@@ -580,6 +598,40 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "%arg tekens"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "many": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg caracteres"
+                    }
+                  },
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg caractere"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg caracteres"
                     }
                   }
                 }
@@ -1030,6 +1082,40 @@
             }
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "many": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg arquivos"
+                    }
+                  },
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg arquivo"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg arquivos"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -1233,6 +1319,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@, uit %2$@, %3$@, %4$@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, de %2$@, %3$@, %4$@"
           }
         },
         "ru": {
@@ -1469,6 +1561,30 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "%lld tekens"
+                }
+              }
+            }
+          }
+        },
+        "pt-BR": {
+          "variations": {
+            "plural": {
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld caracteres"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld caractere"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld caracteres"
                 }
               }
             }
@@ -1767,6 +1883,30 @@
             }
           }
         },
+        "pt-BR": {
+          "variations": {
+            "plural": {
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld arquivos"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld arquivo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld arquivos"
+                }
+              }
+            }
+          }
+        },
         "ru": {
           "variations": {
             "plural": {
@@ -2055,6 +2195,30 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "nog %lld bestanden"
+                }
+              }
+            }
+          }
+        },
+        "pt-BR": {
+          "variations": {
+            "plural": {
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "mais %lld arquivos"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "mais 1 arquivo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "mais %lld arquivos"
                 }
               }
             }
@@ -2353,6 +2517,30 @@
             }
           }
         },
+        "pt-BR": {
+          "variations": {
+            "plural": {
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld resultados"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld resultado"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld resultados"
+                }
+              }
+            }
+          }
+        },
         "ru": {
           "variations": {
             "plural": {
@@ -2502,6 +2690,12 @@
             "value": "%lld d"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld d"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -2597,6 +2791,12 @@
             "value": "%lld u"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld h"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -2687,6 +2887,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld min"
+          }
+        },
+        "pt-BR": {
           "stringUnit": {
             "state": "translated",
             "value": "%lld min"
@@ -2787,6 +2993,12 @@
             "value": "100 items"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "100 itens"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -2880,6 +3092,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1.000 items"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1.000 itens"
           }
         },
         "ru": {
@@ -2977,6 +3195,12 @@
             "value": "300 items"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "300 itens"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -3070,6 +3294,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "500 items"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "500 itens"
           }
         },
         "ru": {
@@ -3167,6 +3397,12 @@
             "value": "Info"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sobre"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -3260,6 +3496,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Voeg toe"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicionar"
           }
         },
         "ru": {
@@ -3357,6 +3599,12 @@
             "value": "Voeg app toe"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicionar App"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -3450,6 +3698,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Na het kopiëren zet Copymunk het item terug op het systeemklembord en geeft het de focus terug aan de app waar je vandaan kwam. Je drukt zelf op ⌘V – Copymunk plakt nooit voor je."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Depois de copiar, o Copymunk coloca o item de volta na área de transferência do sistema e devolve o foco ao app de onde você veio. Quem pressiona ⌘V é você — o Copymunk nunca cola por você."
           }
         },
         "ru": {
@@ -3547,6 +3801,12 @@
             "value": "Alles"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todos"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -3640,6 +3900,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kopieer altijd als platte tekst"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sempre copiar como texto simples"
           }
         },
         "ru": {
@@ -3737,6 +4003,12 @@
             "value": "Altijd aan"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sempre ativado"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -3830,6 +4102,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Elke map die al je apparaten delen, werkt – bijvoorbeeld een map in iCloud Drive of een bedrijfsschijf. Copymunk bewaart zijn bestanden in een eigen submap en heeft alleen toegang tot de map die je hier kiest."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serve qualquer pasta compartilhada por todos os seus dispositivos — por exemplo, uma pasta no iCloud Drive ou um drive da empresa. O Copymunk guarda os arquivos dele em uma subpasta própria e só consegue acessar a pasta que você escolher aqui."
           }
         },
         "ru": {
@@ -3927,6 +4205,12 @@
             "value": "Alles wat je kopieert, verschijnt hier. Copymunk legt het op de achtergrond vast – je hoeft zelf niets te doen."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tudo o que você copia aparece aqui. O Copymunk registra em segundo plano — você não precisa fazer nada."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -4020,6 +4304,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geldt als je op ↩ drukt. ⇧↩ kopieert altijd als platte tekst."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vale quando você pressiona ↩. ⇧↩ sempre copia como texto simples."
           }
         },
         "ru": {
@@ -4117,6 +4407,12 @@
             "value": "Beschikbaar"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disponível"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -4210,6 +4506,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Druk na het kopiëren in je app op ⌘V om te plakken"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Após copiar, volte ao seu app e pressione ⌘V para colar"
           }
         },
         "ru": {
@@ -4307,6 +4609,12 @@
             "value": "Annuleer"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -4400,6 +4708,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geen toegang tot deze map"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não é possível acessar esta pasta"
           }
         },
         "ru": {
@@ -4497,6 +4811,12 @@
             "value": "Vastleggen"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Captura"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -4590,6 +4910,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Controleren…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verificando…"
           }
         },
         "ru": {
@@ -4687,6 +5013,12 @@
             "value": "Kies"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolher"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -4780,6 +5112,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kies opnieuw…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolher Novamente…"
           }
         },
         "ru": {
@@ -4877,6 +5215,12 @@
             "value": "Kies map…"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolher Pasta…"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -4970,6 +5314,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kies een map waarin al je Macs kunnen lezen en schrijven."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolha uma pasta que todos os seus Macs possam ler e gravar."
           }
         },
         "ru": {
@@ -5067,6 +5417,12 @@
             "value": "Kies hieronder een synchronisatiemap om synchronisatie in te schakelen."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolha uma pasta de sincronização abaixo para ativar a sincronização."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -5160,6 +5516,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kies de synchronisatiemap opnieuw"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolha a pasta de sincronização novamente"
           }
         },
         "ru": {
@@ -5257,6 +5619,12 @@
             "value": "Wis"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limpar"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -5350,6 +5718,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geschiedenis wissen?"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limpar Histórico?"
           }
         },
         "ru": {
@@ -5447,6 +5821,12 @@
             "value": "Wis geschiedenis…"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limpar Histórico…"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -5540,6 +5920,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Klik om te wijzigen"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clique para alterar"
           }
         },
         "ru": {
@@ -5637,6 +6023,12 @@
             "value": "Klembord"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Área de Transferência"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -5730,6 +6122,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sluit"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechar"
           }
         },
         "ru": {
@@ -5827,6 +6225,12 @@
             "value": "Sluit paneel"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechar Painel"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -5920,6 +6324,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kleur"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cor"
           }
         },
         "ru": {
@@ -6017,6 +6427,12 @@
             "value": "Inhoud uit 1Password en de sleutelhanger wordt nooit vastgelegd"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O conteúdo do 1Password e do Acesso às Chaves nunca é registrado"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -6110,6 +6526,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gekopieerd · druk op ⌘V om te plakken"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiado · pressione ⌘V para colar"
           }
         },
         "ru": {
@@ -6207,6 +6629,12 @@
             "value": "Gekopieerd, druk op ⌘V om te plakken"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiado, pressione ⌘V para colar"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -6300,6 +6728,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kopieer"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar"
           }
         },
         "ru": {
@@ -6397,6 +6831,12 @@
             "value": "Kopieer kaart N direct"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar o Cartão N Diretamente"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -6490,6 +6930,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kopieer geselecteerd item"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar Item Selecionado"
           }
         },
         "ru": {
@@ -6587,6 +7033,12 @@
             "value": "Kopieer selectie als platte tekst"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar como Texto Simples"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -6680,6 +7132,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kopieer als platte tekst"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar como Texto Simples"
           }
         },
         "ru": {
@@ -6777,6 +7235,12 @@
             "value": "Copymunk kon je klembordgeschiedenis niet verwijderen."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Copymunk não conseguiu apagar seu histórico da área de transferência."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -6870,6 +7334,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk kon je synchronisatiemap niet bereiken, dus de kopie daar is niet verwijderd. Kies de map opnieuw in Instellingen of verwijder de kopie zelf."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Copymunk não conseguiu acessar sua pasta de sincronização, então a cópia que está lá não foi apagada. Escolha a pasta novamente nos Ajustes ou apague-a manualmente."
           }
         },
         "ru": {
@@ -6967,6 +7437,12 @@
             "value": "Copymunk kon zichzelf niet opnieuw starten."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Copymunk não conseguiu se reiniciar."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -7060,6 +7536,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk verwijdert de momentopnamen en afbeeldingen die het in je synchronisatiemap heeft gezet en schakelt synchronisatie via ‘Gedeelde map’ uit: mapsynchronisatie kan je andere Macs niet laten weten dat ze iets moeten verwijderen, dus als je die aan laat, komt hun geschiedenis meteen terug. Wat die Macs in de map hebben gezet, blijft staan tot je het zelf verwijdert."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Copymunk apaga os instantâneos e as imagens que colocou na sua pasta de sincronização e desativa a sincronização por “Pasta Compartilhada”: a sincronização por pasta não tem como pedir aos seus outros Macs que apaguem algo, então mantê-la ativada copiaria o histórico deles de volta na hora. O que esses Macs colocaram na pasta continua lá até você apagar manualmente."
           }
         },
         "ru": {
@@ -7157,6 +7639,12 @@
             "value": "Copymunk heeft deze Mac gewist terwijl iCloud-synchronisatie uit stond, dus de kopie in iCloud is nooit verwijderd. Als je iCloud-synchronisatie inschakelt, kunnen die items terugkomen."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Copymunk apagou este Mac enquanto a sincronização com o iCloud estava desativada, então a cópia no iCloud nunca foi removida. Ativar a sincronização com o iCloud pode trazer esses itens de volta."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -7250,6 +7738,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk stuurt de verwijdering naar je privédatabase in iCloud. Houd Copymunk open en blijf ingelogd bij iCloud. Copymunk kan je niet laten weten wanneer dit klaar is."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Copymunk está enviando a exclusão para o seu banco de dados privado do iCloud. Mantenha o Copymunk aberto e com a sessão do iCloud iniciada. O Copymunk não consegue avisar quando isso terminar."
           }
         },
         "ru": {
@@ -7347,6 +7841,12 @@
             "value": "Copymunk gebruikt alleen de lokale database, dus er is niets verloren gegaan. Los het probleem hierboven op en start Copymunk opnieuw."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Copymunk está usando apenas o banco de dados local, então nada foi perdido. Corrija o problema acima e reinicie o Copymunk."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -7440,6 +7940,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk woont in de menubalk (het eekhoorntje rechtsboven).\n\n• Klik op elk moment op het menubalksymbool om het klembordpaneel op te roepen\n• Alles wat je kopieert, wordt automatisch bewaard – typ om te zoeken\n• Kies een item en druk op Return om het terug op het klembord te zetten en plak het daarna zelf met ⌘V. ⇧Return kopieert het als platte tekst\n• Open Instellingen via het tandwiel in het paneel of door met de rechtermuisknop op het menubalksymbool te klikken"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Copymunk fica na barra de menus (o ícone de esquilo no canto superior direito).\n\n• Clique no ícone da barra de menus a qualquer momento para abrir o painel da área de transferência\n• Tudo o que você copia é salvo automaticamente — digite para buscar\n• Escolha um item e pressione Return para colocá-lo de volta na área de transferência; depois, cole com ⌘V. ⇧Return copia como texto simples\n• Abra os Ajustes pela engrenagem do painel ou clicando com o botão direito no ícone da barra de menus"
           }
         },
         "ru": {
@@ -7537,6 +8043,12 @@
             "value": "Copymunk woont in de menubalk (het eekhoorntje rechtsboven).\n\n• Druk op elk moment op %@ om het klembordpaneel op te roepen\n• Alles wat je kopieert, wordt automatisch bewaard – typ om te zoeken\n• Kies een item en druk op Return om het terug op het klembord te zetten en plak het daarna zelf met ⌘V. ⇧Return kopieert het als platte tekst\n• Open Instellingen via het tandwiel in het paneel of door met de rechtermuisknop op het menubalksymbool te klikken"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Copymunk fica na barra de menus (o ícone de esquilo no canto superior direito).\n\n• Pressione %@ a qualquer momento para abrir o painel da área de transferência\n• Tudo o que você copia é salvo automaticamente — digite para buscar\n• Escolha um item e pressione Return para colocá-lo de volta na área de transferência; depois, cole com ⌘V. ⇧Return copia como texto simples\n• Abra os Ajustes pela engrenagem do painel ou clicando com o botão direito no ícone da barra de menus"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -7630,6 +8142,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk legt op de achtergrond vast en heeft geen toestemmingen nodig"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Copymunk registra em segundo plano e não precisa de permissões"
           }
         },
         "ru": {
@@ -7727,6 +8245,12 @@
             "value": "Copymunk start opnieuw en wist het databasebestand, zodat de items die je hebt verwijderd niet meer van deze Mac kunnen worden hersteld. Wat de verwijdering in je privédatabase in iCloud nog niet heeft bereikt, blijft daar staan en komt terug op deze Mac."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Copymunk é reiniciado e limpa o arquivo do banco de dados, então os itens que você apagou não poderão ser recuperados neste Mac. O que a exclusão ainda não alcançou no seu banco de dados privado do iCloud continua lá e voltará para este Mac."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -7820,6 +8344,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk start zichzelf opnieuw om het databasebestand volledig te wissen."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Copymunk vai se reiniciar para terminar de limpar o arquivo do banco de dados."
           }
         },
         "ru": {
@@ -7917,6 +8447,12 @@
             "value": "Maak aan"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Criar"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -8010,6 +8546,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Maak aan en maak vast"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Criar e Fixar"
           }
         },
         "ru": {
@@ -8107,6 +8649,12 @@
             "value": "Knip"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cortar"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -8200,6 +8748,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Blader door filters"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alternar entre Filtros"
           }
         },
         "ru": {
@@ -8297,6 +8851,12 @@
             "value": "Verwijder"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -8390,6 +8950,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verwijder alles"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar Tudo"
           }
         },
         "ru": {
@@ -8487,6 +9053,12 @@
             "value": "Alle gegevens verwijderen?"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar Todos os Dados?"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -8580,6 +9152,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verwijder alle gegevens…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar Todos os Dados…"
           }
         },
         "ru": {
@@ -8677,6 +9255,12 @@
             "value": "Verwijder Pinboard"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar Pinboard"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -8770,6 +9354,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verwijder Pinboard ‘%@’"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar Pinboard “%@”"
           }
         },
         "ru": {
@@ -8867,6 +9457,12 @@
             "value": "Deze apps niet vastleggen"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não Registrar Estes Apps"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -8960,6 +9556,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wijzig"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar"
           }
         },
         "ru": {
@@ -9057,6 +9659,12 @@
             "value": "Esc wist de zoekopdracht · druk nogmaals om te sluiten"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc limpa a busca · pressione de novo para fechar"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -9150,6 +9758,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Esc om te sluiten"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc para fechar"
           }
         },
         "ru": {
@@ -9247,6 +9861,12 @@
             "value": "Alles op deze Mac is verwijderd."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tudo neste Mac foi apagado."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -9340,6 +9960,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alles wat je hebt gekopieerd, staat hier."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tudo o que você copiou está aqui."
           }
         },
         "ru": {
@@ -9437,6 +10063,12 @@
             "value": "Alles wat je hebt gekopieerd, staat hier. Druk op %@ om het op elk moment terug te halen."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tudo o que você copiou está aqui. Pressione %@ para recuperá-lo a qualquer momento."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -9530,6 +10162,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bestand"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arquivo"
           }
         },
         "ru": {
@@ -9627,6 +10265,12 @@
             "value": "Voltooi het wissen van deze Mac"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminar de Apagar Este Mac"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -9720,6 +10364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Het wissen van deze Mac voltooien?"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminar de apagar este Mac?"
           }
         },
         "ru": {
@@ -9817,6 +10467,12 @@
             "value": "Ga naar zoekveld"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ir para a Busca"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -9910,6 +10566,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Algemeen"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geral"
           }
         },
         "ru": {
@@ -10007,6 +10669,12 @@
             "value": "Globale sneltoets"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atalho Global"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -10100,6 +10768,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Begrepen"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entendi"
           }
         },
         "ru": {
@@ -10197,6 +10871,12 @@
             "value": "Help"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajuda"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -10290,6 +10970,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geschiedenis"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histórico"
           }
         },
         "ru": {
@@ -10387,6 +11073,12 @@
             "value": "Negeer wachtwoordbeheerders"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ignorar gerenciadores de senhas"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -10480,6 +11172,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afbeelding"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Imagem"
           }
         },
         "ru": {
@@ -10577,6 +11275,12 @@
             "value": "In het paneel"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Painel"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -10670,6 +11374,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Inclusief alle Pinboards en alles wat erop is vastgemaakt"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inclui todos os Pinboards e tudo o que estiver fixado neles"
           }
         },
         "ru": {
@@ -10767,6 +11477,12 @@
             "value": "Bewaar maximaal"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manter até"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -10860,6 +11576,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Toets %lld"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tecla %lld"
           }
         },
         "ru": {
@@ -10957,6 +11679,12 @@
             "value": "Vorige week"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semana passada"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -11052,6 +11780,12 @@
             "value": "Open Copymunk bij inloggen"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir o Copymunk no início da sessão"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -11142,6 +11876,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Link"
+          }
+        },
+        "pt-BR": {
           "stringUnit": {
             "state": "translated",
             "value": "Link"
@@ -11242,6 +11982,12 @@
             "value": "Spiegelt je geschiedenis rechtstreeks naar je iCloud. Als je een item verwijdert, verdwijnt het op al je apparaten."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espelha seu histórico diretamente no seu iCloud. Apagar um item o remove de todos os dispositivos."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -11335,6 +12081,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Naam"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nome"
           }
         },
         "ru": {
@@ -11432,6 +12184,12 @@
             "value": "Nieuw Pinboard"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novo Pinboard"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -11525,6 +12283,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Naam nieuw Pinboard"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nome do Novo Pinboard"
           }
         },
         "ru": {
@@ -11622,6 +12386,12 @@
             "value": "Nieuw Pinboard…"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novo Pinboard…"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -11715,6 +12485,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geen apps toegevoegd"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhum app adicionado"
           }
         },
         "ru": {
@@ -11812,6 +12588,12 @@
             "value": "Geen map geselecteerd"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma pasta selecionada"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -11905,6 +12687,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geen synchronisatiemap geselecteerd"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma pasta de sincronização selecionada"
           }
         },
         "ru": {
@@ -12002,6 +12790,12 @@
             "value": "Niet nu"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agora Não"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -12095,6 +12889,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Niet ingelogd"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessão Não Iniciada"
           }
         },
         "ru": {
@@ -12192,6 +12992,12 @@
             "value": "Nog niet gesynchroniseerd"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ainda não sincronizado"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -12285,6 +13091,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nog niets hier"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada aqui ainda"
           }
         },
         "ru": {
@@ -12382,6 +13194,12 @@
             "value": "Niets gevonden voor ‘%@’"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada corresponde a “%@”"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -12475,6 +13293,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nog niets van dit type"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada deste tipo ainda"
           }
         },
         "ru": {
@@ -12572,6 +13396,12 @@
             "value": "Er is niets verwijderd. Probeer het opnieuw. Blijft het mislukken, stop Copymunk dan via het menubalksymbool en open het opnieuw."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada foi apagado. Tente novamente e, se continuar falhando, encerre o Copymunk pelo ícone da barra de menus e abra-o de novo."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -12665,6 +13495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wat je daarin kopieert, komt niet in je geschiedenis"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada do que você copiar neles entra no seu histórico"
           }
         },
         "ru": {
@@ -12762,6 +13598,12 @@
             "value": "Uit"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desativada"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -12855,6 +13697,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verwijdert alleen items die niet op een Pinboard zijn vastgemaakt"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove apenas itens que não estão fixados em um Pinboard"
           }
         },
         "ru": {
@@ -12952,6 +13800,12 @@
             "value": "Open Copymunk"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Copymunk"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -13045,6 +13899,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Open Systeeminstellingen"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Ajustes do Sistema"
           }
         },
         "ru": {
@@ -13142,6 +14002,12 @@
             "value": "Ander apparaat"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Outro Dispositivo"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -13235,6 +14101,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Plak"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colar"
           }
         },
         "ru": {
@@ -13332,6 +14204,12 @@
             "value": "Maak vast"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fixar"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -13425,6 +14303,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Maak vast op"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fixar em"
           }
         },
         "ru": {
@@ -13522,6 +14406,12 @@
             "value": "Maak vast op Pinboard"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fixar no Pinboard"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -13612,6 +14502,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard"
+          }
+        },
+        "pt-BR": {
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard"
@@ -13712,6 +14608,12 @@
             "value": "Vastgemaakt"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fixado"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -13805,6 +14707,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Druk op elk moment op %@ om dit paneel op te roepen"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pressione %@ a qualquer momento para abrir este painel"
           }
         },
         "ru": {
@@ -13902,6 +14810,12 @@
             "value": "Druk op de nieuwe sneltoets…"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pressione o novo atalho…"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -13995,6 +14909,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Voorvertoning"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visualizar"
           }
         },
         "ru": {
@@ -14092,6 +15012,12 @@
             "value": "Pushmeldingen zijn niet beschikbaar op deze Mac, dus wijzigingen op je andere apparaten komen pas binnen als Copymunk start."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "As notificações push não estão disponíveis neste Mac, então as alterações feitas nos seus outros dispositivos só chegam quando o Copymunk é aberto."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -14185,6 +15111,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Stop Copymunk"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encerrar Copymunk"
           }
         },
         "ru": {
@@ -14282,6 +15214,12 @@
             "value": "Stop Copymunk via het menubalksymbool en open het opnieuw – bij de volgende start wordt het databasebestand volledig gewist."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encerre o Copymunk pelo ícone da barra de menus e abra-o de novo — ele termina de limpar o arquivo do banco de dados na próxima abertura."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -14375,6 +15313,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Stop Copymunk via het menubalksymbool en open het opnieuw. Je nieuwe synchronisatie-instelling is al bewaard."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encerre o Copymunk pelo ícone da barra de menus e abra-o de novo. Seu novo ajuste de sincronização já está salvo."
           }
         },
         "ru": {
@@ -14472,6 +15416,12 @@
             "value": "Leg klembord automatisch vast"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registrar a área de transferência automaticamente"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -14565,6 +15515,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opnieuw"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refazer"
           }
         },
         "ru": {
@@ -14662,6 +15618,12 @@
             "value": "Verwijder geselecteerde app"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remover App Selecionado"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -14755,6 +15717,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Stel opnieuw in"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redefinir"
           }
         },
         "ru": {
@@ -14852,6 +15820,12 @@
             "value": "Start Copymunk opnieuw"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reiniciar Copymunk"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -14945,6 +15919,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk opnieuw starten om iCloud-synchronisatie te stoppen?"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reiniciar o Copymunk para parar a sincronização com o iCloud?"
           }
         },
         "ru": {
@@ -15042,6 +16022,12 @@
             "value": "Herstel standaardlocatie"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurar Local Padrão"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -15135,6 +16121,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Beperkt"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restrito"
           }
         },
         "ru": {
@@ -15232,6 +16224,12 @@
             "value": "RTF"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Formatado"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -15325,6 +16323,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "RTF-tekst"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texto Formatado"
           }
         },
         "ru": {
@@ -15422,6 +16426,12 @@
             "value": "Klik met de rechtermuisknop op een kaart en kies ‘Maak vast op Pinboard’ om de items die je het meest gebruikt hier te bewaren."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clique com o botão direito em um cartão e escolha “Fixar no Pinboard” para manter aqui o que você mais usa."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -15515,6 +16525,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bewaart je geschiedenis als momentopnamen in een map – iCloud Drive of elke gedeelde map werkt. Verwijderingen worden niet naar je andere apparaten gesynchroniseerd."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva seu histórico como instantâneos em uma pasta — o iCloud Drive ou qualquer pasta compartilhada serve. O que você apaga não é sincronizado com seus outros dispositivos."
           }
         },
         "ru": {
@@ -15612,6 +16628,12 @@
             "value": "Zoek"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -15705,6 +16727,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zoek in geschiedenis"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar no Histórico"
           }
         },
         "ru": {
@@ -15802,6 +16830,12 @@
             "value": "Selecteer alles"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selecionar Tudo"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -15895,6 +16929,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Instellingen"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
           }
         },
         "ru": {
@@ -15992,6 +17032,12 @@
             "value": "Instellingen…"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes…"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -16085,6 +17131,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gedeelde map"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasta Compartilhada"
           }
         },
         "ru": {
@@ -16182,6 +17234,12 @@
             "value": "Gedeelde map is gesynchroniseerd"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A pasta compartilhada está sincronizada"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -16275,6 +17333,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sneltoetsen"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atalhos"
           }
         },
         "ru": {
@@ -16372,6 +17436,12 @@
             "value": "Toon volledige geschiedenis"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Todo o Histórico"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -16465,6 +17535,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Toon paneel"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar Painel"
           }
         },
         "ru": {
@@ -16562,6 +17638,12 @@
             "value": "Toon symbool in menubalk"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar ícone na barra de menus"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -16655,6 +17737,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Spatie"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espaço"
           }
         },
         "ru": {
@@ -16752,6 +17840,12 @@
             "value": "Opstarten"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inicialização"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -16842,6 +17936,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
+          }
+        },
+        "pt-BR": {
           "stringUnit": {
             "state": "translated",
             "value": "Status"
@@ -16942,6 +18042,12 @@
             "value": "Synchronisatie"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronização"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -17035,6 +18141,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synchronisatiemap"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasta de Sincronização"
           }
         },
         "ru": {
@@ -17132,6 +18244,12 @@
             "value": "Synchronisatiemethode"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Método de Sincronização"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -17225,6 +18343,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synchroniseer nu"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizar Agora"
           }
         },
         "ru": {
@@ -17322,6 +18446,12 @@
             "value": "Synchronisatiemethode gewijzigd – start opnieuw om toe te passen"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Método de sincronização alterado — reinicie para aplicar"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -17415,6 +18545,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gesynchroniseerd"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizado"
           }
         },
         "ru": {
@@ -17512,6 +18648,12 @@
             "value": "Tijdelijk niet beschikbaar"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temporariamente Indisponível"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -17605,6 +18747,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tekst"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texto"
           }
         },
         "ru": {
@@ -17702,6 +18850,12 @@
             "value": "De combinatie moet minstens één van ⌘, ⌥ of ⌃ bevatten. Druk op Esc om te annuleren."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A combinação precisa incluir pelo menos uma das teclas ⌘, ⌥ ou ⌃. Pressione Esc para cancelar."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -17795,6 +18949,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "De kopie in je privédatabase in iCloud is niet aangeraakt, omdat iCloud-synchronisatie uit staat. Zet ‘Synchronisatie’ op iCloud, open Copymunk opnieuw en verwijder nogmaals om ook die kopie te verwijderen."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A cópia no seu banco de dados privado do iCloud não foi alterada, porque a sincronização com o iCloud está desativada. Defina “Sincronização” como iCloud, reabra o Copymunk e apague novamente para removê-la também."
           }
         },
         "ru": {
@@ -17892,6 +19052,12 @@
             "value": "De huidige kaart wordt erop vastgemaakt zodra het is aangemaakt"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O cartão atual será fixado nele assim que for criado"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -17985,6 +19151,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "De map is verplaatst of hernoemd, of Copymunk heeft er geen toegang meer toe."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A pasta foi movida ou renomeada, ou o Copymunk perdeu a permissão de acesso a ela."
           }
         },
         "ru": {
@@ -18082,6 +19254,12 @@
             "value": "Dezelfde verwijdering staat in de wachtrij voor je privédatabase in iCloud en je andere Macs. Houd Copymunk open en blijf ingelogd bij iCloud tot het klaar is – Copymunk kan je niet laten weten wanneer dat is."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A mesma exclusão está na fila para o seu banco de dados privado do iCloud e para seus outros Macs. Mantenha o Copymunk aberto e com a sessão do iCloud iniciada até terminar — o Copymunk não consegue avisar quando isso acontece."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -18175,6 +19353,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deze Mac heeft eerder met iCloud gesynchroniseerd. Copymunk kan niet bij de kopie in iCloud zolang synchronisatie uit staat – zet ‘Synchronisatie’ op iCloud, open Copymunk opnieuw en verwijder nogmaals om ook die kopie te verwijderen."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este Mac já foi sincronizado com o iCloud antes. O Copymunk não pode alterar a cópia no iCloud enquanto a sincronização estiver desativada — defina “Sincronização” como iCloud, reabra o Copymunk e apague novamente para remover essa cópia também."
           }
         },
         "ru": {
@@ -18272,6 +19456,12 @@
             "value": "Dit Pinboard is leeg"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este Pinboard está vazio"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -18365,6 +19555,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deze combinatie wordt al gebruikt door een sneltoets van macOS. Teruggezet naar %@."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta combinação já é usada por um atalho de teclado do macOS. O atalho voltou a ser %@."
           }
         },
         "ru": {
@@ -18462,6 +19658,12 @@
             "value": "Deze combinatie wordt al gebruikt door een andere app. Teruggezet naar %@."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta combinação já é usada por outro app. O atalho voltou a ser %@."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -18555,6 +19757,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deze versie van Copymunk is niet ondertekend voor iCloud-synchronisatie."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta versão do Copymunk não está assinada para a sincronização com o iCloud."
           }
         },
         "ru": {
@@ -18652,6 +19860,12 @@
             "value": "Hiermee worden alle items en alle Pinboards verwijderd, inclusief alles wat erop is vastgemaakt. Deze actie kan niet ongedaan worden gemaakt."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Isto apaga todos os itens da área de transferência e todos os Pinboards, incluindo tudo o que estiver fixado neles. Esta ação não pode ser desfeita."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -18745,6 +19959,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hiermee worden alle items verwijderd die niet op een Pinboard zijn vastgemaakt. Vastgemaakte items en Pinboards blijven bewaard – gebruik ‘Verwijder alle gegevens’ om die ook te verwijderen. Deze actie kan niet ongedaan worden gemaakt."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Isto apaga todos os itens da área de transferência que não estão fixados em um Pinboard. Os itens fixados e os Pinboards são mantidos — use “Apagar Todos os Dados” para removê-los também. Esta ação não pode ser desfeita."
           }
         },
         "ru": {
@@ -18842,6 +20062,12 @@
             "value": "Probeer het nu"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Experimentar Agora"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -18935,6 +20161,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Herstel"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desfazer"
           }
         },
         "ru": {
@@ -19032,6 +20264,12 @@
             "value": "Onbekend"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desconhecido"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -19125,6 +20363,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Onbeperkt"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ilimitado"
           }
         },
         "ru": {
@@ -19222,6 +20466,12 @@
             "value": "Maak los"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desafixar"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -19315,6 +20565,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Totdat Copymunk opnieuw start, blijft deze Mac je klembordgeschiedenis naar je privédatabase in iCloud sturen. Copymunk stuurt ook nog de items die je hebt verwijderd; wat bij het opnieuw starten nog niet is verstuurd, blijft in iCloud staan."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Até o Copymunk reiniciar, este Mac continua enviando seu histórico da área de transferência para o seu banco de dados privado do iCloud. O Copymunk também ainda está enviando os itens que você apagou; o que não tiver sido enviado quando o Copymunk reiniciar continuará no iCloud."
           }
         },
         "ru": {
@@ -19412,6 +20668,12 @@
             "value": "Totdat Copymunk opnieuw start, blijft deze Mac je klembordgeschiedenis naar je privédatabase in iCloud sturen. Als je nu niet opnieuw start, blijft Copymunk de rest van deze sessie iCloud-synchronisatie gebruiken."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Até o Copymunk reiniciar, este Mac continua enviando seu histórico da área de transferência para o seu banco de dados privado do iCloud. Se você não reiniciar agora, o Copymunk continuará usando a sincronização com o iCloud pelo resto desta sessão."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -19505,6 +20767,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Versie"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versão"
           }
         },
         "ru": {
@@ -19602,6 +20870,12 @@
             "value": "Welkom bij Copymunk"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conheça o Copymunk"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -19695,6 +20969,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Als de limiet wordt overschreden, worden de oudste niet-vastgemaakte items automatisch verwijderd. Alles wat op een Pinboard is vastgemaakt, blijft staan."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando o limite é excedido, os itens não fixados mais antigos são removidos automaticamente. O que estiver fixado em um Pinboard não é afetado."
           }
         },
         "ru": {
@@ -19792,6 +21072,12 @@
             "value": "Als dit uit staat, open je Copymunk opnieuw in de Finder om bij Instellingen te komen"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Com esta opção desativada, abra o Copymunk novamente no Finder para voltar aos Ajustes"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -19885,6 +21171,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Als dit uit staat, druk je op %@ of open je Copymunk opnieuw in de Finder om bij Instellingen te komen"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Com esta opção desativada, pressione %@ ou abra o Copymunk novamente no Finder para voltar aos Ajustes"
           }
         },
         "ru": {
@@ -19982,6 +21274,12 @@
             "value": "Je klembordgeschiedenis blijft alleen op deze Mac."
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seu histórico da área de transferência fica apenas neste Mac."
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -20075,6 +21373,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Je geschiedenis staat alleen op deze Mac en op de synchronisatielocatie die je kiest. Copymunk verzamelt geen gegevens."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seu histórico fica apenas neste Mac e no local de sincronização que você escolher. O Copymunk não coleta nenhum dado."
           }
         },
         "ru": {
@@ -20172,6 +21476,12 @@
             "value": "iCloud-account"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conta do iCloud"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -20265,6 +21575,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud Drive is uitgeschakeld op deze Mac. Schakel het in via Systeeminstellingen of kies een andere map."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O iCloud Drive está desativado neste Mac. Ative-o nos Ajustes do Sistema ou escolha outra pasta."
           }
         },
         "ru": {
@@ -20362,6 +21678,12 @@
             "value": "iCloud is gesynchroniseerd"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O iCloud está sincronizado"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -20455,6 +21777,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud-synchronisatie kon niet starten: %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não foi possível iniciar a sincronização com o iCloud: %@"
           }
         },
         "ru": {
@@ -20552,6 +21880,12 @@
             "value": "iCloud-synchronisatie vereist aandacht"
           }
         },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A sincronização com o iCloud precisa de atenção"
+          }
+        },
         "ru": {
           "stringUnit": {
             "state": "translated",
@@ -20645,6 +21979,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "nu"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "agora"
           }
         },
         "ru": {
