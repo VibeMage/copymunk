@@ -47,14 +47,14 @@ struct HotkeyConfig: Equatable {
         return flags
     }
 
-    /// 如 "⇧⌘V"，用于界面展示
+    /// 如 "⇧⌘V"，用于界面展示。常被插进本地化句子，RTL 语言里要隔离成从左到右，否则修饰键会被倒排
     var displayString: String {
         var symbols = ""
         if carbonModifiers & UInt32(controlKey) != 0 { symbols += "⌃" }
         if carbonModifiers & UInt32(optionKey) != 0 { symbols += "⌥" }
         if carbonModifiers & UInt32(shiftKey) != 0 { symbols += "⇧" }
         if carbonModifiers & UInt32(cmdKey) != 0 { symbols += "⌘" }
-        return symbols + Self.keyName(for: keyCode)
+        return (symbols + Self.keyName(for: keyCode)).leftToRightIsolated
     }
 
     /// 用于 NSMenuItem.keyEquivalent 的小写字符（仅当按键可用字符表示时）

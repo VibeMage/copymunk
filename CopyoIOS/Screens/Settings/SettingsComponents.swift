@@ -85,7 +85,7 @@ struct SettingsRowLabel: View {
                     .minimumScaleFactor(0.8)
             }
             if showsDisclosure {
-                Image(systemName: "chevron.right")
+                Image(systemName: "chevron.forward")
                     .font(.system(size: disclosureSize, weight: .semibold))
                     .foregroundStyle(CopyoTheme.labelTertiary)
                     .accessibilityHidden(true)
@@ -300,7 +300,7 @@ struct InlineActionPill: View {
         HStack(spacing: 4) {
             Text(title)
                 .font(.system(size: fontSize, weight: .semibold))
-            Image(systemName: "chevron.right")
+            Image(systemName: "chevron.forward")
                 .font(.system(.caption, weight: .semibold))
                 .accessibilityHidden(true)
         }

@@ -263,7 +263,7 @@ private struct PinboardRow: View {
                 .accessibilityLabel(count == 1
                                     ? String(localized: "1 item")
                                     : String(format: String(localized: "%lld items"), count))
-            Image(systemName: "chevron.right")
+            Image(systemName: "chevron.forward")
                 .font(.system(size: chevronSize, weight: .semibold))
                 .foregroundStyle(CopyoTheme.labelTertiary)
                 // 展开指示符：整行已经是 `Button`，旁白会自己报「按钮」

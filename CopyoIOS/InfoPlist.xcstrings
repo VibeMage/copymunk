@@ -5,6 +5,12 @@
       "comment" : "Privacy - Photo Library Additions Usage Description",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يحفظ Copymunk الصورة التي تختارها في مكتبة الصور."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",

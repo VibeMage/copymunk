@@ -253,7 +253,7 @@ public struct ShareView: View {
                     // 先缩到 0.8（全应用统一的下限）再谈截断
                     .minimumScaleFactor(0.8)
                 if showsChevron {
-                    Image(systemName: "chevron.right")
+                    Image(systemName: "chevron.forward")
                         .font(.system(.footnote, weight: .semibold))
                 }
             }

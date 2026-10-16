@@ -55,6 +55,15 @@
               "用 ${applicationName} 儲存剪貼板"
             ]
           }
+        },
+        "ar": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "احفظ الحافظة في ${applicationName}",
+              "احفظ حافظتي في ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -105,6 +114,14 @@
             "state": "translated",
             "values": [
               "用 ${applicationName} 存剪貼板"
+            ]
+          }
+        },
+        "ar": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "احفظ الحافظة باستخدام ${applicationName}"
             ]
           }
         }
@@ -159,6 +176,14 @@
               "把這個存到 ${applicationName}"
             ]
           }
+        },
+        "ar": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "احفظ هذا العنصر في ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -209,6 +234,14 @@
             "state": "translated",
             "values": [
               "${applicationName} 儲存剪貼板"
+            ]
+          }
+        },
+        "ar": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}، احفظ الحافظة"
             ]
           }
         }

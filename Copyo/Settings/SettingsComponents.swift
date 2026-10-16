@@ -239,7 +239,7 @@ struct SettingsKeycap: View {
     var text: Text
 
     init(_ key: LocalizedStringKey) { text = Text(key) }
-    init(verbatim: String) { text = Text(verbatim: verbatim) }
+    init(verbatim: String) { text = Text(verbatim: verbatim.leftToRightIsolated) }
 
     var body: some View {
         text

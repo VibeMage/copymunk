@@ -48,7 +48,7 @@ struct ClipDetailInfoGroup: View {
                 InfoRow(title: String(localized: "Pinboard")) {
                     HStack(spacing: 4) {
                         Text(item.pinboard?.name ?? String(localized: "Not pinned"))
-                        Image(systemName: "chevron.right")
+                        Image(systemName: "chevron.forward")
                             .font(.system(.footnote, weight: .semibold))
                             .foregroundStyle(CopyoTheme.labelTertiary)
                             // 展开指示符：这一行本来就是 `Menu`，旁白已经会报「按钮」

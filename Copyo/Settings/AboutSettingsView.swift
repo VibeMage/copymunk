@@ -53,7 +53,7 @@ struct AboutView: View {
                 SettingsRow(title: Text("Version"),
                             lead: { SettingsTile(hex: "#30B0C7", symbol: "info.circle") },
                             trailing: {
-                                SettingsValue(verbatim: version)
+                                SettingsValue(verbatim: version.leftToRightIsolated)
                                     .textSelection(.enabled)
                             })
             }

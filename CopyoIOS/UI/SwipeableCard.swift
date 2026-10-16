@@ -24,6 +24,7 @@ struct SwipeableCard<Content: View>: View {
     @ScaledMetric(relativeTo: .title2) private var actionSymbolSize: CGFloat = 24
 
     @State private var offset: CGFloat = 0
+    @Environment(\.layoutDirection) private var layoutDirection
 
     var body: some View {
         ZStack {
@@ -98,7 +99,9 @@ struct SwipeableCard<Content: View>: View {
     }
 
     private func dragChanged(_ translationX: CGFloat) {
-        var translation = translationX
+        // UIKit 给的是屏幕上的物理位移，SwiftUI 的 offset 在 RTL 下却按逻辑方向镜像（+x 往左）。
+        // 换成逻辑方向，卡片才跟着手指走；RTL 下随之变成左滑固定、右滑删除，与系统列表的镜像习惯一致
+        var translation = layoutDirection == .rightToLeft ? -translationX : translationX
         if translation > 0 && (!pinEnabled || onPin == nil) { translation = 0 }
         if translation < 0 && onDelete == nil { translation = 0 }
         offset = damped(translation)

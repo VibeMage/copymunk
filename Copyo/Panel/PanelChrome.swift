@@ -35,7 +35,7 @@ struct KeyCap: View {
     @Environment(\.colorSchemeContrast) private var contrast
 
     var body: some View {
-        Text(verbatim: text)
+        Text(verbatim: text.leftToRightIsolated)
             .font(CopyoTheme.Dense.Font.keycap)
             // 增强对比度时 meta 一档提到 label（第八节第 24 条）
             .foregroundStyle(contrast == .increased ? CopyoTheme.label : CopyoTheme.labelMeta)
@@ -43,6 +43,12 @@ struct KeyCap: View {
             .frame(minWidth: 20, minHeight: 20)
             .background(CopyoTheme.fill2, in: RoundedRectangle(cornerRadius: 6, style: .continuous))
     }
+}
+
+extension String {
+    /// 键位串（`⌘⌫`、`⇧↩`、`⌘1–9`）全是中性字符，阿拉伯语等 RTL 界面里会被双向算法倒排成
+    /// `⌫⌘`、`9–1⌘`。包一层 LRI…PDI 让它按书写顺序显示，外面的 RTL 布局照常镜像
+    var leftToRightIsolated: String { "\u{2066}\(self)\u{2069}" }
 }
 
 /// 底部提示条的一项：键帽 + 说明
