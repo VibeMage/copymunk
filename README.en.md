@@ -22,7 +22,7 @@ Data lives on this Mac (`~/Library/Application Support/Copyo/`) and syncing is o
 - **Custom shortcut**: `⇧⌘V` by default; record any key combination in Settings
 - **History limit**: 100/300/500/1000/unlimited; past the limit, the oldest unpinned entries are cleaned up automatically
 - **Launch at login**, hiding the menu bar icon, pausing capture, plain-text mode and other settings
-- **Three languages**: English, Simplified Chinese and French, following the system language, built on a String Catalog
+- **Eight languages**: English, Simplified and Traditional Chinese, French, German, Spanish, Japanese and Arabic (laid out right to left), following the system language, built on a String Catalog
 
 ## Installation
 
