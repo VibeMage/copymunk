@@ -46,6 +46,12 @@
             "value": "%@ 키는 다른 앱에서도 사용 중입니다. 누르면 해당 앱이 실행되어 Copymunk가 반응하지 않을 수 있습니다. 다른 조합을 선택하십시오."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แอปอื่นใช้ %@ อยู่ด้วย เมื่อกดจะเรียกแอปนั้นขึ้นมาและ Copymunk อาจไม่ตอบสนอง โปรดเลือกปุ่มผสมอื่น"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -117,6 +123,12 @@
             "value": "%@ 키는 다른 앱에서 사용 중이므로 작동하지 않습니다. 다른 조합을 선택하십시오."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ ใช้งานไม่ได้เนื่องจากแอปอื่นกำลังใช้อยู่ โปรดเลือกปุ่มผสมอื่น"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -186,6 +198,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ 키는 macOS의 키보드 단축키로 사용 중이므로 작동하지 않습니다. 다른 조합을 선택하거나 시스템 설정에서 해당 단축키를 끄십시오."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ ใช้งานไม่ได้เนื่องจาก macOS ใช้เป็นปุ่มลัดแป้นพิมพ์ โปรดเลือกปุ่มผสมอื่น หรือปิดปุ่มลัดนั้นในการตั้งค่าระบบ"
           }
         },
         "tr": {
@@ -458,6 +476,28 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "%arg자"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg อักขระ"
                     }
                   }
                 }
@@ -796,6 +836,28 @@
             }
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 2,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg ไฟล์"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -925,6 +987,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%1$@, 출처: %2$@, %3$@, %4$@"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ จาก %2$@, %3$@, %4$@"
           }
         },
         "tr": {
@@ -1119,6 +1187,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "%lld자"
+                }
+              }
+            }
+          }
+        },
+        "th": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld อักขระ"
                 }
               }
             }
@@ -1345,6 +1425,18 @@
             }
           }
         },
+        "th": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld ไฟล์"
+                }
+              }
+            }
+          }
+        },
         "tr": {
           "variations": {
             "plural": {
@@ -1561,6 +1653,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "외 파일 %lld개"
+                }
+              }
+            }
+          }
+        },
+        "th": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "อีก %lld ไฟล์"
                 }
               }
             }
@@ -1787,6 +1891,18 @@
             }
           }
         },
+        "th": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld ผลลัพธ์"
+                }
+              }
+            }
+          }
+        },
         "tr": {
           "variations": {
             "plural": {
@@ -1882,6 +1998,12 @@
             "value": "%lld일"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld วัน"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -1951,6 +2073,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld시간"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ชม."
           }
         },
         "tr": {
@@ -2024,6 +2152,12 @@
             "value": "%lld분"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld นาที"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -2093,6 +2227,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "100개"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "100 รายการ"
           }
         },
         "tr": {
@@ -2166,6 +2306,12 @@
             "value": "1,000개"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1,000 รายการ"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -2235,6 +2381,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "300개"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "300 รายการ"
           }
         },
         "tr": {
@@ -2308,6 +2460,12 @@
             "value": "500개"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "500 รายการ"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -2377,6 +2535,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "정보"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เกี่ยวกับ"
           }
         },
         "tr": {
@@ -2450,6 +2614,12 @@
             "value": "추가"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เพิ่ม"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -2519,6 +2689,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "앱 추가"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เพิ่มแอป"
           }
         },
         "tr": {
@@ -2592,6 +2768,12 @@
             "value": "복사하면 Copymunk가 항목을 시스템 클립보드에 다시 넣고 원래 사용하던 앱으로 포커스를 돌려줍니다. 붙여넣기는 직접 ⌘V를 눌러야 하며, Copymunk가 대신 붙여넣는 일은 없습니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "หลังจากคุณคัดลอก Copymunk จะเขียนรายการกลับไปยังคลิปบอร์ดของระบบ และคืนโฟกัสให้แอปที่คุณใช้อยู่ก่อนหน้า คุณกด ⌘V เอง โดย Copymunk จะไม่วางแทนคุณเลย"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -2661,6 +2843,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "전체"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ทั้งหมด"
           }
         },
         "tr": {
@@ -2734,6 +2922,12 @@
             "value": "항상 일반 텍스트로 복사"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คัดลอกเป็นข้อความธรรมดาเสมอ"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -2803,6 +2997,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "항상 켬"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิดตลอด"
           }
         },
         "tr": {
@@ -2876,6 +3076,12 @@
             "value": "모든 기기가 공유하는 폴더라면 어디든 사용할 수 있습니다. 예를 들어 iCloud Drive 안의 폴더나 회사 드라이브도 됩니다. Copymunk는 자체 하위 폴더에 파일을 보관하며, 여기에서 선택한 폴더에만 접근할 수 있습니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ใช้โฟลเดอร์ใดก็ได้ที่อุปกรณ์ทุกเครื่องของคุณใช้ร่วมกัน เช่น โฟลเดอร์ใน iCloud Drive หรือไดรฟ์ของบริษัท Copymunk จะเก็บไฟล์ไว้ในโฟลเดอร์ย่อยของตัวเอง และเข้าถึงได้เฉพาะโฟลเดอร์ที่คุณเลือกที่นี่"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -2945,6 +3151,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "복사한 모든 항목이 여기에 표시됩니다. Copymunk가 백그라운드에서 기록하므로 따로 할 일은 없습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ทุกสิ่งที่คุณคัดลอกจะแสดงที่นี่ Copymunk บันทึกไว้ในเบื้องหลังโดยที่คุณไม่ต้องทำอะไรเลย"
           }
         },
         "tr": {
@@ -3018,6 +3230,12 @@
             "value": "↩ 키를 누를 때 적용됩니다. ⇧↩ 키는 항상 일반 텍스트로 복사합니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "มีผลเมื่อคุณกด ↩ ส่วน ⇧↩ จะคัดลอกเป็นข้อความธรรมดาเสมอ"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -3087,6 +3305,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "사용 가능"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "พร้อมใช้งาน"
           }
         },
         "tr": {
@@ -3160,6 +3384,12 @@
             "value": "복사한 후 원래 앱으로 돌아가 ⌘V를 눌러 붙여넣으십시오"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "หลังคัดลอก กลับไปที่แอปของคุณแล้วกด ⌘V เพื่อวาง"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -3229,6 +3459,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "취소"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ยกเลิก"
           }
         },
         "tr": {
@@ -3302,6 +3538,12 @@
             "value": "이 폴더에 접근할 수 없음"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เข้าถึงโฟลเดอร์นี้ไม่ได้"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -3371,6 +3613,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "클립보드"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การบันทึก"
           }
         },
         "tr": {
@@ -3444,6 +3692,12 @@
             "value": "확인 중…"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กำลังตรวจสอบ…"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -3513,6 +3767,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "선택"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เลือก"
           }
         },
         "tr": {
@@ -3586,6 +3846,12 @@
             "value": "다시 선택…"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เลือกใหม่…"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -3655,6 +3921,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "폴더 선택…"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เลือกโฟลเดอร์…"
           }
         },
         "tr": {
@@ -3728,6 +4000,12 @@
             "value": "모든 Mac에서 읽고 쓸 수 있는 폴더를 선택하십시오."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "โปรดเลือกโฟลเดอร์ที่ Mac ทุกเครื่องของคุณอ่านและเขียนได้"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -3797,6 +4075,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "동기화를 켜려면 아래에서 동기화 폴더를 선택하십시오."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เลือกโฟลเดอร์เชื่อมข้อมูลด้านล่างเพื่อเปิดการเชื่อมข้อมูล"
           }
         },
         "tr": {
@@ -3870,6 +4154,12 @@
             "value": "동기화 폴더를 다시 선택하십시오"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "โปรดเลือกโฟลเดอร์เชื่อมข้อมูลอีกครั้ง"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -3939,6 +4229,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "지우기"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ล้าง"
           }
         },
         "tr": {
@@ -4012,6 +4308,12 @@
             "value": "기록을 지우겠습니까?"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ล้างประวัติหรือไม่"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -4081,6 +4383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "기록 지우기…"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ล้างประวัติ…"
           }
         },
         "tr": {
@@ -4154,6 +4462,12 @@
             "value": "클릭하여 변경"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คลิกเพื่อเปลี่ยน"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -4223,6 +4537,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "클립보드"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คลิปบอร์ด"
           }
         },
         "tr": {
@@ -4296,6 +4616,12 @@
             "value": "닫기"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปิด"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -4365,6 +4691,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "패널 닫기"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปิดแผง"
           }
         },
         "tr": {
@@ -4438,6 +4770,12 @@
             "value": "색상"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สี"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -4507,6 +4845,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1Password 및 키체인의 콘텐츠는 기록하지 않음"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "จะไม่บันทึกเนื้อหาจาก 1Password และพวงกุญแจ"
           }
         },
         "tr": {
@@ -4580,6 +4924,12 @@
             "value": "복사됨 · ⌘V를 눌러 붙여넣기"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คัดลอกแล้ว · กด ⌘V เพื่อวาง"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -4649,6 +4999,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "복사되었습니다. ⌘V를 눌러 붙여넣으십시오."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คัดลอกแล้ว กด ⌘V เพื่อวาง"
           }
         },
         "tr": {
@@ -4722,6 +5078,12 @@
             "value": "복사하기"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คัดลอก"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -4791,6 +5153,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "N번째 카드 바로 복사"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คัดลอกการ์ดที่ N โดยตรง"
           }
         },
         "tr": {
@@ -4864,6 +5232,12 @@
             "value": "선택한 항목 복사"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คัดลอกรายการที่เลือก"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -4933,6 +5307,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "일반 텍스트로 복사"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คัดลอกเป็นข้อความธรรมดา"
           }
         },
         "tr": {
@@ -5006,6 +5386,12 @@
             "value": "일반 텍스트로 복사"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คัดลอกเป็นข้อความธรรมดา"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -5075,6 +5461,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 클립보드 기록을 삭제할 수 없습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk ไม่สามารถลบประวัติคลิปบอร์ดของคุณได้"
           }
         },
         "tr": {
@@ -5148,6 +5540,12 @@
             "value": "Copymunk가 동기화 폴더에 접근할 수 없어 해당 폴더의 사본은 삭제되지 않았습니다. 설정에서 폴더를 다시 선택하거나 직접 삭제하십시오."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk เข้าถึงโฟลเดอร์เชื่อมข้อมูลของคุณไม่ได้ จึงไม่ได้ลบสำเนาที่อยู่ในนั้น โปรดเลือกโฟลเดอร์อีกครั้งในการตั้งค่า หรือลบด้วยตัวเอง"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -5217,6 +5615,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 스스로 다시 시작할 수 없습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk ไม่สามารถเริ่มการทำงานใหม่เองได้"
           }
         },
         "tr": {
@@ -5290,6 +5694,12 @@
             "value": "Copymunk가 동기화 폴더에 저장한 스냅샷과 이미지를 삭제하고 공유 폴더 동기화를 끕니다. 폴더 동기화로는 다른 Mac에 삭제를 알릴 방법이 없으므로, 켜 두면 그 Mac들의 기록이 그대로 다시 복사됩니다. 다른 Mac이 폴더에 넣은 항목은 직접 삭제할 때까지 남아 있습니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk จะลบสแนปช็อตและภาพที่ตัวเองใส่ไว้ในโฟลเดอร์เชื่อมข้อมูล และปิดการเชื่อมข้อมูลแบบโฟลเดอร์ที่แชร์ เนื่องจากการเชื่อมข้อมูลผ่านโฟลเดอร์ไม่มีวิธีบอกให้ Mac เครื่องอื่นลบข้อมูล หากเปิดไว้ ประวัติจาก Mac เครื่องเหล่านั้นจะถูกคัดลอกกลับมาทันที ส่วนสิ่งที่ Mac เครื่องอื่นใส่ไว้ในโฟลเดอร์จะยังคงอยู่จนกว่าคุณจะลบเอง"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -5359,6 +5769,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud 동기화가 꺼진 상태에서 Copymunk가 이 Mac을 지웠으므로 iCloud의 사본은 제거되지 않았습니다. iCloud 동기화를 켜면 해당 항목이 다시 돌아올 수 있습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk ลบข้อมูลบน Mac เครื่องนี้ขณะที่การเชื่อมข้อมูล iCloud ปิดอยู่ สำเนาบน iCloud จึงยังไม่ถูกลบ การเปิดการเชื่อมข้อมูล iCloud อาจทำให้รายการเหล่านั้นกลับมา"
           }
         },
         "tr": {
@@ -5432,6 +5848,12 @@
             "value": "Copymunk가 iCloud 개인 데이터베이스로 삭제 요청을 보내는 중입니다. Copymunk를 열어 두고 iCloud에 로그인된 상태를 유지하십시오. Copymunk는 이 작업이 언제 완료되는지 알려 줄 수 없습니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk กำลังส่งการลบไปยังฐานข้อมูลส่วนตัวบน iCloud ของคุณ โปรดเปิด Copymunk ไว้และลงชื่อเข้า iCloud ไว้ Copymunk ไม่สามารถแจ้งได้ว่าจะเสร็จเมื่อใด"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -5501,6 +5923,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 로컬 데이터베이스만 사용 중이므로 손실된 데이터는 없습니다. 위의 문제를 해결한 다음 Copymunk를 다시 시작하십시오."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk กำลังใช้เฉพาะฐานข้อมูลภายในเครื่อง จึงไม่มีข้อมูลสูญหาย โปรดแก้ไขปัญหาด้านบนแล้วเริ่ม Copymunk ใหม่"
           }
         },
         "tr": {
@@ -5574,6 +6002,12 @@
             "value": "Copymunk는 메뉴 막대(오른쪽 상단의 다람쥐 아이콘)에서 실행됩니다.\n\n• 언제든지 메뉴 막대 아이콘을 클릭하면 클립보드 패널이 열립니다\n• 복사한 모든 항목은 자동으로 저장되며, 입력하면 바로 검색됩니다\n• 항목을 선택하고 Return 키를 누르면 클립보드로 돌아가며, 붙여넣기는 직접 ⌘V로 합니다. ⇧Return 키를 누르면 일반 텍스트로 복사됩니다\n• 설정은 패널의 톱니바퀴 버튼을 클릭하거나 메뉴 막대 아이콘을 오른쪽 클릭하여 열 수 있습니다"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk อยู่ในแถบเมนู (ไอคอนชิปมังก์ที่มุมขวาบน)\n\n• คลิกไอคอนในแถบเมนูเมื่อใดก็ได้เพื่อเรียกแผงคลิปบอร์ด\n• ทุกสิ่งที่คุณคัดลอกจะถูกบันทึกโดยอัตโนมัติ พิมพ์เพื่อค้นหาได้เลย\n• เลือกรายการแล้วกด Return เพื่อนำกลับไปไว้ในคลิปบอร์ด จากนั้นวางเองด้วย ⌘V ส่วน ⇧Return จะคัดลอกเป็นข้อความธรรมดา\n• เปิดการตั้งค่าได้จากไอคอนรูปเฟืองในแผง หรือคลิกขวาที่ไอคอนในแถบเมนู"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -5643,6 +6077,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk는 메뉴 막대(오른쪽 상단의 다람쥐 아이콘)에서 실행됩니다.\n\n• 언제든지 %@ 키를 누르면 클립보드 패널이 열립니다\n• 복사한 모든 항목은 자동으로 저장되며, 입력하면 바로 검색됩니다\n• 항목을 선택하고 Return 키를 누르면 클립보드로 돌아가며, 붙여넣기는 직접 ⌘V로 합니다. ⇧Return 키를 누르면 일반 텍스트로 복사됩니다\n• 설정은 패널의 톱니바퀴 버튼을 클릭하거나 메뉴 막대 아이콘을 오른쪽 클릭하여 열 수 있습니다"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk อยู่ในแถบเมนู (ไอคอนชิปมังก์ที่มุมขวาบน)\n\n• กด %@ เมื่อใดก็ได้เพื่อเรียกแผงคลิปบอร์ด\n• ทุกสิ่งที่คุณคัดลอกจะถูกบันทึกโดยอัตโนมัติ พิมพ์เพื่อค้นหาได้เลย\n• เลือกรายการแล้วกด Return เพื่อนำกลับไปไว้ในคลิปบอร์ด จากนั้นวางเองด้วย ⌘V ส่วน ⇧Return จะคัดลอกเป็นข้อความธรรมดา\n• เปิดการตั้งค่าได้จากไอคอนรูปเฟืองในแผง หรือคลิกขวาที่ไอคอนในแถบเมนู"
           }
         },
         "tr": {
@@ -5716,6 +6156,12 @@
             "value": "Copymunk는 백그라운드에서 기록하며 별도의 권한이 필요하지 않음"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk บันทึกในเบื้องหลังและไม่ต้องใช้สิทธิ์ใดๆ"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -5785,6 +6231,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 다시 시작되면서 데이터베이스 파일을 지우므로, 삭제한 항목을 이 Mac에서 복구할 수 없게 됩니다. iCloud 개인 데이터베이스에서 아직 삭제가 반영되지 않은 항목은 그대로 남아 있다가 이 Mac으로 다시 돌아옵니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk จะเริ่มการทำงานใหม่และล้างไฟล์ฐานข้อมูล เพื่อไม่ให้กู้คืนรายการที่คุณลบจาก Mac เครื่องนี้ได้ ส่วนข้อมูลในฐานข้อมูลส่วนตัวบน iCloud ที่การลบยังไปไม่ถึงจะยังคงอยู่ที่นั่นและจะกลับมายัง Mac เครื่องนี้"
           }
         },
         "tr": {
@@ -5858,6 +6310,12 @@
             "value": "데이터베이스 파일 지우기를 완료하기 위해 Copymunk가 다시 시작됩니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk จะเริ่มการทำงานใหม่เองเพื่อล้างไฟล์ฐานข้อมูลให้เสร็จสิ้น"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -5927,6 +6385,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "생성"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สร้าง"
           }
         },
         "tr": {
@@ -6000,6 +6464,12 @@
             "value": "생성 후 고정"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สร้างและปักหมุด"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -6069,6 +6539,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "오려두기"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตัด"
           }
         },
         "tr": {
@@ -6142,6 +6618,12 @@
             "value": "필터 순환"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วนเปลี่ยนตัวกรอง"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -6211,6 +6693,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "삭제"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบ"
           }
         },
         "tr": {
@@ -6284,6 +6772,12 @@
             "value": "모두 삭제"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบทั้งหมด"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -6353,6 +6847,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "모든 데이터를 삭제하겠습니까?"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบข้อมูลทั้งหมดหรือไม่"
           }
         },
         "tr": {
@@ -6426,6 +6926,12 @@
             "value": "모든 데이터 삭제…"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบข้อมูลทั้งหมด…"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -6495,6 +7001,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard 삭제"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบ Pinboard"
           }
         },
         "tr": {
@@ -6568,6 +7080,12 @@
             "value": "‘%@’ Pinboard 삭제"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบ Pinboard “%@”"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -6637,6 +7155,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다음 앱은 기록 안 함"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่บันทึกจากแอปเหล่านี้"
           }
         },
         "tr": {
@@ -6710,6 +7234,12 @@
             "value": "편집"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แก้ไข"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -6779,6 +7309,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Esc 키를 누르면 검색어 지우기 · 한 번 더 누르면 닫기"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc ล้างการค้นหา · กดอีกครั้งเพื่อปิด"
           }
         },
         "tr": {
@@ -6852,6 +7388,12 @@
             "value": "Esc 키를 눌러 닫기"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กด Esc เพื่อปิด"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -6921,6 +7463,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 Mac의 모든 데이터가 삭제되었습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบข้อมูลทั้งหมดบน Mac เครื่องนี้แล้ว"
           }
         },
         "tr": {
@@ -6994,6 +7542,12 @@
             "value": "복사한 모든 항목이 여기에 있습니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ทุกสิ่งที่คุณเคยคัดลอกอยู่ที่นี่"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -7063,6 +7617,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "복사한 모든 항목이 여기에 있습니다. 언제든지 %@ 키를 눌러 다시 꺼내 쓰십시오."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ทุกสิ่งที่คุณเคยคัดลอกอยู่ที่นี่ กด %@ เพื่อเรียกกลับมาได้ทุกเมื่อ"
           }
         },
         "tr": {
@@ -7136,6 +7696,12 @@
             "value": "파일"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไฟล์"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -7205,6 +7771,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 Mac 지우기 완료"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบข้อมูลบน Mac เครื่องนี้ให้เสร็จสิ้น"
           }
         },
         "tr": {
@@ -7278,6 +7850,12 @@
             "value": "이 Mac 지우기를 완료하겠습니까?"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบข้อมูลบน Mac เครื่องนี้ให้เสร็จสิ้นหรือไม่"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -7347,6 +7925,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "검색으로 이동"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไปที่ช่องค้นหา"
           }
         },
         "tr": {
@@ -7420,6 +8004,12 @@
             "value": "일반"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ทั่วไป"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -7489,6 +8079,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "전역 단축키"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปุ่มลัดทั่วระบบ"
           }
         },
         "tr": {
@@ -7562,6 +8158,12 @@
             "value": "확인"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "รับทราบ"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -7631,6 +8233,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "도움말"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วิธีใช้"
           }
         },
         "tr": {
@@ -7704,6 +8312,12 @@
             "value": "기록"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ประวัติ"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -7773,6 +8387,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "암호 관리자 무시"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ข้ามแอปจัดการรหัสผ่าน"
           }
         },
         "tr": {
@@ -7846,6 +8466,12 @@
             "value": "이미지"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ภาพ"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -7915,6 +8541,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "패널 안에서"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ในแผง"
           }
         },
         "tr": {
@@ -7988,6 +8620,12 @@
             "value": "모든 Pinboard 및 Pinboard에 고정된 모든 항목 포함"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "รวมทุก Pinboard และทุกรายการที่ปักหมุดไว้"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -8057,6 +8695,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "최대 보관 개수"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เก็บไว้สูงสุด"
           }
         },
         "tr": {
@@ -8130,6 +8774,12 @@
             "value": "키 %lld"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปุ่ม %lld"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -8199,6 +8849,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "지난주"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สัปดาห์ที่แล้ว"
           }
         },
         "tr": {
@@ -8272,6 +8928,12 @@
             "value": "로그인 시 Copymunk 실행"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิด Copymunk เมื่อเข้าสู่ระบบ"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -8341,6 +9003,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "링크"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลิงก์"
           }
         },
         "tr": {
@@ -8414,6 +9082,12 @@
             "value": "기록을 iCloud에 그대로 미러링합니다. 항목을 삭제하면 모든 기기에서 제거됩니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สะท้อนประวัติของคุณไปยัง iCloud ของคุณโดยตรง การลบรายการจะลบออกจากทุกอุปกรณ์"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -8483,6 +9157,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이름"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ชื่อ"
           }
         },
         "tr": {
@@ -8556,6 +9236,12 @@
             "value": "새로운 Pinboard"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard ใหม่"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -8625,6 +9311,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "새로운 Pinboard 이름"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ชื่อ Pinboard ใหม่"
           }
         },
         "tr": {
@@ -8698,6 +9390,12 @@
             "value": "새로운 Pinboard…"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard ใหม่…"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -8767,6 +9465,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "추가된 앱 없음"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ยังไม่ได้เพิ่มแอป"
           }
         },
         "tr": {
@@ -8840,6 +9544,12 @@
             "value": "선택된 폴더 없음"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่ได้เลือกโฟลเดอร์"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -8909,6 +9619,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "선택된 동기화 폴더 없음"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ยังไม่ได้เลือกโฟลเดอร์เชื่อมข้อมูล"
           }
         },
         "tr": {
@@ -8982,6 +9698,12 @@
             "value": "지금 안 함"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่ใช่ตอนนี้"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -9051,6 +9773,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "로그인되지 않음"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่ได้ลงชื่อเข้า"
           }
         },
         "tr": {
@@ -9124,6 +9852,12 @@
             "value": "아직 동기화되지 않음"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ยังไม่ได้เชื่อมข้อมูล"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -9193,6 +9927,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "아직 항목 없음"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ยังไม่มีอะไรที่นี่"
           }
         },
         "tr": {
@@ -9266,6 +10006,12 @@
             "value": "‘%@’와(과) 일치하는 항목 없음"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่มีรายการที่ตรงกับ “%@”"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -9335,6 +10081,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 유형의 항목 없음"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ยังไม่มีรายการประเภทนี้"
           }
         },
         "tr": {
@@ -9408,6 +10160,12 @@
             "value": "아무것도 삭제되지 않았습니다. 다시 시도하고, 계속 실패하면 메뉴 막대 아이콘에서 Copymunk를 종료한 다음 다시 여십시오."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่มีสิ่งใดถูกลบ โปรดลองอีกครั้ง หากยังล้มเหลว ให้ออกจาก Copymunk จากไอคอนในแถบเมนูแล้วเปิดใหม่"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -9477,6 +10235,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 앱에서 복사한 항목은 기록에 남지 않음"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สิ่งที่คุณคัดลอกในแอปเหล่านี้จะไม่ถูกเก็บไว้ในประวัติ"
           }
         },
         "tr": {
@@ -9550,6 +10314,12 @@
             "value": "끔"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปิด"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -9619,6 +10389,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard에 고정되지 않은 항목만 제거"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบเฉพาะรายการที่ไม่ได้ปักหมุดไว้ใน Pinboard"
           }
         },
         "tr": {
@@ -9692,6 +10468,12 @@
             "value": "Copymunk 열기"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิด Copymunk"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -9761,6 +10543,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "시스템 설정 열기"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิดการตั้งค่าระบบ"
           }
         },
         "tr": {
@@ -9834,6 +10622,12 @@
             "value": "다른 기기"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "อุปกรณ์อื่น"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -9903,6 +10697,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "붙여넣기"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วาง"
           }
         },
         "tr": {
@@ -9976,6 +10776,12 @@
             "value": "고정"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปักหมุด"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -10045,6 +10851,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "고정 위치"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปักหมุดไปที่"
           }
         },
         "tr": {
@@ -10118,6 +10930,12 @@
             "value": "Pinboard에 고정"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปักหมุดไปที่ Pinboard"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -10184,6 +11002,12 @@
           }
         },
         "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard"
+          }
+        },
+        "th": {
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard"
@@ -10260,6 +11084,12 @@
             "value": "고정됨"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปักหมุดอยู่"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -10329,6 +11159,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "언제든지 %@ 키를 눌러 이 패널을 열 수 있습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กด %@ เมื่อใดก็ได้เพื่อเรียกแผงนี้"
           }
         },
         "tr": {
@@ -10402,6 +11238,12 @@
             "value": "새로운 단축키를 누르십시오…"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กดปุ่มลัดใหม่…"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -10471,6 +11313,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "미리보기"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แสดงตัวอย่าง"
           }
         },
         "tr": {
@@ -10544,6 +11392,12 @@
             "value": "이 Mac에서는 푸시 알림을 사용할 수 없으므로, 다른 기기에서 변경한 내용은 Copymunk가 시작될 때만 반영됩니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac เครื่องนี้ใช้การแจ้งเตือนแบบพุชไม่ได้ การเปลี่ยนแปลงจากอุปกรณ์อื่นของคุณจึงจะมาถึงเฉพาะตอนที่ Copymunk เริ่มทำงาน"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -10613,6 +11467,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk 종료"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ออกจาก Copymunk"
           }
         },
         "tr": {
@@ -10686,6 +11546,12 @@
             "value": "메뉴 막대 아이콘에서 Copymunk를 종료한 다음 다시 여십시오. 다음 실행 시 데이터베이스 파일 지우기가 완료됩니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "โปรดออกจาก Copymunk จากไอคอนในแถบเมนูแล้วเปิดใหม่ Copymunk จะล้างไฟล์ฐานข้อมูลให้เสร็จเมื่อเปิดครั้งถัดไป"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -10755,6 +11621,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "메뉴 막대 아이콘에서 Copymunk를 종료한 다음 다시 여십시오. 새로운 동기화 설정은 이미 저장되었습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "โปรดออกจาก Copymunk จากไอคอนในแถบเมนูแล้วเปิดใหม่ การตั้งค่าการเชื่อมข้อมูลใหม่ของคุณบันทึกไว้แล้ว"
           }
         },
         "tr": {
@@ -10828,6 +11700,12 @@
             "value": "클립보드 자동 기록"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "บันทึกคลิปบอร์ดโดยอัตโนมัติ"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -10897,6 +11775,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "실행 복귀"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ทำกลับมาใหม่"
           }
         },
         "tr": {
@@ -10970,6 +11854,12 @@
             "value": "선택한 앱 제거"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เอาแอปที่เลือกออก"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -11039,6 +11929,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "재설정"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "รีเซ็ต"
           }
         },
         "tr": {
@@ -11112,6 +12008,12 @@
             "value": "Copymunk 다시 시작"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เริ่ม Copymunk ใหม่"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -11181,6 +12083,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud 동기화를 중단하기 위해 Copymunk를 다시 시작하겠습니까?"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เริ่ม Copymunk ใหม่เพื่อหยุดการเชื่อมข้อมูล iCloud หรือไม่"
           }
         },
         "tr": {
@@ -11254,6 +12162,12 @@
             "value": "기본 위치로 복원"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กู้คืนตำแหน่งเริ่มต้น"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -11323,6 +12237,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "제한됨"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ถูกจำกัด"
           }
         },
         "tr": {
@@ -11396,6 +12316,12 @@
             "value": "리치"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RTF"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -11465,6 +12391,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "리치 텍스트"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ข้อความแบบ RTF"
           }
         },
         "tr": {
@@ -11538,6 +12470,12 @@
             "value": "카드를 오른쪽 클릭하고 ‘Pinboard에 고정’을 선택하면 자주 사용하는 항목을 여기에 보관할 수 있습니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คลิกขวาที่การ์ดแล้วเลือก “ปักหมุดไปที่ Pinboard” เพื่อเก็บรายการที่คุณใช้บ่อยที่สุดไว้ที่นี่"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -11607,6 +12545,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "기록을 스냅샷으로 폴더에 저장합니다. iCloud Drive나 어떤 공유 폴더든 사용할 수 있습니다. 삭제한 내용은 다른 기기에 동기화되지 않습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "บันทึกประวัติของคุณเป็นสแนปช็อตในโฟลเดอร์ ใช้ iCloud Drive หรือโฟลเดอร์ที่แชร์ใดก็ได้ การลบจะไม่เชื่อมข้อมูลไปยังอุปกรณ์อื่นของคุณ"
           }
         },
         "tr": {
@@ -11680,6 +12624,12 @@
             "value": "검색"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ค้นหา"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -11749,6 +12699,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "기록 검색"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ค้นหาประวัติ"
           }
         },
         "tr": {
@@ -11822,6 +12778,12 @@
             "value": "전체 선택"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เลือกทั้งหมด"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -11891,6 +12853,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "설정"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การตั้งค่า"
           }
         },
         "tr": {
@@ -11964,6 +12932,12 @@
             "value": "설정…"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การตั้งค่า…"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -12033,6 +13007,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "공유 폴더"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "โฟลเดอร์ที่แชร์"
           }
         },
         "tr": {
@@ -12106,6 +13086,12 @@
             "value": "공유 폴더 동기화됨"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "โฟลเดอร์ที่แชร์เชื่อมข้อมูลแล้ว"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -12175,6 +13161,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "단축키"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปุ่มลัด"
           }
         },
         "tr": {
@@ -12248,6 +13240,12 @@
             "value": "모든 기록 보기"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แสดงประวัติทั้งหมด"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -12317,6 +13315,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "패널 보기"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แสดงแผง"
           }
         },
         "tr": {
@@ -12390,6 +13394,12 @@
             "value": "메뉴 막대에 아이콘 보기"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แสดงไอคอนในแถบเมนู"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -12459,6 +13469,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "스페이스"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Space"
           }
         },
         "tr": {
@@ -12532,6 +13548,12 @@
             "value": "시작"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การเริ่มต้น"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -12601,6 +13623,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "상태"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สถานะ"
           }
         },
         "tr": {
@@ -12674,6 +13702,12 @@
             "value": "동기화"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เชื่อมข้อมูล"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -12743,6 +13777,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "동기화 폴더"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "โฟลเดอร์เชื่อมข้อมูล"
           }
         },
         "tr": {
@@ -12816,6 +13856,12 @@
             "value": "동기화 방법"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วิธีเชื่อมข้อมูล"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -12885,6 +13931,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "지금 동기화"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เชื่อมข้อมูลตอนนี้"
           }
         },
         "tr": {
@@ -12958,6 +14010,12 @@
             "value": "동기화 방법이 변경됨 — 다시 시작하면 적용"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปลี่ยนวิธีเชื่อมข้อมูลแล้ว เริ่มใหม่เพื่อให้มีผล"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -13027,6 +14085,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "동기화됨"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เชื่อมข้อมูลแล้ว"
           }
         },
         "tr": {
@@ -13100,6 +14164,12 @@
             "value": "일시적으로 사용할 수 없음"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่พร้อมใช้งานชั่วคราว"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -13169,6 +14239,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "텍스트"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ข้อความ"
           }
         },
         "tr": {
@@ -13242,6 +14318,12 @@
             "value": "조합에 ⌘, ⌥ 또는 ⌃ 중 하나 이상이 포함되어야 합니다. 취소하려면 Esc 키를 누르십시오."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปุ่มผสมต้องมี ⌘, ⌥ หรือ ⌃ อย่างน้อยหนึ่งปุ่ม กด Esc เพื่อยกเลิก"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -13311,6 +14393,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud 동기화가 꺼져 있으므로 iCloud 개인 데이터베이스의 사본은 그대로 남아 있습니다. 해당 사본도 제거하려면 동기화를 iCloud로 설정하고 Copymunk를 다시 연 다음 한 번 더 삭제하십시오."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สำเนาในฐานข้อมูลส่วนตัวบน iCloud ของคุณยังไม่ถูกแตะต้อง เนื่องจากการเชื่อมข้อมูล iCloud ปิดอยู่ หากต้องการลบสำเนานั้นด้วย ให้ตั้งค่า “เชื่อมข้อมูล” เป็น iCloud เปิด Copymunk ใหม่ แล้วลบอีกครั้ง"
           }
         },
         "tr": {
@@ -13384,6 +14472,12 @@
             "value": "생성되면 현재 카드가 고정됨"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การ์ดปัจจุบันจะถูกปักหมุดไว้ในนั้นเมื่อสร้างเสร็จ"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -13453,6 +14547,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "폴더가 이동되었거나 이름이 변경되었거나, Copymunk의 폴더 접근 권한이 사라졌습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "โฟลเดอร์ถูกย้ายหรือเปลี่ยนชื่อ หรือ Copymunk สูญเสียสิทธิ์เข้าถึง"
           }
         },
         "tr": {
@@ -13526,6 +14626,12 @@
             "value": "같은 삭제 요청이 iCloud 개인 데이터베이스와 다른 Mac으로 전송되도록 대기 중입니다. 완료될 때까지 Copymunk를 열어 두고 iCloud에 로그인된 상태를 유지하십시오. Copymunk는 완료 시점을 알려 줄 수 없습니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การลบเดียวกันนี้อยู่ในคิวเพื่อส่งไปยังฐานข้อมูลส่วนตัวบน iCloud และ Mac เครื่องอื่นของคุณ โปรดเปิด Copymunk ไว้และลงชื่อเข้า iCloud ไว้จนกว่าจะเสร็จ ซึ่ง Copymunk ไม่สามารถแจ้งได้ว่าจะเสร็จเมื่อใด"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -13595,6 +14701,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 Mac은 이전에 iCloud와 동기화한 적이 있습니다. 동기화가 꺼져 있는 동안에는 Copymunk가 iCloud의 사본에 접근할 수 없습니다. 해당 사본도 제거하려면 동기화를 iCloud로 설정하고 Copymunk를 다시 연 다음 한 번 더 삭제하십시오."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac เครื่องนี้เคยเชื่อมข้อมูลกับ iCloud มาก่อน Copymunk แตะต้องสำเนาบน iCloud ไม่ได้ขณะที่การเชื่อมข้อมูลปิดอยู่ หากต้องการลบสำเนานั้นด้วย ให้ตั้งค่า “เชื่อมข้อมูล” เป็น iCloud เปิด Copymunk ใหม่ แล้วลบอีกครั้ง"
           }
         },
         "tr": {
@@ -13668,6 +14780,12 @@
             "value": "이 Pinboard는 비어 있음"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinboard นี้ว่างเปล่า"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -13737,6 +14855,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 조합은 이미 macOS 키보드 단축키로 사용 중입니다. %@(으)로 복원되었습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปุ่มผสมนี้ถูกใช้เป็นปุ่มลัดแป้นพิมพ์ของ macOS อยู่แล้ว จึงกู้คืนเป็น %@"
           }
         },
         "tr": {
@@ -13810,6 +14934,12 @@
             "value": "이 조합은 이미 다른 앱에서 사용 중입니다. %@(으)로 복원되었습니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แอปอื่นใช้ปุ่มผสมนี้อยู่แล้ว จึงกู้คืนเป็น %@"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -13879,6 +15009,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 Copymunk 사본은 iCloud 동기화를 위한 서명이 되어 있지 않습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copymunk ฉบับนี้ไม่ได้ลงนามสำหรับการเชื่อมข้อมูล iCloud"
           }
         },
         "tr": {
@@ -13952,6 +15088,12 @@
             "value": "모든 클립보드 항목과 모든 Pinboard가 Pinboard에 고정된 항목을 포함하여 삭제됩니다. 이 동작은 실행 취소할 수 없습니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การดำเนินการนี้จะลบรายการคลิปบอร์ดทั้งหมดและทุก Pinboard รวมถึงทุกรายการที่ปักหมุดไว้ และไม่สามารถเลิกทำได้"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -14021,6 +15163,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pinboard에 고정되지 않은 모든 클립보드 항목이 삭제됩니다. 고정된 항목과 Pinboard는 유지됩니다. 이들까지 제거하려면 ‘모든 데이터 삭제’를 사용하십시오. 이 동작은 실행 취소할 수 없습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การดำเนินการนี้จะลบรายการคลิปบอร์ดทั้งหมดที่ไม่ได้ปักหมุดไว้ใน Pinboard รายการที่ปักหมุดและ Pinboard จะยังอยู่ หากต้องการลบสิ่งเหล่านั้นด้วย ให้ใช้ “ลบข้อมูลทั้งหมด” การดำเนินการนี้ไม่สามารถเลิกทำได้"
           }
         },
         "tr": {
@@ -14094,6 +15242,12 @@
             "value": "지금 사용해 보기"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลองเลย"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -14163,6 +15317,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "실행 취소"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เลิกทำ"
           }
         },
         "tr": {
@@ -14236,6 +15396,12 @@
             "value": "알 수 없음"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่ทราบ"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -14305,6 +15471,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "무제한"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่จำกัด"
           }
         },
         "tr": {
@@ -14378,6 +15550,12 @@
             "value": "고정 해제"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปลดหมุด"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -14447,6 +15625,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copymunk가 다시 시작될 때까지 이 Mac은 클립보드 기록을 계속 iCloud 개인 데이터베이스로 보냅니다. 삭제한 항목도 아직 전송 중이며, Copymunk가 다시 시작될 때까지 전송되지 않은 항목은 iCloud에 남습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "จนกว่า Copymunk จะเริ่มใหม่ Mac เครื่องนี้จะยังคงส่งประวัติคลิปบอร์ดของคุณไปยังฐานข้อมูลส่วนตัวบน iCloud นอกจากนี้ Copymunk ยังคงส่งรายการที่คุณลบอยู่ ส่วนที่ยังส่งไม่ถึงเมื่อ Copymunk เริ่มใหม่จะค้างอยู่ใน iCloud"
           }
         },
         "tr": {
@@ -14520,6 +15704,12 @@
             "value": "Copymunk가 다시 시작될 때까지 이 Mac은 클립보드 기록을 계속 iCloud 개인 데이터베이스로 보냅니다. 지금 다시 시작하지 않으면 이번 세션이 끝날 때까지 Copymunk가 iCloud 동기화를 계속 사용합니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "จนกว่า Copymunk จะเริ่มใหม่ Mac เครื่องนี้จะยังคงส่งประวัติคลิปบอร์ดของคุณไปยังฐานข้อมูลส่วนตัวบน iCloud หากคุณไม่เริ่มใหม่ตอนนี้ Copymunk จะใช้การเชื่อมข้อมูล iCloud ต่อไปจนจบเซสชั่นนี้"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -14589,6 +15779,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "버전"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เวอร์ชั่น"
           }
         },
         "tr": {
@@ -14662,6 +15858,12 @@
             "value": "Copymunk에 오신 것을 환영합니다"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ยินดีต้อนรับสู่ Copymunk"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -14731,6 +15933,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "한도를 초과하면 고정되지 않은 가장 오래된 항목부터 자동으로 제거됩니다. Pinboard에 고정된 항목은 영향을 받지 않습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เมื่อเกินขีดจำกัด รายการเก่าที่สุดที่ไม่ได้ปักหมุดจะถูกลบโดยอัตโนมัติ รายการที่ปักหมุดไว้ใน Pinboard จะไม่ได้รับผลกระทบ"
           }
         },
         "tr": {
@@ -14804,6 +16012,12 @@
             "value": "이 옵션을 끄면 Finder에서 Copymunk를 다시 열어 설정으로 돌아올 수 있음"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เมื่อปิดตัวเลือกนี้ ให้เปิด Copymunk อีกครั้งใน Finder เพื่อกลับไปที่การตั้งค่า"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -14873,6 +16087,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 옵션을 끄면 %@ 키를 누르거나 Finder에서 Copymunk를 다시 열어 설정으로 돌아올 수 있음"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เมื่อปิดตัวเลือกนี้ ให้กด %@ หรือเปิด Copymunk อีกครั้งใน Finder เพื่อกลับไปที่การตั้งค่า"
           }
         },
         "tr": {
@@ -14946,6 +16166,12 @@
             "value": "클립보드 기록이 이 Mac에만 보관됩니다."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ประวัติคลิปบอร์ดของคุณจะอยู่บน Mac เครื่องนี้เท่านั้น"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -15015,6 +16241,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "기록은 이 Mac과 사용자가 선택한 동기화 위치에만 저장됩니다. Copymunk는 어떠한 데이터도 수집하지 않습니다."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ประวัติของคุณอยู่บน Mac เครื่องนี้และในตำแหน่งเชื่อมข้อมูลที่คุณเลือกเท่านั้น Copymunk ไม่เก็บข้อมูลใดๆ"
           }
         },
         "tr": {
@@ -15088,6 +16320,12 @@
             "value": "iCloud 계정"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "บัญชี iCloud"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -15157,6 +16395,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 Mac에서 iCloud Drive가 꺼져 있습니다. 시스템 설정에서 켜거나 다른 폴더를 선택하십시오."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud Drive ปิดอยู่บน Mac เครื่องนี้ โปรดเปิดในการตั้งค่าระบบ หรือเลือกโฟลเดอร์อื่น"
           }
         },
         "tr": {
@@ -15230,6 +16474,12 @@
             "value": "iCloud 동기화됨"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud เชื่อมข้อมูลแล้ว"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -15299,6 +16549,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iCloud 동기화를 시작할 수 없음: %@"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เริ่มการเชื่อมข้อมูล iCloud ไม่ได้: %@"
           }
         },
         "tr": {
@@ -15372,6 +16628,12 @@
             "value": "iCloud 동기화 확인 필요"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การเชื่อมข้อมูล iCloud ต้องได้รับการแก้ไข"
+          }
+        },
         "tr": {
           "stringUnit": {
             "state": "translated",
@@ -15441,6 +16703,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "지금"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตอนนี้"
           }
         },
         "tr": {

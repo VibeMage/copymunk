@@ -100,6 +100,15 @@
               "${applicationName}에 클립보드 저장해 줘"
             ]
           }
+        },
+        "th": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "บันทึกคลิปบอร์ดไปที่ ${applicationName}",
+              "บันทึกคลิปบอร์ดของฉันไปที่ ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -190,6 +199,15 @@
             "state": "translated",
             "values": [
               "${applicationName}에서 클립보드 저장"
+            ]
+          }
+        },
+        "th": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "บันทึกคลิปบอร์ดด้วย ${applicationName}",
+              "ใช้ ${applicationName} บันทึกคลิปบอร์ด"
             ]
           }
         }
@@ -284,6 +302,14 @@
               "${applicationName}에 이 항목 저장"
             ]
           }
+        },
+        "th": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "บันทึกรายการนี้ไปที่ ${applicationName}"
+            ]
+          }
         }
       }
     },
@@ -374,6 +400,14 @@
             "state": "translated",
             "values": [
               "${applicationName} 클립보드 저장"
+            ]
+          }
+        },
+        "th": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} บันทึกคลิปบอร์ด"
             ]
           }
         }
