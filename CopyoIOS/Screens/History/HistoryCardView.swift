@@ -2,7 +2,7 @@ import CopyoCore
 import SwiftData
 import SwiftUI
 
-/// 历史网格里的一张卡片：轻点复制、长按菜单、拖出到别的 App、详情 zoom 转场。
+/// 历史网格里的一张卡片：轻点复制、长按菜单（含预览与详情）、拖出到别的 App、详情 zoom 转场。
 ///
 /// 卡片本体是共用的 `ClipCard`，这里只负责「围绕卡片的交互」。
 /// 单独拆一个视图是因为按压回弹与插入动效需要各自的 `@State`——
@@ -30,7 +30,9 @@ struct HistoryCardView: View {
     var onUnpin: () -> Void
     var onCreatePinboard: () -> Void
     var onDelete: () -> Void
-    /// 旁白的「打开详情」。具名动作只能回调闭包、点不动 `NavigationLink`，这条路径必须另有一个
+    /// 快速预览，与硬件键盘的空格同一张 `ClipPreviewSheet`。长按菜单与旁白都走这里
+    var onPreview: () -> Void
+    /// 长按菜单与旁白的「打开详情」。具名动作只能回调闭包、点不动 `NavigationLink`，这条路径必须另有一个
     /// 程序化入口；入口只能放在历史页那一层——详见 `accessibilityActionList` 上面的说明。
     var onOpenDetail: () -> Void
 
@@ -67,8 +69,8 @@ struct HistoryCardView: View {
     private var card: some View {
         let link = NavigationLink {
             // zoom 转场的 `sourceID` 与 namespace 必须和 `HistoryScreen` 那份
-            // `navigationDestination(item:)` 一模一样：旁白的「打开详情」走的是那一条，
-            // 手指点的是这一条，两边一旦走散，其中一条就退化成没有转场的硬切。
+            // `navigationDestination(item:)` 一模一样：长按菜单与旁白的「打开详情」走的是那一条，
+            // link 自身被激活时走这一条，两边一旦走散，其中一条就退化成没有转场的硬切。
             // namespace 本来就是历史页传下来的 `zoomNamespace`，改这里时对着那边一起改。
             ClipDetailScreen(item: item)
                 .navigationTransition(.zoom(sourceID: item.persistentModelID, in: namespace))
@@ -77,7 +79,9 @@ struct HistoryCardView: View {
         }
         .buttonStyle(.plain)
         // 轻点是复制不是进详情——把 tap 抢在 NavigationLink 之前处理。
-        // 进详情走长按菜单的预览点按（系统会执行 link 的目的地）。
+        // 进详情走长按菜单里的「打开详情」。**不是**点菜单上方放大的预览卡片：
+        // 自定义 `preview:` 的 contextMenu 点预览只会收起菜单，不会执行 link 的目的地
+        // （2026-10-19 模拟器实测；之前这里写反了，触屏用户因此一直进不了详情页）。
         .highPriorityGesture(TapGesture().onEnded { tapped() })
         .matchedTransitionSource(id: item.persistentModelID, in: namespace)
         // 旁白的双击发出的是「激活」，而 `TapGesture` 不是无障碍动作、接不到它：
@@ -122,6 +126,7 @@ struct HistoryCardView: View {
     /// 这些动作全部挂在那一个停留点上。
     @ViewBuilder
     private var accessibilityActionList: some View {
+        Button(String(localized: "Preview")) { onPreview() }
         Button(String(localized: "Open Details")) { onOpenDetail() }
         Button(String(localized: "Copy as Plain Text")) { onCopyPlainText() }
         if item.pinboard != nil {
@@ -140,6 +145,17 @@ struct HistoryCardView: View {
             onCopyPlainText()
         } label: {
             Label(String(localized: "Copy as Plain Text"), systemImage: "doc.plaintext")
+        }
+        // 预览与详情是触屏上仅有的两个入口：空格只在接了硬件键盘时有，轻点是复制
+        Button {
+            onPreview()
+        } label: {
+            Label(String(localized: "Preview"), systemImage: "eye")
+        }
+        Button {
+            onOpenDetail()
+        } label: {
+            Label(String(localized: "Open Details"), systemImage: "info.circle")
         }
         shareButton
         PinboardPickerMenu(boards: boards,

@@ -433,7 +433,8 @@ private struct HistoryContent: View {
                             onUnpin: { model.unpin(item) },
                             onCreatePinboard: { promptNewPinboard(pinning: item) },
                             onDelete: { delete(item, in: visible) },
-                            // 旁白的「打开详情」落到屏幕这一层的 `navigationDestination(item:)`：
+                            onPreview: { previewItem = item },
+                            // 长按菜单与旁白的「打开详情」都落到屏幕这一层的 `navigationDestination(item:)`：
                             // 卡片在 `LazyVStack` 里，自带一份目的地会被回收掉，动作就哑了
                             onOpenDetail: { detailItem = item })
         }

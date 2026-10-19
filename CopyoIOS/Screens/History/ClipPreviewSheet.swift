@@ -1,7 +1,7 @@
 import CopyoCore
 import SwiftUI
 
-/// 硬件键盘按空格时的快速预览（设计四节的「空格 Quick Look」）。
+/// 快速预览（设计四节的「空格 Quick Look」）：硬件键盘按空格，或长按菜单里的「预览」。
 ///
 /// 没有走 `.quickLookPreview`：那个要一个真实的文件 URL，
 /// 而历史条目大多只是内存里的一段文字或一份 PNG，为了预览先落盘不值当。
