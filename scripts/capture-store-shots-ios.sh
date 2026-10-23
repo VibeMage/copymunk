@@ -7,6 +7,8 @@
 # 全部用 -demoData 的样例库拍（设计稿第六节的数据），不碰真实剪贴板与真实库。
 # 每种语言拍之前把**模拟器的系统语言**也切过去并重启：-AppleLanguages 只管应用自己，
 # iPad 状态栏上的日期（「9月27日周日」）跟的是系统语言，不切的话英文截图顶上是中文日期。
+# iPad 历史页底部的快捷键提示条只在接着硬件键盘时出现，要它的几张显式带 -demoKeyboard on：
+# 模拟器里的键盘是宿主 Mac 转发进来的，启动后才连上，不能指望它每次都赶在截图之前。
 #
 # 采集清单与 make-store-shots-ios.py 的 SHOTS 表一一对应，改一边要同步改另一边。
 set -euo pipefail
@@ -73,9 +75,10 @@ for lang in ${LANGS:-zh en}; do
   done
   echo "==> $PAD / $lang"
   prepare "$D" $lang
-  shot "$D" "pad-$lang-sidebar-history" -demoSidebar history -AppleLanguages "($apple)"
+  shot "$D" "pad-$lang-sidebar-history" -demoSidebar history -demoKeyboard on -AppleLanguages "($apple)"
   shot "$D" "pad-$lang-sidebar-pinboard" -demoSidebar pinboard -AppleLanguages "($apple)"
-  shot "$D" "pad-$lang-sidebar-color" -demoSidebar color -AppleLanguages "($apple)"
-  shot "$D" "pad-$lang-share" -demoScreen share -AppleLanguages "($apple)"
+  shot "$D" "pad-$lang-sidebar-color" -demoSidebar color -demoKeyboard on -AppleLanguages "($apple)"
+  # 分享页背后虚化的历史页也带着提示条
+  shot "$D" "pad-$lang-share" -demoScreen share -demoKeyboard on -AppleLanguages "($apple)"
 done
 echo "完成：$OUT"

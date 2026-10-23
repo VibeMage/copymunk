@@ -1,4 +1,5 @@
 import CopyoCore
+import GameController
 import SwiftData
 import SwiftUI
 
@@ -39,8 +40,8 @@ struct HistoryScreen: View {
 // MARK: - 正文
 
 /// 一个界面同时服务 iPhone 双列与 iPad 三列：列数、内边距、是否显示筛选 chips、
-/// 是否接硬件键盘全部由「当前布局是不是 regular」这一条推出来，不再分两套视图——
-/// 两套视图迟早会在卡片手势这类细节上走形。
+/// 是否接管硬件键盘全部由「当前布局是不是 regular」这一条推出来，不再分两套视图——
+/// 两套视图迟早会在卡片手势这类细节上走形。（底部快捷键提示条另外还要真接着键盘才出现。）
 private struct HistoryContent: View {
 
     /// iPad 侧栏传入的类型筛选。只用来决定内容区标题——实际筛选看 `activeKind`
@@ -98,6 +99,10 @@ private struct HistoryContent: View {
     @State private var showsHowToSave = false
     /// 搜索栏是否处于激活态（取消按钮出现、大标题收起）。截图路由 history-search 靠它进 01f
     @State private var searchPresented = false
+    /// 此刻有没有接着硬件键盘，只决定底部快捷键提示条出不出现——键盘处理本身不看它。
+    /// 冷启动时 `coalesced` 常常还是 nil，键盘要稍后才发 DidConnect，所以初值与通知两头都要。
+    /// 不用 UIKit：它没有公开的「硬件键盘已连接」状态，GameController 是唯一的公开途径。
+    @State private var hardwareKeyboardAttached = Self.isHardwareKeyboardAttached
 
     @FocusState private var searchFocused: Bool
     @FocusState private var gridFocused: Bool
@@ -235,9 +240,22 @@ private struct HistoryContent: View {
             .copyoOwnGlass()
         }
         .safeAreaInset(edge: .bottom) {
-            if isRegularLayout {
+            // 只在 regular 宽度且真接着键盘时出现：没键盘的 iPad 用户按不出空格，
+            // 提示「空格 预览」只会让人困惑；iPhone 接了键盘也不出，理由见 `HistoryShortcutHints`
+            if isRegularLayout && hardwareKeyboardAttached {
                 HistoryShortcutHints()
             }
+        }
+        // 键盘插拔时提示条跟着出现或消失。读 `coalesced` 而不是直接置 true / false：
+        // 接着两把键盘时拔掉一把也会发 DidDisconnect，那时其实还有键盘
+        .onReceive(NotificationCenter.default.publisher(for: .GCKeyboardDidConnect)) { _ in
+            hardwareKeyboardAttached = Self.isHardwareKeyboardAttached
+        }
+        .onReceive(NotificationCenter.default.publisher(for: .GCKeyboardDidDisconnect)) { _ in
+            hardwareKeyboardAttached = Self.isHardwareKeyboardAttached
+            // 拔出这一支模拟器测不到（模拟器的 GCKeyboard 是宿主 Mac 键盘转发的，一直连着）。
+            // 万一通知早于 `coalesced` 清空，下一轮再读一次，免得提示条留在没键盘的屏幕上
+            DispatchQueue.main.async { hardwareKeyboardAttached = Self.isHardwareKeyboardAttached }
         }
         .navigationDestination(isPresented: $showsHowToSave) {
             HowToSaveScreen()
@@ -281,6 +299,11 @@ private struct HistoryContent: View {
     private var isRegularLayout: Bool {
         horizontalSizeClass == .regular
             && (isSplitDetail || viewportSize.width >= CopyoTheme.Metrics.compactWidthThreshold)
+    }
+
+    /// 现在算不算接着硬件键盘。截图与验证用 `-demoKeyboard` 钉死时以它为准，插拔通知改不动它
+    private static var isHardwareKeyboardAttached: Bool {
+        LaunchOptions.current.demoHardwareKeyboard ?? (GCKeyboard.coalesced != nil)
     }
 
     /// 内容区标题：侧栏选了某个分类就显示分类名，否则是「历史」

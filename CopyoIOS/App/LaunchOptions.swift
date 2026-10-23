@@ -10,6 +10,7 @@ import SwiftUI
 ///   `-demoScreen <route>`  直接落到某个界面状态，取值见 `DemoRoute`
 ///   `-demoSidebar <item>`  iPad 分栏时选中某个侧栏项，取值见 `DemoSidebarItem`
 ///   `-demoTheme light|dark` 强制配色
+///   `-demoKeyboard on|off` 当作接着 / 没接硬件键盘，只管 iPad 历史页底部的快捷键提示条；只在 `-demoData` 下生效
 ///   `-simulateQuickSave`  启动时预置一次「一键保存」请求（模拟器里按不到控制中心的按钮）
 struct LaunchOptions {
     var useDemoData = false
@@ -19,6 +20,10 @@ struct LaunchOptions {
     var demoRoute: DemoRoute?
     var demoSidebar: DemoSidebarItem?
     var demoColorScheme: ColorScheme?
+    /// `-demoKeyboard` 钉死的硬件键盘状态；nil 表示照实际（`GCKeyboard`）走。
+    /// 模拟器的 `GCKeyboard` 是宿主 Mac 键盘转发进来的，启动后约 1 秒连上、之后一直在，
+    /// 截图要提示条不能靠它赶在截图前连上，要验证「没键盘」也只能靠这一位
+    var demoHardwareKeyboard: Bool?
 
     static let current = LaunchOptions(arguments: ProcessInfo.processInfo.arguments)
 
@@ -39,6 +44,14 @@ struct LaunchOptions {
         case "light": demoColorScheme = .light
         case "dark": demoColorScheme = .dark
         default: demoColorScheme = nil
+        }
+        // 只认演示模式：真实库下这个开关不该改变界面
+        if useDemoData {
+            switch Self.value(of: "-demoKeyboard", in: arguments) {
+            case "on": demoHardwareKeyboard = true
+            case "off": demoHardwareKeyboard = false
+            default: demoHardwareKeyboard = nil
+            }
         }
     }
 

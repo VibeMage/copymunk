@@ -115,7 +115,7 @@ xcrun simctl launch --terminate-running-process "iPhone 17 Pro" dev.vibemage.Cop
   -demoData -skipOnboarding -demoScreen history -demoTheme dark
 ```
 
-启动参数：`-demoData`（内存库 + 设计稿样例数据）、`-skipOnboarding`、`-localOnly`、`-demoScreen <route>`（取值见 `CopyoIOS/App/LaunchOptions.swift`）、`-demoTheme light|dark`、`-demoSidebar <item>`（iPad）、`-simulateQuickSave`、`-demoMenu`（仅 Debug）。中英切换加 `-AppleLanguages "(en)"`。
+启动参数：`-demoData`（内存库 + 设计稿样例数据）、`-skipOnboarding`、`-localOnly`、`-demoScreen <route>`（取值见 `CopyoIOS/App/LaunchOptions.swift`）、`-demoTheme light|dark`、`-demoSidebar <item>`（iPad）、`-demoKeyboard on|off`（iPad 快捷键提示条按接着 / 没接硬件键盘显示，仅 `-demoData` 下生效）、`-simulateQuickSave`、`-demoMenu`（仅 Debug）。中英切换加 `-AppleLanguages "(en)"`。
 
 **提审前必须做的事与真机验证清单：见 3.7。** 这一节是 2026-09-05 的实现状态快照，
 当时那份清单按功能分组；真正动手时要按「能签名之后的执行顺序」走，两份并存必然腐烂，

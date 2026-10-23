@@ -1,7 +1,7 @@
 import SwiftUI
 
-/// 设计 09 的底部快捷键提示条。只在 regular 宽度出现——
-/// 那是唯一可能接着硬件键盘的场景，iPhone 上多这一行只会占掉一张卡片的位置。
+/// 设计 09 的底部快捷键提示条。只在 regular 宽度、且真接着硬件键盘时出现（由 `HistoryScreen` 判断）：
+/// 没键盘时这些键一个都按不出来；iPhone 就算接了键盘，多这一行也只会占掉一张卡片的位置。
 struct HistoryShortcutHints: View {
     private struct Hint: Identifiable {
         let id = UUID()
